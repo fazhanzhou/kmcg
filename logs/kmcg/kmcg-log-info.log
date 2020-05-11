@@ -1,0 +1,255 @@
+kmcg 2020-05-09 13:47:07,418 [restartedMain] [INFO ] [KmcgApplication-logStarting] - Starting KmcgApplication on ZFZ with PID 10172 (D:\IdeaWorkSpace\kmcg\target\classes started by Administrator in D:\IdeaWorkSpace\kmcg)
+kmcg 2020-05-09 13:47:07,419 [restartedMain] [DEBUG] [KmcgApplication-logStarting] - Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
+kmcg 2020-05-09 13:47:07,420 [restartedMain] [INFO ] [KmcgApplication-logStartupProfileInfo] - No active profile set, falling back to default profiles: default
+kmcg 2020-05-09 13:47:08,836 [restartedMain] [INFO ] [KmcgApplication-logStarted] - Started KmcgApplication in 1.554 seconds (JVM running for 8736.862)
+kmcg 2020-05-09 14:26:15,087 [restartedMain] [INFO ] [KmcgApplication-logStarting] - Starting KmcgApplication on ZFZ with PID 10172 (D:\IdeaWorkSpace\kmcg\target\classes started by Administrator in D:\IdeaWorkSpace\kmcg)
+kmcg 2020-05-09 14:26:15,088 [restartedMain] [DEBUG] [KmcgApplication-logStarting] - Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
+kmcg 2020-05-09 14:26:15,088 [restartedMain] [INFO ] [KmcgApplication-logStartupProfileInfo] - No active profile set, falling back to default profiles: default
+kmcg 2020-05-09 14:26:16,775 [restartedMain] [INFO ] [KmcgApplication-logStarted] - Started KmcgApplication in 1.767 seconds (JVM running for 11084.777)
+kmcg 2020-05-09 14:26:48,465 [restartedMain] [INFO ] [KmcgApplication-logStarting] - Starting KmcgApplication on ZFZ with PID 10172 (D:\IdeaWorkSpace\kmcg\target\classes started by Administrator in D:\IdeaWorkSpace\kmcg)
+kmcg 2020-05-09 14:26:48,465 [restartedMain] [DEBUG] [KmcgApplication-logStarting] - Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
+kmcg 2020-05-09 14:26:48,465 [restartedMain] [INFO ] [KmcgApplication-logStartupProfileInfo] - No active profile set, falling back to default profiles: default
+kmcg 2020-05-09 14:26:49,656 [restartedMain] [INFO ] [KmcgApplication-logStarted] - Started KmcgApplication in 1.247 seconds (JVM running for 11117.659)
+kmcg 2020-05-09 14:27:01,177 [http-nio-8182-exec-1] [DEBUG] [IndexController-checkTime] - 4-9-14
+kmcg 2020-05-09 14:27:30,402 [restartedMain] [INFO ] [KmcgApplication-logStarting] - Starting KmcgApplication on ZFZ with PID 1932 (D:\IdeaWorkSpace\kmcg\target\classes started by Administrator in D:\IdeaWorkSpace\kmcg)
+kmcg 2020-05-09 14:27:30,405 [restartedMain] [DEBUG] [KmcgApplication-logStarting] - Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
+kmcg 2020-05-09 14:27:30,406 [restartedMain] [INFO ] [KmcgApplication-logStartupProfileInfo] - No active profile set, falling back to default profiles: default
+kmcg 2020-05-09 14:27:35,402 [restartedMain] [INFO ] [KmcgApplication-logStarted] - Started KmcgApplication in 5.71 seconds (JVM running for 6.654)
+kmcg 2020-05-09 14:27:48,526 [http-nio-8182-exec-1] [DEBUG] [Aop-around] - around
+kmcg 2020-05-09 14:27:48,528 [http-nio-8182-exec-1] [DEBUG] [Aop-around] - org.springframework.web.servlet.ModelAndView
+kmcg 2020-05-09 14:28:50,634 [restartedMain] [INFO ] [KmcgApplication-logStarting] - Starting KmcgApplication on ZFZ with PID 7788 (D:\IdeaWorkSpace\kmcg\target\classes started by Administrator in D:\IdeaWorkSpace\kmcg)
+kmcg 2020-05-09 14:28:50,637 [restartedMain] [DEBUG] [KmcgApplication-logStarting] - Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
+kmcg 2020-05-09 14:28:50,638 [restartedMain] [INFO ] [KmcgApplication-logStartupProfileInfo] - No active profile set, falling back to default profiles: default
+kmcg 2020-05-09 14:28:55,901 [restartedMain] [INFO ] [KmcgApplication-logStarted] - Started KmcgApplication in 5.81 seconds (JVM running for 6.72)
+kmcg 2020-05-09 14:28:58,580 [http-nio-8182-exec-1] [DEBUG] [Aop-around] - around
+kmcg 2020-05-09 14:28:58,581 [http-nio-8182-exec-1] [DEBUG] [Aop-around] - org.springframework.web.servlet.ModelAndView
+kmcg 2020-05-09 14:28:58,586 [http-nio-8182-exec-1] [DEBUG] [IndexController-checkTime] - 4-9-14
+kmcg 2020-05-09 14:29:53,177 [restartedMain] [INFO ] [KmcgApplication-logStarting] - Starting KmcgApplication on ZFZ with PID 7416 (D:\IdeaWorkSpace\kmcg\target\classes started by Administrator in D:\IdeaWorkSpace\kmcg)
+kmcg 2020-05-09 14:29:53,180 [restartedMain] [DEBUG] [KmcgApplication-logStarting] - Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
+kmcg 2020-05-09 14:29:53,181 [restartedMain] [INFO ] [KmcgApplication-logStartupProfileInfo] - No active profile set, falling back to default profiles: default
+kmcg 2020-05-09 14:29:58,208 [restartedMain] [INFO ] [KmcgApplication-logStarted] - Started KmcgApplication in 5.602 seconds (JVM running for 6.534)
+kmcg 2020-05-09 14:30:10,101 [http-nio-8182-exec-1] [DEBUG] [Aop-around] - around
+kmcg 2020-05-09 14:30:10,102 [http-nio-8182-exec-1] [DEBUG] [Aop-around] - org.springframework.web.servlet.ModelAndView
+kmcg 2020-05-09 14:30:10,107 [http-nio-8182-exec-1] [DEBUG] [IndexController-checkTime] - 4-9-14
+kmcg 2020-05-09 14:37:55,336 [restartedMain] [INFO ] [KmcgApplication-logStarting] - Starting KmcgApplication on ZFZ with PID 11380 (D:\IdeaWorkSpace\kmcg\target\classes started by Administrator in D:\IdeaWorkSpace\kmcg)
+kmcg 2020-05-09 14:37:55,339 [restartedMain] [DEBUG] [KmcgApplication-logStarting] - Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
+kmcg 2020-05-09 14:37:55,339 [restartedMain] [INFO ] [KmcgApplication-logStartupProfileInfo] - No active profile set, falling back to default profiles: default
+kmcg 2020-05-09 14:38:00,296 [restartedMain] [INFO ] [KmcgApplication-logStarted] - Started KmcgApplication in 5.777 seconds (JVM running for 6.63)
+kmcg 2020-05-09 14:38:10,549 [http-nio-8182-exec-1] [DEBUG] [Aop-around] - around
+kmcg 2020-05-09 14:38:10,551 [http-nio-8182-exec-1] [DEBUG] [Aop-checkTime] - 4-9-14
+kmcg 2020-05-09 14:38:10,552 [http-nio-8182-exec-1] [DEBUG] [Aop-around] - org.springframework.web.servlet.ModelAndView
+kmcg 2020-05-09 14:38:10,556 [http-nio-8182-exec-1] [DEBUG] [IndexController-index] - index
+kmcg 2020-05-09 14:44:54,597 [restartedMain] [INFO ] [KmcgApplication-logStarting] - Starting KmcgApplication on ZFZ with PID 10472 (D:\IdeaWorkSpace\kmcg\target\classes started by Administrator in D:\IdeaWorkSpace\kmcg)
+kmcg 2020-05-09 14:44:54,600 [restartedMain] [DEBUG] [KmcgApplication-logStarting] - Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
+kmcg 2020-05-09 14:44:54,601 [restartedMain] [INFO ] [KmcgApplication-logStartupProfileInfo] - No active profile set, falling back to default profiles: default
+kmcg 2020-05-09 14:44:59,612 [restartedMain] [INFO ] [KmcgApplication-logStarted] - Started KmcgApplication in 5.689 seconds (JVM running for 6.578)
+kmcg 2020-05-09 14:46:10,483 [http-nio-8182-exec-1] [DEBUG] [Aop-around] - around
+kmcg 2020-05-09 14:46:10,485 [http-nio-8182-exec-1] [DEBUG] [Aop-checkTime] - 4-9-14
+kmcg 2020-05-09 14:46:10,489 [http-nio-8182-exec-1] [DEBUG] [IndexController-index] - index
+kmcg 2020-05-09 14:46:19,630 [http-nio-8182-exec-10] [DEBUG] [Aop-around] - around
+kmcg 2020-05-09 14:46:21,783 [http-nio-8182-exec-10] [DEBUG] [Aop-checkTime] - 4-9-14
+kmcg 2020-05-09 14:46:22,646 [http-nio-8182-exec-10] [DEBUG] [IndexController-index] - index
+kmcg 2020-05-09 14:46:37,444 [restartedMain] [INFO ] [KmcgApplication-logStarting] - Starting KmcgApplication on ZFZ with PID 10560 (D:\IdeaWorkSpace\kmcg\target\classes started by Administrator in D:\IdeaWorkSpace\kmcg)
+kmcg 2020-05-09 14:46:37,446 [restartedMain] [DEBUG] [KmcgApplication-logStarting] - Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
+kmcg 2020-05-09 14:46:37,447 [restartedMain] [INFO ] [KmcgApplication-logStartupProfileInfo] - No active profile set, falling back to default profiles: default
+kmcg 2020-05-09 14:46:42,370 [restartedMain] [INFO ] [KmcgApplication-logStarted] - Started KmcgApplication in 5.518 seconds (JVM running for 6.409)
+kmcg 2020-05-09 14:46:49,850 [http-nio-8182-exec-1] [DEBUG] [Aop-around] - around
+kmcg 2020-05-09 14:46:53,497 [http-nio-8182-exec-1] [DEBUG] [Aop-checkTime] - 4-9-14
+kmcg 2020-05-09 14:47:54,029 [http-nio-8182-exec-6] [DEBUG] [Aop-around] - around
+kmcg 2020-05-09 14:47:57,585 [http-nio-8182-exec-6] [DEBUG] [Aop-checkTime] - 4-9-14
+kmcg 2020-05-09 15:30:15,248 [http-nio-8182-exec-9] [DEBUG] [Aop-around] - around
+kmcg 2020-05-09 15:30:15,249 [http-nio-8182-exec-9] [DEBUG] [Aop-checkTime] - 4-9-15
+kmcg 2020-05-09 15:30:21,540 [http-nio-8182-exec-10] [DEBUG] [Aop-around] - around
+kmcg 2020-05-09 15:30:21,540 [http-nio-8182-exec-10] [DEBUG] [Aop-checkTime] - 4-9-15
+kmcg 2020-05-09 15:30:23,766 [http-nio-8182-exec-5] [DEBUG] [Aop-around] - around
+kmcg 2020-05-09 15:30:23,767 [http-nio-8182-exec-5] [DEBUG] [Aop-checkTime] - 4-9-15
+kmcg 2020-05-09 15:34:19,896 [restartedMain] [INFO ] [KmcgApplication-logStarting] - Starting KmcgApplication on ZFZ with PID 10612 (D:\IdeaWorkSpace\kmcg\target\classes started by Administrator in D:\IdeaWorkSpace\kmcg)
+kmcg 2020-05-09 15:34:19,899 [restartedMain] [DEBUG] [KmcgApplication-logStarting] - Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
+kmcg 2020-05-09 15:34:19,899 [restartedMain] [INFO ] [KmcgApplication-logStartupProfileInfo] - No active profile set, falling back to default profiles: default
+kmcg 2020-05-09 15:34:24,770 [restartedMain] [INFO ] [KmcgApplication-logStarted] - Started KmcgApplication in 5.502 seconds (JVM running for 6.313)
+kmcg 2020-05-09 15:39:09,048 [http-nio-8182-exec-1] [DEBUG] [Aop-around] - around
+kmcg 2020-05-09 15:39:09,051 [http-nio-8182-exec-1] [DEBUG] [Aop-checkTime] - 4-9-15
+kmcg 2020-05-09 15:41:58,552 [restartedMain] [INFO ] [KmcgApplication-logStarting] - Starting KmcgApplication on ZFZ with PID 9828 (D:\IdeaWorkSpace\kmcg\target\classes started by Administrator in D:\IdeaWorkSpace\kmcg)
+kmcg 2020-05-09 15:41:58,555 [restartedMain] [DEBUG] [KmcgApplication-logStarting] - Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
+kmcg 2020-05-09 15:41:58,556 [restartedMain] [INFO ] [KmcgApplication-logStartupProfileInfo] - No active profile set, falling back to default profiles: default
+kmcg 2020-05-09 15:42:03,700 [restartedMain] [INFO ] [KmcgApplication-logStarted] - Started KmcgApplication in 5.859 seconds (JVM running for 6.702)
+kmcg 2020-05-09 15:42:15,784 [http-nio-8182-exec-1] [DEBUG] [Aop-around] - around
+kmcg 2020-05-09 15:42:15,786 [http-nio-8182-exec-1] [DEBUG] [Aop-checkTime] - 4-9-15
+kmcg 2020-05-09 15:45:36,207 [restartedMain] [INFO ] [KmcgApplication-logStarting] - Starting KmcgApplication on ZFZ with PID 10616 (D:\IdeaWorkSpace\kmcg\target\classes started by Administrator in D:\IdeaWorkSpace\kmcg)
+kmcg 2020-05-09 15:45:36,209 [restartedMain] [DEBUG] [KmcgApplication-logStarting] - Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
+kmcg 2020-05-09 15:45:36,210 [restartedMain] [INFO ] [KmcgApplication-logStartupProfileInfo] - No active profile set, falling back to default profiles: default
+kmcg 2020-05-09 15:45:41,431 [restartedMain] [INFO ] [KmcgApplication-logStarted] - Started KmcgApplication in 5.783 seconds (JVM running for 6.584)
+kmcg 2020-05-09 15:45:53,203 [http-nio-8182-exec-8] [DEBUG] [Aop-around] - around
+kmcg 2020-05-09 15:45:53,207 [http-nio-8182-exec-8] [DEBUG] [Aop-checkTime] - 4-9-15
+kmcg 2020-05-09 15:45:58,991 [http-nio-8182-exec-9] [DEBUG] [Aop-around] - around
+kmcg 2020-05-09 15:45:58,992 [http-nio-8182-exec-9] [DEBUG] [Aop-checkTime] - 4-9-15
+kmcg 2020-05-09 15:46:00,613 [http-nio-8182-exec-10] [DEBUG] [Aop-around] - around
+kmcg 2020-05-09 15:46:00,614 [http-nio-8182-exec-10] [DEBUG] [Aop-checkTime] - 4-9-15
+kmcg 2020-05-09 15:46:01,531 [http-nio-8182-exec-1] [DEBUG] [Aop-around] - around
+kmcg 2020-05-09 15:46:01,532 [http-nio-8182-exec-1] [DEBUG] [Aop-checkTime] - 4-9-15
+kmcg 2020-05-09 15:46:02,368 [http-nio-8182-exec-2] [DEBUG] [Aop-around] - around
+kmcg 2020-05-09 15:46:02,368 [http-nio-8182-exec-2] [DEBUG] [Aop-checkTime] - 4-9-15
+kmcg 2020-05-09 15:46:03,138 [http-nio-8182-exec-3] [DEBUG] [Aop-around] - around
+kmcg 2020-05-09 15:46:03,139 [http-nio-8182-exec-3] [DEBUG] [Aop-checkTime] - 4-9-15
+kmcg 2020-05-09 15:46:03,363 [http-nio-8182-exec-4] [DEBUG] [Aop-around] - around
+kmcg 2020-05-09 15:46:03,363 [http-nio-8182-exec-4] [DEBUG] [Aop-checkTime] - 4-9-15
+kmcg 2020-05-09 15:46:03,605 [http-nio-8182-exec-7] [DEBUG] [Aop-around] - around
+kmcg 2020-05-09 15:46:03,605 [http-nio-8182-exec-7] [DEBUG] [Aop-checkTime] - 4-9-15
+kmcg 2020-05-09 15:46:03,838 [http-nio-8182-exec-5] [DEBUG] [Aop-around] - around
+kmcg 2020-05-09 15:46:03,839 [http-nio-8182-exec-5] [DEBUG] [Aop-checkTime] - 4-9-15
+kmcg 2020-05-09 15:46:04,028 [http-nio-8182-exec-6] [DEBUG] [Aop-around] - around
+kmcg 2020-05-09 15:46:04,029 [http-nio-8182-exec-6] [DEBUG] [Aop-checkTime] - 4-9-15
+kmcg 2020-05-09 15:46:04,218 [http-nio-8182-exec-8] [DEBUG] [Aop-around] - around
+kmcg 2020-05-09 15:46:04,218 [http-nio-8182-exec-8] [DEBUG] [Aop-checkTime] - 4-9-15
+kmcg 2020-05-09 15:46:04,439 [http-nio-8182-exec-9] [DEBUG] [Aop-around] - around
+kmcg 2020-05-09 15:46:04,440 [http-nio-8182-exec-9] [DEBUG] [Aop-checkTime] - 4-9-15
+kmcg 2020-05-09 15:46:04,623 [http-nio-8182-exec-10] [DEBUG] [Aop-around] - around
+kmcg 2020-05-09 15:46:04,624 [http-nio-8182-exec-10] [DEBUG] [Aop-checkTime] - 4-9-15
+kmcg 2020-05-09 15:46:04,816 [http-nio-8182-exec-1] [DEBUG] [Aop-around] - around
+kmcg 2020-05-09 15:46:04,816 [http-nio-8182-exec-1] [DEBUG] [Aop-checkTime] - 4-9-15
+kmcg 2020-05-09 15:46:05,021 [http-nio-8182-exec-2] [DEBUG] [Aop-around] - around
+kmcg 2020-05-09 15:46:05,021 [http-nio-8182-exec-2] [DEBUG] [Aop-checkTime] - 4-9-15
+kmcg 2020-05-09 15:46:05,218 [http-nio-8182-exec-3] [DEBUG] [Aop-around] - around
+kmcg 2020-05-09 15:46:05,218 [http-nio-8182-exec-3] [DEBUG] [Aop-checkTime] - 4-9-15
+kmcg 2020-05-09 15:46:05,429 [http-nio-8182-exec-4] [DEBUG] [Aop-around] - around
+kmcg 2020-05-09 15:46:05,430 [http-nio-8182-exec-4] [DEBUG] [Aop-checkTime] - 4-9-15
+kmcg 2020-05-09 15:46:05,626 [http-nio-8182-exec-7] [DEBUG] [Aop-around] - around
+kmcg 2020-05-09 15:46:05,626 [http-nio-8182-exec-7] [DEBUG] [Aop-checkTime] - 4-9-15
+kmcg 2020-05-09 15:46:07,562 [http-nio-8182-exec-5] [DEBUG] [Aop-around] - around
+kmcg 2020-05-09 15:46:07,563 [http-nio-8182-exec-5] [DEBUG] [Aop-checkTime] - 4-9-15
+kmcg 2020-05-09 15:46:07,569 [http-nio-8182-exec-6] [DEBUG] [Aop-around] - around
+kmcg 2020-05-09 15:46:07,569 [http-nio-8182-exec-6] [DEBUG] [Aop-checkTime] - 4-9-15
+kmcg 2020-05-09 15:46:07,844 [http-nio-8182-exec-8] [DEBUG] [Aop-around] - around
+kmcg 2020-05-09 15:46:07,844 [http-nio-8182-exec-8] [DEBUG] [Aop-checkTime] - 4-9-15
+kmcg 2020-05-09 15:46:07,849 [http-nio-8182-exec-9] [DEBUG] [Aop-around] - around
+kmcg 2020-05-09 15:46:07,850 [http-nio-8182-exec-9] [DEBUG] [Aop-checkTime] - 4-9-15
+kmcg 2020-05-09 15:46:07,855 [http-nio-8182-exec-10] [DEBUG] [Aop-around] - around
+kmcg 2020-05-09 15:46:07,856 [http-nio-8182-exec-10] [DEBUG] [Aop-checkTime] - 4-9-15
+kmcg 2020-05-09 15:46:07,861 [http-nio-8182-exec-1] [DEBUG] [Aop-around] - around
+kmcg 2020-05-09 15:46:07,862 [http-nio-8182-exec-1] [DEBUG] [Aop-checkTime] - 4-9-15
+kmcg 2020-05-09 15:46:07,868 [http-nio-8182-exec-2] [DEBUG] [Aop-around] - around
+kmcg 2020-05-09 15:46:07,868 [http-nio-8182-exec-2] [DEBUG] [Aop-checkTime] - 4-9-15
+kmcg 2020-05-09 15:46:07,873 [http-nio-8182-exec-3] [DEBUG] [Aop-around] - around
+kmcg 2020-05-09 15:46:07,873 [http-nio-8182-exec-3] [DEBUG] [Aop-checkTime] - 4-9-15
+kmcg 2020-05-09 15:46:07,878 [http-nio-8182-exec-4] [DEBUG] [Aop-around] - around
+kmcg 2020-05-09 15:46:07,878 [http-nio-8182-exec-4] [DEBUG] [Aop-checkTime] - 4-9-15
+kmcg 2020-05-09 15:46:07,883 [http-nio-8182-exec-7] [DEBUG] [Aop-around] - around
+kmcg 2020-05-09 15:46:07,883 [http-nio-8182-exec-7] [DEBUG] [Aop-checkTime] - 4-9-15
+kmcg 2020-05-09 15:46:07,889 [http-nio-8182-exec-5] [DEBUG] [Aop-around] - around
+kmcg 2020-05-09 15:46:07,890 [http-nio-8182-exec-5] [DEBUG] [Aop-checkTime] - 4-9-15
+kmcg 2020-05-09 15:46:07,894 [http-nio-8182-exec-6] [DEBUG] [Aop-around] - around
+kmcg 2020-05-09 15:46:07,895 [http-nio-8182-exec-6] [DEBUG] [Aop-checkTime] - 4-9-15
+kmcg 2020-05-09 15:46:07,899 [http-nio-8182-exec-8] [DEBUG] [Aop-around] - around
+kmcg 2020-05-09 15:46:07,900 [http-nio-8182-exec-8] [DEBUG] [Aop-checkTime] - 4-9-15
+kmcg 2020-05-09 15:46:07,905 [http-nio-8182-exec-9] [DEBUG] [Aop-around] - around
+kmcg 2020-05-09 15:46:07,905 [http-nio-8182-exec-9] [DEBUG] [Aop-checkTime] - 4-9-15
+kmcg 2020-05-09 15:46:07,910 [http-nio-8182-exec-10] [DEBUG] [Aop-around] - around
+kmcg 2020-05-09 15:46:07,910 [http-nio-8182-exec-10] [DEBUG] [Aop-checkTime] - 4-9-15
+kmcg 2020-05-09 15:46:07,915 [http-nio-8182-exec-1] [DEBUG] [Aop-around] - around
+kmcg 2020-05-09 15:46:07,915 [http-nio-8182-exec-1] [DEBUG] [Aop-checkTime] - 4-9-15
+kmcg 2020-05-09 15:46:07,920 [http-nio-8182-exec-2] [DEBUG] [Aop-around] - around
+kmcg 2020-05-09 15:46:07,921 [http-nio-8182-exec-2] [DEBUG] [Aop-checkTime] - 4-9-15
+kmcg 2020-05-09 15:46:07,925 [http-nio-8182-exec-3] [DEBUG] [Aop-around] - around
+kmcg 2020-05-09 15:46:07,925 [http-nio-8182-exec-3] [DEBUG] [Aop-checkTime] - 4-9-15
+kmcg 2020-05-09 15:46:07,932 [http-nio-8182-exec-4] [DEBUG] [Aop-around] - around
+kmcg 2020-05-09 15:46:07,932 [http-nio-8182-exec-4] [DEBUG] [Aop-checkTime] - 4-9-15
+kmcg 2020-05-09 15:46:07,937 [http-nio-8182-exec-7] [DEBUG] [Aop-around] - around
+kmcg 2020-05-09 15:46:07,938 [http-nio-8182-exec-7] [DEBUG] [Aop-checkTime] - 4-9-15
+kmcg 2020-05-09 15:46:07,942 [http-nio-8182-exec-5] [DEBUG] [Aop-around] - around
+kmcg 2020-05-09 15:46:07,943 [http-nio-8182-exec-5] [DEBUG] [Aop-checkTime] - 4-9-15
+kmcg 2020-05-09 15:46:07,947 [http-nio-8182-exec-6] [DEBUG] [Aop-around] - around
+kmcg 2020-05-09 15:46:07,948 [http-nio-8182-exec-6] [DEBUG] [Aop-checkTime] - 4-9-15
+kmcg 2020-05-09 15:46:12,994 [http-nio-8182-exec-8] [DEBUG] [Aop-around] - around
+kmcg 2020-05-09 15:46:12,994 [http-nio-8182-exec-8] [DEBUG] [Aop-checkTime] - 4-9-15
+kmcg 2020-05-09 15:46:13,003 [http-nio-8182-exec-9] [DEBUG] [Aop-around] - around
+kmcg 2020-05-09 15:46:13,004 [http-nio-8182-exec-9] [DEBUG] [Aop-checkTime] - 4-9-15
+kmcg 2020-05-09 15:46:13,011 [http-nio-8182-exec-10] [DEBUG] [Aop-around] - around
+kmcg 2020-05-09 15:46:13,012 [http-nio-8182-exec-10] [DEBUG] [Aop-checkTime] - 4-9-15
+kmcg 2020-05-09 15:46:13,020 [http-nio-8182-exec-1] [DEBUG] [Aop-around] - around
+kmcg 2020-05-09 15:46:13,020 [http-nio-8182-exec-1] [DEBUG] [Aop-checkTime] - 4-9-15
+kmcg 2020-05-09 15:46:13,026 [http-nio-8182-exec-2] [DEBUG] [Aop-around] - around
+kmcg 2020-05-09 15:46:13,027 [http-nio-8182-exec-2] [DEBUG] [Aop-checkTime] - 4-9-15
+kmcg 2020-05-09 15:46:13,033 [http-nio-8182-exec-3] [DEBUG] [Aop-around] - around
+kmcg 2020-05-09 15:46:13,033 [http-nio-8182-exec-3] [DEBUG] [Aop-checkTime] - 4-9-15
+kmcg 2020-05-09 15:46:13,040 [http-nio-8182-exec-4] [DEBUG] [Aop-around] - around
+kmcg 2020-05-09 15:46:13,040 [http-nio-8182-exec-4] [DEBUG] [Aop-checkTime] - 4-9-15
+kmcg 2020-05-09 15:46:13,046 [http-nio-8182-exec-7] [DEBUG] [Aop-around] - around
+kmcg 2020-05-09 15:46:13,046 [http-nio-8182-exec-7] [DEBUG] [Aop-checkTime] - 4-9-15
+kmcg 2020-05-09 15:46:13,051 [http-nio-8182-exec-5] [DEBUG] [Aop-around] - around
+kmcg 2020-05-09 15:46:13,052 [http-nio-8182-exec-5] [DEBUG] [Aop-checkTime] - 4-9-15
+kmcg 2020-05-09 15:46:13,057 [http-nio-8182-exec-6] [DEBUG] [Aop-around] - around
+kmcg 2020-05-09 15:46:13,057 [http-nio-8182-exec-6] [DEBUG] [Aop-checkTime] - 4-9-15
+kmcg 2020-05-09 15:46:13,062 [http-nio-8182-exec-8] [DEBUG] [Aop-around] - around
+kmcg 2020-05-09 15:46:13,062 [http-nio-8182-exec-8] [DEBUG] [Aop-checkTime] - 4-9-15
+kmcg 2020-05-09 15:46:13,067 [http-nio-8182-exec-9] [DEBUG] [Aop-around] - around
+kmcg 2020-05-09 15:46:13,067 [http-nio-8182-exec-9] [DEBUG] [Aop-checkTime] - 4-9-15
+kmcg 2020-05-09 15:46:13,073 [http-nio-8182-exec-10] [DEBUG] [Aop-around] - around
+kmcg 2020-05-09 15:46:13,073 [http-nio-8182-exec-10] [DEBUG] [Aop-checkTime] - 4-9-15
+kmcg 2020-05-09 15:46:13,078 [http-nio-8182-exec-1] [DEBUG] [Aop-around] - around
+kmcg 2020-05-09 15:46:13,079 [http-nio-8182-exec-1] [DEBUG] [Aop-checkTime] - 4-9-15
+kmcg 2020-05-09 15:46:13,085 [http-nio-8182-exec-2] [DEBUG] [Aop-around] - around
+kmcg 2020-05-09 15:46:13,085 [http-nio-8182-exec-2] [DEBUG] [Aop-checkTime] - 4-9-15
+kmcg 2020-05-09 15:46:13,090 [http-nio-8182-exec-3] [DEBUG] [Aop-around] - around
+kmcg 2020-05-09 15:46:13,090 [http-nio-8182-exec-3] [DEBUG] [Aop-checkTime] - 4-9-15
+kmcg 2020-05-09 15:46:13,095 [http-nio-8182-exec-4] [DEBUG] [Aop-around] - around
+kmcg 2020-05-09 15:46:13,095 [http-nio-8182-exec-4] [DEBUG] [Aop-checkTime] - 4-9-15
+kmcg 2020-05-09 15:46:13,100 [http-nio-8182-exec-7] [DEBUG] [Aop-around] - around
+kmcg 2020-05-09 15:46:13,100 [http-nio-8182-exec-7] [DEBUG] [Aop-checkTime] - 4-9-15
+kmcg 2020-05-09 15:46:13,105 [http-nio-8182-exec-5] [DEBUG] [Aop-around] - around
+kmcg 2020-05-09 15:46:13,105 [http-nio-8182-exec-5] [DEBUG] [Aop-checkTime] - 4-9-15
+kmcg 2020-05-09 15:46:13,110 [http-nio-8182-exec-6] [DEBUG] [Aop-around] - around
+kmcg 2020-05-09 15:46:13,110 [http-nio-8182-exec-6] [DEBUG] [Aop-checkTime] - 4-9-15
+kmcg 2020-05-09 15:50:23,906 [restartedMain] [INFO ] [KmcgApplication-logStarting] - Starting KmcgApplication on ZFZ with PID 5436 (D:\IdeaWorkSpace\kmcg\target\classes started by Administrator in D:\IdeaWorkSpace\kmcg)
+kmcg 2020-05-09 15:50:23,909 [restartedMain] [DEBUG] [KmcgApplication-logStarting] - Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
+kmcg 2020-05-09 15:50:23,918 [restartedMain] [INFO ] [KmcgApplication-logStartupProfileInfo] - No active profile set, falling back to default profiles: default
+kmcg 2020-05-09 15:50:28,832 [restartedMain] [INFO ] [KmcgApplication-logStarted] - Started KmcgApplication in 5.562 seconds (JVM running for 6.512)
+kmcg 2020-05-09 15:50:49,814 [http-nio-8182-exec-1] [DEBUG] [Aop-around] - around
+kmcg 2020-05-09 15:50:49,817 [http-nio-8182-exec-1] [DEBUG] [Aop-checkTime] - 4-9-15
+kmcg 2020-05-09 15:50:56,434 [http-nio-8182-exec-2] [DEBUG] [Aop-around] - around
+kmcg 2020-05-09 15:50:56,435 [http-nio-8182-exec-2] [DEBUG] [Aop-checkTime] - 4-9-15
+kmcg 2020-05-09 15:50:57,094 [http-nio-8182-exec-3] [DEBUG] [Aop-around] - around
+kmcg 2020-05-09 15:50:57,095 [http-nio-8182-exec-3] [DEBUG] [Aop-checkTime] - 4-9-15
+kmcg 2020-05-09 15:50:58,179 [http-nio-8182-exec-4] [DEBUG] [Aop-around] - around
+kmcg 2020-05-09 15:50:58,180 [http-nio-8182-exec-4] [DEBUG] [Aop-checkTime] - 4-9-15
+kmcg 2020-05-09 15:50:58,728 [http-nio-8182-exec-5] [DEBUG] [Aop-around] - around
+kmcg 2020-05-09 15:50:58,729 [http-nio-8182-exec-5] [DEBUG] [Aop-checkTime] - 4-9-15
+kmcg 2020-05-09 15:51:00,425 [http-nio-8182-exec-7] [DEBUG] [Aop-around] - around
+kmcg 2020-05-09 15:51:00,427 [http-nio-8182-exec-7] [DEBUG] [Aop-checkTime] - 4-9-15
+kmcg 2020-05-09 15:51:00,443 [http-nio-8182-exec-8] [DEBUG] [Aop-around] - around
+kmcg 2020-05-09 15:51:00,444 [http-nio-8182-exec-8] [DEBUG] [Aop-checkTime] - 4-9-15
+kmcg 2020-05-09 15:51:00,455 [http-nio-8182-exec-9] [DEBUG] [Aop-around] - around
+kmcg 2020-05-09 15:51:00,456 [http-nio-8182-exec-9] [DEBUG] [Aop-checkTime] - 4-9-15
+kmcg 2020-05-09 15:51:00,465 [http-nio-8182-exec-10] [DEBUG] [Aop-around] - around
+kmcg 2020-05-09 15:51:00,466 [http-nio-8182-exec-10] [DEBUG] [Aop-checkTime] - 4-9-15
+kmcg 2020-05-09 15:51:00,475 [http-nio-8182-exec-1] [DEBUG] [Aop-around] - around
+kmcg 2020-05-09 15:51:00,475 [http-nio-8182-exec-1] [DEBUG] [Aop-checkTime] - 4-9-15
+kmcg 2020-05-09 15:51:00,482 [http-nio-8182-exec-2] [DEBUG] [Aop-around] - around
+kmcg 2020-05-09 15:51:00,482 [http-nio-8182-exec-2] [DEBUG] [Aop-checkTime] - 4-9-15
+kmcg 2020-05-09 15:51:00,488 [http-nio-8182-exec-3] [DEBUG] [Aop-around] - around
+kmcg 2020-05-09 15:51:00,488 [http-nio-8182-exec-3] [DEBUG] [Aop-checkTime] - 4-9-15
+kmcg 2020-05-09 15:51:00,495 [http-nio-8182-exec-4] [DEBUG] [Aop-around] - around
+kmcg 2020-05-09 15:51:00,495 [http-nio-8182-exec-4] [DEBUG] [Aop-checkTime] - 4-9-15
+kmcg 2020-05-09 15:51:00,501 [http-nio-8182-exec-5] [DEBUG] [Aop-around] - around
+kmcg 2020-05-09 15:51:00,501 [http-nio-8182-exec-5] [DEBUG] [Aop-checkTime] - 4-9-15
+kmcg 2020-05-09 15:51:00,507 [http-nio-8182-exec-6] [DEBUG] [Aop-around] - around
+kmcg 2020-05-09 15:51:00,508 [http-nio-8182-exec-6] [DEBUG] [Aop-checkTime] - 4-9-15
+kmcg 2020-05-09 15:51:00,514 [http-nio-8182-exec-7] [DEBUG] [Aop-around] - around
+kmcg 2020-05-09 15:51:00,514 [http-nio-8182-exec-7] [DEBUG] [Aop-checkTime] - 4-9-15
+kmcg 2020-05-09 15:51:00,520 [http-nio-8182-exec-8] [DEBUG] [Aop-around] - around
+kmcg 2020-05-09 15:51:00,521 [http-nio-8182-exec-8] [DEBUG] [Aop-checkTime] - 4-9-15
+kmcg 2020-05-09 15:51:00,526 [http-nio-8182-exec-9] [DEBUG] [Aop-around] - around
+kmcg 2020-05-09 15:51:00,526 [http-nio-8182-exec-9] [DEBUG] [Aop-checkTime] - 4-9-15
+kmcg 2020-05-09 15:51:00,531 [http-nio-8182-exec-10] [DEBUG] [Aop-around] - around
+kmcg 2020-05-09 15:51:00,531 [http-nio-8182-exec-10] [DEBUG] [Aop-checkTime] - 4-9-15
+kmcg 2020-05-09 15:51:00,537 [http-nio-8182-exec-1] [DEBUG] [Aop-around] - around
+kmcg 2020-05-09 15:51:00,537 [http-nio-8182-exec-1] [DEBUG] [Aop-checkTime] - 4-9-15
+kmcg 2020-05-09 15:51:31,187 [restartedMain] [INFO ] [KmcgApplication-logStarting] - Starting KmcgApplication on ZFZ with PID 10476 (D:\IdeaWorkSpace\kmcg\target\classes started by Administrator in D:\IdeaWorkSpace\kmcg)
+kmcg 2020-05-09 15:51:31,189 [restartedMain] [DEBUG] [KmcgApplication-logStarting] - Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
+kmcg 2020-05-09 15:51:31,190 [restartedMain] [INFO ] [KmcgApplication-logStartupProfileInfo] - No active profile set, falling back to default profiles: default
+kmcg 2020-05-09 15:51:36,194 [restartedMain] [INFO ] [KmcgApplication-logStarted] - Started KmcgApplication in 5.512 seconds (JVM running for 6.389)
+kmcg 2020-05-09 15:53:22,621 [http-nio-8182-exec-5] [DEBUG] [Aop-around] - around
+kmcg 2020-05-09 15:53:22,626 [http-nio-8182-exec-5] [DEBUG] [Aop-checkTime] - 4-9-15
+kmcg 2020-05-09 15:55:02,830 [restartedMain] [INFO ] [KmcgApplication-logStarting] - Starting KmcgApplication on ZFZ with PID 10476 (D:\IdeaWorkSpace\kmcg\target\classes started by Administrator in D:\IdeaWorkSpace\kmcg)
+kmcg 2020-05-09 15:55:02,830 [restartedMain] [DEBUG] [KmcgApplication-logStarting] - Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
+kmcg 2020-05-09 15:55:02,830 [restartedMain] [INFO ] [KmcgApplication-logStartupProfileInfo] - No active profile set, falling back to default profiles: default
+kmcg 2020-05-09 15:55:04,144 [restartedMain] [INFO ] [KmcgApplication-logStarted] - Started KmcgApplication in 1.363 seconds (JVM running for 214.337)

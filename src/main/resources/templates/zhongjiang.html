@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:th="http://www.thymeleaf.org">
+
+<head>
+    <meta charset="UTF-8">
+    <title>中奖信息</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no"/>
+    <style>
+
+        #home_back {
+            /*min-height: calc(100vh - 50px);
+            background: url(/cg/img/zhongjiang.jpg) repeat-y;
+            background-size: cover;*/
+        }
+    </style>
+    <link th:href="@{/css/mui.css}" rel="stylesheet"/>
+    <script th:src="@{/js/mui.js}"></script>
+</head>
+<body style="background-color: white">
+
+<div id="home_back">
+
+    <div class="mui-content" style="text-align:center;background: url(/cg/img/zhongjiang.jpg);background-size: cover;height: 700px;">
+        <p style="font-size: 30px;color: yellow;line-height:30px;text-align: center;width: 400px;padding-top: 100px;"></p>
+        <div style="margin-top: 50px;">
+            <form class="mui-input-group">
+                <div class="mui-input-row">
+                    <label>手机号</label>
+                    <input type="text" id='tel' class="mui-input-clear" placeholder="请输手机号">
+                </div>
+                <div class="mui-input-row">
+                    <label>验证码</label>
+                    <input type="text" class="mui-input" id="yzmIn" placeholder="请输入验证码">
+                </div>
+                <div class="mui-button-row">
+                    <button id="yzm" type="button" class="mui-btn mui-btn-primary">获取验证码</button>
+
+                </div>
+            </form>
+        </div>
+        <img id="lingqu" th:src="@{img/lingqu.png}"style="width: 200px;margin-top: 60px;"/>
+    </div>
+</div>
+</body>
+</html>

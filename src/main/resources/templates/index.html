@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no"/>
+    <title>科普答题</title>
+    <link th:href="@{/css/mui.css}" rel="stylesheet"/>
+    <script th:src="@{/js/mui.js}"></script>
+    <style>
+        #home_back {
+            min-height: calc(100vh - 50px);
+            background: url(/cg/img/common_back.png) repeat-y;
+            background-size: cover;
+            display: none;
+        }
+
+        #bc {
+            min-height: calc(100vh);
+            background: url(/cg/img/home_back.png) repeat-y;
+            background-size: cover;
+            text-align: center;
+        }
+
+    </style>
+</head>
+<body style="background-color: white;height: 100%">
+<nav class="mui-bar mui-bar-tab">
+    <a class="mui-tab-item mui-active" href="#one">
+        <img class="mui-icon" th:src="@{/img/home_g.png}">
+        <span class="mui-tab-label">首页</span>
+    </a>
+    <a class="mui-tab-item" href="#two">
+        <img class="mui-icon" th:src="@{/img/guize_g.png}">
+        <span class="mui-tab-label">规则</span>
+    </a>
+</nav>
+<div class="mui-content " style="background-color: white;height: 100%">
+
+    <div id="one" class="mui-control-content mui-active" style="height: 100%">
+        <div id="bc">
+            <img th:onclick="start()" th:src="@{/img/start.png}" style="position: relative;top: 30rem;width: 50%">
+        </div>
+
+    </div>
+    <div id="two" class="mui-control-content"><p>two</p>
+    </div>
+</div>
+<script th:src="@{/js/jquery-3.1.1.js}"></script>
+<script th:src="@{/js/Utils.js}"></script>
+<script th:inline="javascript" type="text/javascript">
+
+    //点击开始答题
+    function start() {
+        var tel = getCookie("tel");
+        console.log("tel=" + tel)
+
+        if (tel != "") {
+            window.location.href = globle_url + "question?tel="+tel
+        } else {
+            window.location.href = globle_url + "login"
+        }
+    }
+
+</script>
+</body>
+</html>

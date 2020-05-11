@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no"/>
+    <title>科普答题</title>
+    <link th:href="@{/css/mui.css}" rel="stylesheet"/>
+    <script th:src="@{/js/Utils.js}"></script>
+    <style>
+        #bc {
+            min-height: calc(100vh);
+            background: url(/cg/img/score.png) repeat-y;
+            background-size: cover;
+            text-align: center;
+        }
+
+        p {
+            font-size: 2rem;
+            color: rgb(234, 142, 25);
+        }
+    </style>
+</head>
+<body>
+<div id="bc">
+    <p th:text="'得分:'+${score}+'分'" style="position: relative;top: 24rem;"></p>
+    <p th:text="'用时:'+${time}+'毫秒'" style="position: relative;top: 26rem;"></p>
+    <img th:src="@{/img/again.png}" style="position: relative;top: 27rem;width: 40%">
+</div>
+</body>
+</html>

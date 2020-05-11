@@ -1,0 +1,13 @@
+package com.greentech.kmcg;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+@SpringBootApplication
+public class KmcgApplication {
+
+    public static void main(String[] args) {
+        SpringApplication.run(KmcgApplication.class, args);
+    }
+
+}

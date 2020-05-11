@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no"/>
+    <title>问题</title>
+</head>
+<body>
+<div>
+    <!--<div th:text="${item.question}" th:onclick=""></div>
+    <div th:each="answer:${item.answers}">
+        <div th:text="${answer.answer}"></div>
+    </div>-->
+    <p id="time"></p>
+    <div id="question"></div>
+    <div id="answers">
+
+    </div>
+
+    <button>下一题</button>
+</div>
+<script th:src="@{/static/js/js/jquery-3.1.1.js}"></script>
+<script th:inline="javascript" type="text/javascript">
+    var data = [[${data}]]
+    for (var i = 0; i < data.length; i++) {
+        console.log(data[i].question)
+    }
+
+
+    var nextIndex = 0;
+    $(document).ready(function () {
+        if (data != null && data != undefined) {
+            next(nextIndex)
+        } else {
+
+        }
+        $("button").click(function () {
+            nextIndex++
+            if (nextIndex < 10) {
+                next(nextIndex)
+            } else {
+                alert("最后了")
+            }
+
+        })
+    })
+
+    function next(index) {
+        setTime()
+        var question = data[index].question;
+        $("#question").text("")
+        $("#question").text(question);
+        var $_answers = $("#answers")
+        $_answers.text("")
+        var answersArr = data[index].answers
+        for (var i = 0; i < answersArr.length; i++) {
+            var a = $("<p>" + answersArr[i].answer + "<p/>")
+            a.click(function (e) {
+                console.log($(e.target).text())
+            })
+            $_answers.append(a)
+        }
+    }
+    var set;
+    function setTime() {
+        clearInterval(set);
+        var time = 31;
+        var p = document.getElementById("time");
+        set = setInterval(function() {
+            time--;
+            p.innerHTML = time;
+            if(time === 0) {
+                p.innerHTML = "";
+                clearInterval(set);
+            }
+        }, 1000);
+    }
+</script>
+</body>
+</html>

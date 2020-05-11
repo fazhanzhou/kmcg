@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no"/>
+    <title>注册</title>
+    <link th:href="@{/css/mui.css}" rel="stylesheet"/>
+    <link th:href="@{/css/mui.picker.css}" rel="stylesheet"/>
+    <link th:href="@{/css/mui.poppicker.css}" rel="stylesheet"/>
+    <script th:src="@{/js/mui.js}"></script>
+    <script th:src="@{/js/jquery-3.1.1.js}"></script>
+    <style>
+        p {
+            flex: 1;
+            text-align: left;
+            color: black;
+            font-size: 1.2rem;
+            line-height: 2rem;
+        }
+
+        input {
+            flex: 3;
+            margin: 0px;
+            padding: 0px;
+            height: 100%;
+            border-color: green;
+            border-width: 0px 0px 1px 0px
+        }
+
+        .as {
+            margin: 2rem 2rem;
+            display: flex;
+            height: 2rem
+        }
+    </style>
+
+</head>
+<body style="text-align: center;background-color: white">
+<div style="text-align: center;background-color: white">
+    <div style="margin-top: 5rem;font-size: 2rem;margin-bottom: 3rem">注册</div>
+    <div class="as">
+        <p>手机号:</p>
+        <input th:id="tel"
+               placeholder="请输入手机号码"/>
+    </div>
+    <div style="text-align:center;margin-top:10px;">
+        <button id="yzm" style="background-color:rgb(122,187,88);color:white;width:70%; border-radius: 20px;font-size: 1.5rem;">发送验证码</button>
+
+    </div>
+    <div class="as">
+        <p>验证码:</p>
+        <input th:id="yzm_user"
+               placeholder="请输入验证码"/>
+    </div>
+    <div class="as">
+        <p>地址:</p>
+        <input th:id="address"
+               placeholder="请输入地址"/>
+    </div>
+    <div class="as">
+        <p>街道:</p>
+        <input th:id="jiedao"
+               placeholder="请输入街道"/>
+    </div>
+
+    <div style="text-align:center;margin-top:3rem;">
+        <button id="reg" style="background-color:rgb(0,159,75);color:white;width:70%; border-radius: 20px;font-size: 1.5rem;">登录</button>
+    </div>
+</div>
+
+<script th:src="@{/js/mui.picker.js}"></script>
+<script th:src="@{/js/mui.poppicker.js}"></script>
+<script th:src="@{/js/place.js}"></script>
+<script th:src="@{/js/Utils.js}"></script>
+<script>
+    mui.ready(function () {
+        $("#address").click(function () {
+            showPlacePicker()
+        })
+
+        var telE = document.getElementById('tel');
+        var yzmButtonE = document.getElementById('yzm');
+        var countdown = 60;
+
+        var isclick = true;
+
+        function settime(val) {
+            if (countdown == 0) {
+                isclick = true
+                val.innerText = "获取验证码";
+                countdown = 60;
+            } else {
+                val.innerText = "重新发送(" + countdown + ")";
+                countdown--;
+                setTimeout(function () {
+                    settime(val)
+                }, 1000)
+            }
+
+        }
+
+        //获取验证码
+        yzmButtonE.addEventListener('tap', function (event) {
+            //验证手机号
+            var tel = telE.value;
+            if (!(/^1[34578]\d{9}$/.test(tel))) {
+                mui.alert("手机号码有误，请重填")
+                return
+            }
+            settime(this)
+
+            $.ajax({
+                type: "GET",
+                url: "http://192.168.71.134:8182/cg/getYzm",
+                data: {
+                    tel: telE.value + ""
+                },
+                dataType: "json",
+                success: function (data) {
+                    if (data.code == "1") {
+                        mui.toast("发送成功")
+                    } else {
+                        mui.alert("验证码发送失败")
+                    }
+                }
+            })
+
+        })
+        var check = true;
+        $("#reg").click(function () {
+            mui("input").each(function () {
+                //若当前input为空，则alert提醒
+                if (!this.value || this.value.trim() == "") {
+                    var label = this.previousElementSibling;
+                    mui.alert(label.innerText + "不允许为空");
+                    check = false;
+                    return false;
+                }
+            });
+            //校验通过，继续执行业务逻辑
+            if (check) {
+                var address = $("#address").val()
+                var jiedao = $("#jiedao").val()
+                var tel = $("#tel").val()
+                var yzm_user = $("#yzm_user").val()
+
+                $.get("http://192.168.71.134:8182/cg/saveUser", { "tel": tel, "jiedao": jiedao, "address": address, "yzm": yzm_user}, function (data) {
+                    setCookie("id", data.data.id);
+                    setCookie("tel", data.data.tel);
+                    window.location.href = globle_url + "question?tel=" +data.data.tel
+                })
+            }
+        })
+    })
+
+    function showPlacePicker() {
+        var picker = new mui.PopPicker({
+            layer: 3,
+            buttons: ['取消', '确定']
+        });
+        var datax = [];
+        $.each(provinces, function (index, element) {
+            var provinceJson = {};
+            var provinceId = element.id;
+            provinceJson.value = element.id;
+            provinceJson.text = element.name;
+            var cityArray = [];
+            $.each(cities, function (indexCity, elementCity) {
+                if (elementCity.provinceId == provinceId) {
+                    var cityJson = {};
+                    var cityId = elementCity.id;
+                    cityJson.value = elementCity.id;
+                    cityJson.text = elementCity.name;
+                    var districtArray = [];
+
+                    $.each(districts, function (indexDistrict,
+                                                elementDistrict) {
+                        if (elementDistrict.cityId == cityId) {
+                            var district = {};
+                            district.value = elementDistrict.id;
+                            district.text = elementDistrict.name;
+                            districtArray.push(district)
+                        }
+
+                    })
+                    cityJson.children = districtArray;
+                    cityArray.push(cityJson)
+                }
+            })
+            provinceJson.children = cityArray;
+            datax.push(provinceJson)
+        })
+        picker.setData(datax);
+        picker.pickers[0].setSelectedIndex(24);
+        picker.pickers[1].setSelectedIndex(0);
+        picker.pickers[2].setSelectedIndex(2);
+
+        picker.show(function (selectItems) {
+            provinceT = selectItems[0].text;
+            cityT = selectItems[1].text;
+            districtT = selectItems[2].text;
+            $("#address").val(provinceT + "-" + cityT + "-" + districtT)
+        })
+    }
+
+</script>
+</body>
+</html>
