@@ -4,6 +4,7 @@ import com.alibaba.fastjson.JSON;
 import com.alibaba.fastjson.JSONObject;
 import com.greentech.kmcg.bean.User;
 import com.greentech.kmcg.repository.BaseRepository;
+import lombok.extern.slf4j.Slf4j;
 import org.apache.commons.lang3.StringUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
@@ -20,6 +21,7 @@ import java.net.URL;
 import java.net.URLConnection;
 import java.security.MessageDigest;
 import java.security.NoSuchAlgorithmException;
+import java.text.DecimalFormat;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 import java.util.Random;
@@ -29,6 +31,7 @@ import java.util.Random;
  * @Date: 2020/5/8 13:41
  * @Description:
  */
+@Slf4j
 @Controller
 public class ResultController {
     @Autowired
@@ -38,14 +41,25 @@ public class ResultController {
     @Autowired
     IndexController indexController;
 
+    /**
+     * @param score   等分
+     * @param tel     电话号码
+     * @param useTime 总用时
+     * @return
+     */
     @RequestMapping("/result")
-    public ModelAndView result(Integer score, String tel) {
+    public ModelAndView result(String tel, Integer score, String useTime) {
         ModelAndView modelAndView = new ModelAndView();
+
+        log.debug("useTime=" + useTime);
+        log.debug("tel=" + tel);
+        log.debug("score=" + score);
+
         //检查是否经过答题页面后到这里
         String verifyTel = (String) request.getSession().getAttribute("login");
 
         if (StringUtils.isBlank(verifyTel)) {
-            modelAndView.setViewName("redirect:/index");
+            modelAndView.setViewName("redirect:/home");
             System.out.println("未经过答题页面");
             return modelAndView;
         }
@@ -60,19 +74,10 @@ public class ResultController {
             modelAndView.addObject("msg", "用户不存在");
             return modelAndView;
         }
-        //检查今天是否领取过
-        String time = new SimpleDateFormat("yyyy-MM-dd").format(new Date());
-        String sql = "select count(*) from hongbao where tel=" + tel + " and time=" + time;
-        int count = baseRepository.countBeansBySql(sql, null);
-
-        if (count > 0) {
-            modelAndView.setViewName("error.html");
-            modelAndView.addObject("msg", "您今天已经领取过红包");
-            return modelAndView;
-        }
-
-        request.getSession().setAttribute("score", score + "");
-        modelAndView.setViewName("verify.html");
+        DecimalFormat decimalFormat = new DecimalFormat("0.000");
+        modelAndView.addObject("score", score);
+        modelAndView.addObject("time", decimalFormat.format(Float.valueOf(useTime) / 1000));
+        modelAndView.setViewName("score");
 
 
         return modelAndView;
@@ -82,6 +87,12 @@ public class ResultController {
     public ModelAndView noStart() {
         ModelAndView modelAndView = new ModelAndView();
         return modelAndView;
+    }
+
+    public static void main(String[] args) {
+        DecimalFormat decimalFormat = new DecimalFormat("0.000");
+        String re = decimalFormat.format((float)23456787 / 1000);
+        log.debug(re);
     }
 
     /**

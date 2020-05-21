@@ -7,9 +7,9 @@
     <script th:src="@{/js/Utils.js}"></script>
     <style>
         #bc {
-            min-height: calc(100vh);
-            background: url(/cg/img/score.png) repeat-y;
-            background-size: cover;
+            position: absolute;
+            width: 100%;
+            height: 100%;
             text-align: center;
         }
 
@@ -21,9 +21,14 @@
 </head>
 <body>
 <div id="bc">
-    <p th:text="'得分:'+${score}+'分'" style="position: relative;top: 24rem;"></p>
-    <p th:text="'用时:'+${time}+'毫秒'" style="position: relative;top: 26rem;"></p>
-    <img th:src="@{/img/again.png}" style="position: relative;top: 27rem;width: 40%">
+    <img th:src="@{/img/score.png}" width="100%;" height="100%">
 </div>
+<div style="text-align: center">
+    <p th:text="'得分:'+${score}+'分'" style="position: relative;top: 24rem;"></p>
+    <p th:text="'用时:'+${time}+'秒'" style="position: relative;top: 26rem;"></p>
+    <img th:src="@{/img/again.png}" style="position: relative;top: 27rem;width: 40%">
+
+</div>
+
 </body>
 </html>

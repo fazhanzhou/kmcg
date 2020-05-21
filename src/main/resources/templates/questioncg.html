@@ -102,15 +102,12 @@
                 endTime = new Date()
                 var allTime = parseInt(endTime - startTime)
                 var score = right;
-                setCookie("allTime", allTime);
-                setCookie("right", right);
                 alert("总共答对题目数=" + right)
                 var tel = getCookie("tel");
-
                 if (tel == "") {
                     window.location.href = globle_url + "login"
                 } else {
-                    window.location.href = globle_url + "result?score=" + score + "&tel=" + tel
+                    window.location.href = globle_url + "result?score=" + score + "&tel=" + tel+"&useTime="+allTime
                 }
 
             }

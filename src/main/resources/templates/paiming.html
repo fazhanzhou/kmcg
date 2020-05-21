@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>成绩排名</title>
+    <style>
+        #title {
+            text-align: center;
+            padding: 0;
+            top: calc(19vh);
+            position: relative;
+            margin: 0;
+            font-size: 2rem;
+        }
+
+        #content {
+            text-align: center;
+            padding: 0;
+            top: calc(21vh);
+            position: relative;
+            margin: 0;
+            font-size: 2rem;
+            height: calc(70vh);
+            overflow: scroll;
+        }
+    </style>
+    <link th:href="@{/css/dropload.css}" rel="stylesheet"/>
+    <script th:src="@{/js/jquery-3.1.1.js}"></script>
+    <script th:src="@{/js/dropload.min.js}"></script>
+</head>
+
+<body style="padding: 0;margin: 0">
+<div style="position: absolute;width: 100%;height: 100%;z-index: -1">
+    <img th:src="@{/img/paihang_back.png}" width="100%" height="100%">
+</div>
+
+<p id="title">dsadsad</p>
+<div id="content">
+    <p>sadd</p>
+    <p>sadd</p>
+    <p>sadd</p>
+    <p>sadd</p>
+    <p>sadd</p>
+    <p>sadd</p>
+    <p>sadd</p>
+    <p>sadd</p>
+    <p>sadd</p>
+</div>
+<script th:src="@{/js/Utils.js}"></script>
+
+</body>
+<script>
+    var totalpage = 5;
+    var pageNum = 1;
+    //#content为某个div的id
+    var dropload = $('#content').dropload({
+        //scrollArea很关键，要不然加载更多不起作用
+        // scrollArea: window,
+        /*domUp: {
+            domClass: 'dropload-up',
+            domRefresh: '<div class="dropload-refresh">↓下拉刷新</div>',
+            domUpdate: '<div class="dropload-update">↑释放更新</div>',
+            domLoad: '<div class="dropload-load"><span class="loading"></span>加载中...</div>'
+        },*/
+        domDown: {
+            domClass: 'dropload-down',
+            domRefresh: '<div class="dropload-refresh"></div>',
+            domLoad: '<div class="dropload-load"><span class="loading"></span></div>',
+            domNoData: '<div class="dropload-noData"></div>'
+        },
+        distance: 50,
+        loadUpFn: function (me) {
+            //下拉刷新需要调用的函数
+            alert("下拉刷新需要调用的函数");
+            //重置下拉刷新
+            me.resetload();
+        },
+        loadDownFn: function (me) {
+            pageNum++
+            console.log("pageNum=" + pageNum)
+            if (pageNum >= totalpage) {
+                me.lock();
+                me.noData();
+            } else {
+                //上拉加载更多需要调用的函数
+                console.log("dsads")
+                //定时器函数,为了看出上拉加载更多效果
+                setTimeout(function () {
+                    // 每次数据加载完，必须重置
+                    var result = "";
+                    for (var i = 0; i < 10; i++) {
+                        result += "<p>" + i + "</p>"
+                    }
+                    $("#content").append(result)
+                    me.resetload();
+                }, 1000);
+            }
+
+
+        }
+    });
+</script>
+</html>

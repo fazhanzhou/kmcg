@@ -4,23 +4,43 @@
     <meta charset="UTF-8">
     <title>2020全民科学素质网络竞赛</title>
     <style>
-        #bc {
-            min-height: calc(100vh);
-            background: url(/cg/img/home_back.png) repeat-y;
-            background-size: cover;
-            text-align: center;
-        }
 
     </style>
 </head>
-<body>
-<div id="bc">
+<body style="width: 100%;height: 100%; margin: 0px;">
+
+<div id="background" style="position:absolute;z-index:-1;width:100%;height:100%;top:0px;left:0px;">
+    <img th:src="@{/img/home_back.png}" width="100%" height="100%"/>
+</div>
+
+<div style="text-align: center">
+
     <img th:onclick="start()" th:src="@{/img/start.png}" style="position: relative;top: 70rem;width: 50%">
+    <p th:onclick="score()" style="text-align: center;font-size: 4rem;color: white;position: relative;top: 73rem;">排行</p>
+    <p th:onclick="rule()" style="text-align: center;font-size: 4rem;color: white;position: relative;top: 75rem;">规则</p>
 </div>
 <script th:src="@{/js/Utils.js}"></script>
 <script>
+    $(document).ready(function () {
+        console.log("tel=" + tel)
+        var tel = getCookie("tel");
+        if (tel == "") {
+            window.location.href = globle_url + "login"
+        }
+    });
+
     function start() {
-        window.location.href = globle_url + "index"
+        var tel = getCookie("tel");
+
+        window.location.href = globle_url + "question?tel=" + tel
+    }
+
+    function score() {
+        window.location.href = globle_url + "paiming/1111"
+    }
+
+    function rule() {
+        window.location.href = globle_url + "rule"
     }
 
 </script>

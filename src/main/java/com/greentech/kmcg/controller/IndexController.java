@@ -22,6 +22,7 @@ import org.dom4j.Element;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.transaction.annotation.Transactional;
+import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.servlet.ModelAndView;
@@ -38,6 +39,16 @@ public class IndexController {
     private AddressController addressController;
     @Autowired
     HttpServletRequest request;
+
+    /**
+     * 登录页面
+     *
+     * @return
+     */
+    @RequestMapping(value = "/home")
+    public String home() {
+        return "home";
+    }
 
     /**
      * 登录页面
@@ -108,6 +119,35 @@ public class IndexController {
         return modelAndView;
     }
 
+    /**
+     * 显示排行
+     * @param tel 用户电话
+     * @return
+     */
+    @RequestMapping(value = "/showScore/{tel}")
+    public ModelAndView showScore(@PathVariable String tel) {
+        ModelAndView modelAndView = new ModelAndView("score");
+        return modelAndView;
+    }
+    /**
+     * 显示排行
+     * @param tel 用户电话
+     * @return
+     */
+    @RequestMapping(value = "/paiming/{tel}")
+    public ModelAndView paiming(@PathVariable String tel) {
+        ModelAndView modelAndView = new ModelAndView("paiming");
+        return modelAndView;
+    }
+    /**
+     * 活动规则
+     * @return
+     */
+    @RequestMapping(value = "/rule")
+    public ModelAndView rule() {
+        ModelAndView modelAndView = new ModelAndView("rule");
+        return modelAndView;
+    }
     /**
      * 新建用户
      *

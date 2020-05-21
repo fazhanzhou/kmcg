@@ -29,7 +29,7 @@ public class Aop {
     public void limit() {
     }
 
-    @Around("limit()")
+//    @Around("limit()")
     public Object around(ProceedingJoinPoint pjp) throws Throwable {
         log.debug("around");
         //类型转换，向下转型，必定成功，因为其内部的实现MethodSignatureImpl实现的就是MethodSignature接口
