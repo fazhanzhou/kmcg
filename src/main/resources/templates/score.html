@@ -26,9 +26,19 @@
 <div style="text-align: center">
     <p th:text="'得分:'+${score}+'分'" style="position: relative;top: 24rem;"></p>
     <p th:text="'用时:'+${time}+'秒'" style="position: relative;top: 26rem;"></p>
-    <img th:src="@{/img/again.png}" style="position: relative;top: 27rem;width: 40%">
-
+    <img th:src="@{/img/again.png}" th:onclick="again()" style="position: relative;top: 27rem;width: 40%">
+    <p th:if="${area}  eq null" id="paiming" th:onclick="paiming()" style="position: relative;top: 30rem;">查看排名</p>
+    <p th:if="${area}  ne null" th:utext="${area}" style="position: relative;top: 30rem;font-size: 1rem"></p>
 </div>
+<script>
+    function paiming() {
+        var tel = getCookie("tel")
+        window.location.href = globle_url + "paiming/" + tel
+    }
 
+    function again() {
+        window.location.href = globle_url+"home"
+    }
+</script>
 </body>
 </html>

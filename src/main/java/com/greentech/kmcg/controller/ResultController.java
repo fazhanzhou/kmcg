@@ -2,18 +2,21 @@ package com.greentech.kmcg.controller;
 
 import com.alibaba.fastjson.JSON;
 import com.alibaba.fastjson.JSONObject;
+import com.greentech.kmcg.bean.Score;
 import com.greentech.kmcg.bean.User;
 import com.greentech.kmcg.repository.BaseRepository;
 import lombok.extern.slf4j.Slf4j;
 import org.apache.commons.lang3.StringUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
+import org.springframework.transaction.annotation.Transactional;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.servlet.ModelAndView;
 
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpSession;
+import java.beans.Transient;
 import java.io.BufferedReader;
 import java.io.InputStream;
 import java.io.InputStreamReader;
@@ -23,7 +26,9 @@ import java.security.MessageDigest;
 import java.security.NoSuchAlgorithmException;
 import java.text.DecimalFormat;
 import java.text.SimpleDateFormat;
+import java.util.ArrayList;
 import java.util.Date;
+import java.util.List;
 import java.util.Random;
 
 /**
@@ -47,6 +52,7 @@ public class ResultController {
      * @param useTime 总用时
      * @return
      */
+    @Transactional
     @RequestMapping("/result")
     public ModelAndView result(String tel, Integer score, String useTime) {
         ModelAndView modelAndView = new ModelAndView();
@@ -58,11 +64,11 @@ public class ResultController {
         //检查是否经过答题页面后到这里
         String verifyTel = (String) request.getSession().getAttribute("login");
 
-        if (StringUtils.isBlank(verifyTel)) {
+       /* if (StringUtils.isBlank(verifyTel)) {
             modelAndView.setViewName("redirect:/home");
             System.out.println("未经过答题页面");
             return modelAndView;
-        }
+        }*/
         if (null == score || StringUtils.isBlank(tel)) {
             modelAndView.setViewName("error.html");
             modelAndView.addObject("msg", "缺少参数");
@@ -74,14 +80,65 @@ public class ResultController {
             modelAndView.addObject("msg", "用户不存在");
             return modelAndView;
         }
+
+        //判断是否是呈贡区的
+        String jiedao = user.getJiedao();
+        String address = user.getAddress();
         DecimalFormat decimalFormat = new DecimalFormat("0.000");
         modelAndView.addObject("score", score);
         modelAndView.addObject("time", decimalFormat.format(Float.valueOf(useTime) / 1000));
         modelAndView.setViewName("score");
-
+        if (!inPlace(address,jiedao)) {
+            modelAndView.addObject("area", "对不起<br/>本活动仅限呈贡区居民参与发红包活动");
+        }else {
+            //判断是不是最好的成绩，如果是
+            Score score1 = new Score();
+            score1.setScore(score);
+            score1.setTime(Long.valueOf(useTime));
+            score1.setUserId(user.getId());
+            score1.setDate(new Date());
+            try {
+                baseRepository.save(score1);
+            } catch (Exception e) {
+                e.printStackTrace();
+            }
+        }
 
         return modelAndView;
     }
+
+    private boolean inPlace(String address, String jiedao) {
+        //昆明市呈贡区+龙城、斗南、乌龙、洛龙、吴家营、雨花、马金铺、大渔、七甸、洛洋街道
+        List<String> placeList = new ArrayList<>();
+        placeList.add("龙城街道");
+        placeList.add("斗南街道");
+        placeList.add("乌龙街道");
+        placeList.add("洛龙街道");
+        placeList.add("吴家营街道");
+        placeList.add("雨花街道");
+        placeList.add("马金铺街道");
+        placeList.add("大渔街道");
+        placeList.add("七甸街道");
+        placeList.add("洛洋街道");
+        placeList.add("龙城");
+        placeList.add("斗南");
+        placeList.add("乌龙");
+        placeList.add("洛龙");
+        placeList.add("吴家营");
+        placeList.add("雨花");
+        placeList.add("马金铺");
+        placeList.add("大渔");
+        placeList.add("七甸");
+        placeList.add("洛洋");
+        if ("云南省-昆明市-呈贡区".equals(address)) {
+            return placeList.contains(jiedao) ? true : false;
+        } else {
+            return false;
+        }
+
+
+    }
+
 
     @RequestMapping("/nostart")
     public ModelAndView noStart() {
@@ -91,7 +148,7 @@ public class ResultController {
 
     public static void main(String[] args) {
         DecimalFormat decimalFormat = new DecimalFormat("0.000");
-        String re = decimalFormat.format((float)23456787 / 1000);
+        String re = decimalFormat.format((float) 23456787 / 1000);
         log.debug(re);
     }
 

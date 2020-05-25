@@ -24,9 +24,21 @@ public interface BaseRepository {
      * @return
      */
     int nativeSql(String sql, Map<String, Object> params, Class clazz);
+    void nativeSql(String sql, Map<String, Object> params);
     int countBeansBySql(String sql, Map<String, Object> params);
 
     Object findBeanById(Class c, Integer id);
 
     MyPagination findPageBeansBySql(Integer curPage, Integer pageSize, String sql, Map<String, Object> params, Class clazz);
+
+    /**
+     * 返回map类型的集合
+     *
+     * @param sql 原生sql
+     * @return
+     */
+    List<Map> getMap(String sql);
+
+
+    MyPagination getPageMap(Integer curPage, Integer pageSize, String sql);
 }

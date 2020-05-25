@@ -18,11 +18,20 @@
             line-height: 2rem;
         }
 
-        input {
+        .inputE {
             flex: 3;
             margin: 0px;
             padding: 0px;
             height: 100%;
+            border-color: green;
+            border-width: 0px 0px 1px 0px
+        }
+
+        .inputEe {
+            margin-left: 2rem;
+            margin-right: 2rem;
+            padding: 0px;
+            width: 85%;
             border-color: green;
             border-width: 0px 0px 1px 0px
         }
@@ -38,9 +47,15 @@
 <body style="text-align: center;background-color: white">
 <div style="text-align: center;background-color: white">
     <div style="margin-top: 5rem;font-size: 2rem;margin-bottom: 3rem">注册</div>
+
+    <div class="as">
+        <p>姓名:</p>
+        <input class="inputE" th:id="name"
+               placeholder="请输入姓名"/>
+    </div>
     <div class="as">
         <p>手机号:</p>
-        <input th:id="tel"
+        <input class="inputE" th:id="tel" type="tel"
                placeholder="请输入手机号码"/>
     </div>
     <div style="text-align:center;margin-top:10px;">
@@ -49,17 +64,15 @@
     </div>
     <div class="as">
         <p>验证码:</p>
-        <input th:id="yzm_user"
+        <input class="inputE" th:id="yzm_user" type="number"
                placeholder="请输入验证码"/>
     </div>
-    <div class="as">
-        <p>地址:</p>
-        <input th:id="address"
-               placeholder="请输入地址"/>
-    </div>
+    <p style="margin-left: 2rem">住址或工作所在地:</p>
+    <input class="inputEe" th:id="address"
+           placeholder="请输入地址"/>
     <div class="as">
         <p>街道:</p>
-        <input th:id="jiedao"
+        <input class="inputE" th:id="jiedao"
                placeholder="请输入街道"/>
     </div>
 
@@ -70,14 +83,13 @@
 
 <script th:src="@{/js/mui.picker.js}"></script>
 <script th:src="@{/js/mui.poppicker.js}"></script>
-<script th:src="@{/js/place.js}"></script>
+<script th:src="@{/js/place1.js}"></script>
 <script th:src="@{/js/Utils.js}"></script>
 <script>
     mui.ready(function () {
         $("#address").click(function () {
             showPlacePicker()
         })
-
         var telE = document.getElementById('tel');
         var yzmButtonE = document.getElementById('yzm');
         var countdown = 60;
@@ -111,7 +123,7 @@
 
             $.ajax({
                 type: "GET",
-                url: "http://192.168.71.134:8182/cg/getYzm",
+                url: globle_url + "getYzm",
                 data: {
                     tel: telE.value + ""
                 },
@@ -126,32 +138,82 @@
             })
 
         })
-        var check = true;
         $("#reg").click(function () {
+            var check = true;
             mui("input").each(function () {
                 //若当前input为空，则alert提醒
                 if (!this.value || this.value.trim() == "") {
                     var label = this.previousElementSibling;
                     mui.alert(label.innerText + "不允许为空");
                     check = false;
-                    return false;
+                    return;
                 }
             });
             //校验通过，继续执行业务逻辑
             if (check) {
+                var name = $("#name").val()
                 var address = $("#address").val()
                 var jiedao = $("#jiedao").val()
                 var tel = $("#tel").val()
-                var yzm_user = $("#yzm_user").val()
+                if(!checkPhone(tel)){
+                    return
+                }
 
-                $.get("http://192.168.71.134:8182/cg/saveUser", { "tel": tel, "jiedao": jiedao, "address": address, "yzm": yzm_user}, function (data) {
-                    setCookie("id", data.data.id);
-                    setCookie("tel", data.data.tel);
-                    window.location.href = globle_url + "question?tel=" +data.data.tel
-                })
+                var yzm_user = $("#yzm_user").val()
+                if (!checkAddress(address, jiedao)) {
+                    var btnArray = ['修改地址', '继续提交'];
+                    mui.confirm('请按照活动规则填写地址信息，否则会导致您不能参与分红包!',"提示", btnArray, function(e) {
+                        if (e.index != 0) {
+                            $.get(globle_url + "saveUser", {"name": name, "tel": tel, "jiedao": jiedao, "address": address, "yzm": yzm_user}, function (data) {
+                                if (data.code == 0) {
+                                    mui.alert(data.msg)
+                                } else {
+                                    setCookie("id", data.data.id);
+                                    setCookie("tel", data.data.tel);
+                                    var callBakUrl = globle_url + "getOpenId";
+                                    window.location.href = "https://www.yaoyaola.cn/index.php/exapi/check_user/24265?url=https://wnd.agri114.cn/cg/getOpenId?tel=" + data.data.tel + "&flag=0"
+                                }
+                            })
+                        }
+                    })
+                }else {
+                    $.get(globle_url + "saveUser", {"name": name, "tel": tel, "jiedao": jiedao, "address": address, "yzm": yzm_user}, function (data) {
+
+                        if (data.code == 0) {
+                            mui.alert(data.msg)
+                        } else {
+                            setCookie("id", data.data.id);
+                            setCookie("tel", data.data.tel);
+                            var callBakUrl = globle_url + "getOpenId";
+                            window.location.href = "https://www.yaoyaola.cn/index.php/exapi/check_user/24265?url=https://wnd.agri114.cn/cg/getOpenId?tel=" + data.data.tel + "&flag=0"
+
+                        }
+
+                        //window.location.href = globle_url + "question?tel=" + data.data.tel
+                    })
+                }
+
             }
         })
     })
+    function checkPhone(phone){
+        if(!(/^1[3456789]\d{9}$/.test(phone))){
+            mui.alert("手机号码有误，请重填");
+            return false;
+        }
+        return true;
+    }
+
+    function checkAddress(address, jiedao) {
+        var addressArray = new Array("斗南街道", "乌龙街道", "洛龙街道", "吴家营街道", "雨花街道", "马金铺街道",
+            "大渔街道", "七甸街道", "洛洋街道", "龙城", "斗南", "乌龙", "洛龙", "吴家营", "雨花", "马金铺", "大渔", "七甸", "洛洋");
+        if (address != "云南省-昆明市-呈贡区" || !addressArray.includes(jiedao)) {
+            return false;
+        } else {
+            return true;
+        }
+    }
+
 
     function showPlacePicker() {
         var picker = new mui.PopPicker({
@@ -193,7 +255,7 @@
         picker.setData(datax);
         picker.pickers[0].setSelectedIndex(24);
         picker.pickers[1].setSelectedIndex(0);
-        picker.pickers[2].setSelectedIndex(2);
+        picker.pickers[2].setSelectedIndex(5);
 
         picker.show(function (selectItems) {
             provinceT = selectItems[0].text;

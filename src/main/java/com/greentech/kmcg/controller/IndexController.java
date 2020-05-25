@@ -2,10 +2,7 @@ package com.greentech.kmcg.controller;
 
 import com.alibaba.fastjson.JSON;
 import com.alibaba.fastjson.JSONObject;
-import com.greentech.kmcg.bean.Answer;
-import com.greentech.kmcg.bean.Question;
-import com.greentech.kmcg.bean.Score;
-import com.greentech.kmcg.bean.User;
+import com.greentech.kmcg.bean.*;
 import com.greentech.kmcg.repository.BaseRepository;
 import lombok.extern.slf4j.Slf4j;
 import org.apache.commons.lang3.StringUtils;
@@ -27,6 +24,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.servlet.ModelAndView;
 
+import javax.persistence.criteria.CriteriaBuilder;
 import javax.servlet.http.HttpServletRequest;
 import java.util.*;
 
@@ -36,12 +34,10 @@ public class IndexController {
     @Autowired
     private BaseRepository baseRepository;
     @Autowired
-    private AddressController addressController;
-    @Autowired
     HttpServletRequest request;
 
     /**
-     * 登录页面
+     * 主页面
      *
      * @return
      */
@@ -60,25 +56,26 @@ public class IndexController {
         return "login";
     }
 
-    /**
-     * 主页面
-     *
-     * @return
-     */
-    @RequestMapping(value = "/index")
-    public ModelAndView index() {
-        log.debug("index");
-        ModelAndView modelAndView = new ModelAndView("index.html");
 
-        return modelAndView;
+    public boolean checkTime() {
+        Calendar calendar = Calendar.getInstance();
+        int month = calendar.get(Calendar.MONTH);
+        int day = calendar.get(Calendar.DAY_OF_MONTH);
+        int hour = calendar.get(Calendar.HOUR_OF_DAY);
+        log.debug(month + "-" + day + "-" + hour);
+        if (month + 1 == 5 && day >= 1 && day <= 25 && hour >= 1 && hour <= 23) {
+            return true;
+        } else {
+            return false;
+        }
+
     }
 
-
-
-   /* public static void main(String[] args) {
+    public static void main(String[] args) {
         IndexController indexController = new IndexController();
-        indexController.checkTime();
-    }*/
+        boolean is = indexController.checkTime();
+        log.debug(is + "");
+    }
 
     /**
      * 答题页面
@@ -89,11 +86,17 @@ public class IndexController {
     @RequestMapping(value = "/question")
     public ModelAndView question(String tel) {
         ModelAndView modelAndView = new ModelAndView();
+        //判断时间是否已经开始，开始时间为 6.1-6.10，每天1:00 -- 23:00
+        if (!checkTime()) {
+            modelAndView.setViewName("error.html");
+            modelAndView.addObject("msg", "活动还未开始<br/>活动开始时间为每天1:00到23:00<br/>");
+            return modelAndView;
+        }
 
         if (StringUtils.isNotBlank(tel)) {
             User user = findUserByTel(tel);
             if (null != user) {
-                modelAndView.setViewName("questioncg.html");
+                modelAndView.setViewName("question.html");
                 List<Question> list = (List<Question>) baseRepository.findBeansBySql("select * from question ORDER BY  RAND() LIMIT 10", null, Question.class);
                 for (Question question : list) {
                     JSONObject jsonObject = JSON.parseObject(question.getAnswer());
@@ -121,6 +124,7 @@ public class IndexController {
 
     /**
      * 显示排行
+     *
      * @param tel 用户电话
      * @return
      */
@@ -129,18 +133,64 @@ public class IndexController {
         ModelAndView modelAndView = new ModelAndView("score");
         return modelAndView;
     }
+
     /**
      * 显示排行
+     *
      * @param tel 用户电话
      * @return
      */
-    @RequestMapping(value = "/paiming/{tel}")
-    public ModelAndView paiming(@PathVariable String tel) {
+    @RequestMapping(value = "/paiming/{tel}/{pageNum}")
+    public ModelAndView paiming(@PathVariable String tel, @PathVariable Integer pageNum) {
         ModelAndView modelAndView = new ModelAndView("paiming");
+        List<User> users = (List<User>) baseRepository.findBeansBySql("select * from user_cg where tel = " + tel, null, User.class);
+        if (null == users || users.size() <= 0) {
+            return modelAndView;
+        }
+        User user = users.get(0);
+        String sql = "SELECT t.*, @rownum \\:= @rownum + 1 AS rownum FROM (SELECT @rownum \\:= 0) r, (SELECT * FROM `score_cg` GROUP BY user_id ORDER BY score desc,time asc) AS t;";
+
+        String paiMingSql = "select b.* from \n" +
+                "(SELECT t.*, @rownum \\:= @rownum + 1 AS rownum\n" +
+                "FROM (SELECT @rownum \\:= 0) r, (SELECT * FROM `score_cg` GROUP BY user_id ORDER BY score desc,time asc) AS t) as b where b.user_id=" + user.getId();
+
+        List<Map> maps = null;
+        try {
+            maps = baseRepository.getMap(paiMingSql);
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+        Map myMap = maps.get(0);
+
+        int time = (Integer) myMap.get("time");
+        float floatTime = ((float) time) / 1000;
+        myMap.put("time", floatTime);
+        modelAndView.addObject("myScore", myMap);
+        MyPagination m = baseRepository.getPageMap(pageNum, 20, sql);
+        List<Map> mapList = (List<Map>) m.getList();
+        if (null != mapList && mapList.size() > 0) {
+            for (int i = 0; i < mapList.size(); i++) {
+                Map map = mapList.get(i);
+                int time1 = (Integer) map.get("time");
+                float floatTime1 = ((float) time1) / 1000;
+                map.put("time", floatTime1);
+                int userId = (Integer) map.get("user_id");
+                User u = (User) baseRepository.findBeanById(User.class, userId);
+                if (null != u) {
+                    map.put("name", u.getName());
+                } else {
+                    map.put("name", "无");
+                }
+
+            }
+        }
+        modelAndView.addObject("allScore", m);
         return modelAndView;
     }
+
     /**
      * 活动规则
+     *
      * @return
      */
     @RequestMapping(value = "/rule")
@@ -148,6 +198,7 @@ public class IndexController {
         ModelAndView modelAndView = new ModelAndView("rule");
         return modelAndView;
     }
+
     /**
      * 新建用户
      *
@@ -166,19 +217,27 @@ public class IndexController {
             String sessionYzm = (String) request.getSession().getAttribute(user.getTel());
             if (null != sessionYzm && sessionYzm.equals(yzm)) {
                 try {
-                    String tel = user.getTel();
-                    User sqlUser = findUserByTel(tel);
-                    if (null == sqlUser) {
+                    Integer userId = user.getId();
+                    //修改用户信息
+                    if (null != userId) {
                         baseRepository.save(user);
-                        returnUser = findUserByTel(tel);
-
+                        returnUser = user;
                     } else {
-                        returnUser = sqlUser;
+                        String tel = user.getTel();
+                        User sqlUser = findUserByTel(tel);
+                        if (null == sqlUser) {
+                            baseRepository.save(user);
+                            returnUser = findUserByTel(tel);
+                        } else {
+                            returnUser = sqlUser;
+                        }
                     }
+
                     map.put("code", 1);
                     map.put("data", returnUser);
 
                 } catch (Exception e) {
+                    e.printStackTrace();
                     map.put("code", 0);
                     map.put("msg", "保存失败，服务器出错");
                 }
@@ -225,7 +284,9 @@ public class IndexController {
         String content = "您的验证码是：" + yzm + "。请不要把验证码泄露给其他人。";
         CloseableHttpClient httpClient = HttpClients.createDefault();
         //创建一个get请求
-        HttpGet httpget = new HttpGet("http://106.ihuyi.cn/webservice/sms.php?method=Submit&account=C37125906&password=61456fb649324c6215324605279600ab&mobile=" + tel + "&content=" + content + "");
+        HttpGet httpget = new HttpGet("http://106.ihuyi.cn/webservice/sms.php?method=Submit&account=C41430914&password=855c59995ec45864dd997c1d71d88ea5&mobile=" + tel + "&content=" + content + "");
+        //蔬菜协会接口
+        //        HttpGet httpget = new HttpGet("http://106.ihuyi.cn/webservice/sms.php?method=Submit&account=C37125906&password=61456fb649324c6215324605279600ab&mobile=" + tel + "&content=" + content + "");
         CloseableHttpResponse response = null;
         try {
             response = httpClient.execute(httpget);

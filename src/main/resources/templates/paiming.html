@@ -1,16 +1,18 @@
 <!DOCTYPE html>
 <html xmlns:th="http://www.thymeleaf.org">
 <head>
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no"/>
     <meta charset="UTF-8">
     <title>成绩排名</title>
     <style>
-        #title {
+        .title {
             text-align: center;
             padding: 0;
             top: calc(19vh);
             position: relative;
             margin: 0;
-            font-size: 2rem;
+            font-size: 1.4rem;
+            color: #ec971f;
         }
 
         #content {
@@ -19,10 +21,11 @@
             top: calc(21vh);
             position: relative;
             margin: 0;
-            font-size: 2rem;
-            height: calc(70vh);
+            font-size: 1.4rem;
+            height: calc(60vh);
             overflow: scroll;
         }
+        table,table tr th, table tr td { border:1px solid rgb(234,142,25); }
     </style>
     <link th:href="@{/css/dropload.css}" rel="stylesheet"/>
     <script th:src="@{/js/jquery-3.1.1.js}"></script>
@@ -31,20 +34,33 @@
 
 <body style="padding: 0;margin: 0">
 <div style="position: absolute;width: 100%;height: 100%;z-index: -1">
-    <img th:src="@{/img/paihang_back.png}" width="100%" height="100%">
+    <img th:src="@{/img/paiming_back.png}" width="100%" height="100%">
 </div>
 
-<p id="title">dsadsad</p>
+<p class="title" th:text="'我的排名:'+${#strings.substring(myScore.rownum,0,#strings.indexOf(myScore.rownum,'.'))}"></p>
+<p class="title" th:text="'最好成绩:答对'+${myScore.score}+'题,用时:'+${myScore.time}+'秒'"></p>
 <div id="content">
-    <p>sadd</p>
-    <p>sadd</p>
-    <p>sadd</p>
-    <p>sadd</p>
-    <p>sadd</p>
-    <p>sadd</p>
-    <p>sadd</p>
-    <p>sadd</p>
-    <p>sadd</p>
+
+    <table style="margin: 0 auto;border-color:rgb(234,142,25);" border="1" cellspacing="0"cellpadding="0" width="90%">
+        <thead>
+        <tr>
+            <th>名次</th>
+            <th>得分</th>
+            <th>用时(秒)</th>
+            <th>姓名</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr th:each="item:${allScore.list}">
+            <td th:text="${#strings.substring(item.rownum,0,#strings.indexOf(item.rownum,'.'))}"></td>
+            <td th:text="${item.score}"></td>
+            <td th:text="${item.time}"></td>
+            <td th:text="${item.name}"></td>
+        </tr>
+
+        </tbody>
+    </table>
+
 </div>
 <script th:src="@{/js/Utils.js}"></script>
 
@@ -69,12 +85,6 @@
             domNoData: '<div class="dropload-noData"></div>'
         },
         distance: 50,
-        loadUpFn: function (me) {
-            //下拉刷新需要调用的函数
-            alert("下拉刷新需要调用的函数");
-            //重置下拉刷新
-            me.resetload();
-        },
         loadDownFn: function (me) {
             pageNum++
             console.log("pageNum=" + pageNum)
@@ -85,19 +95,26 @@
                 //上拉加载更多需要调用的函数
                 console.log("dsads")
                 //定时器函数,为了看出上拉加载更多效果
-                setTimeout(function () {
+               /* setTimeout(function () {
                     // 每次数据加载完，必须重置
                     var result = "";
                     for (var i = 0; i < 10; i++) {
-                        result += "<p>" + i + "</p>"
+                        result += "<tr><td>"+i+"</td><td>"+i+"</td><td>"+i+"</td><td>"+i+"</td></tr>"
                     }
-                    $("#content").append(result)
+                    $("tbody").append(result)
                     me.resetload();
-                }, 1000);
+                }, 1000);*/
             }
 
 
         }
     });
+
+    function getData(pageNum) {
+
+    }
+
+
+
 </script>
 </html>

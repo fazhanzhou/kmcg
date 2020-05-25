@@ -14,29 +14,26 @@
 </div>
 
 <div style="text-align: center">
-
     <img th:onclick="start()" th:src="@{/img/start.png}" style="position: relative;top: 70rem;width: 50%">
-    <p th:onclick="score()" style="text-align: center;font-size: 4rem;color: white;position: relative;top: 73rem;">排行</p>
-    <p th:onclick="rule()" style="text-align: center;font-size: 4rem;color: white;position: relative;top: 75rem;">规则</p>
+    <img th:onclick="rule()" th:src="@{/img/rule.png}" style="position: relative;top: 73rem;width: 50%">
+    <img th:onclick="score()" th:src="@{/img/paiming.png}" style="position: relative;top: 75rem;width: 50%">
 </div>
+<script th:src="@{/js/jquery-3.1.1.js}"></script>
 <script th:src="@{/js/Utils.js}"></script>
 <script>
+    var tel = getCookie("tel");
     $(document).ready(function () {
-        console.log("tel=" + tel)
-        var tel = getCookie("tel");
         if (tel == "") {
             window.location.href = globle_url + "login"
         }
     });
 
     function start() {
-        var tel = getCookie("tel");
-
         window.location.href = globle_url + "question?tel=" + tel
     }
 
     function score() {
-        window.location.href = globle_url + "paiming/1111"
+        window.location.href = globle_url + "paiming/" + tel
     }
 
     function rule() {

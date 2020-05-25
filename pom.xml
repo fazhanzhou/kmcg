@@ -8,6 +8,7 @@
         <version>2.2.6.RELEASE</version>
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
+    <packaging>jar</packaging>
     <groupId>com.greentech</groupId>
     <artifactId>kmcg</artifactId>
     <version>0.0.1-SNAPSHOT</version>
@@ -123,6 +124,7 @@
     </dependencies>
 
     <build>
+        <finalName>kmcg</finalName>
         <plugins>
             <plugin>
                 <groupId>org.springframework.boot</groupId>

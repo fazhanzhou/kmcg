@@ -67,9 +67,7 @@
         var telE = document.getElementById('tel');
         var yzmButtonE = document.getElementById('yzm');
         var countdown = 60;
-
         var isclick = true;
-
         function settime(val) {
             if (countdown == 0) {
                 isclick = true
@@ -97,7 +95,7 @@
 
             $.ajax({
                 type: "GET",
-                url: "http://192.168.71.134:8182/cg/getYzm",
+                url: globle_url+"getYzm",
                 data: {
                     tel: telE.value + ""
                 },
@@ -112,6 +110,10 @@
             })
 
         })
+
+
+
+
         var check = true;
         $("#reg").click(function () {
             mui("input").each(function () {
@@ -128,7 +130,7 @@
                 var tel = $("#tel").val()
                 var yzm_user = $("#yzm_user").val()
 
-                $.get("http://192.168.71.134:8182/cg/verify", {"tel": tel, "yzm": yzm_user}, function (data) {
+                $.get(globle_url+"verify", {"tel": tel, "yzm": yzm_user}, function (data) {
 
                     console.log(data)
                     console.log(data.code)
@@ -143,9 +145,7 @@
         })
     })
 
-    function lingqu() {
-        console.log("lingqu")
-    }
+
 
 
 </script>

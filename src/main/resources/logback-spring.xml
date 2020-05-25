@@ -4,7 +4,7 @@
     <contextName>kmcg</contextName>
 
     <!--日志保存目录-->
-    <property name="LOG_PATH" value="logs/kmcg"/>
+    <property name="LOG_PATH" value="log"/>
     <!--程序名称-->
     <property name="appName" value="kmcg"/>
     <!--日志最大保存天数-->
