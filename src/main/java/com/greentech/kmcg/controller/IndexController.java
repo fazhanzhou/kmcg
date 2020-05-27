@@ -26,6 +26,8 @@ import org.springframework.web.servlet.ModelAndView;
 
 import javax.persistence.criteria.CriteriaBuilder;
 import javax.servlet.http.HttpServletRequest;
+import java.math.BigInteger;
+import java.text.SimpleDateFormat;
 import java.util.*;
 
 @Slf4j
@@ -47,6 +49,31 @@ public class IndexController {
     }
 
     /**
+     * 个人信息
+     *
+     * @return
+     */
+    @RequestMapping(value = "/info/{tel}")
+    public ModelAndView info(@PathVariable String tel) {
+        ModelAndView modelAndView = new ModelAndView("info");
+        if (StringUtils.isBlank(tel)) {
+            modelAndView.setViewName("error1");
+            modelAndView.addObject("msg", "参数错误");
+            return modelAndView;
+        }
+        List<User> users = (List<User>) baseRepository.findBeansBySql("select * from user_cg where tel=" + tel, null, User.class);
+        if (null != users && users.size() > 0) {
+            modelAndView.addObject("data", users.get(0));
+        } else {
+            modelAndView.setViewName("error1");
+            modelAndView.addObject("msg", "不存在手机号码为" + tel + "的用户");
+            return modelAndView;
+        }
+        return modelAndView;
+    }
+
+
+    /**
      * 登录页面
      *
      * @return
@@ -56,6 +83,37 @@ public class IndexController {
         return "login";
     }
 
+    private boolean inPlace(String address, String jiedao) {
+        //昆明市呈贡区+龙城、斗南、乌龙、洛龙、吴家营、雨花、马金铺、大渔、七甸、洛洋街道
+        List<String> placeList = new ArrayList<>();
+        placeList.add("龙城街道");
+        placeList.add("斗南街道");
+        placeList.add("乌龙街道");
+        placeList.add("洛龙街道");
+        placeList.add("吴家营街道");
+        placeList.add("雨花街道");
+        placeList.add("马金铺街道");
+        placeList.add("大渔街道");
+        placeList.add("七甸街道");
+        placeList.add("洛洋街道");
+        placeList.add("龙城");
+        placeList.add("斗南");
+        placeList.add("乌龙");
+        placeList.add("洛龙");
+        placeList.add("吴家营");
+        placeList.add("雨花");
+        placeList.add("马金铺");
+        placeList.add("大渔");
+        placeList.add("七甸");
+        placeList.add("洛洋");
+        if ("云南省-昆明市-呈贡区".equals(address)) {
+            return placeList.contains(jiedao) ? true : false;
+        } else {
+            return false;
+        }
+
+
+    }
 
     public boolean checkTime() {
         Calendar calendar = Calendar.getInstance();
@@ -63,7 +121,7 @@ public class IndexController {
         int day = calendar.get(Calendar.DAY_OF_MONTH);
         int hour = calendar.get(Calendar.HOUR_OF_DAY);
         log.debug(month + "-" + day + "-" + hour);
-        if (month + 1 == 5 && day >= 1 && day <= 25 && hour >= 1 && hour <= 23) {
+        if (month + 1 == 5 && day >= 1 && day <= 30 && hour >= 1 && hour <= 23) {
             return true;
         } else {
             return false;
@@ -88,7 +146,7 @@ public class IndexController {
         ModelAndView modelAndView = new ModelAndView();
         //判断时间是否已经开始，开始时间为 6.1-6.10，每天1:00 -- 23:00
         if (!checkTime()) {
-            modelAndView.setViewName("error.html");
+            modelAndView.setViewName("error1.html");
             modelAndView.addObject("msg", "活动还未开始<br/>活动开始时间为每天1:00到23:00<br/>");
             return modelAndView;
         }
@@ -142,31 +200,88 @@ public class IndexController {
      */
     @RequestMapping(value = "/paiming/{tel}/{pageNum}")
     public ModelAndView paiming(@PathVariable String tel, @PathVariable Integer pageNum) {
-        ModelAndView modelAndView = new ModelAndView("paiming");
+        ModelAndView modelAndView = new ModelAndView("paiming.html");
+        String date = new SimpleDateFormat("yyyy-MM-dd").format(new Date());
         List<User> users = (List<User>) baseRepository.findBeansBySql("select * from user_cg where tel = " + tel, null, User.class);
         if (null == users || users.size() <= 0) {
+            modelAndView.setViewName("error1");
+            modelAndView.addObject("msg", "不存在该用户信息");
             return modelAndView;
         }
+
         User user = users.get(0);
-        String sql = "SELECT t.*, @rownum \\:= @rownum + 1 AS rownum FROM (SELECT @rownum \\:= 0) r, (SELECT * FROM `score_cg` GROUP BY user_id ORDER BY score desc,time asc) AS t;";
-
-        String paiMingSql = "select b.* from \n" +
-                "(SELECT t.*, @rownum \\:= @rownum + 1 AS rownum\n" +
-                "FROM (SELECT @rownum \\:= 0) r, (SELECT * FROM `score_cg` GROUP BY user_id ORDER BY score desc,time asc) AS t) as b where b.user_id=" + user.getId();
-
-        List<Map> maps = null;
-        try {
-            maps = baseRepository.getMap(paiMingSql);
-        } catch (Exception e) {
-            e.printStackTrace();
+        String address = user.getAddress();
+        String jiedao = user.getJiedao();
+        if (!inPlace(address, jiedao)) {
+            modelAndView.setViewName("error1");
+            modelAndView.addObject("msg", "本活动仅限呈贡区居民参与排名发红包");
+            return modelAndView;
         }
-        Map myMap = maps.get(0);
+//        String sql = "SELECT t.*, @rownum \\:= @rownum + 1 AS rownum FROM (SELECT @rownum \\:= 0) r, (SELECT * FROM `score_cg` GROUP BY user_id ORDER BY score desc,time asc) AS t ";
+        String allPaiMingSql = "SELECT t.*, @rownum \\:= @rownum +1 AS rownum FROM (SELECT @rownum \\:= 0) r, (SELECT a.* from score_cg a LEFT JOIN score_cg b ON a.user_id=b.user_id WHERE Date(a.date)='" + date + "'  GROUP BY a.user_id   ORDER BY a.score desc,a.time asc) as t";
 
+        String myPaiMingSql = "select b.* from \n" +
+                "(SELECT t.*, @rownum \\:= @rownum + 1 AS rownum\n" +
+                "FROM (SELECT @rownum \\:= 0) r, (SELECT * FROM `score_cg`WHERE Date(date)='" + date + "' GROUP BY user_id ORDER BY score desc,time asc) AS t) as b where b.user_id=" + user.getId();
+
+        List<Map> maps = baseRepository.getMap(myPaiMingSql);
+        Map myMap = maps.get(0);
         int time = (Integer) myMap.get("time");
         float floatTime = ((float) time) / 1000;
+
+        Object o1 = myMap.get("rownum");
+        //服务器返回的rownum类型为 BigInteger，本地为Double类型
+        if (o1 instanceof BigInteger) {
+            BigInteger rownum = (BigInteger) o1;
+            myMap.put("rownum", rownum.intValue());
+        } else {
+            Double rownum = (Double) o1;
+            myMap.put("rownum", rownum.intValue());
+        }
+        log.warn("myMap=" + myMap.toString());
         myMap.put("time", floatTime);
         modelAndView.addObject("myScore", myMap);
+        MyPagination m = baseRepository.getPageMap(pageNum, 20, allPaiMingSql);
+
+        List<Map> mapList = (List<Map>) m.getList();
+        if (null != mapList && mapList.size() > 0) {
+            for (int i = 0; i < mapList.size(); i++) {
+                Map map = mapList.get(i);
+                Integer time1 = (Integer) map.get("time");
+                float floatTime1 = (time1.floatValue()) / 1000;
+                map.put("time", floatTime1);
+                Object o = map.get("rownum");
+                //服务器返回的rownum类型为 BigInteger，本地为Double类型
+                if (o instanceof BigInteger) {
+                    BigInteger rownum = (BigInteger) o;
+                    map.put("rownum", rownum.intValue());
+                } else {
+                    Double rownum = (Double) o;
+                    map.put("rownum", rownum.intValue());
+                }
+                int userId = (Integer) map.get("user_id");
+                User u = (User) baseRepository.findBeanById(User.class, userId);
+                if (null != u) {
+                    map.put("name", u.getName());
+                } else {
+                    map.put("name", "无");
+                }
+                log.info(map.toString());
+            }
+        }
+        modelAndView.addObject("allScore", m);
+        return modelAndView;
+    }
+
+    @RequestMapping("/pai/{pageNum}")
+    @ResponseBody
+    public JSONObject paiming(@PathVariable Integer pageNum) {
+        JSONObject jsonObject = new JSONObject();
+        int rownum = (pageNum - 1) * 20;
+        String date = new SimpleDateFormat("yyyy-MM-dd").format(new Date());
+        String sql = "SELECT t.*, @rownum \\:= @rownum +1 AS rownum FROM (SELECT @rownum \\:= " + rownum + ") r, (SELECT a.* from score_cg a LEFT JOIN score_cg b ON a.user_id=b.user_id WHERE Date(a.date)='" + date + "' GROUP BY a.user_id   ORDER BY a.score desc,a.time asc) as t";
         MyPagination m = baseRepository.getPageMap(pageNum, 20, sql);
+        log.info("paiming=" + m.toString());
         List<Map> mapList = (List<Map>) m.getList();
         if (null != mapList && mapList.size() > 0) {
             for (int i = 0; i < mapList.size(); i++) {
@@ -175,7 +290,17 @@ public class IndexController {
                 float floatTime1 = ((float) time1) / 1000;
                 map.put("time", floatTime1);
                 int userId = (Integer) map.get("user_id");
-                User u = (User) baseRepository.findBeanById(User.class, userId);
+                Object o = map.get("rownum");
+                //服务器返回的rownum类型为 BigInteger，本地为Double类型
+                if (o instanceof BigInteger) {
+                    BigInteger rownum1 = (BigInteger) o;
+                    map.put("rownum", rownum1.intValue());
+                } else {
+                    Double rownum1 = (Double) o;
+                    map.put("rownum", rownum1.intValue());
+                }
+                User u = null;
+                u = (User) baseRepository.findBeanById(User.class, userId);
                 if (null != u) {
                     map.put("name", u.getName());
                 } else {
@@ -184,8 +309,8 @@ public class IndexController {
 
             }
         }
-        modelAndView.addObject("allScore", m);
-        return modelAndView;
+        jsonObject.put("data", m);
+        return jsonObject;
     }
 
     /**
@@ -197,6 +322,37 @@ public class IndexController {
     public ModelAndView rule() {
         ModelAndView modelAndView = new ModelAndView("rule");
         return modelAndView;
+    }
+
+    /**
+     * 修改用户
+     *
+     * @param user 用 户
+     * @param yzm  验证码
+     * @return
+     */
+    @Transactional
+    @RequestMapping(value = "/updateInfo")
+    @ResponseBody
+    public JSONObject updateInfo(User user, String yzm) {
+        JSONObject jsonObject = new JSONObject();
+        String sessionYzm = (String) request.getSession().getAttribute(user.getTel());
+        if (null != sessionYzm && sessionYzm.equals(yzm)) {
+            try {
+                User u = baseRepository.merge(user);
+                jsonObject.put("code", 1);
+                jsonObject.put("msg", "修改成功");
+                jsonObject.put("user", u);
+            } catch (Exception e) {
+                e.printStackTrace();
+                jsonObject.put("code", 0);
+                jsonObject.put("msg", "修改失败");
+            }
+        } else {
+            jsonObject.put("code", 0);
+            jsonObject.put("msg", "验证码错误");
+        }
+        return jsonObject;
     }
 
     /**

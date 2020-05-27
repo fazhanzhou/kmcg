@@ -1,5 +1,5 @@
-// var globle_url = "https://wnd.agri114.cn/cg/"
-var globle_url = "http://192.168.71.134:8185/cg/"
+var globle_url = "https://wnd.agri114.cn/cg/"
+// var globle_url = "http://192.168.71.134:8185/cg/"
 
 function setCookie(key, value, expiredays) {
     var exdate = new Date()

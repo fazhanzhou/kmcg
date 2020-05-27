@@ -54,29 +54,25 @@ public class ResultController {
      */
     @Transactional
     @RequestMapping("/result")
-    public ModelAndView result(String tel, Integer score, String useTime) {
+    public ModelAndView addScore(String tel, Integer score, Long useTime) {
         ModelAndView modelAndView = new ModelAndView();
-
-        log.debug("useTime=" + useTime);
-        log.debug("tel=" + tel);
-        log.debug("score=" + score);
 
         //检查是否经过答题页面后到这里
         String verifyTel = (String) request.getSession().getAttribute("login");
 
-       /* if (StringUtils.isBlank(verifyTel)) {
+        /*if (StringUtils.isBlank(verifyTel)) {
             modelAndView.setViewName("redirect:/home");
-            System.out.println("未经过答题页面");
+            System.out.println("请您先答题");
             return modelAndView;
         }*/
         if (null == score || StringUtils.isBlank(tel)) {
-            modelAndView.setViewName("error.html");
+            modelAndView.setViewName("error1.html");
             modelAndView.addObject("msg", "缺少参数");
             return modelAndView;
         }
         User user = indexController.findUserByTel(tel);
         if (null == user) {
-            modelAndView.setViewName("error.html");
+            modelAndView.setViewName("error1.html");
             modelAndView.addObject("msg", "用户不存在");
             return modelAndView;
         }
@@ -88,20 +84,42 @@ public class ResultController {
         modelAndView.addObject("score", score);
         modelAndView.addObject("time", decimalFormat.format(Float.valueOf(useTime) / 1000));
         modelAndView.setViewName("score");
-        if (!inPlace(address,jiedao)) {
-            modelAndView.addObject("area", "对不起<br/>本活动仅限呈贡区居民参与发红包活动");
-        }else {
-            //判断是不是最好的成绩，如果是
+        if (!inPlace(address, jiedao)) {
+            modelAndView.addObject("area", "本活动仅限呈贡区居民参与排名发红包");
+        } else {
+            //判断是不是最好的成绩，如果是更新成绩，不是不做任何操作
+
+            //获取之前的成绩
+            String date = new SimpleDateFormat("yyyy-MM-dd").format(new Date());
+            String scoreSql = "select * from score_cg where user_id=" + user.getId() + " and Date(date) ='" + date+"'";
+            List<Score> scores = (List<Score>) baseRepository.findBeansBySql(scoreSql, null, Score.class);
             Score score1 = new Score();
             score1.setScore(score);
             score1.setTime(Long.valueOf(useTime));
             score1.setUserId(user.getId());
             score1.setDate(new Date());
-            try {
-                baseRepository.save(score1);
-            } catch (Exception e) {
-                e.printStackTrace();
+            if (null == scores || scores.size() <= 0) {
+                //之前没有成绩，直接存储成绩
+                try {
+                    baseRepository.merge(score1);
+                } catch (Exception e) {
+                    e.printStackTrace();
+                }
+            } else {
+                //之前有成绩，判断现在的成绩是否比之前好，如果好更新成绩，如果不好不做任何操作
+                Score scoreOld = scores.get(0);
+                int oldScore = scoreOld.getScore();
+                long oldTime = scoreOld.getTime();
+                if (score >= oldScore && useTime < oldTime) {
+                    try {
+                        score1.setId(scoreOld.getId());
+                        baseRepository.merge(score1);
+                    } catch (Exception e) {
+                        e.printStackTrace();
+                    }
+                }
             }
+
         }
 
         return modelAndView;

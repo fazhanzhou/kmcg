@@ -3,18 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no"/>
-    <title>注册</title>
+    <title>个人信息</title>
     <link th:href="@{/css/mui.css}" rel="stylesheet"/>
     <link th:href="@{/css/mui.picker.css}" rel="stylesheet"/>
     <link th:href="@{/css/mui.poppicker.css}" rel="stylesheet"/>
     <script th:src="@{/js/mui.js}"></script>
     <script th:src="@{/js/jquery-3.1.1.js}"></script>
     <style>
-
-        body{
-            -webkit-user-select: text;
-            -user-select: text;
-        }
         p {
             flex: 1;
             text-align: left;
@@ -48,24 +43,27 @@
         .as {
             margin: 2rem 2rem;
             display: flex;
-            height: 2rem;
-
+            height: 2rem
+        }
+        body{
+            -webkit-user-select: text;
+            -user-select: text;
         }
     </style>
 
 </head>
 <body style="text-align: center;background-color: white">
 <div style="text-align: center;background-color: white">
-    <div style="margin-top: 5rem;font-size: 2rem;margin-bottom: 3rem">注册</div>
+    <div style="margin-top: 5rem;font-size: 2rem;margin-bottom: 3rem">个人信息</div>
 
     <div class="as">
         <p>姓名:</p>
-        <input class="inputE" th:id="name"
+        <input class="inputE" th:id="name" th:value="${data.name}" readonly
                placeholder="请输入姓名"/>
     </div>
     <div class="as">
         <p>手机号:</p>
-        <input class="inputE" th:id="tel" type="tel"
+        <input class="inputE" th:id="tel" type="tel" th:value="${data.tel}" readonly
                placeholder="请输入手机号码"/>
     </div>
     <div style="text-align:center;margin-top:10px;">
@@ -78,16 +76,16 @@
                placeholder="请输入验证码"/>
     </div>
     <p style="margin-left: 2rem">住址或工作所在地:</p>
-    <input class="inputEe" th:id="address"
+    <input class="inputEe" th:id="address" th:value="${data.address}"
            placeholder="请输入地址"/>
     <div class="as">
         <p>街道:</p>
-        <input class="inputE" th:id="jiedao"
+        <input class="inputE" th:id="jiedao" th:value="${data.jiedao}"
                placeholder="请输入街道"/>
     </div>
 
     <div style="text-align:center;margin-top:3rem;">
-        <button id="reg" style="background-color:rgb(0,159,75);color:white;width:70%; border-radius: 20px;font-size: 1.5rem;">登录</button>
+        <button id="reg" style="background-color:rgb(0,159,75);color:white;width:70%; border-radius: 20px;font-size: 1.5rem;">修改</button>
     </div>
 </div>
 
@@ -95,7 +93,9 @@
 <script th:src="@{/js/mui.poppicker.js}"></script>
 <script th:src="@{/js/place1.js}"></script>
 <script th:src="@{/js/Utils.js}"></script>
-<script>
+<script th:inline="javascript">
+
+    var userId = [[${data.id}]]
     mui.ready(function () {
         $("#address").click(function () {
             showPlacePicker()
@@ -174,28 +174,26 @@
                     var btnArray = ['修改地址', '继续提交'];
                     mui.confirm('不按规则填写信息，则不在红包发放统计范围！',"提示", btnArray, function(e) {
                         if (e.index != 0) {
-                            $.get(globle_url + "saveUser", {"name": name, "tel": tel, "jiedao": jiedao, "address": address, "yzm": yzm_user}, function (data) {
+                            $.get(globle_url + "updateInfo", {"id":userId,"name": name, "tel": tel, "jiedao": jiedao, "address": address, "yzm": yzm_user}, function (data) {
                                 if (data.code == 0) {
                                     mui.alert(data.msg)
                                 } else {
-                                    setCookie("id", data.data.id);
-                                    setCookie("tel", data.data.tel);
-                                    var callBakUrl = globle_url + "getOpenId";
-                                    window.location.href = "https://www.yaoyaola.cn/index.php/exapi/check_user/24265?url=https://wnd.agri114.cn/cg/getOpenId?tel=" + data.data.tel + "&flag=0"
+                                    setCookie("id", data.user.id);
+                                    setCookie("tel", data.user.tel);
+                                    window.location.href = globle_url+"home"
                                 }
                             })
                         }
                     })
                 }else {
-                    $.get(globle_url + "saveUser", {"name": name, "tel": tel, "jiedao": jiedao, "address": address, "yzm": yzm_user}, function (data) {
+                    $.get(globle_url + "updateInfo", {"id":userId,"name": name, "tel": tel, "jiedao": jiedao, "address": address, "yzm": yzm_user}, function (data) {
 
                         if (data.code == 0) {
                             mui.alert(data.msg)
                         } else {
-                            setCookie("id", data.data.id);
-                            setCookie("tel", data.data.tel);
-                            var callBakUrl = globle_url + "getOpenId";
-                            window.location.href = "https://www.yaoyaola.cn/index.php/exapi/check_user/24265?url=https://wnd.agri114.cn/cg/getOpenId?tel=" + data.data.tel + "&flag=0"
+                            setCookie("id", data.user.id);
+                            setCookie("tel", data.user.tel);
+                            window.location.href = globle_url+"home"
                         }
 
                         //window.location.href = globle_url + "question?tel=" + data.data.tel

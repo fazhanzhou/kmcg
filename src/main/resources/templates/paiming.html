@@ -25,7 +25,10 @@
             height: calc(60vh);
             overflow: scroll;
         }
-        table,table tr th, table tr td { border:1px solid rgb(234,142,25); }
+
+        table, table tr th, table tr td {
+            border: 1px solid rgb(234, 142, 25);
+        }
     </style>
     <link th:href="@{/css/dropload.css}" rel="stylesheet"/>
     <script th:src="@{/js/jquery-3.1.1.js}"></script>
@@ -37,11 +40,13 @@
     <img th:src="@{/img/paiming_back.png}" width="100%" height="100%">
 </div>
 
-<p class="title" th:text="'我的排名:'+${#strings.substring(myScore.rownum,0,#strings.indexOf(myScore.rownum,'.'))}"></p>
+<!----><p class="title" th:text="'我的排名:'+${myScore.rownum}"></p>
 <p class="title" th:text="'最好成绩:答对'+${myScore.score}+'题,用时:'+${myScore.time}+'秒'"></p>
 <div id="content">
 
-    <table style="margin: 0 auto;border-color:rgb(234,142,25);" border="1" cellspacing="0"cellpadding="0" width="90%">
+    <!---->
+
+    <table style="margin: 0 auto;border-color:rgb(234,142,25);" border="1" cellspacing="0" cellpadding="0" width="90%">
         <thead>
         <tr>
             <th>名次</th>
@@ -52,7 +57,7 @@
         </thead>
         <tbody>
         <tr th:each="item:${allScore.list}">
-            <td th:text="${#strings.substring(item.rownum,0,#strings.indexOf(item.rownum,'.'))}"></td>
+            <td th:text="${item.rownum}"></td>
             <td th:text="${item.score}"></td>
             <td th:text="${item.time}"></td>
             <td th:text="${item.name}"></td>
@@ -65,8 +70,9 @@
 <script th:src="@{/js/Utils.js}"></script>
 
 </body>
-<script>
-    var totalpage = 5;
+<script th:inline="javascript" type="text/javascript">
+    var totalpage = [[${allScore.totalPage}]];
+    console.log("totalpage=" + totalpage)
     var pageNum = 1;
     //#content为某个div的id
     var dropload = $('#content').dropload({
@@ -79,41 +85,39 @@
             domLoad: '<div class="dropload-load"><span class="loading"></span>加载中...</div>'
         },*/
         domDown: {
-            domClass: 'dropload-down',
-            domRefresh: '<div class="dropload-refresh"></div>',
             domLoad: '<div class="dropload-load"><span class="loading"></span></div>',
-            domNoData: '<div class="dropload-noData"></div>'
+            domNoData: '<div class="dropload-noData">没有数据了</div>'
         },
         distance: 50,
         loadDownFn: function (me) {
             pageNum++
             console.log("pageNum=" + pageNum)
-            if (pageNum >= totalpage) {
+            if (pageNum > totalpage) {
+                $(".dropload-load").css("display","none")
+                $(".dropload-down").html("<div class=\"dropload-noData\">到底了</div>")
                 me.lock();
                 me.noData();
             } else {
                 //上拉加载更多需要调用的函数
-                console.log("dsads")
-                //定时器函数,为了看出上拉加载更多效果
-               /* setTimeout(function () {
-                    // 每次数据加载完，必须重置
-                    var result = "";
-                    for (var i = 0; i < 10; i++) {
-                        result += "<tr><td>"+i+"</td><td>"+i+"</td><td>"+i+"</td><td>"+i+"</td></tr>"
-                    }
-                    $("tbody").append(result)
-                    me.resetload();
-                }, 1000);*/
+                console.log("loadMore")
+                // getData(pageNum,me);
             }
-
-
         }
     });
 
-    function getData(pageNum) {
+    function getData(pageNum,me) {
+        $.get(globle_url + 'pai/' + pageNum, '', function (data) {
+            console.log(data)
 
+            var list = data.data.list
+            var result = "";
+            for (var i = 0; i < list.length; i++) {
+                result += "<tr><td>"+list[i].rownum+"</td><td>"+list[i].score+"</td><td>"+list[i].time+"</td><td>"+list[i].name+"</td></tr>"
+            }
+            $("tbody").append(result)
+            me.resetload();
+        });
     }
-
 
 
 </script>

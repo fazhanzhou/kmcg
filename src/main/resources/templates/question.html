@@ -9,24 +9,18 @@
     <style>
     </style>
 </head>
-<body>
-<div >
+<body style="width: 100%;height:100%;background-color: rgb(28,111,175)">
+<div style="width: 100%;height:100%;">
 
-    <div style="width: 100%;height: 100%;z-index: -1;position:absolute;left: 0px;top: 0px">
-
-        <img th:src="@{/img/clear.png}" width="100%" height="100%">
-    </div>
-
-
-    <div style="text-align: center;padding-top: 5rem">
+    <div style="text-align: center;padding-top: 3rem">
         <div style="width: 90%;background-color: rgb(254,231,181);margin: 0 auto;border-radius: 2rem;padding: 2rem 1rem;">
             <p id="time" style="font-size: 2rem;color:peru ">倒计时</p>
             <div id="question" style="color: peru"></div>
-            <div id="answers" style="margin: 3rem">
+            <div id="answers" style="margin: 1rem">
 
             </div>
         </div>
-        <img onclick="nextQuestion()" style="width: 40%;margin-top: 3rem" th:src="@{/img/next.png}">
+        <img onclick="nextQuestion()" style="width: 60%;margin-top: 1rem" th:src="@{/img/next.png}">
     </div>
 </div>
 
@@ -57,8 +51,6 @@
         //判断答案是否正确
         //正确答案
         var rightAnswer = data[nextIndex].right;
-        console.log("rightAnswer=" + rightAnswer)
-        console.log("userSelectedAnswer=" + userSelectedAnswer)
         var allA = $("#answers").children()
         switch (rightAnswer) {
             case 'A':
@@ -104,7 +96,6 @@
                 endTime = new Date()
                 var allTime = parseInt(endTime - startTime)
                 var score = right;
-                alert("总共答对题目数=" + right)
                 var tel = getCookie("tel");
                 if (tel == "") {
                     window.location.href = globle_url + "login"
@@ -128,7 +119,7 @@
         var answersArr = data[index].answers
         for (var i = 0; i < answersArr.length; i++) {
             // var a = $("<p style='background-color: white;color: black;border-radius: 2rem;padding: 0.6rem'>" + answersArr[i].answer + "<p/>")
-            var a = $("<div style='display: flex;background-color: white;border-radius: 2rem;padding: 0.4rem;margin: 1rem 0'><p style='flex:6;color: black;margin: 0px;line-height: 2rem;font-size: 1.1rem'>" + answersArr[i].answer + "</p><img style='flex:1;height: 2rem;display: none' /></div>");
+            var a = $("<div style='display: flex;background-color: white;border-radius: 1rem;padding: 0.4rem;margin: 1rem 0'><p style='flex:6;color: black;margin: 0px;line-height: 2rem;font-size: 1.1rem'>" + answersArr[i].answer + "</p><img style='flex:1;height: 2rem;display: none' /></div>");
 
             a.click(function (e) {
                 userSelectedAnswer = $(e.target).text().substring(0, 1)

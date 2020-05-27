@@ -15,7 +15,13 @@ public interface BaseRepository {
      * @param c
      */
     void save(Object c);
-
+    /**
+     * 更新数据:有id更新数据，没有id插入数据
+     *
+     * @param o 修改的类
+     * @return 新的类
+     */
+    <T> T merge(T o);
     /**
      * 执行sql
      * @param sql

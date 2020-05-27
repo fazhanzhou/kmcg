@@ -396,3 +396,1094 @@ kmcg 2020-05-25 19:14:25,615 [restartedMain] [INFO ] [KmcgApplication-logStartin
 kmcg 2020-05-25 19:14:25,616 [restartedMain] [DEBUG] [KmcgApplication-logStarting] - Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
 kmcg 2020-05-25 19:14:25,616 [restartedMain] [INFO ] [KmcgApplication-logStartupProfileInfo] - No active profile set, falling back to default profiles: default
 kmcg 2020-05-25 19:14:26,649 [restartedMain] [INFO ] [KmcgApplication-logStarted] - Started KmcgApplication in 1.107 seconds (JVM running for 68.712)
+kmcg 2020-05-26 08:40:47,879 [restartedMain] [INFO ] [KmcgApplication-logStarting] - Starting KmcgApplication on ZFZ with PID 8428 (D:\IdeaWorkSpace\kmcg\target\classes started by Administrator in D:\IdeaWorkSpace\kmcg)
+kmcg 2020-05-26 08:40:47,880 [restartedMain] [DEBUG] [KmcgApplication-logStarting] - Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
+kmcg 2020-05-26 08:40:47,880 [restartedMain] [INFO ] [KmcgApplication-logStartupProfileInfo] - No active profile set, falling back to default profiles: default
+kmcg 2020-05-26 08:40:49,186 [restartedMain] [INFO ] [KmcgApplication-logStarted] - Started KmcgApplication in 1.361 seconds (JVM running for 48449.998)
+kmcg 2020-05-26 08:44:04,032 [restartedMain] [INFO ] [KmcgApplication-logStarting] - Starting KmcgApplication on ZFZ with PID 8428 (D:\IdeaWorkSpace\kmcg\target\classes started by Administrator in D:\IdeaWorkSpace\kmcg)
+kmcg 2020-05-26 08:44:04,032 [restartedMain] [DEBUG] [KmcgApplication-logStarting] - Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
+kmcg 2020-05-26 08:44:04,033 [restartedMain] [INFO ] [KmcgApplication-logStartupProfileInfo] - No active profile set, falling back to default profiles: default
+kmcg 2020-05-26 08:44:05,194 [restartedMain] [INFO ] [KmcgApplication-logStarted] - Started KmcgApplication in 1.206 seconds (JVM running for 48646.002)
+kmcg 2020-05-26 08:49:09,181 [restartedMain] [INFO ] [KmcgApplication-logStarting] - Starting KmcgApplication on ZFZ with PID 13032 (D:\IdeaWorkSpace\kmcg\target\classes started by Administrator in D:\IdeaWorkSpace\kmcg)
+kmcg 2020-05-26 08:49:09,184 [restartedMain] [DEBUG] [KmcgApplication-logStarting] - Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
+kmcg 2020-05-26 08:49:09,184 [restartedMain] [INFO ] [KmcgApplication-logStartupProfileInfo] - No active profile set, falling back to default profiles: default
+kmcg 2020-05-26 08:49:13,780 [restartedMain] [INFO ] [KmcgApplication-logStarted] - Started KmcgApplication in 5.276 seconds (JVM running for 6.182)
+kmcg 2020-05-26 08:51:51,959 [restartedMain] [INFO ] [KmcgApplication-logStarting] - Starting KmcgApplication on ZFZ with PID 13032 (D:\IdeaWorkSpace\kmcg\target\classes started by Administrator in D:\IdeaWorkSpace\kmcg)
+kmcg 2020-05-26 08:51:51,960 [restartedMain] [DEBUG] [KmcgApplication-logStarting] - Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
+kmcg 2020-05-26 08:51:51,960 [restartedMain] [INFO ] [KmcgApplication-logStartupProfileInfo] - No active profile set, falling back to default profiles: default
+kmcg 2020-05-26 08:52:13,885 [restartedMain] [INFO ] [KmcgApplication-logStarting] - Starting KmcgApplication on ZFZ with PID 12244 (D:\IdeaWorkSpace\kmcg\target\classes started by Administrator in D:\IdeaWorkSpace\kmcg)
+kmcg 2020-05-26 08:52:13,888 [restartedMain] [DEBUG] [KmcgApplication-logStarting] - Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
+kmcg 2020-05-26 08:52:13,888 [restartedMain] [INFO ] [KmcgApplication-logStartupProfileInfo] - No active profile set, falling back to default profiles: default
+kmcg 2020-05-26 08:52:18,602 [restartedMain] [INFO ] [KmcgApplication-logStarted] - Started KmcgApplication in 5.362 seconds (JVM running for 6.2)
+kmcg 2020-05-26 09:49:47,077 [restartedMain] [INFO ] [KmcgApplication-logStarting] - Starting KmcgApplication on ZFZ with PID 12244 (D:\IdeaWorkSpace\kmcg\target\classes started by Administrator in D:\IdeaWorkSpace\kmcg)
+kmcg 2020-05-26 09:49:47,077 [restartedMain] [DEBUG] [KmcgApplication-logStarting] - Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
+kmcg 2020-05-26 09:49:47,077 [restartedMain] [INFO ] [KmcgApplication-logStartupProfileInfo] - No active profile set, falling back to default profiles: default
+kmcg 2020-05-26 09:49:48,401 [restartedMain] [INFO ] [KmcgApplication-logStarted] - Started KmcgApplication in 1.419 seconds (JVM running for 3455.91)
+kmcg 2020-05-26 09:59:20,836 [restartedMain] [INFO ] [KmcgApplication-logStarting] - Starting KmcgApplication on ZFZ with PID 12244 (D:\IdeaWorkSpace\kmcg\target\classes started by Administrator in D:\IdeaWorkSpace\kmcg)
+kmcg 2020-05-26 09:59:20,838 [restartedMain] [DEBUG] [KmcgApplication-logStarting] - Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
+kmcg 2020-05-26 09:59:20,844 [restartedMain] [INFO ] [KmcgApplication-logStartupProfileInfo] - No active profile set, falling back to default profiles: default
+kmcg 2020-05-26 09:59:21,904 [restartedMain] [INFO ] [KmcgApplication-logStarted] - Started KmcgApplication in 1.247 seconds (JVM running for 4029.398)
+kmcg 2020-05-26 10:00:16,410 [restartedMain] [INFO ] [KmcgApplication-logStarting] - Starting KmcgApplication on ZFZ with PID 12244 (D:\IdeaWorkSpace\kmcg\target\classes started by Administrator in D:\IdeaWorkSpace\kmcg)
+kmcg 2020-05-26 10:00:16,410 [restartedMain] [DEBUG] [KmcgApplication-logStarting] - Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
+kmcg 2020-05-26 10:00:16,410 [restartedMain] [INFO ] [KmcgApplication-logStartupProfileInfo] - No active profile set, falling back to default profiles: default
+kmcg 2020-05-26 10:00:17,491 [restartedMain] [INFO ] [KmcgApplication-logStarted] - Started KmcgApplication in 1.136 seconds (JVM running for 4084.983)
+kmcg 2020-05-26 10:11:23,851 [restartedMain] [INFO ] [KmcgApplication-logStarting] - Starting KmcgApplication on ZFZ with PID 12244 (D:\IdeaWorkSpace\kmcg\target\classes started by Administrator in D:\IdeaWorkSpace\kmcg)
+kmcg 2020-05-26 10:11:23,851 [restartedMain] [DEBUG] [KmcgApplication-logStarting] - Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
+kmcg 2020-05-26 10:11:23,851 [restartedMain] [INFO ] [KmcgApplication-logStartupProfileInfo] - No active profile set, falling back to default profiles: default
+kmcg 2020-05-26 10:11:36,119 [restartedMain] [INFO ] [KmcgApplication-logStarting] - Starting KmcgApplication on ZFZ with PID 9364 (D:\IdeaWorkSpace\kmcg\target\classes started by Administrator in D:\IdeaWorkSpace\kmcg)
+kmcg 2020-05-26 10:11:36,122 [restartedMain] [DEBUG] [KmcgApplication-logStarting] - Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
+kmcg 2020-05-26 10:11:36,123 [restartedMain] [INFO ] [KmcgApplication-logStartupProfileInfo] - No active profile set, falling back to default profiles: default
+kmcg 2020-05-26 10:11:40,862 [restartedMain] [INFO ] [KmcgApplication-logStarted] - Started KmcgApplication in 5.542 seconds (JVM running for 6.682)
+kmcg 2020-05-26 10:12:20,810 [restartedMain] [INFO ] [KmcgApplication-logStarting] - Starting KmcgApplication on ZFZ with PID 11200 (D:\IdeaWorkSpace\kmcg\target\classes started by Administrator in D:\IdeaWorkSpace\kmcg)
+kmcg 2020-05-26 10:12:20,823 [restartedMain] [DEBUG] [KmcgApplication-logStarting] - Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
+kmcg 2020-05-26 10:12:20,823 [restartedMain] [INFO ] [KmcgApplication-logStartupProfileInfo] - No active profile set, falling back to default profiles: default
+kmcg 2020-05-26 10:12:25,548 [restartedMain] [INFO ] [KmcgApplication-logStarted] - Started KmcgApplication in 5.384 seconds (JVM running for 8.141)
+kmcg 2020-05-26 10:12:59,092 [restartedMain] [INFO ] [KmcgApplication-logStarting] - Starting KmcgApplication on ZFZ with PID 11200 (D:\IdeaWorkSpace\kmcg\target\classes started by Administrator in D:\IdeaWorkSpace\kmcg)
+kmcg 2020-05-26 10:12:59,093 [restartedMain] [DEBUG] [KmcgApplication-logStarting] - Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
+kmcg 2020-05-26 10:12:59,093 [restartedMain] [INFO ] [KmcgApplication-logStartupProfileInfo] - No active profile set, falling back to default profiles: default
+kmcg 2020-05-26 10:13:00,290 [restartedMain] [INFO ] [KmcgApplication-logStarted] - Started KmcgApplication in 1.265 seconds (JVM running for 42.882)
+kmcg 2020-05-26 10:17:42,207 [restartedMain] [INFO ] [KmcgApplication-logStarting] - Starting KmcgApplication on ZFZ with PID 11200 (D:\IdeaWorkSpace\kmcg\target\classes started by Administrator in D:\IdeaWorkSpace\kmcg)
+kmcg 2020-05-26 10:17:42,208 [restartedMain] [DEBUG] [KmcgApplication-logStarting] - Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
+kmcg 2020-05-26 10:17:42,208 [restartedMain] [INFO ] [KmcgApplication-logStartupProfileInfo] - No active profile set, falling back to default profiles: default
+kmcg 2020-05-26 10:17:53,600 [restartedMain] [INFO ] [KmcgApplication-logStarting] - Starting KmcgApplication on ZFZ with PID 12664 (D:\IdeaWorkSpace\kmcg\target\classes started by Administrator in D:\IdeaWorkSpace\kmcg)
+kmcg 2020-05-26 10:17:53,603 [restartedMain] [DEBUG] [KmcgApplication-logStarting] - Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
+kmcg 2020-05-26 10:17:53,603 [restartedMain] [INFO ] [KmcgApplication-logStartupProfileInfo] - No active profile set, falling back to default profiles: default
+kmcg 2020-05-26 10:17:58,301 [restartedMain] [INFO ] [KmcgApplication-logStarted] - Started KmcgApplication in 5.246 seconds (JVM running for 6.588)
+kmcg 2020-05-26 10:23:14,161 [restartedMain] [INFO ] [KmcgApplication-logStarting] - Starting KmcgApplication on ZFZ with PID 12664 (D:\IdeaWorkSpace\kmcg\target\classes started by Administrator in D:\IdeaWorkSpace\kmcg)
+kmcg 2020-05-26 10:23:14,162 [restartedMain] [DEBUG] [KmcgApplication-logStarting] - Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
+kmcg 2020-05-26 10:23:14,162 [restartedMain] [INFO ] [KmcgApplication-logStartupProfileInfo] - No active profile set, falling back to default profiles: default
+kmcg 2020-05-26 10:23:15,226 [restartedMain] [INFO ] [KmcgApplication-logStarted] - Started KmcgApplication in 1.124 seconds (JVM running for 323.505)
+kmcg 2020-05-26 10:25:47,375 [restartedMain] [INFO ] [KmcgApplication-logStarting] - Starting KmcgApplication on ZFZ with PID 12664 (D:\IdeaWorkSpace\kmcg\target\classes started by Administrator in D:\IdeaWorkSpace\kmcg)
+kmcg 2020-05-26 10:25:47,375 [restartedMain] [DEBUG] [KmcgApplication-logStarting] - Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
+kmcg 2020-05-26 10:25:47,375 [restartedMain] [INFO ] [KmcgApplication-logStartupProfileInfo] - No active profile set, falling back to default profiles: default
+kmcg 2020-05-26 10:25:48,543 [restartedMain] [INFO ] [KmcgApplication-logStarted] - Started KmcgApplication in 1.23 seconds (JVM running for 476.818)
+kmcg 2020-05-26 10:26:29,326 [restartedMain] [INFO ] [KmcgApplication-logStarting] - Starting KmcgApplication on ZFZ with PID 12664 (D:\IdeaWorkSpace\kmcg\target\classes started by Administrator in D:\IdeaWorkSpace\kmcg)
+kmcg 2020-05-26 10:26:29,327 [restartedMain] [DEBUG] [KmcgApplication-logStarting] - Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
+kmcg 2020-05-26 10:26:29,327 [restartedMain] [INFO ] [KmcgApplication-logStartupProfileInfo] - No active profile set, falling back to default profiles: default
+kmcg 2020-05-26 10:26:30,339 [restartedMain] [INFO ] [KmcgApplication-logStarted] - Started KmcgApplication in 1.051 seconds (JVM running for 518.613)
+kmcg 2020-05-26 10:31:32,414 [restartedMain] [INFO ] [KmcgApplication-logStarting] - Starting KmcgApplication on ZFZ with PID 12008 (D:\IdeaWorkSpace\kmcg\target\classes started by Administrator in D:\IdeaWorkSpace\kmcg)
+kmcg 2020-05-26 10:31:32,417 [restartedMain] [DEBUG] [KmcgApplication-logStarting] - Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
+kmcg 2020-05-26 10:31:32,417 [restartedMain] [INFO ] [KmcgApplication-logStartupProfileInfo] - No active profile set, falling back to default profiles: default
+kmcg 2020-05-26 10:31:37,090 [restartedMain] [INFO ] [KmcgApplication-logStarted] - Started KmcgApplication in 5.572 seconds (JVM running for 8.822)
+kmcg 2020-05-26 10:48:15,993 [restartedMain] [INFO ] [KmcgApplication-logStarting] - Starting KmcgApplication on ZFZ with PID 12008 (D:\IdeaWorkSpace\kmcg\target\classes started by Administrator in D:\IdeaWorkSpace\kmcg)
+kmcg 2020-05-26 10:48:15,993 [restartedMain] [DEBUG] [KmcgApplication-logStarting] - Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
+kmcg 2020-05-26 10:48:15,994 [restartedMain] [INFO ] [KmcgApplication-logStartupProfileInfo] - No active profile set, falling back to default profiles: default
+kmcg 2020-05-26 10:48:36,589 [restartedMain] [INFO ] [KmcgApplication-logStarting] - Starting KmcgApplication on ZFZ with PID 9000 (D:\IdeaWorkSpace\kmcg\target\classes started by Administrator in D:\IdeaWorkSpace\kmcg)
+kmcg 2020-05-26 10:48:36,592 [restartedMain] [DEBUG] [KmcgApplication-logStarting] - Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
+kmcg 2020-05-26 10:48:36,592 [restartedMain] [INFO ] [KmcgApplication-logStartupProfileInfo] - No active profile set, falling back to default profiles: default
+kmcg 2020-05-26 10:48:41,226 [restartedMain] [INFO ] [KmcgApplication-logStarted] - Started KmcgApplication in 5.299 seconds (JVM running for 6.29)
+kmcg 2020-05-26 11:16:57,800 [http-nio-8185-exec-2] [DEBUG] [ResultController-result] - useTime=2222
+kmcg 2020-05-26 11:16:57,800 [http-nio-8185-exec-2] [DEBUG] [ResultController-result] - tel=18805174084
+kmcg 2020-05-26 11:16:57,801 [http-nio-8185-exec-2] [DEBUG] [ResultController-result] - score=4
+kmcg 2020-05-26 11:18:03,213 [restartedMain] [INFO ] [KmcgApplication-logStarting] - Starting KmcgApplication on ZFZ with PID 9000 (D:\IdeaWorkSpace\kmcg\target\classes started by Administrator in D:\IdeaWorkSpace\kmcg)
+kmcg 2020-05-26 11:18:03,213 [restartedMain] [DEBUG] [KmcgApplication-logStarting] - Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
+kmcg 2020-05-26 11:18:03,214 [restartedMain] [INFO ] [KmcgApplication-logStartupProfileInfo] - No active profile set, falling back to default profiles: default
+kmcg 2020-05-26 11:18:04,360 [restartedMain] [INFO ] [KmcgApplication-logStarted] - Started KmcgApplication in 1.232 seconds (JVM running for 1769.378)
+kmcg 2020-05-26 11:19:30,652 [restartedMain] [INFO ] [KmcgApplication-logStarting] - Starting KmcgApplication on ZFZ with PID 9000 (D:\IdeaWorkSpace\kmcg\target\classes started by Administrator in D:\IdeaWorkSpace\kmcg)
+kmcg 2020-05-26 11:19:30,653 [restartedMain] [DEBUG] [KmcgApplication-logStarting] - Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
+kmcg 2020-05-26 11:19:30,653 [restartedMain] [INFO ] [KmcgApplication-logStartupProfileInfo] - No active profile set, falling back to default profiles: default
+kmcg 2020-05-26 11:19:31,750 [restartedMain] [INFO ] [KmcgApplication-logStarted] - Started KmcgApplication in 1.159 seconds (JVM running for 1856.766)
+kmcg 2020-05-26 11:19:40,110 [http-nio-8185-exec-1] [DEBUG] [ResultController-result] - useTime=2222
+kmcg 2020-05-26 11:19:40,414 [http-nio-8185-exec-1] [DEBUG] [ResultController-result] - tel=18805174084
+kmcg 2020-05-26 11:19:40,693 [http-nio-8185-exec-1] [DEBUG] [ResultController-result] - score=4
+kmcg 2020-05-26 11:20:36,968 [restartedMain] [INFO ] [KmcgApplication-logStarting] - Starting KmcgApplication on ZFZ with PID 9000 (D:\IdeaWorkSpace\kmcg\target\classes started by Administrator in D:\IdeaWorkSpace\kmcg)
+kmcg 2020-05-26 11:20:36,968 [restartedMain] [DEBUG] [KmcgApplication-logStarting] - Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
+kmcg 2020-05-26 11:20:36,969 [restartedMain] [INFO ] [KmcgApplication-logStartupProfileInfo] - No active profile set, falling back to default profiles: default
+kmcg 2020-05-26 11:20:38,433 [restartedMain] [INFO ] [KmcgApplication-logStarted] - Started KmcgApplication in 1.51 seconds (JVM running for 1923.447)
+kmcg 2020-05-26 11:20:56,965 [restartedMain] [INFO ] [KmcgApplication-logStarting] - Starting KmcgApplication on ZFZ with PID 11528 (D:\IdeaWorkSpace\kmcg\target\classes started by Administrator in D:\IdeaWorkSpace\kmcg)
+kmcg 2020-05-26 11:20:56,968 [restartedMain] [DEBUG] [KmcgApplication-logStarting] - Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
+kmcg 2020-05-26 11:20:56,969 [restartedMain] [INFO ] [KmcgApplication-logStartupProfileInfo] - No active profile set, falling back to default profiles: default
+kmcg 2020-05-26 11:21:01,596 [restartedMain] [INFO ] [KmcgApplication-logStarted] - Started KmcgApplication in 5.124 seconds (JVM running for 7.19)
+kmcg 2020-05-26 11:21:07,543 [http-nio-8185-exec-1] [DEBUG] [ResultController-result] - useTime=2222
+kmcg 2020-05-26 11:21:07,544 [http-nio-8185-exec-1] [DEBUG] [ResultController-result] - tel=18805174084
+kmcg 2020-05-26 11:21:07,545 [http-nio-8185-exec-1] [DEBUG] [ResultController-result] - score=4
+kmcg 2020-05-26 11:22:03,718 [http-nio-8185-exec-7] [DEBUG] [ResultController-result] - useTime=22
+kmcg 2020-05-26 11:22:03,719 [http-nio-8185-exec-7] [DEBUG] [ResultController-result] - tel=18805174084
+kmcg 2020-05-26 11:22:03,720 [http-nio-8185-exec-7] [DEBUG] [ResultController-result] - score=4
+kmcg 2020-05-26 11:25:23,036 [restartedMain] [INFO ] [KmcgApplication-logStarting] - Starting KmcgApplication on ZFZ with PID 11528 (D:\IdeaWorkSpace\kmcg\target\classes started by Administrator in D:\IdeaWorkSpace\kmcg)
+kmcg 2020-05-26 11:25:23,037 [restartedMain] [DEBUG] [KmcgApplication-logStarting] - Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
+kmcg 2020-05-26 11:25:23,037 [restartedMain] [INFO ] [KmcgApplication-logStartupProfileInfo] - No active profile set, falling back to default profiles: default
+kmcg 2020-05-26 11:25:38,581 [restartedMain] [INFO ] [KmcgApplication-logStarting] - Starting KmcgApplication on ZFZ with PID 12448 (D:\IdeaWorkSpace\kmcg\target\classes started by Administrator in D:\IdeaWorkSpace\kmcg)
+kmcg 2020-05-26 11:25:38,584 [restartedMain] [DEBUG] [KmcgApplication-logStarting] - Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
+kmcg 2020-05-26 11:25:38,584 [restartedMain] [INFO ] [KmcgApplication-logStartupProfileInfo] - No active profile set, falling back to default profiles: default
+kmcg 2020-05-26 11:25:43,198 [restartedMain] [INFO ] [KmcgApplication-logStarted] - Started KmcgApplication in 5.314 seconds (JVM running for 6.188)
+kmcg 2020-05-26 11:25:47,250 [http-nio-8185-exec-1] [DEBUG] [ResultController-result] - useTime=22
+kmcg 2020-05-26 11:25:47,250 [http-nio-8185-exec-1] [DEBUG] [ResultController-result] - tel=18805174084
+kmcg 2020-05-26 11:25:47,250 [http-nio-8185-exec-1] [DEBUG] [ResultController-result] - score=4
+kmcg 2020-05-26 12:55:26,782 [http-nio-8185-exec-2] [DEBUG] [IndexController-checkTime] - 4-26-12
+kmcg 2020-05-26 12:55:39,799 [http-nio-8185-exec-6] [DEBUG] [IndexController-checkTime] - 4-26-12
+kmcg 2020-05-26 12:56:07,830 [restartedMain] [INFO ] [KmcgApplication-logStarting] - Starting KmcgApplication on ZFZ with PID 12448 (D:\IdeaWorkSpace\kmcg\target\classes started by Administrator in D:\IdeaWorkSpace\kmcg)
+kmcg 2020-05-26 12:56:07,831 [restartedMain] [DEBUG] [KmcgApplication-logStarting] - Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
+kmcg 2020-05-26 12:56:07,831 [restartedMain] [INFO ] [KmcgApplication-logStartupProfileInfo] - No active profile set, falling back to default profiles: default
+kmcg 2020-05-26 12:57:03,076 [restartedMain] [INFO ] [KmcgApplication-logStarting] - Starting KmcgApplication on ZFZ with PID 11192 (D:\IdeaWorkSpace\kmcg\target\classes started by Administrator in D:\IdeaWorkSpace\kmcg)
+kmcg 2020-05-26 12:57:03,079 [restartedMain] [DEBUG] [KmcgApplication-logStarting] - Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
+kmcg 2020-05-26 12:57:03,079 [restartedMain] [INFO ] [KmcgApplication-logStartupProfileInfo] - No active profile set, falling back to default profiles: default
+kmcg 2020-05-26 12:57:07,730 [restartedMain] [INFO ] [KmcgApplication-logStarted] - Started KmcgApplication in 5.31 seconds (JVM running for 6.8)
+kmcg 2020-05-26 12:57:10,629 [http-nio-8185-exec-8] [DEBUG] [IndexController-checkTime] - 4-26-12
+kmcg 2020-05-26 12:57:16,562 [http-nio-8185-exec-6] [DEBUG] [IndexController-checkTime] - 4-26-12
+kmcg 2020-05-26 12:57:17,612 [http-nio-8185-exec-2] [DEBUG] [IndexController-checkTime] - 4-26-12
+kmcg 2020-05-26 12:57:18,636 [http-nio-8185-exec-9] [DEBUG] [IndexController-checkTime] - 4-26-12
+kmcg 2020-05-26 12:57:19,478 [http-nio-8185-exec-4] [DEBUG] [IndexController-checkTime] - 4-26-12
+kmcg 2020-05-26 12:57:20,453 [http-nio-8185-exec-3] [DEBUG] [IndexController-checkTime] - 4-26-12
+kmcg 2020-05-26 12:57:21,453 [http-nio-8185-exec-10] [DEBUG] [IndexController-checkTime] - 4-26-12
+kmcg 2020-05-26 12:57:22,369 [http-nio-8185-exec-5] [DEBUG] [IndexController-checkTime] - 4-26-12
+kmcg 2020-05-26 12:57:23,284 [http-nio-8185-exec-4] [DEBUG] [IndexController-checkTime] - 4-26-12
+kmcg 2020-05-26 12:57:24,197 [http-nio-8185-exec-3] [DEBUG] [IndexController-checkTime] - 4-26-12
+kmcg 2020-05-26 12:57:25,068 [http-nio-8185-exec-8] [DEBUG] [IndexController-checkTime] - 4-26-12
+kmcg 2020-05-26 12:57:25,978 [http-nio-8185-exec-6] [DEBUG] [IndexController-checkTime] - 4-26-12
+kmcg 2020-05-26 12:57:26,937 [http-nio-8185-exec-1] [DEBUG] [IndexController-checkTime] - 4-26-12
+kmcg 2020-05-26 12:57:27,849 [http-nio-8185-exec-9] [DEBUG] [IndexController-checkTime] - 4-26-12
+kmcg 2020-05-26 12:57:28,744 [http-nio-8185-exec-7] [DEBUG] [IndexController-checkTime] - 4-26-12
+kmcg 2020-05-26 12:57:29,631 [http-nio-8185-exec-2] [DEBUG] [IndexController-checkTime] - 4-26-12
+kmcg 2020-05-26 12:57:30,514 [http-nio-8185-exec-10] [DEBUG] [IndexController-checkTime] - 4-26-12
+kmcg 2020-05-26 12:57:31,381 [http-nio-8185-exec-5] [DEBUG] [IndexController-checkTime] - 4-26-12
+kmcg 2020-05-26 12:57:32,235 [http-nio-8185-exec-4] [DEBUG] [IndexController-checkTime] - 4-26-12
+kmcg 2020-05-26 12:57:33,153 [http-nio-8185-exec-3] [DEBUG] [IndexController-checkTime] - 4-26-12
+kmcg 2020-05-26 12:57:34,076 [http-nio-8185-exec-10] [DEBUG] [IndexController-checkTime] - 4-26-12
+kmcg 2020-05-26 12:57:35,011 [http-nio-8185-exec-5] [DEBUG] [IndexController-checkTime] - 4-26-12
+kmcg 2020-05-26 12:57:36,358 [http-nio-8185-exec-2] [DEBUG] [IndexController-checkTime] - 4-26-12
+kmcg 2020-05-26 12:59:42,480 [http-nio-8185-exec-4] [DEBUG] [IndexController-checkTime] - 4-26-12
+kmcg 2020-05-26 13:00:22,480 [http-nio-8185-exec-9] [DEBUG] [ResultController-result] - useTime=37995
+kmcg 2020-05-26 13:00:22,481 [http-nio-8185-exec-9] [DEBUG] [ResultController-result] - tel=18805174084
+kmcg 2020-05-26 13:00:22,481 [http-nio-8185-exec-9] [DEBUG] [ResultController-result] - score=4
+kmcg 2020-05-26 13:01:39,129 [http-nio-8185-exec-7] [DEBUG] [ResultController-result] - useTime=37995
+kmcg 2020-05-26 13:01:39,130 [http-nio-8185-exec-7] [DEBUG] [ResultController-result] - tel=18805174084
+kmcg 2020-05-26 13:01:39,130 [http-nio-8185-exec-7] [DEBUG] [ResultController-result] - score=4
+kmcg 2020-05-26 13:01:54,337 [http-nio-8185-exec-5] [DEBUG] [ResultController-result] - useTime=37995
+kmcg 2020-05-26 13:01:54,338 [http-nio-8185-exec-5] [DEBUG] [ResultController-result] - tel=18805174084
+kmcg 2020-05-26 13:01:54,338 [http-nio-8185-exec-5] [DEBUG] [ResultController-result] - score=4
+kmcg 2020-05-26 13:02:48,434 [http-nio-8185-exec-6] [DEBUG] [ResultController-result] - useTime=21
+kmcg 2020-05-26 13:02:48,435 [http-nio-8185-exec-6] [DEBUG] [ResultController-result] - tel=18805174084
+kmcg 2020-05-26 13:02:48,436 [http-nio-8185-exec-6] [DEBUG] [ResultController-result] - score=4
+kmcg 2020-05-26 13:44:44,312 [restartedMain] [INFO ] [KmcgApplication-logStarting] - Starting KmcgApplication on ZFZ with PID 9672 (D:\IdeaWorkSpace\kmcg\target\classes started by Administrator in D:\IdeaWorkSpace\kmcg)
+kmcg 2020-05-26 13:44:44,315 [restartedMain] [DEBUG] [KmcgApplication-logStarting] - Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
+kmcg 2020-05-26 13:44:44,315 [restartedMain] [INFO ] [KmcgApplication-logStartupProfileInfo] - No active profile set, falling back to default profiles: default
+kmcg 2020-05-26 13:44:49,048 [restartedMain] [INFO ] [KmcgApplication-logStarted] - Started KmcgApplication in 5.282 seconds (JVM running for 6.257)
+kmcg 2020-05-26 13:55:24,391 [http-nio-8185-exec-7] [DEBUG] [IndexController-checkTime] - 4-26-13
+kmcg 2020-05-26 13:56:08,962 [http-nio-8185-exec-9] [DEBUG] [IndexController-checkTime] - 4-26-13
+kmcg 2020-05-26 14:16:41,184 [restartedMain] [INFO ] [KmcgApplication-logStarting] - Starting KmcgApplication on ZFZ with PID 12884 (D:\IdeaWorkSpace\kmcg\target\classes started by Administrator in D:\IdeaWorkSpace\kmcg)
+kmcg 2020-05-26 14:16:41,186 [restartedMain] [DEBUG] [KmcgApplication-logStarting] - Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
+kmcg 2020-05-26 14:16:41,187 [restartedMain] [INFO ] [KmcgApplication-logStartupProfileInfo] - No active profile set, falling back to default profiles: default
+kmcg 2020-05-26 14:16:45,529 [restartedMain] [INFO ] [KmcgApplication-logStarted] - Started KmcgApplication in 4.711 seconds (JVM running for 6.243)
+kmcg 2020-05-26 14:20:05,922 [restartedMain] [INFO ] [KmcgApplication-logStarting] - Starting KmcgApplication on ZFZ with PID 12884 (D:\IdeaWorkSpace\kmcg\target\classes started by Administrator in D:\IdeaWorkSpace\kmcg)
+kmcg 2020-05-26 14:20:05,923 [restartedMain] [DEBUG] [KmcgApplication-logStarting] - Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
+kmcg 2020-05-26 14:20:05,923 [restartedMain] [INFO ] [KmcgApplication-logStartupProfileInfo] - No active profile set, falling back to default profiles: default
+kmcg 2020-05-26 14:20:06,861 [restartedMain] [INFO ] [KmcgApplication-logStarted] - Started KmcgApplication in 0.97 seconds (JVM running for 207.569)
+kmcg 2020-05-26 14:21:17,229 [restartedMain] [INFO ] [KmcgApplication-logStarting] - Starting KmcgApplication on ZFZ with PID 12884 (D:\IdeaWorkSpace\kmcg\target\classes started by Administrator in D:\IdeaWorkSpace\kmcg)
+kmcg 2020-05-26 14:21:17,229 [restartedMain] [DEBUG] [KmcgApplication-logStarting] - Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
+kmcg 2020-05-26 14:21:17,230 [restartedMain] [INFO ] [KmcgApplication-logStartupProfileInfo] - No active profile set, falling back to default profiles: default
+kmcg 2020-05-26 14:21:39,744 [restartedMain] [INFO ] [KmcgApplication-logStarting] - Starting KmcgApplication on ZFZ with PID 11140 (D:\IdeaWorkSpace\kmcg\target\classes started by Administrator in D:\IdeaWorkSpace\kmcg)
+kmcg 2020-05-26 14:21:39,747 [restartedMain] [DEBUG] [KmcgApplication-logStarting] - Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
+kmcg 2020-05-26 14:21:39,747 [restartedMain] [INFO ] [KmcgApplication-logStartupProfileInfo] - No active profile set, falling back to default profiles: default
+kmcg 2020-05-26 14:21:43,635 [restartedMain] [INFO ] [KmcgApplication-logStarted] - Started KmcgApplication in 4.373 seconds (JVM running for 5.313)
+kmcg 2020-05-26 14:30:03,573 [restartedMain] [INFO ] [KmcgApplication-logStarting] - Starting KmcgApplication on ZFZ with PID 11140 (D:\IdeaWorkSpace\kmcg\target\classes started by Administrator in D:\IdeaWorkSpace\kmcg)
+kmcg 2020-05-26 14:30:03,573 [restartedMain] [DEBUG] [KmcgApplication-logStarting] - Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
+kmcg 2020-05-26 14:30:03,573 [restartedMain] [INFO ] [KmcgApplication-logStartupProfileInfo] - No active profile set, falling back to default profiles: default
+kmcg 2020-05-26 14:30:04,617 [restartedMain] [INFO ] [KmcgApplication-logStarted] - Started KmcgApplication in 1.077 seconds (JVM running for 506.282)
+kmcg 2020-05-26 14:30:06,872 [restartedMain] [INFO ] [KmcgApplication-logStarting] - Starting KmcgApplication on ZFZ with PID 11140 (D:\IdeaWorkSpace\kmcg\target\classes started by Administrator in D:\IdeaWorkSpace\kmcg)
+kmcg 2020-05-26 14:30:06,872 [restartedMain] [DEBUG] [KmcgApplication-logStarting] - Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
+kmcg 2020-05-26 14:30:06,873 [restartedMain] [INFO ] [KmcgApplication-logStartupProfileInfo] - No active profile set, falling back to default profiles: default
+kmcg 2020-05-26 14:30:07,830 [restartedMain] [INFO ] [KmcgApplication-logStarted] - Started KmcgApplication in 0.989 seconds (JVM running for 509.494)
+kmcg 2020-05-26 14:36:35,261 [restartedMain] [INFO ] [KmcgApplication-logStarting] - Starting KmcgApplication on ZFZ with PID 11140 (D:\IdeaWorkSpace\kmcg\target\classes started by Administrator in D:\IdeaWorkSpace\kmcg)
+kmcg 2020-05-26 14:36:35,261 [restartedMain] [DEBUG] [KmcgApplication-logStarting] - Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
+kmcg 2020-05-26 14:36:35,262 [restartedMain] [INFO ] [KmcgApplication-logStartupProfileInfo] - No active profile set, falling back to default profiles: default
+kmcg 2020-05-26 14:36:35,996 [restartedMain] [INFO ] [KmcgApplication-logStarted] - Started KmcgApplication in 0.784 seconds (JVM running for 897.65)
+kmcg 2020-05-26 14:36:42,856 [restartedMain] [INFO ] [KmcgApplication-logStarting] - Starting KmcgApplication on ZFZ with PID 11140 (D:\IdeaWorkSpace\kmcg\target\classes started by Administrator in D:\IdeaWorkSpace\kmcg)
+kmcg 2020-05-26 14:36:42,856 [restartedMain] [DEBUG] [KmcgApplication-logStarting] - Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
+kmcg 2020-05-26 14:36:42,857 [restartedMain] [INFO ] [KmcgApplication-logStartupProfileInfo] - No active profile set, falling back to default profiles: default
+kmcg 2020-05-26 14:36:43,771 [restartedMain] [INFO ] [KmcgApplication-logStarted] - Started KmcgApplication in 0.942 seconds (JVM running for 905.425)
+kmcg 2020-05-26 14:36:47,745 [main] [INFO ] [KmcgApplicationTests-logStarting] - Starting KmcgApplicationTests on ZFZ with PID 10976 (started by Administrator in D:\IdeaWorkSpace\kmcg)
+kmcg 2020-05-26 14:36:47,747 [main] [DEBUG] [KmcgApplicationTests-logStarting] - Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
+kmcg 2020-05-26 14:36:47,747 [main] [INFO ] [KmcgApplicationTests-logStartupProfileInfo] - No active profile set, falling back to default profiles: default
+kmcg 2020-05-26 14:36:52,537 [main] [INFO ] [KmcgApplicationTests-logStarted] - Started KmcgApplicationTests in 5.334 seconds (JVM running for 6.324)
+kmcg 2020-05-26 14:42:51,133 [http-nio-8185-exec-1] [DEBUG] [ResultController-result] - useTime=22
+kmcg 2020-05-26 14:42:51,134 [http-nio-8185-exec-1] [DEBUG] [ResultController-result] - tel=18805174084
+kmcg 2020-05-26 14:42:51,134 [http-nio-8185-exec-1] [DEBUG] [ResultController-result] - score=4
+kmcg 2020-05-26 14:49:25,981 [restartedMain] [INFO ] [KmcgApplication-logStarting] - Starting KmcgApplication on ZFZ with PID 11140 (D:\IdeaWorkSpace\kmcg\target\classes started by Administrator in D:\IdeaWorkSpace\kmcg)
+kmcg 2020-05-26 14:49:25,982 [restartedMain] [DEBUG] [KmcgApplication-logStarting] - Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
+kmcg 2020-05-26 14:49:25,982 [restartedMain] [INFO ] [KmcgApplication-logStartupProfileInfo] - No active profile set, falling back to default profiles: default
+kmcg 2020-05-26 14:49:27,018 [restartedMain] [INFO ] [KmcgApplication-logStarted] - Started KmcgApplication in 1.087 seconds (JVM running for 1668.652)
+kmcg 2020-05-26 14:49:28,753 [restartedMain] [INFO ] [KmcgApplication-logStarting] - Starting KmcgApplication on ZFZ with PID 11140 (D:\IdeaWorkSpace\kmcg\target\classes started by Administrator in D:\IdeaWorkSpace\kmcg)
+kmcg 2020-05-26 14:49:28,753 [restartedMain] [DEBUG] [KmcgApplication-logStarting] - Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
+kmcg 2020-05-26 14:49:28,753 [restartedMain] [INFO ] [KmcgApplication-logStartupProfileInfo] - No active profile set, falling back to default profiles: default
+kmcg 2020-05-26 14:49:29,813 [restartedMain] [INFO ] [KmcgApplication-logStarted] - Started KmcgApplication in 1.091 seconds (JVM running for 1671.447)
+kmcg 2020-05-26 14:49:30,368 [main] [INFO ] [KmcgApplicationTests-logStarting] - Starting KmcgApplicationTests on ZFZ with PID 8972 (started by Administrator in D:\IdeaWorkSpace\kmcg)
+kmcg 2020-05-26 14:49:30,371 [main] [DEBUG] [KmcgApplicationTests-logStarting] - Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
+kmcg 2020-05-26 14:49:30,372 [main] [INFO ] [KmcgApplicationTests-logStartupProfileInfo] - No active profile set, falling back to default profiles: default
+kmcg 2020-05-26 14:49:35,325 [main] [INFO ] [KmcgApplicationTests-logStarted] - Started KmcgApplicationTests in 5.498 seconds (JVM running for 6.889)
+kmcg 2020-05-26 14:53:16,284 [restartedMain] [INFO ] [KmcgApplication-logStarting] - Starting KmcgApplication on ZFZ with PID 11140 (D:\IdeaWorkSpace\kmcg\target\classes started by Administrator in D:\IdeaWorkSpace\kmcg)
+kmcg 2020-05-26 14:53:16,284 [restartedMain] [DEBUG] [KmcgApplication-logStarting] - Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
+kmcg 2020-05-26 14:53:16,284 [restartedMain] [INFO ] [KmcgApplication-logStartupProfileInfo] - No active profile set, falling back to default profiles: default
+kmcg 2020-05-26 14:53:18,478 [restartedMain] [INFO ] [KmcgApplication-logStarted] - Started KmcgApplication in 2.276 seconds (JVM running for 1900.107)
+kmcg 2020-05-26 14:53:20,822 [restartedMain] [INFO ] [KmcgApplication-logStarting] - Starting KmcgApplication on ZFZ with PID 11140 (D:\IdeaWorkSpace\kmcg\target\classes started by Administrator in D:\IdeaWorkSpace\kmcg)
+kmcg 2020-05-26 14:53:20,822 [restartedMain] [DEBUG] [KmcgApplication-logStarting] - Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
+kmcg 2020-05-26 14:53:20,822 [restartedMain] [INFO ] [KmcgApplication-logStartupProfileInfo] - No active profile set, falling back to default profiles: default
+kmcg 2020-05-26 14:53:21,690 [restartedMain] [INFO ] [KmcgApplication-logStarted] - Started KmcgApplication in 0.901 seconds (JVM running for 1903.319)
+kmcg 2020-05-26 14:53:22,841 [main] [INFO ] [KmcgApplicationTests-logStarting] - Starting KmcgApplicationTests on ZFZ with PID 5680 (started by Administrator in D:\IdeaWorkSpace\kmcg)
+kmcg 2020-05-26 14:53:22,843 [main] [DEBUG] [KmcgApplicationTests-logStarting] - Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
+kmcg 2020-05-26 14:53:22,845 [main] [INFO ] [KmcgApplicationTests-logStartupProfileInfo] - No active profile set, falling back to default profiles: default
+kmcg 2020-05-26 14:53:27,607 [main] [INFO ] [KmcgApplicationTests-logStarted] - Started KmcgApplicationTests in 5.314 seconds (JVM running for 6.217)
+kmcg 2020-05-26 14:57:29,424 [restartedMain] [INFO ] [KmcgApplication-logStarting] - Starting KmcgApplication on ZFZ with PID 11140 (D:\IdeaWorkSpace\kmcg\target\classes started by Administrator in D:\IdeaWorkSpace\kmcg)
+kmcg 2020-05-26 14:57:29,424 [restartedMain] [DEBUG] [KmcgApplication-logStarting] - Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
+kmcg 2020-05-26 14:57:29,425 [restartedMain] [INFO ] [KmcgApplication-logStartupProfileInfo] - No active profile set, falling back to default profiles: default
+kmcg 2020-05-26 14:57:30,588 [restartedMain] [INFO ] [KmcgApplication-logStarted] - Started KmcgApplication in 1.192 seconds (JVM running for 2152.21)
+kmcg 2020-05-26 15:07:44,754 [restartedMain] [INFO ] [KmcgApplication-logStarting] - Starting KmcgApplication on ZFZ with PID 11140 (D:\IdeaWorkSpace\kmcg\target\classes started by Administrator in D:\IdeaWorkSpace\kmcg)
+kmcg 2020-05-26 15:07:44,754 [restartedMain] [DEBUG] [KmcgApplication-logStarting] - Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
+kmcg 2020-05-26 15:07:44,755 [restartedMain] [INFO ] [KmcgApplication-logStartupProfileInfo] - No active profile set, falling back to default profiles: default
+kmcg 2020-05-26 15:07:45,941 [restartedMain] [INFO ] [KmcgApplication-logStarted] - Started KmcgApplication in 1.23 seconds (JVM running for 2767.548)
+kmcg 2020-05-26 15:07:51,301 [main] [INFO ] [KmcgApplicationTests-logStarting] - Starting KmcgApplicationTests on ZFZ with PID 7384 (started by Administrator in D:\IdeaWorkSpace\kmcg)
+kmcg 2020-05-26 15:07:51,303 [main] [DEBUG] [KmcgApplicationTests-logStarting] - Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
+kmcg 2020-05-26 15:07:51,306 [main] [INFO ] [KmcgApplicationTests-logStartupProfileInfo] - No active profile set, falling back to default profiles: default
+kmcg 2020-05-26 15:07:57,238 [main] [INFO ] [KmcgApplicationTests-logStarted] - Started KmcgApplicationTests in 6.627 seconds (JVM running for 7.699)
+kmcg 2020-05-26 15:11:49,477 [restartedMain] [INFO ] [KmcgApplication-logStarting] - Starting KmcgApplication on ZFZ with PID 11140 (D:\IdeaWorkSpace\kmcg\target\classes started by Administrator in D:\IdeaWorkSpace\kmcg)
+kmcg 2020-05-26 15:11:49,478 [restartedMain] [DEBUG] [KmcgApplication-logStarting] - Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
+kmcg 2020-05-26 15:11:49,478 [restartedMain] [INFO ] [KmcgApplication-logStartupProfileInfo] - No active profile set, falling back to default profiles: default
+kmcg 2020-05-26 15:11:50,188 [restartedMain] [INFO ] [KmcgApplication-logStarted] - Started KmcgApplication in 0.736 seconds (JVM running for 3011.788)
+kmcg 2020-05-26 15:11:52,907 [restartedMain] [INFO ] [KmcgApplication-logStarting] - Starting KmcgApplication on ZFZ with PID 11140 (D:\IdeaWorkSpace\kmcg\target\classes started by Administrator in D:\IdeaWorkSpace\kmcg)
+kmcg 2020-05-26 15:11:52,907 [restartedMain] [DEBUG] [KmcgApplication-logStarting] - Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
+kmcg 2020-05-26 15:11:52,908 [restartedMain] [INFO ] [KmcgApplication-logStartupProfileInfo] - No active profile set, falling back to default profiles: default
+kmcg 2020-05-26 15:11:53,857 [restartedMain] [INFO ] [KmcgApplication-logStarted] - Started KmcgApplication in 0.978 seconds (JVM running for 3015.457)
+kmcg 2020-05-26 15:11:53,956 [main] [INFO ] [KmcgApplicationTests-logStarting] - Starting KmcgApplicationTests on ZFZ with PID 5876 (started by Administrator in D:\IdeaWorkSpace\kmcg)
+kmcg 2020-05-26 15:11:53,958 [main] [DEBUG] [KmcgApplicationTests-logStarting] - Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
+kmcg 2020-05-26 15:11:53,959 [main] [INFO ] [KmcgApplicationTests-logStartupProfileInfo] - No active profile set, falling back to default profiles: default
+kmcg 2020-05-26 15:11:58,489 [main] [INFO ] [KmcgApplicationTests-logStarted] - Started KmcgApplicationTests in 5.192 seconds (JVM running for 6.182)
+kmcg 2020-05-26 15:17:40,658 [http-nio-8185-exec-2] [INFO ] [IndexController-paiming] - [User(id=4, name=周发展, tel=18805174084, jiedao=斗南街道, address=云南省-昆明市-呈贡区, openid=orsKq0ah_BIThZkJv2adqXaiXGEc)]
+kmcg 2020-05-26 15:17:40,662 [http-nio-8185-exec-2] [INFO ] [IndexController-paiming] - [{date=2020-05-26 14:46:30.0, rownum=1.0, score=6, id=18, time=31920, user_id=4}]
+kmcg 2020-05-26 15:17:43,564 [http-nio-8185-exec-8] [INFO ] [IndexController-paiming] - [User(id=4, name=周发展, tel=18805174084, jiedao=斗南街道, address=云南省-昆明市-呈贡区, openid=orsKq0ah_BIThZkJv2adqXaiXGEc)]
+kmcg 2020-05-26 15:17:43,567 [http-nio-8185-exec-8] [INFO ] [IndexController-paiming] - [{date=2020-05-26 14:46:30.0, rownum=1.0, score=6, id=18, time=31920, user_id=4}]
+kmcg 2020-05-26 15:17:45,157 [http-nio-8185-exec-5] [INFO ] [IndexController-paiming] - [User(id=4, name=周发展, tel=18805174084, jiedao=斗南街道, address=云南省-昆明市-呈贡区, openid=orsKq0ah_BIThZkJv2adqXaiXGEc)]
+kmcg 2020-05-26 15:17:45,160 [http-nio-8185-exec-5] [INFO ] [IndexController-paiming] - [{date=2020-05-26 14:46:30.0, rownum=1.0, score=6, id=18, time=31920, user_id=4}]
+kmcg 2020-05-26 15:18:35,159 [http-nio-8185-exec-3] [INFO ] [IndexController-paiming] - [User(id=4, name=周发展, tel=18805174084, jiedao=斗南街道, address=云南省-昆明市-呈贡区, openid=orsKq0ah_BIThZkJv2adqXaiXGEc)]
+kmcg 2020-05-26 15:18:35,161 [http-nio-8185-exec-3] [INFO ] [IndexController-paiming] - [{date=2020-05-26 14:46:30.0, rownum=1.0, score=6, id=18, time=31920, user_id=4}]
+kmcg 2020-05-26 15:18:43,777 [http-nio-8185-exec-8] [INFO ] [IndexController-paiming] - [User(id=4, name=周发展, tel=18805174084, jiedao=斗南街道, address=云南省-昆明市-呈贡区, openid=orsKq0ah_BIThZkJv2adqXaiXGEc)]
+kmcg 2020-05-26 15:18:43,779 [http-nio-8185-exec-8] [INFO ] [IndexController-paiming] - [{date=2020-05-26 14:46:30.0, rownum=1.0, score=6, id=18, time=31920, user_id=4}]
+kmcg 2020-05-26 15:20:36,016 [restartedMain] [INFO ] [KmcgApplication-logStarting] - Starting KmcgApplication on ZFZ with PID 11140 (D:\IdeaWorkSpace\kmcg\target\classes started by Administrator in D:\IdeaWorkSpace\kmcg)
+kmcg 2020-05-26 15:20:36,016 [restartedMain] [DEBUG] [KmcgApplication-logStarting] - Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
+kmcg 2020-05-26 15:20:36,017 [restartedMain] [INFO ] [KmcgApplication-logStartupProfileInfo] - No active profile set, falling back to default profiles: default
+kmcg 2020-05-26 15:20:36,777 [restartedMain] [INFO ] [KmcgApplication-logStarted] - Started KmcgApplication in 0.864 seconds (JVM running for 3538.363)
+kmcg 2020-05-26 15:20:39,524 [restartedMain] [INFO ] [KmcgApplication-logStarting] - Starting KmcgApplication on ZFZ with PID 11140 (D:\IdeaWorkSpace\kmcg\target\classes started by Administrator in D:\IdeaWorkSpace\kmcg)
+kmcg 2020-05-26 15:20:39,525 [restartedMain] [DEBUG] [KmcgApplication-logStarting] - Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
+kmcg 2020-05-26 15:20:39,525 [restartedMain] [INFO ] [KmcgApplication-logStartupProfileInfo] - No active profile set, falling back to default profiles: default
+kmcg 2020-05-26 15:20:40,361 [restartedMain] [INFO ] [KmcgApplication-logStarted] - Started KmcgApplication in 0.866 seconds (JVM running for 3541.947)
+kmcg 2020-05-26 15:20:57,007 [restartedMain] [INFO ] [KmcgApplication-logStarting] - Starting KmcgApplication on ZFZ with PID 11140 (D:\IdeaWorkSpace\kmcg\target\classes started by Administrator in D:\IdeaWorkSpace\kmcg)
+kmcg 2020-05-26 15:20:57,007 [restartedMain] [DEBUG] [KmcgApplication-logStarting] - Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
+kmcg 2020-05-26 15:20:57,007 [restartedMain] [INFO ] [KmcgApplication-logStartupProfileInfo] - No active profile set, falling back to default profiles: default
+kmcg 2020-05-26 15:20:57,963 [restartedMain] [INFO ] [KmcgApplication-logStarted] - Started KmcgApplication in 0.982 seconds (JVM running for 3559.549)
+kmcg 2020-05-26 15:20:59,762 [restartedMain] [INFO ] [KmcgApplication-logStarting] - Starting KmcgApplication on ZFZ with PID 11140 (D:\IdeaWorkSpace\kmcg\target\classes started by Administrator in D:\IdeaWorkSpace\kmcg)
+kmcg 2020-05-26 15:20:59,763 [restartedMain] [DEBUG] [KmcgApplication-logStarting] - Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
+kmcg 2020-05-26 15:20:59,763 [restartedMain] [INFO ] [KmcgApplication-logStartupProfileInfo] - No active profile set, falling back to default profiles: default
+kmcg 2020-05-26 15:21:00,598 [restartedMain] [INFO ] [KmcgApplication-logStarted] - Started KmcgApplication in 0.859 seconds (JVM running for 3562.183)
+kmcg 2020-05-26 15:21:01,034 [main] [INFO ] [KmcgApplicationTests-logStarting] - Starting KmcgApplicationTests on ZFZ with PID 7564 (started by Administrator in D:\IdeaWorkSpace\kmcg)
+kmcg 2020-05-26 15:21:01,036 [main] [DEBUG] [KmcgApplicationTests-logStarting] - Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
+kmcg 2020-05-26 15:21:01,039 [main] [INFO ] [KmcgApplicationTests-logStartupProfileInfo] - No active profile set, falling back to default profiles: default
+kmcg 2020-05-26 15:21:05,686 [main] [INFO ] [KmcgApplicationTests-logStarted] - Started KmcgApplicationTests in 5.146 seconds (JVM running for 6.195)
+kmcg 2020-05-26 15:27:24,840 [restartedMain] [INFO ] [KmcgApplication-logStarting] - Starting KmcgApplication on ZFZ with PID 11140 (D:\IdeaWorkSpace\kmcg\target\classes started by Administrator in D:\IdeaWorkSpace\kmcg)
+kmcg 2020-05-26 15:27:24,840 [restartedMain] [DEBUG] [KmcgApplication-logStarting] - Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
+kmcg 2020-05-26 15:27:24,840 [restartedMain] [INFO ] [KmcgApplication-logStartupProfileInfo] - No active profile set, falling back to default profiles: default
+kmcg 2020-05-26 15:27:25,698 [restartedMain] [INFO ] [KmcgApplication-logStarted] - Started KmcgApplication in 0.881 seconds (JVM running for 3947.274)
+kmcg 2020-05-26 15:27:27,430 [restartedMain] [INFO ] [KmcgApplication-logStarting] - Starting KmcgApplication on ZFZ with PID 11140 (D:\IdeaWorkSpace\kmcg\target\classes started by Administrator in D:\IdeaWorkSpace\kmcg)
+kmcg 2020-05-26 15:27:27,431 [restartedMain] [DEBUG] [KmcgApplication-logStarting] - Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
+kmcg 2020-05-26 15:27:27,431 [restartedMain] [INFO ] [KmcgApplication-logStartupProfileInfo] - No active profile set, falling back to default profiles: default
+kmcg 2020-05-26 15:27:28,343 [restartedMain] [INFO ] [KmcgApplication-logStarted] - Started KmcgApplication in 0.947 seconds (JVM running for 3949.918)
+kmcg 2020-05-26 15:27:29,267 [main] [INFO ] [KmcgApplicationTests-logStarting] - Starting KmcgApplicationTests on ZFZ with PID 4108 (started by Administrator in D:\IdeaWorkSpace\kmcg)
+kmcg 2020-05-26 15:27:29,269 [main] [DEBUG] [KmcgApplicationTests-logStarting] - Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
+kmcg 2020-05-26 15:27:29,269 [main] [INFO ] [KmcgApplicationTests-logStartupProfileInfo] - No active profile set, falling back to default profiles: default
+kmcg 2020-05-26 15:27:33,990 [main] [INFO ] [KmcgApplicationTests-logStarted] - Started KmcgApplicationTests in 5.22 seconds (JVM running for 6.256)
+kmcg 2020-05-26 15:31:30,541 [restartedMain] [INFO ] [KmcgApplication-logStarting] - Starting KmcgApplication on ZFZ with PID 11140 (D:\IdeaWorkSpace\kmcg\target\classes started by Administrator in D:\IdeaWorkSpace\kmcg)
+kmcg 2020-05-26 15:31:30,541 [restartedMain] [DEBUG] [KmcgApplication-logStarting] - Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
+kmcg 2020-05-26 15:31:30,541 [restartedMain] [INFO ] [KmcgApplication-logStartupProfileInfo] - No active profile set, falling back to default profiles: default
+kmcg 2020-05-26 15:31:31,593 [restartedMain] [INFO ] [KmcgApplication-logStarted] - Started KmcgApplication in 1.098 seconds (JVM running for 4193.162)
+kmcg 2020-05-26 15:31:40,014 [http-nio-8185-exec-10] [INFO ] [IndexController-paiming] - paiming1-tel=18805174084
+kmcg 2020-05-26 15:31:40,015 [http-nio-8185-exec-10] [INFO ] [IndexController-paiming] - paiming1-pageNum=1
+kmcg 2020-05-26 15:31:40,022 [http-nio-8185-exec-10] [INFO ] [IndexController-paiming] - [User(id=4, name=周发展, tel=18805174084, jiedao=斗南街道, address=云南省-昆明市-呈贡区, openid=orsKq0ah_BIThZkJv2adqXaiXGEc)]
+kmcg 2020-05-26 15:31:40,026 [http-nio-8185-exec-10] [INFO ] [IndexController-paiming] - [{date=2020-05-26 14:46:30.0, rownum=1.0, score=6, id=18, time=31920, user_id=4}]
+kmcg 2020-05-26 15:31:42,052 [http-nio-8185-exec-6] [INFO ] [IndexController-paiming] - paiming1-tel=18805174084
+kmcg 2020-05-26 15:31:42,052 [http-nio-8185-exec-6] [INFO ] [IndexController-paiming] - paiming1-pageNum=1
+kmcg 2020-05-26 15:31:42,054 [http-nio-8185-exec-6] [INFO ] [IndexController-paiming] - [User(id=4, name=周发展, tel=18805174084, jiedao=斗南街道, address=云南省-昆明市-呈贡区, openid=orsKq0ah_BIThZkJv2adqXaiXGEc)]
+kmcg 2020-05-26 15:31:42,057 [http-nio-8185-exec-6] [INFO ] [IndexController-paiming] - [{date=2020-05-26 14:46:30.0, rownum=1.0, score=6, id=18, time=31920, user_id=4}]
+kmcg 2020-05-26 15:31:48,692 [http-nio-8185-exec-2] [INFO ] [IndexController-paiming] - paiming1-tel=18805174084
+kmcg 2020-05-26 15:31:48,693 [http-nio-8185-exec-2] [INFO ] [IndexController-paiming] - paiming1-pageNum=1
+kmcg 2020-05-26 15:31:48,695 [http-nio-8185-exec-2] [INFO ] [IndexController-paiming] - [User(id=4, name=周发展, tel=18805174084, jiedao=斗南街道, address=云南省-昆明市-呈贡区, openid=orsKq0ah_BIThZkJv2adqXaiXGEc)]
+kmcg 2020-05-26 15:31:48,699 [http-nio-8185-exec-2] [INFO ] [IndexController-paiming] - [{date=2020-05-26 14:46:30.0, rownum=1.0, score=6, id=18, time=31920, user_id=4}]
+kmcg 2020-05-26 15:32:06,217 [http-nio-8185-exec-8] [INFO ] [IndexController-paiming] - paiming1-tel=18805174084
+kmcg 2020-05-26 15:32:06,218 [http-nio-8185-exec-8] [INFO ] [IndexController-paiming] - paiming1-pageNum=1
+kmcg 2020-05-26 15:32:06,221 [http-nio-8185-exec-8] [INFO ] [IndexController-paiming] - [User(id=4, name=周发展, tel=18805174084, jiedao=斗南街道, address=云南省-昆明市-呈贡区, openid=orsKq0ah_BIThZkJv2adqXaiXGEc)]
+kmcg 2020-05-26 15:32:06,223 [http-nio-8185-exec-8] [INFO ] [IndexController-paiming] - [{date=2020-05-26 14:46:30.0, rownum=1.0, score=6, id=18, time=31920, user_id=4}]
+kmcg 2020-05-26 15:32:07,728 [http-nio-8185-exec-4] [INFO ] [IndexController-paiming] - paiming1-tel=18805174084
+kmcg 2020-05-26 15:32:07,730 [http-nio-8185-exec-4] [INFO ] [IndexController-paiming] - paiming1-pageNum=1
+kmcg 2020-05-26 15:32:07,734 [http-nio-8185-exec-4] [INFO ] [IndexController-paiming] - [User(id=4, name=周发展, tel=18805174084, jiedao=斗南街道, address=云南省-昆明市-呈贡区, openid=orsKq0ah_BIThZkJv2adqXaiXGEc)]
+kmcg 2020-05-26 15:32:07,738 [http-nio-8185-exec-4] [INFO ] [IndexController-paiming] - [{date=2020-05-26 14:46:30.0, rownum=1.0, score=6, id=18, time=31920, user_id=4}]
+kmcg 2020-05-26 15:32:08,336 [http-nio-8185-exec-9] [INFO ] [IndexController-paiming] - paiming1-tel=18805174084
+kmcg 2020-05-26 15:32:08,337 [http-nio-8185-exec-9] [INFO ] [IndexController-paiming] - paiming1-pageNum=1
+kmcg 2020-05-26 15:32:08,339 [http-nio-8185-exec-9] [INFO ] [IndexController-paiming] - [User(id=4, name=周发展, tel=18805174084, jiedao=斗南街道, address=云南省-昆明市-呈贡区, openid=orsKq0ah_BIThZkJv2adqXaiXGEc)]
+kmcg 2020-05-26 15:32:08,340 [http-nio-8185-exec-9] [INFO ] [IndexController-paiming] - [{date=2020-05-26 14:46:30.0, rownum=1.0, score=6, id=18, time=31920, user_id=4}]
+kmcg 2020-05-26 15:32:08,744 [http-nio-8185-exec-5] [INFO ] [IndexController-paiming] - paiming1-tel=18805174084
+kmcg 2020-05-26 15:32:08,744 [http-nio-8185-exec-5] [INFO ] [IndexController-paiming] - paiming1-pageNum=1
+kmcg 2020-05-26 15:32:08,745 [http-nio-8185-exec-5] [INFO ] [IndexController-paiming] - [User(id=4, name=周发展, tel=18805174084, jiedao=斗南街道, address=云南省-昆明市-呈贡区, openid=orsKq0ah_BIThZkJv2adqXaiXGEc)]
+kmcg 2020-05-26 15:32:08,747 [http-nio-8185-exec-5] [INFO ] [IndexController-paiming] - [{date=2020-05-26 14:46:30.0, rownum=1.0, score=6, id=18, time=31920, user_id=4}]
+kmcg 2020-05-26 15:32:09,122 [http-nio-8185-exec-1] [INFO ] [IndexController-paiming] - paiming1-tel=18805174084
+kmcg 2020-05-26 15:32:09,123 [http-nio-8185-exec-1] [INFO ] [IndexController-paiming] - paiming1-pageNum=1
+kmcg 2020-05-26 15:32:09,124 [http-nio-8185-exec-1] [INFO ] [IndexController-paiming] - [User(id=4, name=周发展, tel=18805174084, jiedao=斗南街道, address=云南省-昆明市-呈贡区, openid=orsKq0ah_BIThZkJv2adqXaiXGEc)]
+kmcg 2020-05-26 15:32:09,125 [http-nio-8185-exec-1] [INFO ] [IndexController-paiming] - [{date=2020-05-26 14:46:30.0, rownum=1.0, score=6, id=18, time=31920, user_id=4}]
+kmcg 2020-05-26 15:32:30,728 [restartedMain] [INFO ] [KmcgApplication-logStarting] - Starting KmcgApplication on ZFZ with PID 11140 (D:\IdeaWorkSpace\kmcg\target\classes started by Administrator in D:\IdeaWorkSpace\kmcg)
+kmcg 2020-05-26 15:32:30,728 [restartedMain] [DEBUG] [KmcgApplication-logStarting] - Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
+kmcg 2020-05-26 15:32:30,728 [restartedMain] [INFO ] [KmcgApplication-logStartupProfileInfo] - No active profile set, falling back to default profiles: default
+kmcg 2020-05-26 15:32:45,896 [restartedMain] [INFO ] [KmcgApplication-logStarting] - Starting KmcgApplication on ZFZ with PID 272 (D:\IdeaWorkSpace\kmcg\target\classes started by Administrator in D:\IdeaWorkSpace\kmcg)
+kmcg 2020-05-26 15:32:45,930 [restartedMain] [DEBUG] [KmcgApplication-logStarting] - Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
+kmcg 2020-05-26 15:32:45,931 [restartedMain] [INFO ] [KmcgApplication-logStartupProfileInfo] - No active profile set, falling back to default profiles: default
+kmcg 2020-05-26 15:32:49,994 [restartedMain] [INFO ] [KmcgApplication-logStarted] - Started KmcgApplication in 4.577 seconds (JVM running for 5.811)
+kmcg 2020-05-26 15:32:55,893 [http-nio-8185-exec-1] [INFO ] [IndexController-paiming] - paiming1-tel=18805174084
+kmcg 2020-05-26 15:32:55,894 [http-nio-8185-exec-1] [INFO ] [IndexController-paiming] - paiming1-pageNum=1
+kmcg 2020-05-26 15:32:55,951 [http-nio-8185-exec-1] [INFO ] [IndexController-paiming] - [User(id=4, name=周发展, tel=18805174084, jiedao=斗南街道, address=云南省-昆明市-呈贡区, openid=orsKq0ah_BIThZkJv2adqXaiXGEc)]
+kmcg 2020-05-26 15:32:55,960 [http-nio-8185-exec-1] [INFO ] [IndexController-paiming] - [{date=2020-05-26 14:46:30.0, rownum=1.0, score=6, id=18, time=31920, user_id=4}]
+kmcg 2020-05-26 15:33:21,772 [http-nio-8185-exec-3] [INFO ] [IndexController-paiming] - paiming1-tel=18805174084
+kmcg 2020-05-26 15:33:21,773 [http-nio-8185-exec-3] [INFO ] [IndexController-paiming] - paiming1-pageNum=1
+kmcg 2020-05-26 15:33:21,775 [http-nio-8185-exec-3] [INFO ] [IndexController-paiming] - [User(id=4, name=周发展, tel=18805174084, jiedao=斗南街道, address=云南省-昆明市-呈贡区, openid=orsKq0ah_BIThZkJv2adqXaiXGEc)]
+kmcg 2020-05-26 15:33:21,776 [http-nio-8185-exec-3] [INFO ] [IndexController-paiming] - [{date=2020-05-26 14:46:30.0, rownum=1.0, score=6, id=18, time=31920, user_id=4}]
+kmcg 2020-05-26 15:34:14,873 [restartedMain] [INFO ] [KmcgApplication-logStarting] - Starting KmcgApplication on ZFZ with PID 272 (D:\IdeaWorkSpace\kmcg\target\classes started by Administrator in D:\IdeaWorkSpace\kmcg)
+kmcg 2020-05-26 15:34:14,873 [restartedMain] [DEBUG] [KmcgApplication-logStarting] - Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
+kmcg 2020-05-26 15:34:14,873 [restartedMain] [INFO ] [KmcgApplication-logStartupProfileInfo] - No active profile set, falling back to default profiles: default
+kmcg 2020-05-26 15:34:16,101 [restartedMain] [INFO ] [KmcgApplication-logStarted] - Started KmcgApplication in 1.266 seconds (JVM running for 91.916)
+kmcg 2020-05-26 15:34:20,905 [http-nio-8185-exec-1] [INFO ] [IndexController-paiming] - paiming1-tel=18805174084
+kmcg 2020-05-26 15:34:20,905 [http-nio-8185-exec-1] [INFO ] [IndexController-paiming] - paiming1-pageNum=1
+kmcg 2020-05-26 15:34:20,913 [http-nio-8185-exec-1] [INFO ] [IndexController-paiming] - [User(id=4, name=周发展, tel=18805174084, jiedao=斗南街道, address=云南省-昆明市-呈贡区, openid=orsKq0ah_BIThZkJv2adqXaiXGEc)]
+kmcg 2020-05-26 15:34:20,918 [http-nio-8185-exec-1] [INFO ] [IndexController-paiming] - [{date=2020-05-26 14:46:30.0, rownum=1.0, score=6, id=18, time=31920, user_id=4}]
+kmcg 2020-05-26 15:34:25,541 [http-nio-8185-exec-4] [INFO ] [IndexController-paiming] - paiming1-tel=18805174084
+kmcg 2020-05-26 15:34:25,542 [http-nio-8185-exec-4] [INFO ] [IndexController-paiming] - paiming1-pageNum=1
+kmcg 2020-05-26 15:34:25,545 [http-nio-8185-exec-4] [INFO ] [IndexController-paiming] - [User(id=4, name=周发展, tel=18805174084, jiedao=斗南街道, address=云南省-昆明市-呈贡区, openid=orsKq0ah_BIThZkJv2adqXaiXGEc)]
+kmcg 2020-05-26 15:34:25,547 [http-nio-8185-exec-4] [INFO ] [IndexController-paiming] - [{date=2020-05-26 14:46:30.0, rownum=1.0, score=6, id=18, time=31920, user_id=4}]
+kmcg 2020-05-26 15:34:40,562 [http-nio-8185-exec-8] [INFO ] [IndexController-paiming] - paiming1-tel=18805174084
+kmcg 2020-05-26 15:34:40,562 [http-nio-8185-exec-8] [INFO ] [IndexController-paiming] - paiming1-pageNum=1
+kmcg 2020-05-26 15:34:40,564 [http-nio-8185-exec-8] [INFO ] [IndexController-paiming] - [User(id=4, name=周发展, tel=18805174084, jiedao=斗南街道, address=云南省-昆明市-呈贡区, openid=orsKq0ah_BIThZkJv2adqXaiXGEc)]
+kmcg 2020-05-26 15:34:40,566 [http-nio-8185-exec-8] [INFO ] [IndexController-paiming] - [{date=2020-05-26 14:46:30.0, rownum=1.0, score=6, id=18, time=31920, user_id=4}]
+kmcg 2020-05-26 15:34:49,479 [restartedMain] [INFO ] [KmcgApplication-logStarting] - Starting KmcgApplication on ZFZ with PID 5420 (D:\IdeaWorkSpace\kmcg\target\classes started by Administrator in D:\IdeaWorkSpace\kmcg)
+kmcg 2020-05-26 15:34:49,481 [restartedMain] [DEBUG] [KmcgApplication-logStarting] - Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
+kmcg 2020-05-26 15:34:49,482 [restartedMain] [INFO ] [KmcgApplication-logStartupProfileInfo] - No active profile set, falling back to default profiles: default
+kmcg 2020-05-26 15:34:53,742 [restartedMain] [INFO ] [KmcgApplication-logStarted] - Started KmcgApplication in 4.921 seconds (JVM running for 6.59)
+kmcg 2020-05-26 15:35:00,807 [restartedMain] [INFO ] [KmcgApplication-logStarting] - Starting KmcgApplication on ZFZ with PID 12632 (D:\IdeaWorkSpace\kmcg\target\classes started by Administrator in D:\IdeaWorkSpace\kmcg)
+kmcg 2020-05-26 15:35:00,810 [restartedMain] [DEBUG] [KmcgApplication-logStarting] - Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
+kmcg 2020-05-26 15:35:00,811 [restartedMain] [INFO ] [KmcgApplication-logStartupProfileInfo] - No active profile set, falling back to default profiles: default
+kmcg 2020-05-26 15:35:06,615 [restartedMain] [INFO ] [KmcgApplication-logStarted] - Started KmcgApplication in 6.863 seconds (JVM running for 9.342)
+kmcg 2020-05-26 15:35:07,576 [http-nio-8185-exec-3] [INFO ] [IndexController-paiming] - paiming1-tel=18805174084
+kmcg 2020-05-26 15:35:07,577 [http-nio-8185-exec-3] [INFO ] [IndexController-paiming] - paiming1-pageNum=1
+kmcg 2020-05-26 15:35:07,673 [http-nio-8185-exec-3] [INFO ] [IndexController-paiming] - [User(id=4, name=周发展, tel=18805174084, jiedao=斗南街道, address=云南省-昆明市-呈贡区, openid=orsKq0ah_BIThZkJv2adqXaiXGEc)]
+kmcg 2020-05-26 15:35:07,681 [http-nio-8185-exec-3] [INFO ] [IndexController-paiming] - [{date=2020-05-26 14:46:30.0, rownum=1.0, score=6, id=18, time=31920, user_id=4}]
+kmcg 2020-05-26 15:36:23,898 [restartedMain] [INFO ] [KmcgApplication-logStarting] - Starting KmcgApplication on ZFZ with PID 12632 (D:\IdeaWorkSpace\kmcg\target\classes started by Administrator in D:\IdeaWorkSpace\kmcg)
+kmcg 2020-05-26 15:36:23,899 [restartedMain] [DEBUG] [KmcgApplication-logStarting] - Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
+kmcg 2020-05-26 15:36:23,899 [restartedMain] [INFO ] [KmcgApplication-logStartupProfileInfo] - No active profile set, falling back to default profiles: default
+kmcg 2020-05-26 15:36:25,122 [restartedMain] [INFO ] [KmcgApplication-logStarted] - Started KmcgApplication in 1.266 seconds (JVM running for 87.847)
+kmcg 2020-05-26 15:36:29,701 [http-nio-8185-exec-2] [INFO ] [IndexController-paiming] - paiming1-tel=18805174084
+kmcg 2020-05-26 15:36:29,702 [http-nio-8185-exec-2] [INFO ] [IndexController-paiming] - paiming1-pageNum=1
+kmcg 2020-05-26 15:36:29,710 [http-nio-8185-exec-2] [INFO ] [IndexController-paiming] - [User(id=4, name=周发展, tel=18805174084, jiedao=斗南街道, address=云南省-昆明市-呈贡区, openid=orsKq0ah_BIThZkJv2adqXaiXGEc)]
+kmcg 2020-05-26 15:36:29,715 [http-nio-8185-exec-2] [INFO ] [IndexController-paiming] - [{date=2020-05-26 14:46:30.0, rownum=1.0, score=6, id=18, time=31920, user_id=4}]
+kmcg 2020-05-26 15:36:53,019 [restartedMain] [INFO ] [KmcgApplication-logStarting] - Starting KmcgApplication on ZFZ with PID 12632 (D:\IdeaWorkSpace\kmcg\target\classes started by Administrator in D:\IdeaWorkSpace\kmcg)
+kmcg 2020-05-26 15:36:53,020 [restartedMain] [DEBUG] [KmcgApplication-logStarting] - Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
+kmcg 2020-05-26 15:36:53,020 [restartedMain] [INFO ] [KmcgApplication-logStartupProfileInfo] - No active profile set, falling back to default profiles: default
+kmcg 2020-05-26 15:36:54,120 [restartedMain] [INFO ] [KmcgApplication-logStarted] - Started KmcgApplication in 1.144 seconds (JVM running for 116.844)
+kmcg 2020-05-26 15:36:58,046 [http-nio-8185-exec-1] [INFO ] [IndexController-paiming] - paiming1-tel=18805174084
+kmcg 2020-05-26 15:36:58,048 [http-nio-8185-exec-1] [INFO ] [IndexController-paiming] - paiming1-pageNum=1
+kmcg 2020-05-26 15:36:58,056 [http-nio-8185-exec-1] [INFO ] [IndexController-paiming] - [User(id=4, name=周发展, tel=18805174084, jiedao=斗南街道, address=云南省-昆明市-呈贡区, openid=orsKq0ah_BIThZkJv2adqXaiXGEc)]
+kmcg 2020-05-26 15:36:58,060 [http-nio-8185-exec-1] [INFO ] [IndexController-paiming] - [{date=2020-05-26 14:46:30.0, rownum=1.0, score=6, id=18, time=31920, user_id=4}]
+kmcg 2020-05-26 15:37:17,659 [restartedMain] [INFO ] [KmcgApplication-logStarting] - Starting KmcgApplication on ZFZ with PID 12632 (D:\IdeaWorkSpace\kmcg\target\classes started by Administrator in D:\IdeaWorkSpace\kmcg)
+kmcg 2020-05-26 15:37:17,660 [restartedMain] [DEBUG] [KmcgApplication-logStarting] - Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
+kmcg 2020-05-26 15:37:17,660 [restartedMain] [INFO ] [KmcgApplication-logStartupProfileInfo] - No active profile set, falling back to default profiles: default
+kmcg 2020-05-26 15:37:18,729 [restartedMain] [INFO ] [KmcgApplication-logStarted] - Started KmcgApplication in 1.107 seconds (JVM running for 141.452)
+kmcg 2020-05-26 15:37:20,627 [restartedMain] [INFO ] [KmcgApplication-logStarting] - Starting KmcgApplication on ZFZ with PID 12632 (D:\IdeaWorkSpace\kmcg\target\classes started by Administrator in D:\IdeaWorkSpace\kmcg)
+kmcg 2020-05-26 15:37:20,628 [restartedMain] [DEBUG] [KmcgApplication-logStarting] - Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
+kmcg 2020-05-26 15:37:20,628 [restartedMain] [INFO ] [KmcgApplication-logStartupProfileInfo] - No active profile set, falling back to default profiles: default
+kmcg 2020-05-26 15:37:21,756 [restartedMain] [INFO ] [KmcgApplication-logStarted] - Started KmcgApplication in 1.172 seconds (JVM running for 144.479)
+kmcg 2020-05-26 15:37:22,179 [main] [INFO ] [KmcgApplicationTests-logStarting] - Starting KmcgApplicationTests on ZFZ with PID 10540 (started by Administrator in D:\IdeaWorkSpace\kmcg)
+kmcg 2020-05-26 15:37:22,181 [main] [DEBUG] [KmcgApplicationTests-logStarting] - Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
+kmcg 2020-05-26 15:37:22,182 [main] [INFO ] [KmcgApplicationTests-logStartupProfileInfo] - No active profile set, falling back to default profiles: default
+kmcg 2020-05-26 15:37:27,405 [main] [INFO ] [KmcgApplicationTests-logStarted] - Started KmcgApplicationTests in 5.828 seconds (JVM running for 6.935)
+kmcg 2020-05-26 15:38:48,404 [restartedMain] [INFO ] [KmcgApplication-logStarting] - Starting KmcgApplication on ZFZ with PID 12632 (D:\IdeaWorkSpace\kmcg\target\classes started by Administrator in D:\IdeaWorkSpace\kmcg)
+kmcg 2020-05-26 15:38:48,404 [restartedMain] [DEBUG] [KmcgApplication-logStarting] - Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
+kmcg 2020-05-26 15:38:48,404 [restartedMain] [INFO ] [KmcgApplication-logStartupProfileInfo] - No active profile set, falling back to default profiles: default
+kmcg 2020-05-26 15:38:49,408 [restartedMain] [INFO ] [KmcgApplication-logStarted] - Started KmcgApplication in 1.042 seconds (JVM running for 232.129)
+kmcg 2020-05-26 15:38:51,262 [restartedMain] [INFO ] [KmcgApplication-logStarting] - Starting KmcgApplication on ZFZ with PID 12632 (D:\IdeaWorkSpace\kmcg\target\classes started by Administrator in D:\IdeaWorkSpace\kmcg)
+kmcg 2020-05-26 15:38:51,262 [restartedMain] [DEBUG] [KmcgApplication-logStarting] - Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
+kmcg 2020-05-26 15:38:51,263 [restartedMain] [INFO ] [KmcgApplication-logStartupProfileInfo] - No active profile set, falling back to default profiles: default
+kmcg 2020-05-26 15:38:52,284 [restartedMain] [INFO ] [KmcgApplication-logStarted] - Started KmcgApplication in 1.056 seconds (JVM running for 235.005)
+kmcg 2020-05-26 15:38:53,164 [main] [INFO ] [KmcgApplicationTests-logStarting] - Starting KmcgApplicationTests on ZFZ with PID 3860 (started by Administrator in D:\IdeaWorkSpace\kmcg)
+kmcg 2020-05-26 15:38:53,166 [main] [DEBUG] [KmcgApplicationTests-logStarting] - Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
+kmcg 2020-05-26 15:38:53,168 [main] [INFO ] [KmcgApplicationTests-logStartupProfileInfo] - No active profile set, falling back to default profiles: default
+kmcg 2020-05-26 15:38:58,011 [main] [INFO ] [KmcgApplicationTests-logStarted] - Started KmcgApplicationTests in 5.388 seconds (JVM running for 6.584)
+kmcg 2020-05-26 15:43:49,445 [restartedMain] [INFO ] [KmcgApplication-logStarting] - Starting KmcgApplication on ZFZ with PID 12632 (D:\IdeaWorkSpace\kmcg\target\classes started by Administrator in D:\IdeaWorkSpace\kmcg)
+kmcg 2020-05-26 15:43:49,445 [restartedMain] [DEBUG] [KmcgApplication-logStarting] - Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
+kmcg 2020-05-26 15:43:49,446 [restartedMain] [INFO ] [KmcgApplication-logStartupProfileInfo] - No active profile set, falling back to default profiles: default
+kmcg 2020-05-26 15:43:51,528 [restartedMain] [INFO ] [KmcgApplication-logStarted] - Started KmcgApplication in 2.149 seconds (JVM running for 534.241)
+kmcg 2020-05-26 15:43:54,991 [main] [INFO ] [KmcgApplicationTests-logStarting] - Starting KmcgApplicationTests on ZFZ with PID 10712 (started by Administrator in D:\IdeaWorkSpace\kmcg)
+kmcg 2020-05-26 15:43:54,994 [main] [DEBUG] [KmcgApplicationTests-logStarting] - Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
+kmcg 2020-05-26 15:43:54,995 [main] [INFO ] [KmcgApplicationTests-logStartupProfileInfo] - No active profile set, falling back to default profiles: default
+kmcg 2020-05-26 15:44:02,590 [main] [INFO ] [KmcgApplicationTests-logStarted] - Started KmcgApplicationTests in 9.074 seconds (JVM running for 10.649)
+kmcg 2020-05-26 15:45:52,238 [restartedMain] [INFO ] [KmcgApplication-logStarting] - Starting KmcgApplication on ZFZ with PID 12632 (D:\IdeaWorkSpace\kmcg\target\classes started by Administrator in D:\IdeaWorkSpace\kmcg)
+kmcg 2020-05-26 15:45:52,238 [restartedMain] [DEBUG] [KmcgApplication-logStarting] - Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
+kmcg 2020-05-26 15:45:52,238 [restartedMain] [INFO ] [KmcgApplication-logStartupProfileInfo] - No active profile set, falling back to default profiles: default
+kmcg 2020-05-26 15:45:54,174 [restartedMain] [INFO ] [KmcgApplication-logStarted] - Started KmcgApplication in 2.503 seconds (JVM running for 656.884)
+kmcg 2020-05-26 15:45:57,125 [main] [INFO ] [KmcgApplicationTests-logStarting] - Starting KmcgApplicationTests on ZFZ with PID 13236 (started by Administrator in D:\IdeaWorkSpace\kmcg)
+kmcg 2020-05-26 15:45:57,127 [main] [DEBUG] [KmcgApplicationTests-logStarting] - Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
+kmcg 2020-05-26 15:45:57,130 [main] [INFO ] [KmcgApplicationTests-logStartupProfileInfo] - No active profile set, falling back to default profiles: default
+kmcg 2020-05-26 15:46:02,060 [main] [INFO ] [KmcgApplicationTests-logStarted] - Started KmcgApplicationTests in 5.563 seconds (JVM running for 6.493)
+kmcg 2020-05-26 15:50:16,127 [restartedMain] [INFO ] [KmcgApplication-logStarting] - Starting KmcgApplication on ZFZ with PID 12632 (D:\IdeaWorkSpace\kmcg\target\classes started by Administrator in D:\IdeaWorkSpace\kmcg)
+kmcg 2020-05-26 15:50:16,127 [restartedMain] [DEBUG] [KmcgApplication-logStarting] - Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
+kmcg 2020-05-26 15:50:16,127 [restartedMain] [INFO ] [KmcgApplication-logStartupProfileInfo] - No active profile set, falling back to default profiles: default
+kmcg 2020-05-26 15:50:17,009 [restartedMain] [INFO ] [KmcgApplication-logStarted] - Started KmcgApplication in 0.919 seconds (JVM running for 919.713)
+kmcg 2020-05-26 15:50:18,864 [restartedMain] [INFO ] [KmcgApplication-logStarting] - Starting KmcgApplication on ZFZ with PID 12632 (D:\IdeaWorkSpace\kmcg\target\classes started by Administrator in D:\IdeaWorkSpace\kmcg)
+kmcg 2020-05-26 15:50:18,864 [restartedMain] [DEBUG] [KmcgApplication-logStarting] - Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
+kmcg 2020-05-26 15:50:18,864 [restartedMain] [INFO ] [KmcgApplication-logStartupProfileInfo] - No active profile set, falling back to default profiles: default
+kmcg 2020-05-26 15:50:19,978 [restartedMain] [INFO ] [KmcgApplication-logStarted] - Started KmcgApplication in 1.158 seconds (JVM running for 922.681)
+kmcg 2020-05-26 15:50:20,766 [main] [INFO ] [KmcgApplicationTests-logStarting] - Starting KmcgApplicationTests on ZFZ with PID 12660 (started by Administrator in D:\IdeaWorkSpace\kmcg)
+kmcg 2020-05-26 15:50:20,772 [main] [DEBUG] [KmcgApplicationTests-logStarting] - Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
+kmcg 2020-05-26 15:50:20,774 [main] [INFO ] [KmcgApplicationTests-logStartupProfileInfo] - No active profile set, falling back to default profiles: default
+kmcg 2020-05-26 15:50:25,313 [main] [INFO ] [KmcgApplicationTests-logStarted] - Started KmcgApplicationTests in 5.039 seconds (JVM running for 6.228)
+kmcg 2020-05-26 15:54:58,876 [restartedMain] [INFO ] [KmcgApplication-logStarting] - Starting KmcgApplication on ZFZ with PID 12632 (D:\IdeaWorkSpace\kmcg\target\classes started by Administrator in D:\IdeaWorkSpace\kmcg)
+kmcg 2020-05-26 15:54:58,876 [restartedMain] [DEBUG] [KmcgApplication-logStarting] - Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
+kmcg 2020-05-26 15:54:58,876 [restartedMain] [INFO ] [KmcgApplication-logStartupProfileInfo] - No active profile set, falling back to default profiles: default
+kmcg 2020-05-26 15:54:59,890 [restartedMain] [INFO ] [KmcgApplication-logStarted] - Started KmcgApplication in 1.045 seconds (JVM running for 1202.585)
+kmcg 2020-05-26 15:55:01,756 [restartedMain] [INFO ] [KmcgApplication-logStarting] - Starting KmcgApplication on ZFZ with PID 12632 (D:\IdeaWorkSpace\kmcg\target\classes started by Administrator in D:\IdeaWorkSpace\kmcg)
+kmcg 2020-05-26 15:55:01,756 [restartedMain] [DEBUG] [KmcgApplication-logStarting] - Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
+kmcg 2020-05-26 15:55:01,756 [restartedMain] [INFO ] [KmcgApplication-logStartupProfileInfo] - No active profile set, falling back to default profiles: default
+kmcg 2020-05-26 15:55:02,724 [restartedMain] [INFO ] [KmcgApplication-logStarted] - Started KmcgApplication in 1.006 seconds (JVM running for 1205.42)
+kmcg 2020-05-26 15:55:03,289 [main] [INFO ] [KmcgApplicationTests-logStarting] - Starting KmcgApplicationTests on ZFZ with PID 9788 (started by Administrator in D:\IdeaWorkSpace\kmcg)
+kmcg 2020-05-26 15:55:03,290 [main] [DEBUG] [KmcgApplicationTests-logStarting] - Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
+kmcg 2020-05-26 15:55:03,291 [main] [INFO ] [KmcgApplicationTests-logStartupProfileInfo] - No active profile set, falling back to default profiles: default
+kmcg 2020-05-26 15:55:07,955 [main] [INFO ] [KmcgApplicationTests-logStarted] - Started KmcgApplicationTests in 5.172 seconds (JVM running for 6.172)
+kmcg 2020-05-26 15:58:50,066 [restartedMain] [INFO ] [KmcgApplication-logStarting] - Starting KmcgApplication on ZFZ with PID 12632 (D:\IdeaWorkSpace\kmcg\target\classes started by Administrator in D:\IdeaWorkSpace\kmcg)
+kmcg 2020-05-26 15:58:50,066 [restartedMain] [DEBUG] [KmcgApplication-logStarting] - Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
+kmcg 2020-05-26 15:58:50,066 [restartedMain] [INFO ] [KmcgApplication-logStartupProfileInfo] - No active profile set, falling back to default profiles: default
+kmcg 2020-05-26 15:59:05,750 [restartedMain] [INFO ] [KmcgApplication-logStarting] - Starting KmcgApplication on ZFZ with PID 12784 (D:\IdeaWorkSpace\kmcg\target\classes started by Administrator in D:\IdeaWorkSpace\kmcg)
+kmcg 2020-05-26 15:59:05,753 [restartedMain] [DEBUG] [KmcgApplication-logStarting] - Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
+kmcg 2020-05-26 15:59:05,755 [restartedMain] [INFO ] [KmcgApplication-logStartupProfileInfo] - No active profile set, falling back to default profiles: default
+kmcg 2020-05-26 15:59:10,560 [restartedMain] [INFO ] [KmcgApplication-logStarted] - Started KmcgApplication in 5.319 seconds (JVM running for 7.184)
+kmcg 2020-05-26 15:59:12,836 [http-nio-8185-exec-1] [INFO ] [IndexController-paiming] - paiming1-tel=18805174084
+kmcg 2020-05-26 15:59:12,836 [http-nio-8185-exec-1] [INFO ] [IndexController-paiming] - paiming1-pageNum=1
+kmcg 2020-05-26 15:59:12,912 [http-nio-8185-exec-1] [INFO ] [IndexController-paiming] - [User(id=4, name=周发展, tel=18805174084, jiedao=斗南街道, address=云南省-昆明市-呈贡区, openid=orsKq0ah_BIThZkJv2adqXaiXGEc)]
+kmcg 2020-05-26 15:59:12,921 [http-nio-8185-exec-1] [INFO ] [IndexController-paiming] - [{date=2020-05-26 14:46:30.0, rownum=1.0, score=6, id=18, time=31920, user_id=4}]
+kmcg 2020-05-26 15:59:12,922 [http-nio-8185-exec-1] [INFO ] [IndexController-paiming] - floatTime=31.92
+kmcg 2020-05-26 15:59:12,932 [http-nio-8185-exec-1] [INFO ] [IndexController-paiming] - MyPagination=com.greentech.kmcg.bean.MyPagination@7ca11eff
+kmcg 2020-05-26 15:59:12,939 [http-nio-8185-exec-1] [INFO ] [IndexController-paiming] - data=com.greentech.kmcg.bean.MyPagination@7ca11eff
+kmcg 2020-05-26 15:59:22,822 [http-nio-8185-exec-4] [INFO ] [IndexController-paiming] - paiming1-tel=18805174084
+kmcg 2020-05-26 15:59:22,823 [http-nio-8185-exec-4] [INFO ] [IndexController-paiming] - paiming1-pageNum=1
+kmcg 2020-05-26 15:59:22,828 [http-nio-8185-exec-4] [INFO ] [IndexController-paiming] - [User(id=4, name=周发展, tel=18805174084, jiedao=斗南街道, address=云南省-昆明市-呈贡区, openid=orsKq0ah_BIThZkJv2adqXaiXGEc)]
+kmcg 2020-05-26 15:59:22,830 [http-nio-8185-exec-4] [INFO ] [IndexController-paiming] - [{date=2020-05-26 14:46:30.0, rownum=1.0, score=6, id=18, time=31920, user_id=4}]
+kmcg 2020-05-26 15:59:22,831 [http-nio-8185-exec-4] [INFO ] [IndexController-paiming] - floatTime=31.92
+kmcg 2020-05-26 15:59:22,834 [http-nio-8185-exec-4] [INFO ] [IndexController-paiming] - MyPagination=com.greentech.kmcg.bean.MyPagination@32014136
+kmcg 2020-05-26 15:59:22,835 [http-nio-8185-exec-4] [INFO ] [IndexController-paiming] - data=com.greentech.kmcg.bean.MyPagination@32014136
+kmcg 2020-05-26 15:59:36,889 [restartedMain] [INFO ] [KmcgApplication-logStarting] - Starting KmcgApplication on ZFZ with PID 12784 (D:\IdeaWorkSpace\kmcg\target\classes started by Administrator in D:\IdeaWorkSpace\kmcg)
+kmcg 2020-05-26 15:59:36,890 [restartedMain] [DEBUG] [KmcgApplication-logStarting] - Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
+kmcg 2020-05-26 15:59:36,890 [restartedMain] [INFO ] [KmcgApplication-logStartupProfileInfo] - No active profile set, falling back to default profiles: default
+kmcg 2020-05-26 15:59:38,115 [restartedMain] [INFO ] [KmcgApplication-logStarted] - Started KmcgApplication in 1.278 seconds (JVM running for 34.738)
+kmcg 2020-05-26 15:59:40,786 [main] [INFO ] [KmcgApplicationTests-logStarting] - Starting KmcgApplicationTests on ZFZ with PID 5992 (started by Administrator in D:\IdeaWorkSpace\kmcg)
+kmcg 2020-05-26 15:59:40,788 [main] [DEBUG] [KmcgApplicationTests-logStarting] - Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
+kmcg 2020-05-26 15:59:40,789 [main] [INFO ] [KmcgApplicationTests-logStartupProfileInfo] - No active profile set, falling back to default profiles: default
+kmcg 2020-05-26 15:59:45,802 [main] [INFO ] [KmcgApplicationTests-logStarted] - Started KmcgApplicationTests in 5.605 seconds (JVM running for 6.543)
+kmcg 2020-05-26 16:04:34,036 [restartedMain] [INFO ] [KmcgApplication-logStarting] - Starting KmcgApplication on ZFZ with PID 12784 (D:\IdeaWorkSpace\kmcg\target\classes started by Administrator in D:\IdeaWorkSpace\kmcg)
+kmcg 2020-05-26 16:04:34,037 [restartedMain] [DEBUG] [KmcgApplication-logStarting] - Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
+kmcg 2020-05-26 16:04:34,037 [restartedMain] [INFO ] [KmcgApplication-logStartupProfileInfo] - No active profile set, falling back to default profiles: default
+kmcg 2020-05-26 16:04:35,079 [restartedMain] [INFO ] [KmcgApplication-logStarted] - Started KmcgApplication in 1.081 seconds (JVM running for 331.695)
+kmcg 2020-05-26 16:06:41,859 [restartedMain] [INFO ] [KmcgApplication-logStarting] - Starting KmcgApplication on ZFZ with PID 12784 (D:\IdeaWorkSpace\kmcg\target\classes started by Administrator in D:\IdeaWorkSpace\kmcg)
+kmcg 2020-05-26 16:06:41,860 [restartedMain] [DEBUG] [KmcgApplication-logStarting] - Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
+kmcg 2020-05-26 16:06:41,860 [restartedMain] [INFO ] [KmcgApplication-logStartupProfileInfo] - No active profile set, falling back to default profiles: default
+kmcg 2020-05-26 16:06:43,799 [restartedMain] [INFO ] [KmcgApplication-logStarted] - Started KmcgApplication in 1.986 seconds (JVM running for 460.411)
+kmcg 2020-05-26 16:06:47,115 [restartedMain] [INFO ] [KmcgApplication-logStarting] - Starting KmcgApplication on ZFZ with PID 12784 (D:\IdeaWorkSpace\kmcg\target\classes started by Administrator in D:\IdeaWorkSpace\kmcg)
+kmcg 2020-05-26 16:06:47,115 [restartedMain] [DEBUG] [KmcgApplication-logStarting] - Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
+kmcg 2020-05-26 16:06:47,116 [restartedMain] [INFO ] [KmcgApplication-logStartupProfileInfo] - No active profile set, falling back to default profiles: default
+kmcg 2020-05-26 16:06:49,718 [restartedMain] [INFO ] [KmcgApplication-logStarted] - Started KmcgApplication in 2.701 seconds (JVM running for 466.33)
+kmcg 2020-05-26 16:06:50,588 [main] [INFO ] [KmcgApplicationTests-logStarting] - Starting KmcgApplicationTests on ZFZ with PID 11436 (started by Administrator in D:\IdeaWorkSpace\kmcg)
+kmcg 2020-05-26 16:06:50,590 [main] [DEBUG] [KmcgApplicationTests-logStarting] - Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
+kmcg 2020-05-26 16:06:50,594 [main] [INFO ] [KmcgApplicationTests-logStartupProfileInfo] - No active profile set, falling back to default profiles: default
+kmcg 2020-05-26 16:06:55,447 [main] [INFO ] [KmcgApplicationTests-logStarted] - Started KmcgApplicationTests in 5.395 seconds (JVM running for 6.793)
+kmcg 2020-05-26 16:12:39,447 [restartedMain] [INFO ] [KmcgApplication-logStarting] - Starting KmcgApplication on ZFZ with PID 12784 (D:\IdeaWorkSpace\kmcg\target\classes started by Administrator in D:\IdeaWorkSpace\kmcg)
+kmcg 2020-05-26 16:12:39,447 [restartedMain] [DEBUG] [KmcgApplication-logStarting] - Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
+kmcg 2020-05-26 16:12:39,447 [restartedMain] [INFO ] [KmcgApplication-logStartupProfileInfo] - No active profile set, falling back to default profiles: default
+kmcg 2020-05-26 16:12:50,656 [restartedMain] [INFO ] [KmcgApplication-logStarting] - Starting KmcgApplication on ZFZ with PID 10064 (D:\IdeaWorkSpace\kmcg\target\classes started by Administrator in D:\IdeaWorkSpace\kmcg)
+kmcg 2020-05-26 16:12:50,659 [restartedMain] [DEBUG] [KmcgApplication-logStarting] - Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
+kmcg 2020-05-26 16:12:50,659 [restartedMain] [INFO ] [KmcgApplication-logStartupProfileInfo] - No active profile set, falling back to default profiles: default
+kmcg 2020-05-26 16:12:55,635 [restartedMain] [INFO ] [KmcgApplication-logStarted] - Started KmcgApplication in 5.688 seconds (JVM running for 6.766)
+kmcg 2020-05-26 16:12:56,733 [http-nio-8185-exec-1] [INFO ] [IndexController-paiming] - [User(id=4, name=周发展, tel=18805174084, jiedao=斗南街道, address=云南省-昆明市-呈贡区, openid=orsKq0ah_BIThZkJv2adqXaiXGEc)]
+kmcg 2020-05-26 16:14:40,783 [http-nio-8185-exec-10] [INFO ] [IndexController-paiming] - [User(id=4, name=周发展, tel=18805174084, jiedao=斗南街道, address=云南省-昆明市-呈贡区, openid=orsKq0ah_BIThZkJv2adqXaiXGEc)]
+kmcg 2020-05-26 16:15:08,662 [http-nio-8185-exec-6] [INFO ] [IndexController-paiming] - [User(id=4, name=周发展, tel=18805174084, jiedao=斗南街道, address=云南省-昆明市-呈贡区, openid=orsKq0ah_BIThZkJv2adqXaiXGEc)]
+kmcg 2020-05-26 16:15:17,313 [http-nio-8185-exec-2] [INFO ] [IndexController-paiming] - [User(id=4, name=周发展, tel=18805174084, jiedao=斗南街道, address=云南省-昆明市-呈贡区, openid=orsKq0ah_BIThZkJv2adqXaiXGEc)]
+kmcg 2020-05-26 16:15:27,915 [restartedMain] [INFO ] [KmcgApplication-logStarting] - Starting KmcgApplication on ZFZ with PID 10064 (D:\IdeaWorkSpace\kmcg\target\classes started by Administrator in D:\IdeaWorkSpace\kmcg)
+kmcg 2020-05-26 16:15:27,915 [restartedMain] [DEBUG] [KmcgApplication-logStarting] - Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
+kmcg 2020-05-26 16:15:27,915 [restartedMain] [INFO ] [KmcgApplication-logStartupProfileInfo] - No active profile set, falling back to default profiles: default
+kmcg 2020-05-26 16:15:29,075 [restartedMain] [INFO ] [KmcgApplication-logStarted] - Started KmcgApplication in 1.203 seconds (JVM running for 160.202)
+kmcg 2020-05-26 16:15:32,540 [restartedMain] [INFO ] [KmcgApplication-logStarting] - Starting KmcgApplication on ZFZ with PID 10064 (D:\IdeaWorkSpace\kmcg\target\classes started by Administrator in D:\IdeaWorkSpace\kmcg)
+kmcg 2020-05-26 16:15:32,540 [restartedMain] [DEBUG] [KmcgApplication-logStarting] - Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
+kmcg 2020-05-26 16:15:32,541 [restartedMain] [INFO ] [KmcgApplication-logStartupProfileInfo] - No active profile set, falling back to default profiles: default
+kmcg 2020-05-26 16:15:33,786 [restartedMain] [INFO ] [KmcgApplication-logStarted] - Started KmcgApplication in 1.286 seconds (JVM running for 164.914)
+kmcg 2020-05-26 16:15:34,323 [main] [INFO ] [KmcgApplicationTests-logStarting] - Starting KmcgApplicationTests on ZFZ with PID 11180 (started by Administrator in D:\IdeaWorkSpace\kmcg)
+kmcg 2020-05-26 16:15:34,325 [main] [DEBUG] [KmcgApplicationTests-logStarting] - Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
+kmcg 2020-05-26 16:15:34,326 [main] [INFO ] [KmcgApplicationTests-logStartupProfileInfo] - No active profile set, falling back to default profiles: default
+kmcg 2020-05-26 16:15:39,729 [main] [INFO ] [KmcgApplicationTests-logStarted] - Started KmcgApplicationTests in 5.983 seconds (JVM running for 7.21)
+kmcg 2020-05-26 16:18:38,815 [restartedMain] [INFO ] [KmcgApplication-logStarting] - Starting KmcgApplication on ZFZ with PID 10064 (D:\IdeaWorkSpace\kmcg\target\classes started by Administrator in D:\IdeaWorkSpace\kmcg)
+kmcg 2020-05-26 16:18:38,815 [restartedMain] [DEBUG] [KmcgApplication-logStarting] - Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
+kmcg 2020-05-26 16:18:38,816 [restartedMain] [INFO ] [KmcgApplication-logStartupProfileInfo] - No active profile set, falling back to default profiles: default
+kmcg 2020-05-26 16:18:39,968 [restartedMain] [INFO ] [KmcgApplication-logStarted] - Started KmcgApplication in 1.189 seconds (JVM running for 351.09)
+kmcg 2020-05-26 16:18:41,771 [restartedMain] [INFO ] [KmcgApplication-logStarting] - Starting KmcgApplication on ZFZ with PID 10064 (D:\IdeaWorkSpace\kmcg\target\classes started by Administrator in D:\IdeaWorkSpace\kmcg)
+kmcg 2020-05-26 16:18:41,772 [restartedMain] [DEBUG] [KmcgApplication-logStarting] - Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
+kmcg 2020-05-26 16:18:41,772 [restartedMain] [INFO ] [KmcgApplication-logStartupProfileInfo] - No active profile set, falling back to default profiles: default
+kmcg 2020-05-26 16:18:42,917 [restartedMain] [INFO ] [KmcgApplication-logStarted] - Started KmcgApplication in 1.186 seconds (JVM running for 354.039)
+kmcg 2020-05-26 16:18:43,536 [main] [INFO ] [KmcgApplicationTests-logStarting] - Starting KmcgApplicationTests on ZFZ with PID 10492 (started by Administrator in D:\IdeaWorkSpace\kmcg)
+kmcg 2020-05-26 16:18:43,538 [main] [DEBUG] [KmcgApplicationTests-logStarting] - Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
+kmcg 2020-05-26 16:18:43,539 [main] [INFO ] [KmcgApplicationTests-logStartupProfileInfo] - No active profile set, falling back to default profiles: default
+kmcg 2020-05-26 16:18:48,383 [main] [INFO ] [KmcgApplicationTests-logStarted] - Started KmcgApplicationTests in 5.379 seconds (JVM running for 6.663)
+kmcg 2020-05-26 16:21:40,044 [restartedMain] [INFO ] [KmcgApplication-logStarting] - Starting KmcgApplication on ZFZ with PID 10064 (D:\IdeaWorkSpace\kmcg\target\classes started by Administrator in D:\IdeaWorkSpace\kmcg)
+kmcg 2020-05-26 16:21:40,045 [restartedMain] [DEBUG] [KmcgApplication-logStarting] - Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
+kmcg 2020-05-26 16:21:40,045 [restartedMain] [INFO ] [KmcgApplication-logStartupProfileInfo] - No active profile set, falling back to default profiles: default
+kmcg 2020-05-26 16:21:41,037 [restartedMain] [INFO ] [KmcgApplication-logStarted] - Started KmcgApplication in 1.092 seconds (JVM running for 532.155)
+kmcg 2020-05-26 16:21:42,906 [restartedMain] [INFO ] [KmcgApplication-logStarting] - Starting KmcgApplication on ZFZ with PID 10064 (D:\IdeaWorkSpace\kmcg\target\classes started by Administrator in D:\IdeaWorkSpace\kmcg)
+kmcg 2020-05-26 16:21:42,907 [restartedMain] [DEBUG] [KmcgApplication-logStarting] - Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
+kmcg 2020-05-26 16:21:42,907 [restartedMain] [INFO ] [KmcgApplication-logStartupProfileInfo] - No active profile set, falling back to default profiles: default
+kmcg 2020-05-26 16:21:44,303 [restartedMain] [INFO ] [KmcgApplication-logStarted] - Started KmcgApplication in 1.434 seconds (JVM running for 535.421)
+kmcg 2020-05-26 16:21:44,498 [main] [INFO ] [KmcgApplicationTests-logStarting] - Starting KmcgApplicationTests on ZFZ with PID 10844 (started by Administrator in D:\IdeaWorkSpace\kmcg)
+kmcg 2020-05-26 16:21:44,500 [main] [DEBUG] [KmcgApplicationTests-logStarting] - Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
+kmcg 2020-05-26 16:21:44,501 [main] [INFO ] [KmcgApplicationTests-logStartupProfileInfo] - No active profile set, falling back to default profiles: default
+kmcg 2020-05-26 16:21:49,292 [main] [INFO ] [KmcgApplicationTests-logStarted] - Started KmcgApplicationTests in 5.595 seconds (JVM running for 6.665)
+kmcg 2020-05-26 16:23:59,013 [restartedMain] [INFO ] [KmcgApplication-logStarting] - Starting KmcgApplication on ZFZ with PID 10064 (D:\IdeaWorkSpace\kmcg\target\classes started by Administrator in D:\IdeaWorkSpace\kmcg)
+kmcg 2020-05-26 16:23:59,014 [restartedMain] [DEBUG] [KmcgApplication-logStarting] - Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
+kmcg 2020-05-26 16:23:59,014 [restartedMain] [INFO ] [KmcgApplication-logStartupProfileInfo] - No active profile set, falling back to default profiles: default
+kmcg 2020-05-26 16:23:59,988 [restartedMain] [INFO ] [KmcgApplication-logStarted] - Started KmcgApplication in 1.037 seconds (JVM running for 671.103)
+kmcg 2020-05-26 16:24:01,720 [restartedMain] [INFO ] [KmcgApplication-logStarting] - Starting KmcgApplication on ZFZ with PID 10064 (D:\IdeaWorkSpace\kmcg\target\classes started by Administrator in D:\IdeaWorkSpace\kmcg)
+kmcg 2020-05-26 16:24:01,721 [restartedMain] [DEBUG] [KmcgApplication-logStarting] - Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
+kmcg 2020-05-26 16:24:01,721 [restartedMain] [INFO ] [KmcgApplication-logStartupProfileInfo] - No active profile set, falling back to default profiles: default
+kmcg 2020-05-26 16:24:02,794 [restartedMain] [INFO ] [KmcgApplication-logStarted] - Started KmcgApplication in 1.107 seconds (JVM running for 673.909)
+kmcg 2020-05-26 16:24:03,128 [main] [INFO ] [KmcgApplicationTests-logStarting] - Starting KmcgApplicationTests on ZFZ with PID 12016 (started by Administrator in D:\IdeaWorkSpace\kmcg)
+kmcg 2020-05-26 16:24:03,130 [main] [DEBUG] [KmcgApplicationTests-logStarting] - Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
+kmcg 2020-05-26 16:24:03,130 [main] [INFO ] [KmcgApplicationTests-logStartupProfileInfo] - No active profile set, falling back to default profiles: default
+kmcg 2020-05-26 16:24:07,682 [main] [INFO ] [KmcgApplicationTests-logStarted] - Started KmcgApplicationTests in 5.197 seconds (JVM running for 6.236)
+kmcg 2020-05-26 16:27:01,870 [http-nio-8185-exec-3] [INFO ] [IndexController-paiming] - [User(id=4, name=周发展, tel=18805174084, jiedao=斗南街道, address=云南省-昆明市-呈贡区, openid=orsKq0ah_BIThZkJv2adqXaiXGEc)]
+kmcg 2020-05-26 16:29:48,852 [restartedMain] [INFO ] [KmcgApplication-logStarting] - Starting KmcgApplication on ZFZ with PID 10064 (D:\IdeaWorkSpace\kmcg\target\classes started by Administrator in D:\IdeaWorkSpace\kmcg)
+kmcg 2020-05-26 16:29:48,852 [restartedMain] [DEBUG] [KmcgApplication-logStarting] - Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
+kmcg 2020-05-26 16:29:48,852 [restartedMain] [INFO ] [KmcgApplication-logStartupProfileInfo] - No active profile set, falling back to default profiles: default
+kmcg 2020-05-26 16:29:51,943 [main] [INFO ] [KmcgApplicationTests-logStarting] - Starting KmcgApplicationTests on ZFZ with PID 7204 (started by Administrator in D:\IdeaWorkSpace\kmcg)
+kmcg 2020-05-26 16:29:51,945 [main] [DEBUG] [KmcgApplicationTests-logStarting] - Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
+kmcg 2020-05-26 16:29:51,946 [main] [INFO ] [KmcgApplicationTests-logStartupProfileInfo] - No active profile set, falling back to default profiles: default
+kmcg 2020-05-26 16:29:56,770 [main] [INFO ] [KmcgApplicationTests-logStarted] - Started KmcgApplicationTests in 5.352 seconds (JVM running for 6.474)
+kmcg 2020-05-26 16:33:26,158 [restartedMain] [INFO ] [KmcgApplication-logStarting] - Starting KmcgApplication on ZFZ with PID 10064 (D:\IdeaWorkSpace\kmcg\target\classes started by Administrator in D:\IdeaWorkSpace\kmcg)
+kmcg 2020-05-26 16:33:26,158 [restartedMain] [DEBUG] [KmcgApplication-logStarting] - Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
+kmcg 2020-05-26 16:33:26,159 [restartedMain] [INFO ] [KmcgApplication-logStartupProfileInfo] - No active profile set, falling back to default profiles: default
+kmcg 2020-05-26 16:33:27,099 [restartedMain] [INFO ] [KmcgApplication-logStarted] - Started KmcgApplication in 0.977 seconds (JVM running for 1238.198)
+kmcg 2020-05-26 16:33:28,959 [restartedMain] [INFO ] [KmcgApplication-logStarting] - Starting KmcgApplication on ZFZ with PID 10064 (D:\IdeaWorkSpace\kmcg\target\classes started by Administrator in D:\IdeaWorkSpace\kmcg)
+kmcg 2020-05-26 16:33:28,959 [restartedMain] [DEBUG] [KmcgApplication-logStarting] - Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
+kmcg 2020-05-26 16:33:28,959 [restartedMain] [INFO ] [KmcgApplication-logStartupProfileInfo] - No active profile set, falling back to default profiles: default
+kmcg 2020-05-26 16:33:29,944 [restartedMain] [INFO ] [KmcgApplication-logStarted] - Started KmcgApplication in 1.021 seconds (JVM running for 1241.043)
+kmcg 2020-05-26 16:33:30,662 [main] [INFO ] [KmcgApplicationTests-logStarting] - Starting KmcgApplicationTests on ZFZ with PID 2392 (started by Administrator in D:\IdeaWorkSpace\kmcg)
+kmcg 2020-05-26 16:33:30,664 [main] [DEBUG] [KmcgApplicationTests-logStarting] - Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
+kmcg 2020-05-26 16:33:30,665 [main] [INFO ] [KmcgApplicationTests-logStartupProfileInfo] - No active profile set, falling back to default profiles: default
+kmcg 2020-05-26 16:33:35,384 [main] [INFO ] [KmcgApplicationTests-logStarted] - Started KmcgApplicationTests in 5.298 seconds (JVM running for 6.325)
+kmcg 2020-05-26 16:34:35,633 [restartedMain] [INFO ] [KmcgApplication-logStarting] - Starting KmcgApplication on ZFZ with PID 10064 (D:\IdeaWorkSpace\kmcg\target\classes started by Administrator in D:\IdeaWorkSpace\kmcg)
+kmcg 2020-05-26 16:34:35,633 [restartedMain] [DEBUG] [KmcgApplication-logStarting] - Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
+kmcg 2020-05-26 16:34:35,633 [restartedMain] [INFO ] [KmcgApplication-logStartupProfileInfo] - No active profile set, falling back to default profiles: default
+kmcg 2020-05-26 16:34:36,617 [restartedMain] [INFO ] [KmcgApplication-logStarted] - Started KmcgApplication in 1.024 seconds (JVM running for 1307.714)
+kmcg 2020-05-26 16:34:38,300 [main] [INFO ] [KmcgApplicationTests-logStarting] - Starting KmcgApplicationTests on ZFZ with PID 2548 (started by Administrator in D:\IdeaWorkSpace\kmcg)
+kmcg 2020-05-26 16:34:38,303 [main] [DEBUG] [KmcgApplicationTests-logStarting] - Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
+kmcg 2020-05-26 16:34:38,305 [main] [INFO ] [KmcgApplicationTests-logStartupProfileInfo] - No active profile set, falling back to default profiles: default
+kmcg 2020-05-26 16:34:43,502 [main] [INFO ] [KmcgApplicationTests-logStarted] - Started KmcgApplicationTests in 5.869 seconds (JVM running for 6.795)
+kmcg 2020-05-26 16:36:26,424 [restartedMain] [INFO ] [KmcgApplication-logStarting] - Starting KmcgApplication on ZFZ with PID 10064 (D:\IdeaWorkSpace\kmcg\target\classes started by Administrator in D:\IdeaWorkSpace\kmcg)
+kmcg 2020-05-26 16:36:26,425 [restartedMain] [DEBUG] [KmcgApplication-logStarting] - Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
+kmcg 2020-05-26 16:36:26,425 [restartedMain] [INFO ] [KmcgApplication-logStartupProfileInfo] - No active profile set, falling back to default profiles: default
+kmcg 2020-05-26 16:36:27,427 [restartedMain] [INFO ] [KmcgApplication-logStarted] - Started KmcgApplication in 1.057 seconds (JVM running for 1418.521)
+kmcg 2020-05-26 16:36:29,155 [restartedMain] [INFO ] [KmcgApplication-logStarting] - Starting KmcgApplication on ZFZ with PID 10064 (D:\IdeaWorkSpace\kmcg\target\classes started by Administrator in D:\IdeaWorkSpace\kmcg)
+kmcg 2020-05-26 16:36:29,156 [restartedMain] [DEBUG] [KmcgApplication-logStarting] - Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
+kmcg 2020-05-26 16:36:29,156 [restartedMain] [INFO ] [KmcgApplication-logStartupProfileInfo] - No active profile set, falling back to default profiles: default
+kmcg 2020-05-26 16:36:30,354 [restartedMain] [INFO ] [KmcgApplication-logStarted] - Started KmcgApplication in 1.23 seconds (JVM running for 1421.449)
+kmcg 2020-05-26 16:36:30,642 [main] [INFO ] [KmcgApplicationTests-logStarting] - Starting KmcgApplicationTests on ZFZ with PID 11760 (started by Administrator in D:\IdeaWorkSpace\kmcg)
+kmcg 2020-05-26 16:36:30,643 [main] [DEBUG] [KmcgApplicationTests-logStarting] - Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
+kmcg 2020-05-26 16:36:30,644 [main] [INFO ] [KmcgApplicationTests-logStartupProfileInfo] - No active profile set, falling back to default profiles: default
+kmcg 2020-05-26 16:36:35,513 [main] [INFO ] [KmcgApplicationTests-logStarted] - Started KmcgApplicationTests in 5.477 seconds (JVM running for 6.521)
+kmcg 2020-05-26 16:44:36,807 [restartedMain] [INFO ] [KmcgApplication-logStarting] - Starting KmcgApplication on ZFZ with PID 10064 (D:\IdeaWorkSpace\kmcg\target\classes started by Administrator in D:\IdeaWorkSpace\kmcg)
+kmcg 2020-05-26 16:44:36,808 [restartedMain] [DEBUG] [KmcgApplication-logStarting] - Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
+kmcg 2020-05-26 16:44:36,808 [restartedMain] [INFO ] [KmcgApplication-logStartupProfileInfo] - No active profile set, falling back to default profiles: default
+kmcg 2020-05-26 16:44:38,263 [restartedMain] [INFO ] [KmcgApplication-logStarted] - Started KmcgApplication in 1.529 seconds (JVM running for 1909.345)
+kmcg 2020-05-26 16:47:32,407 [http-nio-8185-exec-9] [INFO ] [IndexController-paiming] - [User(id=4, name=周发展, tel=18805174084, jiedao=斗南街道, address=云南省-昆明市-呈贡区, openid=orsKq0ah_BIThZkJv2adqXaiXGEc)]
+kmcg 2020-05-26 16:47:41,127 [http-nio-8185-exec-1] [DEBUG] [IndexController-checkTime] - 4-26-16
+kmcg 2020-05-26 16:47:48,635 [http-nio-8185-exec-7] [INFO ] [IndexController-paiming] - [User(id=4, name=周发展, tel=18805174084, jiedao=斗南街道, address=云南省-昆明市-呈贡区, openid=orsKq0ah_BIThZkJv2adqXaiXGEc)]
+kmcg 2020-05-26 16:48:29,493 [http-nio-8185-exec-3] [INFO ] [IndexController-paiming] - [User(id=4, name=周发展, tel=18805174084, jiedao=斗南街道, address=云南省-昆明市-呈贡区, openid=orsKq0ah_BIThZkJv2adqXaiXGEc)]
+kmcg 2020-05-26 16:52:25,709 [restartedMain] [INFO ] [KmcgApplication-logStarting] - Starting KmcgApplication on ZFZ with PID 10064 (D:\IdeaWorkSpace\kmcg\target\classes started by Administrator in D:\IdeaWorkSpace\kmcg)
+kmcg 2020-05-26 16:52:25,710 [restartedMain] [DEBUG] [KmcgApplication-logStarting] - Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
+kmcg 2020-05-26 16:52:25,710 [restartedMain] [INFO ] [KmcgApplication-logStartupProfileInfo] - No active profile set, falling back to default profiles: default
+kmcg 2020-05-26 16:52:27,551 [restartedMain] [INFO ] [KmcgApplication-logStarted] - Started KmcgApplication in 2.061 seconds (JVM running for 2378.621)
+kmcg 2020-05-26 16:52:32,542 [http-nio-8185-exec-1] [INFO ] [IndexController-paiming] - [User(id=4, name=周发展, tel=18805174084, jiedao=斗南街道, address=云南省-昆明市-呈贡区, openid=orsKq0ah_BIThZkJv2adqXaiXGEc)]
+kmcg 2020-05-26 16:52:32,558 [http-nio-8185-exec-1] [INFO ] [IndexController-paiming] - {date=2020-05-26 14:46:30.0, rownum=1, score=6, user_id=4, name=周发展, id=18, time=31.92}
+kmcg 2020-05-26 16:53:33,933 [http-nio-8185-exec-9] [INFO ] [IndexController-paiming] - [User(id=4, name=周发展, tel=18805174084, jiedao=斗南街道, address=云南省-昆明市-呈贡区, openid=orsKq0ah_BIThZkJv2adqXaiXGEc)]
+kmcg 2020-05-26 16:53:33,936 [http-nio-8185-exec-9] [INFO ] [IndexController-paiming] - {date=2020-05-26 14:46:30.0, rownum=1, score=6, user_id=4, name=周发展, id=18, time=31.92}
+kmcg 2020-05-26 16:54:12,810 [restartedMain] [INFO ] [KmcgApplication-logStarting] - Starting KmcgApplication on ZFZ with PID 10064 (D:\IdeaWorkSpace\kmcg\target\classes started by Administrator in D:\IdeaWorkSpace\kmcg)
+kmcg 2020-05-26 16:54:12,810 [restartedMain] [DEBUG] [KmcgApplication-logStarting] - Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
+kmcg 2020-05-26 16:54:12,810 [restartedMain] [INFO ] [KmcgApplication-logStartupProfileInfo] - No active profile set, falling back to default profiles: default
+kmcg 2020-05-26 16:54:25,307 [restartedMain] [INFO ] [KmcgApplication-logStarting] - Starting KmcgApplication on ZFZ with PID 10880 (D:\IdeaWorkSpace\kmcg\target\classes started by Administrator in D:\IdeaWorkSpace\kmcg)
+kmcg 2020-05-26 16:54:25,309 [restartedMain] [DEBUG] [KmcgApplication-logStarting] - Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
+kmcg 2020-05-26 16:54:25,310 [restartedMain] [INFO ] [KmcgApplication-logStartupProfileInfo] - No active profile set, falling back to default profiles: default
+kmcg 2020-05-26 16:54:30,073 [restartedMain] [INFO ] [KmcgApplication-logStarted] - Started KmcgApplication in 5.319 seconds (JVM running for 7.315)
+kmcg 2020-05-26 16:54:35,352 [http-nio-8185-exec-1] [INFO ] [IndexController-paiming] - [User(id=4, name=周发展, tel=18805174084, jiedao=斗南街道, address=云南省-昆明市-呈贡区, openid=orsKq0ah_BIThZkJv2adqXaiXGEc)]
+kmcg 2020-05-26 16:54:35,369 [http-nio-8185-exec-1] [INFO ] [IndexController-paiming] - {date=2020-05-26 14:46:30.0, rownum=1, score=6, user_id=4, name=周发展, id=18, time=31.92}
+kmcg 2020-05-26 16:55:11,478 [http-nio-8185-exec-7] [INFO ] [IndexController-paiming] - [User(id=4, name=周发展, tel=18805174084, jiedao=斗南街道, address=云南省-昆明市-呈贡区, openid=orsKq0ah_BIThZkJv2adqXaiXGEc)]
+kmcg 2020-05-26 16:55:11,485 [http-nio-8185-exec-7] [INFO ] [IndexController-paiming] - {date=2020-05-26 14:46:30.0, rownum=1, score=6, user_id=4, name=周发展, id=18, time=31.92}
+kmcg 2020-05-26 16:56:39,448 [http-nio-8185-exec-5] [INFO ] [IndexController-paiming] - [User(id=4, name=周发展, tel=18805174084, jiedao=斗南街道, address=云南省-昆明市-呈贡区, openid=orsKq0ah_BIThZkJv2adqXaiXGEc)]
+kmcg 2020-05-26 16:56:39,452 [http-nio-8185-exec-5] [INFO ] [IndexController-paiming] - {date=2020-05-26 14:46:30.0, rownum=1, score=6, user_id=4, name=周发展, id=18, time=31.92}
+kmcg 2020-05-26 16:56:43,764 [http-nio-8185-exec-1] [INFO ] [IndexController-paiming] - [User(id=4, name=周发展, tel=18805174084, jiedao=斗南街道, address=云南省-昆明市-呈贡区, openid=orsKq0ah_BIThZkJv2adqXaiXGEc)]
+kmcg 2020-05-26 16:56:43,768 [http-nio-8185-exec-1] [INFO ] [IndexController-paiming] - {date=2020-05-26 14:46:30.0, rownum=1, score=6, user_id=4, name=周发展, id=18, time=31.92}
+kmcg 2020-05-26 16:57:04,974 [http-nio-8185-exec-10] [INFO ] [IndexController-paiming] - [User(id=4, name=周发展, tel=18805174084, jiedao=斗南街道, address=云南省-昆明市-呈贡区, openid=orsKq0ah_BIThZkJv2adqXaiXGEc)]
+kmcg 2020-05-26 16:57:04,981 [http-nio-8185-exec-10] [INFO ] [IndexController-paiming] - {date=2020-05-26 14:46:30.0, rownum=1, score=6, user_id=4, name=周发展, id=18, time=31.92}
+kmcg 2020-05-26 16:59:14,369 [restartedMain] [INFO ] [KmcgApplication-logStarting] - Starting KmcgApplication on ZFZ with PID 10880 (D:\IdeaWorkSpace\kmcg\target\classes started by Administrator in D:\IdeaWorkSpace\kmcg)
+kmcg 2020-05-26 16:59:14,370 [restartedMain] [DEBUG] [KmcgApplication-logStarting] - Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
+kmcg 2020-05-26 16:59:14,370 [restartedMain] [INFO ] [KmcgApplication-logStartupProfileInfo] - No active profile set, falling back to default profiles: default
+kmcg 2020-05-26 16:59:15,750 [restartedMain] [INFO ] [KmcgApplication-logStarted] - Started KmcgApplication in 1.436 seconds (JVM running for 292.985)
+kmcg 2020-05-26 16:59:18,588 [main] [INFO ] [KmcgApplicationTests-logStarting] - Starting KmcgApplicationTests on ZFZ with PID 13248 (started by Administrator in D:\IdeaWorkSpace\kmcg)
+kmcg 2020-05-26 16:59:18,591 [main] [DEBUG] [KmcgApplicationTests-logStarting] - Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
+kmcg 2020-05-26 16:59:18,593 [main] [INFO ] [KmcgApplicationTests-logStartupProfileInfo] - No active profile set, falling back to default profiles: default
+kmcg 2020-05-26 16:59:23,428 [main] [INFO ] [KmcgApplicationTests-logStarted] - Started KmcgApplicationTests in 5.416 seconds (JVM running for 6.385)
+kmcg 2020-05-26 17:01:14,859 [restartedMain] [INFO ] [KmcgApplication-logStarting] - Starting KmcgApplication on ZFZ with PID 10880 (D:\IdeaWorkSpace\kmcg\target\classes started by Administrator in D:\IdeaWorkSpace\kmcg)
+kmcg 2020-05-26 17:01:14,860 [restartedMain] [DEBUG] [KmcgApplication-logStarting] - Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
+kmcg 2020-05-26 17:01:14,860 [restartedMain] [INFO ] [KmcgApplication-logStartupProfileInfo] - No active profile set, falling back to default profiles: default
+kmcg 2020-05-26 17:01:20,433 [main] [INFO ] [KmcgApplicationTests-logStarting] - Starting KmcgApplicationTests on ZFZ with PID 2844 (started by Administrator in D:\IdeaWorkSpace\kmcg)
+kmcg 2020-05-26 17:01:20,434 [main] [DEBUG] [KmcgApplicationTests-logStarting] - Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
+kmcg 2020-05-26 17:01:20,435 [main] [INFO ] [KmcgApplicationTests-logStartupProfileInfo] - No active profile set, falling back to default profiles: default
+kmcg 2020-05-26 17:01:25,298 [main] [INFO ] [KmcgApplicationTests-logStarted] - Started KmcgApplicationTests in 5.361 seconds (JVM running for 6.314)
+kmcg 2020-05-26 17:02:19,409 [restartedMain] [INFO ] [KmcgApplication-logStarting] - Starting KmcgApplication on ZFZ with PID 10880 (D:\IdeaWorkSpace\kmcg\target\classes started by Administrator in D:\IdeaWorkSpace\kmcg)
+kmcg 2020-05-26 17:02:19,409 [restartedMain] [DEBUG] [KmcgApplication-logStarting] - Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
+kmcg 2020-05-26 17:02:19,410 [restartedMain] [INFO ] [KmcgApplication-logStartupProfileInfo] - No active profile set, falling back to default profiles: default
+kmcg 2020-05-26 17:02:20,426 [restartedMain] [INFO ] [KmcgApplication-logStarted] - Started KmcgApplication in 1.054 seconds (JVM running for 477.656)
+kmcg 2020-05-26 17:02:22,317 [restartedMain] [INFO ] [KmcgApplication-logStarting] - Starting KmcgApplication on ZFZ with PID 10880 (D:\IdeaWorkSpace\kmcg\target\classes started by Administrator in D:\IdeaWorkSpace\kmcg)
+kmcg 2020-05-26 17:02:22,318 [restartedMain] [DEBUG] [KmcgApplication-logStarting] - Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
+kmcg 2020-05-26 17:02:22,318 [restartedMain] [INFO ] [KmcgApplication-logStartupProfileInfo] - No active profile set, falling back to default profiles: default
+kmcg 2020-05-26 17:02:23,398 [restartedMain] [INFO ] [KmcgApplication-logStarted] - Started KmcgApplication in 1.127 seconds (JVM running for 480.627)
+kmcg 2020-05-26 17:02:24,036 [main] [INFO ] [KmcgApplicationTests-logStarting] - Starting KmcgApplicationTests on ZFZ with PID 12500 (started by Administrator in D:\IdeaWorkSpace\kmcg)
+kmcg 2020-05-26 17:02:24,038 [main] [DEBUG] [KmcgApplicationTests-logStarting] - Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
+kmcg 2020-05-26 17:02:24,058 [main] [INFO ] [KmcgApplicationTests-logStartupProfileInfo] - No active profile set, falling back to default profiles: default
+kmcg 2020-05-26 17:02:28,694 [main] [INFO ] [KmcgApplicationTests-logStarted] - Started KmcgApplicationTests in 5.216 seconds (JVM running for 6.308)
+kmcg 2020-05-26 17:05:37,825 [restartedMain] [INFO ] [KmcgApplication-logStarting] - Starting KmcgApplication on ZFZ with PID 10880 (D:\IdeaWorkSpace\kmcg\target\classes started by Administrator in D:\IdeaWorkSpace\kmcg)
+kmcg 2020-05-26 17:05:37,826 [restartedMain] [DEBUG] [KmcgApplication-logStarting] - Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
+kmcg 2020-05-26 17:05:37,826 [restartedMain] [INFO ] [KmcgApplication-logStartupProfileInfo] - No active profile set, falling back to default profiles: default
+kmcg 2020-05-26 17:05:38,969 [restartedMain] [INFO ] [KmcgApplication-logStarted] - Started KmcgApplication in 1.186 seconds (JVM running for 676.193)
+kmcg 2020-05-26 17:05:41,595 [main] [INFO ] [KmcgApplicationTests-logStarting] - Starting KmcgApplicationTests on ZFZ with PID 12368 (started by Administrator in D:\IdeaWorkSpace\kmcg)
+kmcg 2020-05-26 17:05:41,597 [main] [DEBUG] [KmcgApplicationTests-logStarting] - Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
+kmcg 2020-05-26 17:05:41,597 [main] [INFO ] [KmcgApplicationTests-logStartupProfileInfo] - No active profile set, falling back to default profiles: default
+kmcg 2020-05-26 17:05:46,318 [main] [INFO ] [KmcgApplicationTests-logStarted] - Started KmcgApplicationTests in 5.288 seconds (JVM running for 6.228)
+kmcg 2020-05-26 17:11:47,009 [restartedMain] [INFO ] [KmcgApplication-logStarting] - Starting KmcgApplication on ZFZ with PID 12888 (D:\IdeaWorkSpace\kmcg\target\classes started by Administrator in D:\IdeaWorkSpace\kmcg)
+kmcg 2020-05-26 17:11:47,012 [restartedMain] [DEBUG] [KmcgApplication-logStarting] - Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
+kmcg 2020-05-26 17:11:47,012 [restartedMain] [INFO ] [KmcgApplication-logStartupProfileInfo] - No active profile set, falling back to default profiles: default
+kmcg 2020-05-26 17:11:51,736 [restartedMain] [INFO ] [KmcgApplication-logStarted] - Started KmcgApplication in 5.396 seconds (JVM running for 6.646)
+kmcg 2020-05-26 17:16:28,125 [restartedMain] [INFO ] [KmcgApplication-logStarting] - Starting KmcgApplication on ZFZ with PID 12888 (D:\IdeaWorkSpace\kmcg\target\classes started by Administrator in D:\IdeaWorkSpace\kmcg)
+kmcg 2020-05-26 17:16:28,126 [restartedMain] [DEBUG] [KmcgApplication-logStarting] - Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
+kmcg 2020-05-26 17:16:28,126 [restartedMain] [INFO ] [KmcgApplication-logStartupProfileInfo] - No active profile set, falling back to default profiles: default
+kmcg 2020-05-26 17:16:29,427 [restartedMain] [INFO ] [KmcgApplication-logStarted] - Started KmcgApplication in 1.353 seconds (JVM running for 284.33)
+kmcg 2020-05-26 17:16:31,414 [restartedMain] [INFO ] [KmcgApplication-logStarting] - Starting KmcgApplication on ZFZ with PID 12888 (D:\IdeaWorkSpace\kmcg\target\classes started by Administrator in D:\IdeaWorkSpace\kmcg)
+kmcg 2020-05-26 17:16:31,414 [restartedMain] [DEBUG] [KmcgApplication-logStarting] - Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
+kmcg 2020-05-26 17:16:31,414 [restartedMain] [INFO ] [KmcgApplication-logStartupProfileInfo] - No active profile set, falling back to default profiles: default
+kmcg 2020-05-26 17:16:32,571 [main] [INFO ] [KmcgApplicationTests-logStarting] - Starting KmcgApplicationTests on ZFZ with PID 11064 (started by Administrator in D:\IdeaWorkSpace\kmcg)
+kmcg 2020-05-26 17:16:32,573 [main] [DEBUG] [KmcgApplicationTests-logStarting] - Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
+kmcg 2020-05-26 17:16:32,574 [main] [INFO ] [KmcgApplicationTests-logStartupProfileInfo] - No active profile set, falling back to default profiles: default
+kmcg 2020-05-26 17:16:32,710 [restartedMain] [INFO ] [KmcgApplication-logStarted] - Started KmcgApplication in 1.338 seconds (JVM running for 287.613)
+kmcg 2020-05-26 17:16:37,530 [main] [INFO ] [KmcgApplicationTests-logStarted] - Started KmcgApplicationTests in 5.724 seconds (JVM running for 6.786)
+kmcg 2020-05-26 17:20:00,928 [restartedMain] [INFO ] [KmcgApplication-logStarting] - Starting KmcgApplication on ZFZ with PID 12888 (D:\IdeaWorkSpace\kmcg\target\classes started by Administrator in D:\IdeaWorkSpace\kmcg)
+kmcg 2020-05-26 17:20:00,928 [restartedMain] [DEBUG] [KmcgApplication-logStarting] - Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
+kmcg 2020-05-26 17:20:00,928 [restartedMain] [INFO ] [KmcgApplication-logStartupProfileInfo] - No active profile set, falling back to default profiles: default
+kmcg 2020-05-26 17:20:01,898 [restartedMain] [INFO ] [KmcgApplication-logStarted] - Started KmcgApplication in 1.009 seconds (JVM running for 496.795)
+kmcg 2020-05-26 17:20:04,398 [restartedMain] [INFO ] [KmcgApplication-logStarting] - Starting KmcgApplication on ZFZ with PID 12888 (D:\IdeaWorkSpace\kmcg\target\classes started by Administrator in D:\IdeaWorkSpace\kmcg)
+kmcg 2020-05-26 17:20:04,398 [restartedMain] [DEBUG] [KmcgApplication-logStarting] - Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
+kmcg 2020-05-26 17:20:04,398 [restartedMain] [INFO ] [KmcgApplication-logStartupProfileInfo] - No active profile set, falling back to default profiles: default
+kmcg 2020-05-26 17:20:05,575 [restartedMain] [INFO ] [KmcgApplication-logStarted] - Started KmcgApplication in 1.214 seconds (JVM running for 500.471)
+kmcg 2020-05-26 17:20:06,306 [main] [INFO ] [KmcgApplicationTests-logStarting] - Starting KmcgApplicationTests on ZFZ with PID 10352 (started by Administrator in D:\IdeaWorkSpace\kmcg)
+kmcg 2020-05-26 17:20:06,308 [main] [DEBUG] [KmcgApplicationTests-logStarting] - Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
+kmcg 2020-05-26 17:20:06,308 [main] [INFO ] [KmcgApplicationTests-logStartupProfileInfo] - No active profile set, falling back to default profiles: default
+kmcg 2020-05-26 17:20:10,949 [main] [INFO ] [KmcgApplicationTests-logStarted] - Started KmcgApplicationTests in 5.155 seconds (JVM running for 6.368)
+kmcg 2020-05-26 17:29:21,570 [http-nio-8185-exec-2] [DEBUG] [ResultController-result] - useTime=22
+kmcg 2020-05-26 17:29:21,571 [http-nio-8185-exec-2] [DEBUG] [ResultController-result] - tel=18805174084
+kmcg 2020-05-26 17:29:21,571 [http-nio-8185-exec-2] [DEBUG] [ResultController-result] - score=4
+kmcg 2020-05-26 17:29:37,019 [restartedMain] [INFO ] [KmcgApplication-logStarting] - Starting KmcgApplication on ZFZ with PID 12888 (D:\IdeaWorkSpace\kmcg\target\classes started by Administrator in D:\IdeaWorkSpace\kmcg)
+kmcg 2020-05-26 17:29:37,019 [restartedMain] [DEBUG] [KmcgApplication-logStarting] - Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
+kmcg 2020-05-26 17:29:37,020 [restartedMain] [INFO ] [KmcgApplication-logStartupProfileInfo] - No active profile set, falling back to default profiles: default
+kmcg 2020-05-26 17:29:38,075 [restartedMain] [INFO ] [KmcgApplication-logStarted] - Started KmcgApplication in 1.105 seconds (JVM running for 1072.957)
+kmcg 2020-05-26 17:30:52,088 [restartedMain] [INFO ] [KmcgApplication-logStarting] - Starting KmcgApplication on ZFZ with PID 7968 (D:\IdeaWorkSpace\kmcg\target\classes started by Administrator in D:\IdeaWorkSpace\kmcg)
+kmcg 2020-05-26 17:30:52,091 [restartedMain] [DEBUG] [KmcgApplication-logStarting] - Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
+kmcg 2020-05-26 17:30:52,092 [restartedMain] [INFO ] [KmcgApplication-logStartupProfileInfo] - No active profile set, falling back to default profiles: default
+kmcg 2020-05-26 17:30:56,811 [restartedMain] [INFO ] [KmcgApplication-logStarted] - Started KmcgApplication in 5.27 seconds (JVM running for 6.193)
+kmcg 2020-05-26 17:30:59,359 [http-nio-8185-exec-1] [DEBUG] [ResultController-result] - useTime=22
+kmcg 2020-05-26 17:31:00,749 [http-nio-8185-exec-1] [DEBUG] [ResultController-result] - tel=18805174084
+kmcg 2020-05-26 17:31:00,750 [http-nio-8185-exec-1] [DEBUG] [ResultController-result] - score=4
+kmcg 2020-05-26 17:31:31,957 [http-nio-8185-exec-7] [DEBUG] [ResultController-result] - useTime=22
+kmcg 2020-05-26 17:31:33,538 [http-nio-8185-exec-7] [DEBUG] [ResultController-result] - tel=18805174084
+kmcg 2020-05-26 17:31:33,539 [http-nio-8185-exec-7] [DEBUG] [ResultController-result] - score=4
+kmcg 2020-05-26 17:32:06,296 [http-nio-8185-exec-3] [DEBUG] [ResultController-result] - useTime=22
+kmcg 2020-05-26 17:32:06,297 [http-nio-8185-exec-3] [DEBUG] [ResultController-result] - tel=18805174084
+kmcg 2020-05-26 17:32:06,297 [http-nio-8185-exec-3] [DEBUG] [ResultController-result] - score=4
+kmcg 2020-05-26 17:32:43,049 [http-nio-8185-exec-8] [DEBUG] [ResultController-result] - useTime=22
+kmcg 2020-05-26 17:32:43,049 [http-nio-8185-exec-8] [DEBUG] [ResultController-result] - tel=18805174084
+kmcg 2020-05-26 17:32:43,049 [http-nio-8185-exec-8] [DEBUG] [ResultController-result] - score=4
+kmcg 2020-05-26 17:33:47,128 [http-nio-8185-exec-6] [DEBUG] [ResultController-result] - useTime=22
+kmcg 2020-05-26 17:33:47,129 [http-nio-8185-exec-6] [DEBUG] [ResultController-result] - tel=18805174084
+kmcg 2020-05-26 17:33:47,129 [http-nio-8185-exec-6] [DEBUG] [ResultController-result] - score=4
+kmcg 2020-05-26 17:36:14,011 [http-nio-8185-exec-5] [DEBUG] [ResultController-result] - useTime=22
+kmcg 2020-05-26 17:36:14,012 [http-nio-8185-exec-5] [DEBUG] [ResultController-result] - tel=18805174084
+kmcg 2020-05-26 17:36:14,012 [http-nio-8185-exec-5] [DEBUG] [ResultController-result] - score=4
+kmcg 2020-05-26 17:36:35,490 [http-nio-8185-exec-2] [DEBUG] [ResultController-result] - useTime=22
+kmcg 2020-05-26 17:36:35,490 [http-nio-8185-exec-2] [DEBUG] [ResultController-result] - tel=18805174084
+kmcg 2020-05-26 17:36:35,491 [http-nio-8185-exec-2] [DEBUG] [ResultController-result] - score=4
+kmcg 2020-05-26 17:37:02,090 [http-nio-8185-exec-8] [DEBUG] [ResultController-result] - useTime=22
+kmcg 2020-05-26 17:37:02,090 [http-nio-8185-exec-8] [DEBUG] [ResultController-result] - tel=18805174084
+kmcg 2020-05-26 17:37:02,091 [http-nio-8185-exec-8] [DEBUG] [ResultController-result] - score=4
+kmcg 2020-05-26 17:37:05,515 [http-nio-8185-exec-9] [DEBUG] [ResultController-result] - useTime=22
+kmcg 2020-05-26 17:37:05,516 [http-nio-8185-exec-9] [DEBUG] [ResultController-result] - tel=18805174084
+kmcg 2020-05-26 17:37:05,516 [http-nio-8185-exec-9] [DEBUG] [ResultController-result] - score=4
+kmcg 2020-05-26 17:38:01,284 [http-nio-8185-exec-3] [DEBUG] [ResultController-result] - useTime=22
+kmcg 2020-05-26 17:38:01,285 [http-nio-8185-exec-3] [DEBUG] [ResultController-result] - tel=18805174084
+kmcg 2020-05-26 17:38:01,285 [http-nio-8185-exec-3] [DEBUG] [ResultController-result] - score=4
+kmcg 2020-05-26 17:38:12,925 [http-nio-8185-exec-6] [DEBUG] [ResultController-result] - useTime=22
+kmcg 2020-05-26 17:38:12,926 [http-nio-8185-exec-6] [DEBUG] [ResultController-result] - tel=18805174084
+kmcg 2020-05-26 17:38:12,926 [http-nio-8185-exec-6] [DEBUG] [ResultController-result] - score=4
+kmcg 2020-05-26 17:38:15,177 [http-nio-8185-exec-10] [DEBUG] [ResultController-result] - useTime=22
+kmcg 2020-05-26 17:38:15,178 [http-nio-8185-exec-10] [DEBUG] [ResultController-result] - tel=18805174084
+kmcg 2020-05-26 17:38:15,178 [http-nio-8185-exec-10] [DEBUG] [ResultController-result] - score=4
+kmcg 2020-05-26 17:38:46,636 [http-nio-8185-exec-4] [DEBUG] [ResultController-result] - useTime=22
+kmcg 2020-05-26 17:38:46,637 [http-nio-8185-exec-4] [DEBUG] [ResultController-result] - tel=18805174084
+kmcg 2020-05-26 17:38:46,637 [http-nio-8185-exec-4] [DEBUG] [ResultController-result] - score=4
+kmcg 2020-05-26 17:38:56,747 [http-nio-8185-exec-5] [DEBUG] [ResultController-result] - useTime=22
+kmcg 2020-05-26 17:38:56,748 [http-nio-8185-exec-5] [DEBUG] [ResultController-result] - tel=18805174084
+kmcg 2020-05-26 17:38:56,748 [http-nio-8185-exec-5] [DEBUG] [ResultController-result] - score=4
+kmcg 2020-05-26 17:39:06,821 [http-nio-8185-exec-2] [DEBUG] [ResultController-result] - useTime=22
+kmcg 2020-05-26 17:39:06,821 [http-nio-8185-exec-2] [DEBUG] [ResultController-result] - tel=18805174084
+kmcg 2020-05-26 17:39:06,822 [http-nio-8185-exec-2] [DEBUG] [ResultController-result] - score=4
+kmcg 2020-05-26 17:39:08,523 [http-nio-8185-exec-8] [DEBUG] [ResultController-result] - useTime=22
+kmcg 2020-05-26 17:39:08,523 [http-nio-8185-exec-8] [DEBUG] [ResultController-result] - tel=18805174084
+kmcg 2020-05-26 17:39:08,523 [http-nio-8185-exec-8] [DEBUG] [ResultController-result] - score=4
+kmcg 2020-05-26 17:39:08,819 [http-nio-8185-exec-10] [DEBUG] [ResultController-result] - useTime=22
+kmcg 2020-05-26 17:39:08,820 [http-nio-8185-exec-10] [DEBUG] [ResultController-result] - tel=18805174084
+kmcg 2020-05-26 17:39:08,820 [http-nio-8185-exec-10] [DEBUG] [ResultController-result] - score=4
+kmcg 2020-05-26 17:39:08,885 [http-nio-8185-exec-5] [DEBUG] [ResultController-result] - useTime=22
+kmcg 2020-05-26 17:39:08,886 [http-nio-8185-exec-5] [DEBUG] [ResultController-result] - tel=18805174084
+kmcg 2020-05-26 17:39:08,886 [http-nio-8185-exec-5] [DEBUG] [ResultController-result] - score=4
+kmcg 2020-05-26 17:39:09,115 [http-nio-8185-exec-8] [DEBUG] [ResultController-result] - useTime=22
+kmcg 2020-05-26 17:39:09,115 [http-nio-8185-exec-8] [DEBUG] [ResultController-result] - tel=18805174084
+kmcg 2020-05-26 17:39:09,116 [http-nio-8185-exec-8] [DEBUG] [ResultController-result] - score=4
+kmcg 2020-05-26 17:39:26,788 [http-nio-8185-exec-7] [DEBUG] [ResultController-result] - useTime=22
+kmcg 2020-05-26 17:39:26,788 [http-nio-8185-exec-7] [DEBUG] [ResultController-result] - tel=18805174084
+kmcg 2020-05-26 17:39:26,788 [http-nio-8185-exec-7] [DEBUG] [ResultController-result] - score=4
+kmcg 2020-05-26 17:39:46,606 [http-nio-8185-exec-9] [DEBUG] [ResultController-result] - useTime=22
+kmcg 2020-05-26 17:39:46,607 [http-nio-8185-exec-9] [DEBUG] [ResultController-result] - tel=18805174084
+kmcg 2020-05-26 17:39:46,607 [http-nio-8185-exec-9] [DEBUG] [ResultController-result] - score=4
+kmcg 2020-05-26 17:39:54,651 [http-nio-8185-exec-8] [DEBUG] [ResultController-result] - useTime=22
+kmcg 2020-05-26 17:39:54,651 [http-nio-8185-exec-8] [DEBUG] [ResultController-result] - tel=18805174084
+kmcg 2020-05-26 17:39:54,651 [http-nio-8185-exec-8] [DEBUG] [ResultController-result] - score=4
+kmcg 2020-05-26 17:40:36,564 [http-nio-8185-exec-6] [DEBUG] [ResultController-result] - useTime=22
+kmcg 2020-05-26 17:40:36,565 [http-nio-8185-exec-6] [DEBUG] [ResultController-result] - tel=18805174084
+kmcg 2020-05-26 17:40:36,566 [http-nio-8185-exec-6] [DEBUG] [ResultController-result] - score=4
+kmcg 2020-05-26 17:40:47,301 [http-nio-8185-exec-4] [DEBUG] [ResultController-result] - useTime=22
+kmcg 2020-05-26 17:40:47,302 [http-nio-8185-exec-4] [DEBUG] [ResultController-result] - tel=18805174084
+kmcg 2020-05-26 17:40:47,303 [http-nio-8185-exec-4] [DEBUG] [ResultController-result] - score=4
+kmcg 2020-05-26 17:40:49,533 [http-nio-8185-exec-7] [DEBUG] [ResultController-result] - useTime=22
+kmcg 2020-05-26 17:40:49,534 [http-nio-8185-exec-7] [DEBUG] [ResultController-result] - tel=18805174084
+kmcg 2020-05-26 17:40:49,535 [http-nio-8185-exec-7] [DEBUG] [ResultController-result] - score=4
+kmcg 2020-05-26 17:40:57,803 [http-nio-8185-exec-10] [DEBUG] [ResultController-result] - useTime=22
+kmcg 2020-05-26 17:40:57,803 [http-nio-8185-exec-10] [DEBUG] [ResultController-result] - tel=18805174084
+kmcg 2020-05-26 17:40:57,803 [http-nio-8185-exec-10] [DEBUG] [ResultController-result] - score=4
+kmcg 2020-05-26 17:41:26,464 [http-nio-8185-exec-8] [DEBUG] [ResultController-result] - useTime=22
+kmcg 2020-05-26 17:41:26,464 [http-nio-8185-exec-8] [DEBUG] [ResultController-result] - tel=18805174084
+kmcg 2020-05-26 17:41:26,464 [http-nio-8185-exec-8] [DEBUG] [ResultController-result] - score=4
+kmcg 2020-05-26 17:42:11,087 [http-nio-8185-exec-6] [DEBUG] [ResultController-result] - useTime=22
+kmcg 2020-05-26 17:42:11,088 [http-nio-8185-exec-6] [DEBUG] [ResultController-result] - tel=18805174084
+kmcg 2020-05-26 17:42:11,088 [http-nio-8185-exec-6] [DEBUG] [ResultController-result] - score=4
+kmcg 2020-05-26 17:43:42,409 [http-nio-8185-exec-10] [DEBUG] [ResultController-result] - useTime=22
+kmcg 2020-05-26 17:43:42,410 [http-nio-8185-exec-10] [DEBUG] [ResultController-result] - tel=18805174084
+kmcg 2020-05-26 17:43:42,411 [http-nio-8185-exec-10] [DEBUG] [ResultController-result] - score=4
+kmcg 2020-05-26 17:43:52,196 [http-nio-8185-exec-7] [DEBUG] [ResultController-result] - useTime=22
+kmcg 2020-05-26 17:43:52,197 [http-nio-8185-exec-7] [DEBUG] [ResultController-result] - tel=18805174084
+kmcg 2020-05-26 17:43:52,197 [http-nio-8185-exec-7] [DEBUG] [ResultController-result] - score=4
+kmcg 2020-05-26 17:44:00,984 [http-nio-8185-exec-6] [DEBUG] [ResultController-result] - useTime=22
+kmcg 2020-05-26 17:44:00,984 [http-nio-8185-exec-6] [DEBUG] [ResultController-result] - tel=18805174084
+kmcg 2020-05-26 17:44:00,985 [http-nio-8185-exec-6] [DEBUG] [ResultController-result] - score=4
+kmcg 2020-05-26 17:45:21,386 [http-nio-8185-exec-4] [DEBUG] [ResultController-result] - useTime=22
+kmcg 2020-05-26 17:45:21,387 [http-nio-8185-exec-4] [DEBUG] [ResultController-result] - tel=18805174084
+kmcg 2020-05-26 17:45:21,387 [http-nio-8185-exec-4] [DEBUG] [ResultController-result] - score=4
+kmcg 2020-05-26 17:48:54,943 [http-nio-8185-exec-5] [DEBUG] [ResultController-result] - useTime=22
+kmcg 2020-05-26 17:48:54,944 [http-nio-8185-exec-5] [DEBUG] [ResultController-result] - tel=18805174084
+kmcg 2020-05-26 17:48:54,944 [http-nio-8185-exec-5] [DEBUG] [ResultController-result] - score=4
+kmcg 2020-05-26 17:49:09,902 [http-nio-8185-exec-2] [INFO ] [IndexController-paiming] - [User(id=4, name=周发展, tel=18805174084, jiedao=斗南街道, address=云南省-昆明市-呈贡区, openid=orsKq0ah_BIThZkJv2adqXaiXGEc)]
+kmcg 2020-05-26 17:49:09,925 [http-nio-8185-exec-2] [INFO ] [IndexController-paiming] - {date=2020-05-26 14:46:30.0, rownum=1, score=6, user_id=4, name=周发展, id=18, time=31.92}
+kmcg 2020-05-26 18:02:18,027 [restartedMain] [INFO ] [KmcgApplication-logStarting] - Starting KmcgApplication on ZFZ with PID 7968 (D:\IdeaWorkSpace\kmcg\target\classes started by Administrator in D:\IdeaWorkSpace\kmcg)
+kmcg 2020-05-26 18:02:18,028 [restartedMain] [DEBUG] [KmcgApplication-logStarting] - Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
+kmcg 2020-05-26 18:02:18,028 [restartedMain] [INFO ] [KmcgApplication-logStartupProfileInfo] - No active profile set, falling back to default profiles: default
+kmcg 2020-05-26 18:02:19,558 [restartedMain] [INFO ] [KmcgApplication-logStarted] - Started KmcgApplication in 1.624 seconds (JVM running for 1888.892)
+kmcg 2020-05-26 18:02:29,949 [http-nio-8185-exec-1] [INFO ] [IndexController-paiming] - [User(id=4, name=周发展, tel=18805174084, jiedao=斗南街道, address=云南省-昆明市-呈贡区, openid=orsKq0ah_BIThZkJv2adqXaiXGEc)]
+kmcg 2020-05-26 18:02:29,993 [http-nio-8185-exec-1] [INFO ] [IndexController-paiming] - {date=2020-05-26 14:46:30.0, rownum=1, score=6, user_id=4, name=周发展, id=18, time=31.92}
+kmcg 2020-05-26 18:02:44,599 [http-nio-8185-exec-7] [INFO ] [IndexController-paiming] - [User(id=4, name=周发展, tel=18805174084, jiedao=斗南街道, address=云南省-昆明市-呈贡区, openid=orsKq0ah_BIThZkJv2adqXaiXGEc)]
+kmcg 2020-05-26 18:04:22,449 [restartedMain] [INFO ] [KmcgApplication-logStarting] - Starting KmcgApplication on ZFZ with PID 7968 (D:\IdeaWorkSpace\kmcg\target\classes started by Administrator in D:\IdeaWorkSpace\kmcg)
+kmcg 2020-05-26 18:04:22,449 [restartedMain] [DEBUG] [KmcgApplication-logStarting] - Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
+kmcg 2020-05-26 18:04:22,449 [restartedMain] [INFO ] [KmcgApplication-logStartupProfileInfo] - No active profile set, falling back to default profiles: default
+kmcg 2020-05-26 18:04:34,848 [restartedMain] [INFO ] [KmcgApplication-logStarting] - Starting KmcgApplication on ZFZ with PID 7384 (D:\IdeaWorkSpace\kmcg\target\classes started by Administrator in D:\IdeaWorkSpace\kmcg)
+kmcg 2020-05-26 18:04:34,851 [restartedMain] [DEBUG] [KmcgApplication-logStarting] - Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
+kmcg 2020-05-26 18:04:34,852 [restartedMain] [INFO ] [KmcgApplication-logStartupProfileInfo] - No active profile set, falling back to default profiles: default
+kmcg 2020-05-26 18:04:39,600 [restartedMain] [INFO ] [KmcgApplication-logStarted] - Started KmcgApplication in 5.292 seconds (JVM running for 6.819)
+kmcg 2020-05-26 18:04:48,750 [http-nio-8185-exec-1] [INFO ] [IndexController-paiming] - [User(id=4, name=周发展, tel=18805174084, jiedao=斗南街道, address=云南省-昆明市-呈贡区, openid=orsKq0ah_BIThZkJv2adqXaiXGEc)]
+kmcg 2020-05-26 18:05:33,698 [http-nio-8185-exec-2] [INFO ] [IndexController-paiming] - [User(id=4, name=周发展, tel=18805174084, jiedao=斗南街道, address=云南省-昆明市-呈贡区, openid=orsKq0ah_BIThZkJv2adqXaiXGEc)]
+kmcg 2020-05-26 18:05:40,067 [http-nio-8185-exec-3] [DEBUG] [IndexController-checkTime] - 4-26-18
+kmcg 2020-05-26 18:08:39,028 [restartedMain] [INFO ] [KmcgApplication-logStarting] - Starting KmcgApplication on ZFZ with PID 7384 (D:\IdeaWorkSpace\kmcg\target\classes started by Administrator in D:\IdeaWorkSpace\kmcg)
+kmcg 2020-05-26 18:08:39,029 [restartedMain] [DEBUG] [KmcgApplication-logStarting] - Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
+kmcg 2020-05-26 18:08:39,029 [restartedMain] [INFO ] [KmcgApplication-logStartupProfileInfo] - No active profile set, falling back to default profiles: default
+kmcg 2020-05-26 18:08:40,596 [restartedMain] [INFO ] [KmcgApplication-logStarted] - Started KmcgApplication in 1.615 seconds (JVM running for 247.809)
+kmcg 2020-05-26 18:08:43,282 [main] [INFO ] [KmcgApplicationTests-logStarting] - Starting KmcgApplicationTests on ZFZ with PID 6116 (started by Administrator in D:\IdeaWorkSpace\kmcg)
+kmcg 2020-05-26 18:08:43,285 [main] [DEBUG] [KmcgApplicationTests-logStarting] - Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
+kmcg 2020-05-26 18:08:43,287 [main] [INFO ] [KmcgApplicationTests-logStartupProfileInfo] - No active profile set, falling back to default profiles: default
+kmcg 2020-05-26 18:08:48,245 [main] [INFO ] [KmcgApplicationTests-logStarted] - Started KmcgApplicationTests in 5.571 seconds (JVM running for 6.547)
+kmcg 2020-05-26 18:21:35,423 [restartedMain] [INFO ] [KmcgApplication-logStarting] - Starting KmcgApplication on ZFZ with PID 7384 (D:\IdeaWorkSpace\kmcg\target\classes started by Administrator in D:\IdeaWorkSpace\kmcg)
+kmcg 2020-05-26 18:21:35,423 [restartedMain] [DEBUG] [KmcgApplication-logStarting] - Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
+kmcg 2020-05-26 18:21:35,423 [restartedMain] [INFO ] [KmcgApplication-logStartupProfileInfo] - No active profile set, falling back to default profiles: default
+kmcg 2020-05-26 18:21:36,475 [restartedMain] [INFO ] [KmcgApplication-logStarted] - Started KmcgApplication in 1.088 seconds (JVM running for 1023.668)
+kmcg 2020-05-26 18:24:58,576 [http-nio-8185-exec-2] [INFO ] [IndexController-paiming] - [User(id=4, name=周发展, tel=18805174084, jiedao=斗南街道, address=云南省-昆明市-呈贡区, openid=orsKq0ah_BIThZkJv2adqXaiXGEc)]
+kmcg 2020-05-26 18:25:37,201 [http-nio-8185-exec-7] [INFO ] [IndexController-paiming] - [User(id=4, name=周发展, tel=18805174084, jiedao=斗南街道, address=云南省-昆明市-呈贡区, openid=orsKq0ah_BIThZkJv2adqXaiXGEc)]
+kmcg 2020-05-26 18:26:18,645 [restartedMain] [INFO ] [KmcgApplication-logStarting] - Starting KmcgApplication on ZFZ with PID 7384 (D:\IdeaWorkSpace\kmcg\target\classes started by Administrator in D:\IdeaWorkSpace\kmcg)
+kmcg 2020-05-26 18:26:18,645 [restartedMain] [DEBUG] [KmcgApplication-logStarting] - Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
+kmcg 2020-05-26 18:26:18,646 [restartedMain] [INFO ] [KmcgApplication-logStartupProfileInfo] - No active profile set, falling back to default profiles: default
+kmcg 2020-05-26 18:26:21,001 [restartedMain] [INFO ] [KmcgApplication-logStarting] - Starting KmcgApplication on ZFZ with PID 7384 (D:\IdeaWorkSpace\kmcg\target\classes started by Administrator in D:\IdeaWorkSpace\kmcg)
+kmcg 2020-05-26 18:26:21,001 [restartedMain] [DEBUG] [KmcgApplication-logStarting] - Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
+kmcg 2020-05-26 18:26:21,001 [restartedMain] [INFO ] [KmcgApplication-logStartupProfileInfo] - No active profile set, falling back to default profiles: default
+kmcg 2020-05-26 18:26:22,003 [restartedMain] [INFO ] [KmcgApplication-logStarted] - Started KmcgApplication in 1.06 seconds (JVM running for 1309.189)
+kmcg 2020-05-26 18:26:23,316 [http-nio-8185-exec-1] [INFO ] [IndexController-paiming] - [User(id=4, name=周发展, tel=18805174084, jiedao=斗南街道, address=云南省-昆明市-呈贡区, openid=orsKq0ah_BIThZkJv2adqXaiXGEc)]
+kmcg 2020-05-26 18:26:28,570 [http-nio-8185-exec-1] [INFO ] [IndexController-paiming] - {date=2020-05-26 14:46:30.0, rownum=1, score=6, user_id=4, name=周发展, id=18, time=31.92}
+kmcg 2020-05-26 18:26:31,177 [http-nio-8185-exec-1] [INFO ] [IndexController-paiming] - {date=2020-05-26 17:25:00.0, rownum=2, score=5, user_id=5, name=郭欣, id=19, time=27.33}
+kmcg 2020-05-26 18:26:31,178 [http-nio-8185-exec-1] [INFO ] [IndexController-paiming] - {date=2020-05-26 18:14:04.0, rownum=3, score=5, user_id=6, name=无, id=20, time=76.819}
+kmcg 2020-05-26 18:26:34,061 [http-nio-8185-exec-7] [INFO ] [IndexController-paiming] - [User(id=4, name=周发展, tel=18805174084, jiedao=斗南街道, address=云南省-昆明市-呈贡区, openid=orsKq0ah_BIThZkJv2adqXaiXGEc)]
+kmcg 2020-05-26 18:26:34,069 [http-nio-8185-exec-7] [INFO ] [IndexController-paiming] - {date=2020-05-26 14:46:30.0, rownum=1, score=6, user_id=4, name=周发展, id=18, time=31.92}
+kmcg 2020-05-26 18:26:34,071 [http-nio-8185-exec-7] [INFO ] [IndexController-paiming] - {date=2020-05-26 17:25:00.0, rownum=2, score=5, user_id=5, name=郭欣, id=19, time=27.33}
+kmcg 2020-05-26 18:26:34,073 [http-nio-8185-exec-7] [INFO ] [IndexController-paiming] - {date=2020-05-26 18:14:04.0, rownum=3, score=5, user_id=6, name=无, id=20, time=76.819}
+kmcg 2020-05-26 18:26:35,003 [http-nio-8185-exec-3] [INFO ] [IndexController-paiming] - [User(id=4, name=周发展, tel=18805174084, jiedao=斗南街道, address=云南省-昆明市-呈贡区, openid=orsKq0ah_BIThZkJv2adqXaiXGEc)]
+kmcg 2020-05-26 18:26:35,007 [http-nio-8185-exec-3] [INFO ] [IndexController-paiming] - {date=2020-05-26 14:46:30.0, rownum=1, score=6, user_id=4, name=周发展, id=18, time=31.92}
+kmcg 2020-05-26 18:26:35,009 [http-nio-8185-exec-3] [INFO ] [IndexController-paiming] - {date=2020-05-26 17:25:00.0, rownum=2, score=5, user_id=5, name=郭欣, id=19, time=27.33}
+kmcg 2020-05-26 18:26:35,011 [http-nio-8185-exec-3] [INFO ] [IndexController-paiming] - {date=2020-05-26 18:14:04.0, rownum=3, score=5, user_id=6, name=无, id=20, time=76.819}
+kmcg 2020-05-26 18:26:35,877 [http-nio-8185-exec-10] [INFO ] [IndexController-paiming] - [User(id=4, name=周发展, tel=18805174084, jiedao=斗南街道, address=云南省-昆明市-呈贡区, openid=orsKq0ah_BIThZkJv2adqXaiXGEc)]
+kmcg 2020-05-26 18:26:35,882 [http-nio-8185-exec-10] [INFO ] [IndexController-paiming] - {date=2020-05-26 14:46:30.0, rownum=1, score=6, user_id=4, name=周发展, id=18, time=31.92}
+kmcg 2020-05-26 18:26:35,883 [http-nio-8185-exec-10] [INFO ] [IndexController-paiming] - {date=2020-05-26 17:25:00.0, rownum=2, score=5, user_id=5, name=郭欣, id=19, time=27.33}
+kmcg 2020-05-26 18:26:35,884 [http-nio-8185-exec-10] [INFO ] [IndexController-paiming] - {date=2020-05-26 18:14:04.0, rownum=3, score=5, user_id=6, name=无, id=20, time=76.819}
+kmcg 2020-05-26 18:26:36,813 [http-nio-8185-exec-6] [INFO ] [IndexController-paiming] - [User(id=4, name=周发展, tel=18805174084, jiedao=斗南街道, address=云南省-昆明市-呈贡区, openid=orsKq0ah_BIThZkJv2adqXaiXGEc)]
+kmcg 2020-05-26 18:26:36,818 [http-nio-8185-exec-6] [INFO ] [IndexController-paiming] - {date=2020-05-26 14:46:30.0, rownum=1, score=6, user_id=4, name=周发展, id=18, time=31.92}
+kmcg 2020-05-26 18:26:36,821 [http-nio-8185-exec-6] [INFO ] [IndexController-paiming] - {date=2020-05-26 17:25:00.0, rownum=2, score=5, user_id=5, name=郭欣, id=19, time=27.33}
+kmcg 2020-05-26 18:26:36,823 [http-nio-8185-exec-6] [INFO ] [IndexController-paiming] - {date=2020-05-26 18:14:04.0, rownum=3, score=5, user_id=6, name=无, id=20, time=76.819}
+kmcg 2020-05-26 18:28:45,632 [http-nio-8185-exec-3] [INFO ] [IndexController-paiming] - [User(id=4, name=周发展, tel=18805174084, jiedao=斗南街道, address=云南省-昆明市-呈贡区, openid=orsKq0ah_BIThZkJv2adqXaiXGEc)]
+kmcg 2020-05-26 18:28:45,637 [http-nio-8185-exec-3] [INFO ] [IndexController-paiming] - {date=2020-05-26 14:46:30.0, rownum=1, score=6, user_id=4, name=周发展, id=18, time=31.92}
+kmcg 2020-05-26 18:28:45,638 [http-nio-8185-exec-3] [INFO ] [IndexController-paiming] - {date=2020-05-26 17:25:00.0, rownum=2, score=5, user_id=5, name=郭欣, id=19, time=27.33}
+kmcg 2020-05-26 18:28:45,639 [http-nio-8185-exec-3] [INFO ] [IndexController-paiming] - {date=2020-05-26 18:14:04.0, rownum=3, score=5, user_id=6, name=无, id=20, time=76.819}
+kmcg 2020-05-26 18:28:46,469 [http-nio-8185-exec-9] [INFO ] [IndexController-paiming] - [User(id=4, name=周发展, tel=18805174084, jiedao=斗南街道, address=云南省-昆明市-呈贡区, openid=orsKq0ah_BIThZkJv2adqXaiXGEc)]
+kmcg 2020-05-26 18:28:46,474 [http-nio-8185-exec-9] [INFO ] [IndexController-paiming] - {date=2020-05-26 14:46:30.0, rownum=1, score=6, user_id=4, name=周发展, id=18, time=31.92}
+kmcg 2020-05-26 18:28:46,476 [http-nio-8185-exec-9] [INFO ] [IndexController-paiming] - {date=2020-05-26 17:25:00.0, rownum=2, score=5, user_id=5, name=郭欣, id=19, time=27.33}
+kmcg 2020-05-26 18:28:46,477 [http-nio-8185-exec-9] [INFO ] [IndexController-paiming] - {date=2020-05-26 18:14:04.0, rownum=3, score=5, user_id=6, name=无, id=20, time=76.819}
+kmcg 2020-05-26 18:28:47,297 [http-nio-8185-exec-8] [INFO ] [IndexController-paiming] - [User(id=4, name=周发展, tel=18805174084, jiedao=斗南街道, address=云南省-昆明市-呈贡区, openid=orsKq0ah_BIThZkJv2adqXaiXGEc)]
+kmcg 2020-05-26 18:28:47,303 [http-nio-8185-exec-8] [INFO ] [IndexController-paiming] - {date=2020-05-26 14:46:30.0, rownum=1, score=6, user_id=4, name=周发展, id=18, time=31.92}
+kmcg 2020-05-26 18:28:47,305 [http-nio-8185-exec-8] [INFO ] [IndexController-paiming] - {date=2020-05-26 17:25:00.0, rownum=2, score=5, user_id=5, name=郭欣, id=19, time=27.33}
+kmcg 2020-05-26 18:28:47,307 [http-nio-8185-exec-8] [INFO ] [IndexController-paiming] - {date=2020-05-26 18:14:04.0, rownum=3, score=5, user_id=6, name=无, id=20, time=76.819}
+kmcg 2020-05-26 18:28:48,090 [http-nio-8185-exec-1] [INFO ] [IndexController-paiming] - [User(id=4, name=周发展, tel=18805174084, jiedao=斗南街道, address=云南省-昆明市-呈贡区, openid=orsKq0ah_BIThZkJv2adqXaiXGEc)]
+kmcg 2020-05-26 18:28:48,095 [http-nio-8185-exec-1] [INFO ] [IndexController-paiming] - {date=2020-05-26 14:46:30.0, rownum=1, score=6, user_id=4, name=周发展, id=18, time=31.92}
+kmcg 2020-05-26 18:28:48,096 [http-nio-8185-exec-1] [INFO ] [IndexController-paiming] - {date=2020-05-26 17:25:00.0, rownum=2, score=5, user_id=5, name=郭欣, id=19, time=27.33}
+kmcg 2020-05-26 18:28:48,098 [http-nio-8185-exec-1] [INFO ] [IndexController-paiming] - {date=2020-05-26 18:14:04.0, rownum=3, score=5, user_id=6, name=无, id=20, time=76.819}
+kmcg 2020-05-26 18:32:59,910 [restartedMain] [INFO ] [KmcgApplication-logStarting] - Starting KmcgApplication on ZFZ with PID 7384 (D:\IdeaWorkSpace\kmcg\target\classes started by Administrator in D:\IdeaWorkSpace\kmcg)
+kmcg 2020-05-26 18:32:59,911 [restartedMain] [DEBUG] [KmcgApplication-logStarting] - Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
+kmcg 2020-05-26 18:32:59,913 [restartedMain] [INFO ] [KmcgApplication-logStartupProfileInfo] - No active profile set, falling back to default profiles: default
+kmcg 2020-05-26 18:33:01,806 [restartedMain] [INFO ] [KmcgApplication-logStarted] - Started KmcgApplication in 1.942 seconds (JVM running for 1708.982)
+kmcg 2020-05-26 18:33:09,284 [main] [INFO ] [KmcgApplicationTests-logStarting] - Starting KmcgApplicationTests on ZFZ with PID 11256 (started by Administrator in D:\IdeaWorkSpace\kmcg)
+kmcg 2020-05-26 18:33:09,287 [main] [DEBUG] [KmcgApplicationTests-logStarting] - Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
+kmcg 2020-05-26 18:33:09,288 [main] [INFO ] [KmcgApplicationTests-logStartupProfileInfo] - No active profile set, falling back to default profiles: default
+kmcg 2020-05-26 18:33:14,162 [main] [INFO ] [KmcgApplicationTests-logStarted] - Started KmcgApplicationTests in 5.403 seconds (JVM running for 7.181)
+kmcg 2020-05-26 18:36:32,884 [restartedMain] [INFO ] [KmcgApplication-logStarting] - Starting KmcgApplication on ZFZ with PID 7384 (D:\IdeaWorkSpace\kmcg\target\classes started by Administrator in D:\IdeaWorkSpace\kmcg)
+kmcg 2020-05-26 18:36:32,885 [restartedMain] [DEBUG] [KmcgApplication-logStarting] - Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
+kmcg 2020-05-26 18:36:32,885 [restartedMain] [INFO ] [KmcgApplication-logStartupProfileInfo] - No active profile set, falling back to default profiles: default
+kmcg 2020-05-26 18:36:34,473 [restartedMain] [INFO ] [KmcgApplication-logStarted] - Started KmcgApplication in 1.642 seconds (JVM running for 1921.643)
+kmcg 2020-05-26 18:36:37,494 [restartedMain] [INFO ] [KmcgApplication-logStarting] - Starting KmcgApplication on ZFZ with PID 7384 (D:\IdeaWorkSpace\kmcg\target\classes started by Administrator in D:\IdeaWorkSpace\kmcg)
+kmcg 2020-05-26 18:36:37,494 [restartedMain] [DEBUG] [KmcgApplication-logStarting] - Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
+kmcg 2020-05-26 18:36:37,495 [restartedMain] [INFO ] [KmcgApplication-logStartupProfileInfo] - No active profile set, falling back to default profiles: default
+kmcg 2020-05-26 18:36:39,481 [restartedMain] [INFO ] [KmcgApplication-logStarted] - Started KmcgApplication in 2.097 seconds (JVM running for 1926.651)
+kmcg 2020-05-26 18:36:40,349 [main] [INFO ] [KmcgApplicationTests-logStarting] - Starting KmcgApplicationTests on ZFZ with PID 12688 (started by Administrator in D:\IdeaWorkSpace\kmcg)
+kmcg 2020-05-26 18:36:40,351 [main] [DEBUG] [KmcgApplicationTests-logStarting] - Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
+kmcg 2020-05-26 18:36:40,351 [main] [INFO ] [KmcgApplicationTests-logStartupProfileInfo] - No active profile set, falling back to default profiles: default
+kmcg 2020-05-26 18:36:45,212 [main] [INFO ] [KmcgApplicationTests-logStarted] - Started KmcgApplicationTests in 5.478 seconds (JVM running for 7.107)
+kmcg 2020-05-26 19:04:34,705 [restartedMain] [INFO ] [KmcgApplication-logStarting] - Starting KmcgApplication on ZFZ with PID 7384 (D:\IdeaWorkSpace\kmcg\target\classes started by Administrator in D:\IdeaWorkSpace\kmcg)
+kmcg 2020-05-26 19:04:34,705 [restartedMain] [DEBUG] [KmcgApplication-logStarting] - Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
+kmcg 2020-05-26 19:04:34,706 [restartedMain] [INFO ] [KmcgApplication-logStartupProfileInfo] - No active profile set, falling back to default profiles: default
+kmcg 2020-05-26 19:04:36,999 [restartedMain] [INFO ] [KmcgApplication-logStarting] - Starting KmcgApplication on ZFZ with PID 7384 (D:\IdeaWorkSpace\kmcg\target\classes started by Administrator in D:\IdeaWorkSpace\kmcg)
+kmcg 2020-05-26 19:04:36,999 [restartedMain] [DEBUG] [KmcgApplication-logStarting] - Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
+kmcg 2020-05-26 19:04:36,999 [restartedMain] [INFO ] [KmcgApplication-logStartupProfileInfo] - No active profile set, falling back to default profiles: default
+kmcg 2020-05-26 19:04:37,949 [restartedMain] [INFO ] [KmcgApplication-logStarted] - Started KmcgApplication in 0.99 seconds (JVM running for 3605.076)
+kmcg 2020-05-26 19:07:36,161 [http-nio-8185-exec-1] [DEBUG] [IndexController-checkTime] - 4-26-19
+kmcg 2020-05-26 19:07:40,413 [http-nio-8185-exec-8] [DEBUG] [IndexController-checkTime] - 4-26-19
+kmcg 2020-05-26 19:07:57,699 [http-nio-8185-exec-4] [DEBUG] [IndexController-checkTime] - 4-26-19
+kmcg 2020-05-26 19:08:00,520 [http-nio-8185-exec-10] [DEBUG] [IndexController-checkTime] - 4-26-19
+kmcg 2020-05-26 19:08:42,487 [http-nio-8185-exec-8] [DEBUG] [IndexController-checkTime] - 4-26-19
+kmcg 2020-05-26 19:10:06,194 [http-nio-8185-exec-7] [DEBUG] [IndexController-checkTime] - 4-26-19
+kmcg 2020-05-26 19:10:16,495 [http-nio-8185-exec-9] [DEBUG] [IndexController-checkTime] - 4-26-19
+kmcg 2020-05-26 19:11:22,898 [http-nio-8185-exec-8] [DEBUG] [ResultController-result] - useTime=160054
+kmcg 2020-05-26 19:11:22,898 [http-nio-8185-exec-8] [DEBUG] [ResultController-result] - tel=18805174084
+kmcg 2020-05-26 19:11:22,899 [http-nio-8185-exec-8] [DEBUG] [ResultController-result] - score=0
+kmcg 2020-05-26 19:15:27,802 [http-nio-8185-exec-2] [DEBUG] [IndexController-checkTime] - 4-26-19
+kmcg 2020-05-26 19:15:47,640 [http-nio-8185-exec-10] [DEBUG] [IndexController-checkTime] - 4-26-19
+kmcg 2020-05-26 19:16:19,558 [http-nio-8185-exec-6] [DEBUG] [IndexController-checkTime] - 4-26-19
+kmcg 2020-05-26 19:16:21,520 [http-nio-8185-exec-2] [DEBUG] [IndexController-checkTime] - 4-26-19
+kmcg 2020-05-26 19:16:29,554 [http-nio-8185-exec-7] [DEBUG] [IndexController-checkTime] - 4-26-19
+kmcg 2020-05-26 19:17:48,074 [http-nio-8185-exec-6] [DEBUG] [IndexController-checkTime] - 4-26-19
+kmcg 2020-05-26 19:18:06,487 [http-nio-8185-exec-1] [DEBUG] [IndexController-checkTime] - 4-26-19
+kmcg 2020-05-26 19:18:10,228 [http-nio-8185-exec-7] [DEBUG] [IndexController-checkTime] - 4-26-19
+kmcg 2020-05-26 19:18:11,459 [http-nio-8185-exec-6] [DEBUG] [IndexController-checkTime] - 4-26-19
+kmcg 2020-05-26 19:18:34,348 [http-nio-8185-exec-10] [DEBUG] [ResultController-result] - useTime=45904
+kmcg 2020-05-26 19:18:34,349 [http-nio-8185-exec-10] [DEBUG] [ResultController-result] - tel=18805174084
+kmcg 2020-05-26 19:18:34,350 [http-nio-8185-exec-10] [DEBUG] [ResultController-result] - score=5
+kmcg 2020-05-26 19:18:45,948 [http-nio-8185-exec-8] [DEBUG] [IndexController-checkTime] - 4-26-19
+kmcg 2020-05-26 19:19:05,359 [http-nio-8185-exec-4] [DEBUG] [ResultController-result] - useTime=19065
+kmcg 2020-05-26 19:19:05,360 [http-nio-8185-exec-4] [DEBUG] [ResultController-result] - tel=18805174084
+kmcg 2020-05-26 19:19:05,360 [http-nio-8185-exec-4] [DEBUG] [ResultController-result] - score=0
+kmcg 2020-05-26 19:19:07,955 [http-nio-8185-exec-9] [INFO ] [IndexController-paiming] - [User(id=4, name=周发展, tel=18805174084, jiedao=斗南街道, address=云南省-昆明市-呈贡区, openid=orsKq0ah_BIThZkJv2adqXaiXGEc)]
+kmcg 2020-05-26 19:19:07,962 [http-nio-8185-exec-9] [WARN ] [IndexController-paiming] - myMap={date=2020-05-26 14:46:30.0, rownum=1, score=6, id=18, time=31920, user_id=4}
+kmcg 2020-05-26 19:19:07,978 [http-nio-8185-exec-9] [INFO ] [IndexController-paiming] - {date=2020-05-26 14:46:30.0, rownum=1, score=6, user_id=4, name=周发展, id=18, time=31.92}
+kmcg 2020-05-26 19:19:07,979 [http-nio-8185-exec-9] [INFO ] [IndexController-paiming] - {date=2020-05-26 17:25:00.0, rownum=2, score=5, user_id=5, name=郭欣, id=19, time=27.33}
+kmcg 2020-05-26 19:19:07,981 [http-nio-8185-exec-9] [INFO ] [IndexController-paiming] - {date=2020-05-26 18:14:04.0, rownum=3, score=5, user_id=6, name=无, id=20, time=76.819}
+kmcg 2020-05-26 19:20:03,739 [http-nio-8185-exec-4] [DEBUG] [ResultController-result] - useTime=22
+kmcg 2020-05-26 19:20:03,739 [http-nio-8185-exec-4] [DEBUG] [ResultController-result] - tel=18805174084
+kmcg 2020-05-26 19:20:03,740 [http-nio-8185-exec-4] [DEBUG] [ResultController-result] - score=8
+kmcg 2020-05-26 19:20:12,728 [http-nio-8185-exec-2] [DEBUG] [ResultController-result] - useTime=222
+kmcg 2020-05-26 19:20:12,728 [http-nio-8185-exec-2] [DEBUG] [ResultController-result] - tel=18805174084
+kmcg 2020-05-26 19:20:12,729 [http-nio-8185-exec-2] [DEBUG] [ResultController-result] - score=8
+kmcg 2020-05-26 19:20:21,786 [http-nio-8185-exec-7] [DEBUG] [ResultController-result] - useTime=21
+kmcg 2020-05-26 19:20:21,786 [http-nio-8185-exec-7] [DEBUG] [ResultController-result] - tel=18805174084
+kmcg 2020-05-26 19:20:21,786 [http-nio-8185-exec-7] [DEBUG] [ResultController-result] - score=8
+kmcg 2020-05-26 19:20:32,967 [http-nio-8185-exec-3] [INFO ] [IndexController-paiming] - [User(id=4, name=周发展, tel=18805174084, jiedao=斗南街道, address=云南省-昆明市-呈贡区, openid=orsKq0ah_BIThZkJv2adqXaiXGEc)]
+kmcg 2020-05-26 19:20:32,969 [http-nio-8185-exec-3] [WARN ] [IndexController-paiming] - myMap={date=2020-05-26 19:20:22.0, rownum=1, score=8, id=18, time=21, user_id=4}
+kmcg 2020-05-26 19:20:32,973 [http-nio-8185-exec-3] [INFO ] [IndexController-paiming] - {date=2020-05-26 19:20:22.0, rownum=1, score=8, user_id=4, name=周发展, id=18, time=0.021}
+kmcg 2020-05-26 19:20:32,974 [http-nio-8185-exec-3] [INFO ] [IndexController-paiming] - {date=2020-05-26 17:25:00.0, rownum=2, score=5, user_id=5, name=郭欣, id=19, time=27.33}
+kmcg 2020-05-26 19:20:32,975 [http-nio-8185-exec-3] [INFO ] [IndexController-paiming] - {date=2020-05-26 18:14:04.0, rownum=3, score=5, user_id=6, name=无, id=20, time=76.819}
+kmcg 2020-05-26 19:20:52,001 [http-nio-8185-exec-6] [INFO ] [IndexController-paiming] - [User(id=4, name=周发展, tel=18805174084, jiedao=斗南街道, address=云南省-昆明市-呈贡区, openid=orsKq0ah_BIThZkJv2adqXaiXGEc)]
+kmcg 2020-05-26 19:20:52,004 [http-nio-8185-exec-6] [WARN ] [IndexController-paiming] - myMap={date=2020-05-26 19:20:22.0, rownum=1, score=8, id=18, time=21, user_id=4}
+kmcg 2020-05-26 19:20:52,009 [http-nio-8185-exec-6] [INFO ] [IndexController-paiming] - {date=2020-05-26 19:20:22.0, rownum=1, score=8, user_id=4, name=周发展, id=18, time=0.021}
+kmcg 2020-05-26 19:20:52,010 [http-nio-8185-exec-6] [INFO ] [IndexController-paiming] - {date=2020-05-26 17:25:00.0, rownum=2, score=5, user_id=5, name=郭欣, id=19, time=27.33}
+kmcg 2020-05-26 19:20:52,012 [http-nio-8185-exec-6] [INFO ] [IndexController-paiming] - {date=2020-05-26 18:14:04.0, rownum=3, score=5, user_id=6, name=无, id=20, time=76.819}
+kmcg 2020-05-26 19:21:17,549 [http-nio-8185-exec-6] [DEBUG] [ResultController-result] - useTime=21
+kmcg 2020-05-26 19:21:17,550 [http-nio-8185-exec-6] [DEBUG] [ResultController-result] - tel=18896527630
+kmcg 2020-05-26 19:21:17,550 [http-nio-8185-exec-6] [DEBUG] [ResultController-result] - score=8
+kmcg 2020-05-26 19:21:20,061 [http-nio-8185-exec-5] [INFO ] [IndexController-paiming] - [User(id=4, name=周发展, tel=18805174084, jiedao=斗南街道, address=云南省-昆明市-呈贡区, openid=orsKq0ah_BIThZkJv2adqXaiXGEc)]
+kmcg 2020-05-26 19:21:20,064 [http-nio-8185-exec-5] [WARN ] [IndexController-paiming] - myMap={date=2020-05-26 19:20:22.0, rownum=1, score=8, id=18, time=21, user_id=4}
+kmcg 2020-05-26 19:21:20,069 [http-nio-8185-exec-5] [INFO ] [IndexController-paiming] - {date=2020-05-26 19:20:22.0, rownum=1, score=8, user_id=4, name=周发展, id=18, time=0.021}
+kmcg 2020-05-26 19:21:20,071 [http-nio-8185-exec-5] [INFO ] [IndexController-paiming] - {date=2020-05-26 19:21:18.0, rownum=2, score=8, user_id=5, name=郭欣, id=19, time=0.021}
+kmcg 2020-05-26 19:21:20,072 [http-nio-8185-exec-5] [INFO ] [IndexController-paiming] - {date=2020-05-26 18:14:04.0, rownum=3, score=5, user_id=6, name=无, id=20, time=76.819}
+kmcg 2020-05-26 19:21:32,748 [http-nio-8185-exec-5] [DEBUG] [ResultController-result] - useTime=20
+kmcg 2020-05-26 19:21:32,749 [http-nio-8185-exec-5] [DEBUG] [ResultController-result] - tel=18896527630
+kmcg 2020-05-26 19:21:32,749 [http-nio-8185-exec-5] [DEBUG] [ResultController-result] - score=8
+kmcg 2020-05-26 19:21:34,309 [http-nio-8185-exec-8] [INFO ] [IndexController-paiming] - [User(id=4, name=周发展, tel=18805174084, jiedao=斗南街道, address=云南省-昆明市-呈贡区, openid=orsKq0ah_BIThZkJv2adqXaiXGEc)]
+kmcg 2020-05-26 19:21:34,313 [http-nio-8185-exec-8] [WARN ] [IndexController-paiming] - myMap={date=2020-05-26 19:20:22.0, rownum=2, score=8, id=18, time=21, user_id=4}
+kmcg 2020-05-26 19:21:34,320 [http-nio-8185-exec-8] [INFO ] [IndexController-paiming] - {date=2020-05-26 19:21:33.0, rownum=1, score=8, user_id=5, name=郭欣, id=19, time=0.02}
+kmcg 2020-05-26 19:21:34,320 [http-nio-8185-exec-8] [INFO ] [IndexController-paiming] - {date=2020-05-26 19:20:22.0, rownum=2, score=8, user_id=4, name=周发展, id=18, time=0.021}
+kmcg 2020-05-26 19:21:34,321 [http-nio-8185-exec-8] [INFO ] [IndexController-paiming] - {date=2020-05-26 18:14:04.0, rownum=3, score=5, user_id=6, name=无, id=20, time=76.819}
+kmcg 2020-05-26 19:22:20,018 [restartedMain] [INFO ] [KmcgApplication-logStarting] - Starting KmcgApplication on ZFZ with PID 7384 (D:\IdeaWorkSpace\kmcg\target\classes started by Administrator in D:\IdeaWorkSpace\kmcg)
+kmcg 2020-05-26 19:22:20,018 [restartedMain] [DEBUG] [KmcgApplication-logStarting] - Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
+kmcg 2020-05-26 19:22:20,018 [restartedMain] [INFO ] [KmcgApplication-logStartupProfileInfo] - No active profile set, falling back to default profiles: default
+kmcg 2020-05-26 19:22:21,044 [restartedMain] [INFO ] [KmcgApplication-logStarted] - Started KmcgApplication in 1.095 seconds (JVM running for 4668.143)
+kmcg 2020-05-26 19:22:22,849 [restartedMain] [INFO ] [KmcgApplication-logStarting] - Starting KmcgApplication on ZFZ with PID 7384 (D:\IdeaWorkSpace\kmcg\target\classes started by Administrator in D:\IdeaWorkSpace\kmcg)
+kmcg 2020-05-26 19:22:22,850 [restartedMain] [DEBUG] [KmcgApplication-logStarting] - Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
+kmcg 2020-05-26 19:22:22,850 [restartedMain] [INFO ] [KmcgApplication-logStartupProfileInfo] - No active profile set, falling back to default profiles: default
+kmcg 2020-05-26 19:22:23,877 [restartedMain] [INFO ] [KmcgApplication-logStarted] - Started KmcgApplication in 1.058 seconds (JVM running for 4670.976)
+kmcg 2020-05-26 19:22:24,481 [main] [INFO ] [KmcgApplicationTests-logStarting] - Starting KmcgApplicationTests on ZFZ with PID 6540 (started by Administrator in D:\IdeaWorkSpace\kmcg)
+kmcg 2020-05-26 19:22:24,483 [main] [DEBUG] [KmcgApplicationTests-logStarting] - Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
+kmcg 2020-05-26 19:22:24,484 [main] [INFO ] [KmcgApplicationTests-logStartupProfileInfo] - No active profile set, falling back to default profiles: default
+kmcg 2020-05-26 19:22:29,138 [main] [INFO ] [KmcgApplicationTests-logStarted] - Started KmcgApplicationTests in 5.312 seconds (JVM running for 6.391)
+kmcg 2020-05-26 19:27:53,684 [http-nio-8185-exec-4] [DEBUG] [ResultController-result] - useTime=233
+kmcg 2020-05-26 19:27:53,685 [http-nio-8185-exec-4] [DEBUG] [ResultController-result] - tel=18805174084
+kmcg 2020-05-26 19:27:53,686 [http-nio-8185-exec-4] [DEBUG] [ResultController-result] - score=4
+kmcg 2020-05-26 19:28:16,619 [http-nio-8185-exec-5] [DEBUG] [ResultController-result] - useTime=233
+kmcg 2020-05-26 19:28:16,620 [http-nio-8185-exec-5] [DEBUG] [ResultController-result] - tel=18805174084
+kmcg 2020-05-26 19:28:16,620 [http-nio-8185-exec-5] [DEBUG] [ResultController-result] - score=4
+kmcg 2020-05-26 19:28:59,827 [http-nio-8185-exec-2] [DEBUG] [ResultController-result] - useTime=233
+kmcg 2020-05-26 19:28:59,828 [http-nio-8185-exec-2] [DEBUG] [ResultController-result] - tel=18805174084
+kmcg 2020-05-26 19:28:59,828 [http-nio-8185-exec-2] [DEBUG] [ResultController-result] - score=4
+kmcg 2020-05-26 19:37:29,933 [restartedMain] [INFO ] [KmcgApplication-logStarting] - Starting KmcgApplication on ZFZ with PID 7384 (D:\IdeaWorkSpace\kmcg\target\classes started by Administrator in D:\IdeaWorkSpace\kmcg)
+kmcg 2020-05-26 19:37:29,933 [restartedMain] [DEBUG] [KmcgApplication-logStarting] - Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
+kmcg 2020-05-26 19:37:29,933 [restartedMain] [INFO ] [KmcgApplication-logStartupProfileInfo] - No active profile set, falling back to default profiles: default
+kmcg 2020-05-26 19:37:32,273 [restartedMain] [INFO ] [KmcgApplication-logStarting] - Starting KmcgApplication on ZFZ with PID 7384 (D:\IdeaWorkSpace\kmcg\target\classes started by Administrator in D:\IdeaWorkSpace\kmcg)
+kmcg 2020-05-26 19:37:32,274 [restartedMain] [DEBUG] [KmcgApplication-logStarting] - Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
+kmcg 2020-05-26 19:37:32,274 [restartedMain] [INFO ] [KmcgApplication-logStartupProfileInfo] - No active profile set, falling back to default profiles: default
+kmcg 2020-05-26 19:37:33,151 [restartedMain] [INFO ] [KmcgApplication-logStarted] - Started KmcgApplication in 0.919 seconds (JVM running for 5580.227)
+kmcg 2020-05-26 19:37:39,435 [restartedMain] [INFO ] [KmcgApplication-logStarting] - Starting KmcgApplication on ZFZ with PID 11212 (D:\IdeaWorkSpace\kmcg\target\classes started by Administrator in D:\IdeaWorkSpace\kmcg)
+kmcg 2020-05-26 19:37:39,450 [restartedMain] [DEBUG] [KmcgApplication-logStarting] - Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
+kmcg 2020-05-26 19:37:39,451 [restartedMain] [INFO ] [KmcgApplication-logStartupProfileInfo] - No active profile set, falling back to default profiles: default
+kmcg 2020-05-26 19:37:44,901 [restartedMain] [INFO ] [KmcgApplication-logStarted] - Started KmcgApplication in 6.411 seconds (JVM running for 8.094)
+kmcg 2020-05-26 19:38:04,818 [http-nio-8185-exec-3] [INFO ] [IndexController-paiming] - [User(id=4, name=周发展, tel=18805174084, jiedao=斗南街, address=云南省-昆明市-呈贡区, openid=orsKq0ah_BIThZkJv2adqXaiXGEc)]
+kmcg 2020-05-26 19:41:29,284 [restartedMain] [INFO ] [KmcgApplication-logStarting] - Starting KmcgApplication on ZFZ with PID 11212 (D:\IdeaWorkSpace\kmcg\target\classes started by Administrator in D:\IdeaWorkSpace\kmcg)
+kmcg 2020-05-26 19:41:29,284 [restartedMain] [DEBUG] [KmcgApplication-logStarting] - Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
+kmcg 2020-05-26 19:41:29,284 [restartedMain] [INFO ] [KmcgApplication-logStartupProfileInfo] - No active profile set, falling back to default profiles: default
+kmcg 2020-05-26 19:41:30,315 [restartedMain] [INFO ] [KmcgApplication-logStarted] - Started KmcgApplication in 1.073 seconds (JVM running for 233.502)
+kmcg 2020-05-26 19:41:32,150 [restartedMain] [INFO ] [KmcgApplication-logStarting] - Starting KmcgApplication on ZFZ with PID 11212 (D:\IdeaWorkSpace\kmcg\target\classes started by Administrator in D:\IdeaWorkSpace\kmcg)
+kmcg 2020-05-26 19:41:32,151 [restartedMain] [DEBUG] [KmcgApplication-logStarting] - Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
+kmcg 2020-05-26 19:41:32,151 [restartedMain] [INFO ] [KmcgApplication-logStartupProfileInfo] - No active profile set, falling back to default profiles: default
+kmcg 2020-05-26 19:41:33,171 [restartedMain] [INFO ] [KmcgApplication-logStarted] - Started KmcgApplication in 1.061 seconds (JVM running for 236.358)
+kmcg 2020-05-26 19:41:34,271 [main] [INFO ] [KmcgApplicationTests-logStarting] - Starting KmcgApplicationTests on ZFZ with PID 11836 (started by Administrator in D:\IdeaWorkSpace\kmcg)
+kmcg 2020-05-26 19:41:34,274 [main] [DEBUG] [KmcgApplicationTests-logStarting] - Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
+kmcg 2020-05-26 19:41:34,276 [main] [INFO ] [KmcgApplicationTests-logStartupProfileInfo] - No active profile set, falling back to default profiles: default
+kmcg 2020-05-26 19:41:38,827 [main] [INFO ] [KmcgApplicationTests-logStarted] - Started KmcgApplicationTests in 5.16 seconds (JVM running for 6.164)
+kmcg 2020-05-26 19:43:54,890 [restartedMain] [INFO ] [KmcgApplication-logStarting] - Starting KmcgApplication on ZFZ with PID 11212 (D:\IdeaWorkSpace\kmcg\target\classes started by Administrator in D:\IdeaWorkSpace\kmcg)
+kmcg 2020-05-26 19:43:54,890 [restartedMain] [DEBUG] [KmcgApplication-logStarting] - Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
+kmcg 2020-05-26 19:43:54,891 [restartedMain] [INFO ] [KmcgApplication-logStartupProfileInfo] - No active profile set, falling back to default profiles: default
+kmcg 2020-05-26 19:43:57,129 [restartedMain] [INFO ] [KmcgApplication-logStarted] - Started KmcgApplication in 2.32 seconds (JVM running for 380.312)
+kmcg 2020-05-26 19:44:01,630 [main] [INFO ] [KmcgApplicationTests-logStarting] - Starting KmcgApplicationTests on ZFZ with PID 10324 (started by Administrator in D:\IdeaWorkSpace\kmcg)
+kmcg 2020-05-26 19:44:01,636 [main] [DEBUG] [KmcgApplicationTests-logStarting] - Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
+kmcg 2020-05-26 19:44:01,637 [main] [INFO ] [KmcgApplicationTests-logStartupProfileInfo] - No active profile set, falling back to default profiles: default
+kmcg 2020-05-26 19:44:06,958 [main] [INFO ] [KmcgApplicationTests-logStarted] - Started KmcgApplicationTests in 6.123 seconds (JVM running for 7.504)
+kmcg 2020-05-26 19:48:57,714 [restartedMain] [INFO ] [KmcgApplication-logStarting] - Starting KmcgApplication on ZFZ with PID 11212 (D:\IdeaWorkSpace\kmcg\target\classes started by Administrator in D:\IdeaWorkSpace\kmcg)
+kmcg 2020-05-26 19:48:57,714 [restartedMain] [DEBUG] [KmcgApplication-logStarting] - Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
+kmcg 2020-05-26 19:48:57,715 [restartedMain] [INFO ] [KmcgApplication-logStartupProfileInfo] - No active profile set, falling back to default profiles: default
+kmcg 2020-05-26 19:48:59,373 [restartedMain] [INFO ] [KmcgApplication-logStarted] - Started KmcgApplication in 1.717 seconds (JVM running for 682.548)
+kmcg 2020-05-26 19:49:36,688 [restartedMain] [INFO ] [KmcgApplication-logStarting] - Starting KmcgApplication on ZFZ with PID 11212 (D:\IdeaWorkSpace\kmcg\target\classes started by Administrator in D:\IdeaWorkSpace\kmcg)
+kmcg 2020-05-26 19:49:36,689 [restartedMain] [DEBUG] [KmcgApplication-logStarting] - Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
+kmcg 2020-05-26 19:49:36,689 [restartedMain] [INFO ] [KmcgApplication-logStartupProfileInfo] - No active profile set, falling back to default profiles: default
+kmcg 2020-05-26 19:49:37,903 [restartedMain] [INFO ] [KmcgApplication-logStarted] - Started KmcgApplication in 1.312 seconds (JVM running for 721.078)
+kmcg 2020-05-27 08:34:17,163 [restartedMain] [INFO ] [KmcgApplication-logStarting] - Starting KmcgApplication on ZFZ with PID 11212 (D:\IdeaWorkSpace\kmcg\target\classes started by Administrator in D:\IdeaWorkSpace\kmcg)
+kmcg 2020-05-27 08:34:17,163 [restartedMain] [DEBUG] [KmcgApplication-logStarting] - Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
+kmcg 2020-05-27 08:34:17,163 [restartedMain] [INFO ] [KmcgApplication-logStartupProfileInfo] - No active profile set, falling back to default profiles: default
+kmcg 2020-05-27 08:34:18,510 [restartedMain] [INFO ] [KmcgApplication-logStarted] - Started KmcgApplication in 1.39 seconds (JVM running for 46600.499)
+kmcg 2020-05-27 08:34:37,261 [restartedMain] [INFO ] [KmcgApplication-logStarting] - Starting KmcgApplication on ZFZ with PID 12716 (D:\IdeaWorkSpace\kmcg\target\classes started by Administrator in D:\IdeaWorkSpace\kmcg)
+kmcg 2020-05-27 08:34:37,264 [restartedMain] [DEBUG] [KmcgApplication-logStarting] - Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
+kmcg 2020-05-27 08:34:37,265 [restartedMain] [INFO ] [KmcgApplication-logStartupProfileInfo] - No active profile set, falling back to default profiles: default
+kmcg 2020-05-27 08:34:41,997 [restartedMain] [INFO ] [KmcgApplication-logStarted] - Started KmcgApplication in 5.349 seconds (JVM running for 6.353)
+kmcg 2020-05-27 08:34:54,871 [http-nio-8185-exec-9] [DEBUG] [IndexController-checkTime] - 4-27-8
+kmcg 2020-05-27 08:35:18,801 [http-nio-8185-exec-2] [WARN ] [IndexController-paiming] - myMap={date=2020-05-27 08:35:16.0, rownum=1, score=4, id=21, time=20366, user_id=4}
+kmcg 2020-05-27 08:35:18,828 [http-nio-8185-exec-2] [INFO ] [IndexController-paiming] - {date=2020-05-27 08:35:16.0, rownum=1, score=4, user_id=4, name=周发展, id=21, time=20.366}
+kmcg 2020-05-27 08:35:50,429 [restartedMain] [INFO ] [KmcgApplication-logStarting] - Starting KmcgApplication on ZFZ with PID 12716 (D:\IdeaWorkSpace\kmcg\target\classes started by Administrator in D:\IdeaWorkSpace\kmcg)
+kmcg 2020-05-27 08:35:50,429 [restartedMain] [DEBUG] [KmcgApplication-logStarting] - Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
+kmcg 2020-05-27 08:35:50,429 [restartedMain] [INFO ] [KmcgApplication-logStartupProfileInfo] - No active profile set, falling back to default profiles: default
+kmcg 2020-05-27 08:35:51,641 [restartedMain] [INFO ] [KmcgApplication-logStarted] - Started KmcgApplication in 1.254 seconds (JVM running for 75.995)
+kmcg 2020-05-27 08:35:53,839 [restartedMain] [INFO ] [KmcgApplication-logStarting] - Starting KmcgApplication on ZFZ with PID 12716 (D:\IdeaWorkSpace\kmcg\target\classes started by Administrator in D:\IdeaWorkSpace\kmcg)
+kmcg 2020-05-27 08:35:53,839 [restartedMain] [DEBUG] [KmcgApplication-logStarting] - Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
+kmcg 2020-05-27 08:35:53,840 [restartedMain] [INFO ] [KmcgApplication-logStartupProfileInfo] - No active profile set, falling back to default profiles: default
+kmcg 2020-05-27 08:35:55,106 [restartedMain] [INFO ] [KmcgApplication-logStarted] - Started KmcgApplication in 1.319 seconds (JVM running for 79.46)
+kmcg 2020-05-27 08:35:55,259 [main] [INFO ] [KmcgApplicationTests-logStarting] - Starting KmcgApplicationTests on ZFZ with PID 9248 (started by Administrator in D:\IdeaWorkSpace\kmcg)
+kmcg 2020-05-27 08:35:55,261 [main] [DEBUG] [KmcgApplicationTests-logStarting] - Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
+kmcg 2020-05-27 08:35:55,261 [main] [INFO ] [KmcgApplicationTests-logStartupProfileInfo] - No active profile set, falling back to default profiles: default
+kmcg 2020-05-27 08:35:59,952 [main] [INFO ] [KmcgApplicationTests-logStarted] - Started KmcgApplicationTests in 5.373 seconds (JVM running for 6.818)
+kmcg 2020-05-27 08:37:56,244 [restartedMain] [INFO ] [KmcgApplication-logStarting] - Starting KmcgApplication on ZFZ with PID 12716 (D:\IdeaWorkSpace\kmcg\target\classes started by Administrator in D:\IdeaWorkSpace\kmcg)
+kmcg 2020-05-27 08:37:56,245 [restartedMain] [DEBUG] [KmcgApplication-logStarting] - Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
+kmcg 2020-05-27 08:37:56,245 [restartedMain] [INFO ] [KmcgApplication-logStartupProfileInfo] - No active profile set, falling back to default profiles: default
+kmcg 2020-05-27 08:37:57,218 [restartedMain] [INFO ] [KmcgApplication-logStarted] - Started KmcgApplication in 1.01 seconds (JVM running for 201.568)
+kmcg 2020-05-27 08:37:58,952 [restartedMain] [INFO ] [KmcgApplication-logStarting] - Starting KmcgApplication on ZFZ with PID 12716 (D:\IdeaWorkSpace\kmcg\target\classes started by Administrator in D:\IdeaWorkSpace\kmcg)
+kmcg 2020-05-27 08:37:58,952 [restartedMain] [DEBUG] [KmcgApplication-logStarting] - Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
+kmcg 2020-05-27 08:37:58,953 [restartedMain] [INFO ] [KmcgApplication-logStartupProfileInfo] - No active profile set, falling back to default profiles: default
+kmcg 2020-05-27 08:38:00,192 [restartedMain] [INFO ] [KmcgApplication-logStarted] - Started KmcgApplication in 1.287 seconds (JVM running for 204.542)
+kmcg 2020-05-27 08:38:00,961 [main] [INFO ] [KmcgApplicationTests-logStarting] - Starting KmcgApplicationTests on ZFZ with PID 12684 (started by Administrator in D:\IdeaWorkSpace\kmcg)
+kmcg 2020-05-27 08:38:00,962 [main] [DEBUG] [KmcgApplicationTests-logStarting] - Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
+kmcg 2020-05-27 08:38:00,963 [main] [INFO ] [KmcgApplicationTests-logStartupProfileInfo] - No active profile set, falling back to default profiles: default
+kmcg 2020-05-27 08:38:05,610 [main] [INFO ] [KmcgApplicationTests-logStarted] - Started KmcgApplicationTests in 5.283 seconds (JVM running for 6.483)
+kmcg 2020-05-27 09:41:23,156 [restartedMain] [INFO ] [KmcgApplication-logStarting] - Starting KmcgApplication on ZFZ with PID 12716 (D:\IdeaWorkSpace\kmcg\target\classes started by Administrator in D:\IdeaWorkSpace\kmcg)
+kmcg 2020-05-27 09:41:23,156 [restartedMain] [DEBUG] [KmcgApplication-logStarting] - Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
+kmcg 2020-05-27 09:41:23,157 [restartedMain] [INFO ] [KmcgApplication-logStartupProfileInfo] - No active profile set, falling back to default profiles: default
+kmcg 2020-05-27 09:41:24,268 [restartedMain] [INFO ] [KmcgApplication-logStarted] - Started KmcgApplication in 1.147 seconds (JVM running for 4008.521)
+kmcg 2020-05-27 09:43:12,384 [restartedMain] [INFO ] [KmcgApplication-logStarting] - Starting KmcgApplication on ZFZ with PID 12716 (D:\IdeaWorkSpace\kmcg\target\classes started by Administrator in D:\IdeaWorkSpace\kmcg)
+kmcg 2020-05-27 09:43:12,384 [restartedMain] [DEBUG] [KmcgApplication-logStarting] - Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
+kmcg 2020-05-27 09:43:12,384 [restartedMain] [INFO ] [KmcgApplication-logStartupProfileInfo] - No active profile set, falling back to default profiles: default
+kmcg 2020-05-27 09:43:13,902 [restartedMain] [INFO ] [KmcgApplication-logStarted] - Started KmcgApplication in 1.559 seconds (JVM running for 4118.152)
+kmcg 2020-05-27 09:43:40,819 [restartedMain] [INFO ] [KmcgApplication-logStarting] - Starting KmcgApplication on ZFZ with PID 12448 (D:\IdeaWorkSpace\kmcg\target\classes started by Administrator in D:\IdeaWorkSpace\kmcg)
+kmcg 2020-05-27 09:43:40,822 [restartedMain] [DEBUG] [KmcgApplication-logStarting] - Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
+kmcg 2020-05-27 09:43:40,823 [restartedMain] [INFO ] [KmcgApplication-logStartupProfileInfo] - No active profile set, falling back to default profiles: default
+kmcg 2020-05-27 09:43:45,546 [restartedMain] [INFO ] [KmcgApplication-logStarted] - Started KmcgApplication in 5.169 seconds (JVM running for 6.541)
+kmcg 2020-05-27 09:44:31,654 [restartedMain] [INFO ] [KmcgApplication-logStarting] - Starting KmcgApplication on ZFZ with PID 12448 (D:\IdeaWorkSpace\kmcg\target\classes started by Administrator in D:\IdeaWorkSpace\kmcg)
+kmcg 2020-05-27 09:44:31,654 [restartedMain] [DEBUG] [KmcgApplication-logStarting] - Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
+kmcg 2020-05-27 09:44:31,655 [restartedMain] [INFO ] [KmcgApplication-logStartupProfileInfo] - No active profile set, falling back to default profiles: default
+kmcg 2020-05-27 09:44:32,680 [restartedMain] [INFO ] [KmcgApplication-logStarted] - Started KmcgApplication in 1.067 seconds (JVM running for 53.674)
+kmcg 2020-05-27 09:44:34,451 [restartedMain] [INFO ] [KmcgApplication-logStarting] - Starting KmcgApplication on ZFZ with PID 12448 (D:\IdeaWorkSpace\kmcg\target\classes started by Administrator in D:\IdeaWorkSpace\kmcg)
+kmcg 2020-05-27 09:44:34,452 [restartedMain] [DEBUG] [KmcgApplication-logStarting] - Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
+kmcg 2020-05-27 09:44:34,452 [restartedMain] [INFO ] [KmcgApplication-logStartupProfileInfo] - No active profile set, falling back to default profiles: default
+kmcg 2020-05-27 09:44:35,681 [restartedMain] [INFO ] [KmcgApplication-logStarted] - Started KmcgApplication in 1.27 seconds (JVM running for 56.675)
+kmcg 2020-05-27 09:44:36,420 [main] [INFO ] [KmcgApplicationTests-logStarting] - Starting KmcgApplicationTests on ZFZ with PID 12552 (started by Administrator in D:\IdeaWorkSpace\kmcg)
+kmcg 2020-05-27 09:44:36,422 [main] [DEBUG] [KmcgApplicationTests-logStarting] - Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
+kmcg 2020-05-27 09:44:36,422 [main] [INFO ] [KmcgApplicationTests-logStartupProfileInfo] - No active profile set, falling back to default profiles: default
+kmcg 2020-05-27 09:44:41,959 [main] [INFO ] [KmcgApplicationTests-logStarted] - Started KmcgApplicationTests in 6.099 seconds (JVM running for 7.345)

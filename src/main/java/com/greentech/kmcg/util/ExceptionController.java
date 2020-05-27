@@ -3,7 +3,9 @@ package com.greentech.kmcg.util;
 import com.alibaba.fastjson.JSONObject;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.web.bind.annotation.ExceptionHandler;
+import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.bind.annotation.RestControllerAdvice;
+import org.springframework.web.servlet.ModelAndView;
 
 import javax.servlet.http.HttpServletRequest;
 import java.io.PrintWriter;
@@ -21,10 +23,10 @@ import java.util.Map;
 @Slf4j
 @RestControllerAdvice
 public class ExceptionController {
-
     @ExceptionHandler(Exception.class)
-    public JSONObject error(HttpServletRequest httpServletRequest, Exception e) {
-        JSONObject jsonObject = new JSONObject();
+    public ModelAndView error(HttpServletRequest httpServletRequest, Exception e) {
+        ModelAndView modelAndView = new ModelAndView("error1");
+        e.printStackTrace();
         log.error(getMessage(e));
         Map map = httpServletRequest.getParameterMap();
         Iterator iterator = map.entrySet().iterator();
@@ -48,7 +50,8 @@ public class ExceptionController {
             stringBuilder.append(entry.getKey()).append("=").append(value).append("&");
         }
         log.error("url={},param:{}", httpServletRequest.getRequestURL(), e.getMessage());
-        return jsonObject;
+        modelAndView.addObject("msg",e.getMessage());
+        return modelAndView;
     }
 
 

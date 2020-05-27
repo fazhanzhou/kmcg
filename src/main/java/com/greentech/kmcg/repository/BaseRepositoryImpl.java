@@ -36,7 +36,13 @@ public class BaseRepositoryImpl implements BaseRepository {
     public void save(Object c) {
         entityManager.persist(c);
     }
+    @Override
+    public <T> T merge(T o) {
+        T o1 = entityManager.merge(o);
 
+        entityManager.flush();
+        return o1;
+    }
     @Override
     public int nativeSql(String sql, Map<String, Object> params, Class clazz) {
         Query query = entityManager.createNativeQuery(sql, clazz);
@@ -78,7 +84,9 @@ public class BaseRepositoryImpl implements BaseRepository {
         if (total == 0) {
             return pagination;
         }
-        query.setFirstResult(pagination.getCurPage()).setMaxResults(pagination.getPageSize());
+
+        int first = (curPage-1) * pageSize;
+        query.setFirstResult(first).setMaxResults(pageSize);
         // 列表数据
         pagination.setList(query.getResultList());
         return pagination;
@@ -126,6 +134,8 @@ public class BaseRepositoryImpl implements BaseRepository {
         if (total == 0) {
             return pagination;
         }
+        int first = (curPage-1) * pageSize;
+        query.setFirstResult(first).setMaxResults(pageSize);
         query.unwrap(SQLQuery.class).setResultTransformer(Transformers.ALIAS_TO_ENTITY_MAP);
         List rows = query.getResultList();
         for (Object o : rows) {
@@ -133,7 +143,6 @@ public class BaseRepositoryImpl implements BaseRepository {
             maps.add(map);
         }
 
-        query.setFirstResult(pagination.getCurPage()).setMaxResults(pagination.getPageSize());
         // 列表数据
         pagination.setList(rows);
         return pagination;

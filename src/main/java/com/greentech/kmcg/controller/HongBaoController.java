@@ -70,7 +70,7 @@ public class HongBaoController {
     /**
      * 发送红包
      */
-    private JSONObject sendHongBao(int money) {
+    private JSONObject sendHongBao(int money,String openid) {
         System.out.println("发送红包");
         JSONObject json = new JSONObject();
         String getUrl = "http://www.yaoyaola.cn/index.php/exapi/SendRedPackToOpenid?";
@@ -84,7 +84,6 @@ public class HongBaoController {
         Long reqtick = System.currentTimeMillis() / 1000;
         String appKey = "A82ED0D0E0155D3926E0A6B6B3EE60C4";
 //        String openid = "orsKq0Zl-6-DWue7-O25jDHJ0AJo";
-        String openid = "orsKq0ah_BIThZkJv2adqXaiXGEc";
         String sign = encryption(uid + type + orderid + money + reqtick + openid + appKey);
 
         String dataString = "uid=" + uid + "&type=" + type + "&orderid=" + orderid +
@@ -126,7 +125,8 @@ public class HongBaoController {
 
     public static void main(String[] args) {
         HongBaoController hongBaoController = new HongBaoController();
-        JSONObject jsonObject = hongBaoController.sendHongBao(31);
+        String openid = "orsKq0Zl-6-DWue7-O25jDHJ0AJo";
+        JSONObject jsonObject = hongBaoController.sendHongBao(30,openid);
         log.debug(jsonObject.toJSONString());
     }
 
