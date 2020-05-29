@@ -95,7 +95,7 @@
         <appender-ref ref="infoLogFile" />
         <appender-ref ref="errorLogFile" />
     </root>-->
-    <logger name="com.greentech.kmcg" level="DEBUG" additivity="false">
+    <logger name="com.greentech.kmcg" level="debug" additivity="false">
         <appender-ref ref="console"/>
         <appender-ref ref="infoLogFile"/>
         <appender-ref ref="errorLogFile"/>

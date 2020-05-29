@@ -167,7 +167,6 @@ public class ResultController {
     public static void main(String[] args) {
         DecimalFormat decimalFormat = new DecimalFormat("0.000");
         String re = decimalFormat.format((float) 23456787 / 1000);
-        log.debug(re);
     }
 
     /**

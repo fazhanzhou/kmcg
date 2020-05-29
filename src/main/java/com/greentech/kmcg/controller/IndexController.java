@@ -37,6 +37,7 @@ public class IndexController {
     private BaseRepository baseRepository;
     @Autowired
     HttpServletRequest request;
+    int i = 0;
 
     /**
      * 主页面
@@ -45,6 +46,12 @@ public class IndexController {
      */
     @RequestMapping(value = "/home")
     public String home() {
+       /* log.info(Thread.currentThread().getName()+"---i="+i++);
+        try {
+            Thread.sleep(10000);
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }*/
         return "home";
     }
 
@@ -120,20 +127,14 @@ public class IndexController {
         int month = calendar.get(Calendar.MONTH);
         int day = calendar.get(Calendar.DAY_OF_MONTH);
         int hour = calendar.get(Calendar.HOUR_OF_DAY);
-        log.debug(month + "-" + day + "-" + hour);
-        if (month + 1 == 5 && day >= 1 && day <= 30 && hour >= 1 && hour <= 23) {
+        log.debug(month+"-"+day+"-"+hour);
+        if (month + 1 == 5 && day >= 1 && day <= 30 && hour >= 15 && hour <= 23) {
             return true;
         } else {
             return false;
         }
-
     }
 
-    public static void main(String[] args) {
-        IndexController indexController = new IndexController();
-        boolean is = indexController.checkTime();
-        log.debug(is + "");
-    }
 
     /**
      * 答题页面
@@ -225,22 +226,25 @@ public class IndexController {
                 "FROM (SELECT @rownum \\:= 0) r, (SELECT * FROM `score_cg`WHERE Date(date)='" + date + "' GROUP BY user_id ORDER BY score desc,time asc) AS t) as b where b.user_id=" + user.getId();
 
         List<Map> maps = baseRepository.getMap(myPaiMingSql);
-        Map myMap = maps.get(0);
-        int time = (Integer) myMap.get("time");
-        float floatTime = ((float) time) / 1000;
-
-        Object o1 = myMap.get("rownum");
-        //服务器返回的rownum类型为 BigInteger，本地为Double类型
-        if (o1 instanceof BigInteger) {
-            BigInteger rownum = (BigInteger) o1;
-            myMap.put("rownum", rownum.intValue());
-        } else {
-            Double rownum = (Double) o1;
-            myMap.put("rownum", rownum.intValue());
+        //今天还没有答题
+        if (null != maps && maps.size() > 0) {
+            Map myMap = maps.get(0);
+            int time = (Integer) myMap.get("time");
+            float floatTime = ((float) time) / 1000;
+            Object o1 = myMap.get("rownum");
+            //服务器返回的rownum类型为 BigInteger，本地为Double类型
+            if (o1 instanceof BigInteger) {
+                BigInteger rownum = (BigInteger) o1;
+                myMap.put("rownum", rownum.intValue());
+            } else {
+                Double rownum = (Double) o1;
+                myMap.put("rownum", rownum.intValue());
+            }
+//            log.warn("myMap=" + myMap.toString());
+            myMap.put("time", floatTime);
+            modelAndView.addObject("myScore", myMap);
         }
-        log.warn("myMap=" + myMap.toString());
-        myMap.put("time", floatTime);
-        modelAndView.addObject("myScore", myMap);
+
         MyPagination m = baseRepository.getPageMap(pageNum, 20, allPaiMingSql);
 
         List<Map> mapList = (List<Map>) m.getList();
@@ -266,7 +270,6 @@ public class IndexController {
                 } else {
                     map.put("name", "无");
                 }
-                log.info(map.toString());
             }
         }
         modelAndView.addObject("allScore", m);
@@ -281,7 +284,6 @@ public class IndexController {
         String date = new SimpleDateFormat("yyyy-MM-dd").format(new Date());
         String sql = "SELECT t.*, @rownum \\:= @rownum +1 AS rownum FROM (SELECT @rownum \\:= " + rownum + ") r, (SELECT a.* from score_cg a LEFT JOIN score_cg b ON a.user_id=b.user_id WHERE Date(a.date)='" + date + "' GROUP BY a.user_id   ORDER BY a.score desc,a.time asc) as t";
         MyPagination m = baseRepository.getPageMap(pageNum, 20, sql);
-        log.info("paiming=" + m.toString());
         List<Map> mapList = (List<Map>) m.getList();
         if (null != mapList && mapList.size() > 0) {
             for (int i = 0; i < mapList.size(); i++) {

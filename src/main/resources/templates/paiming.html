@@ -40,8 +40,16 @@
     <img th:src="@{/img/paiming_back.png}" width="100%" height="100%">
 </div>
 
-<!----><p class="title" th:text="'我的排名:'+${myScore.rownum}"></p>
+<!---->
+<div th:if="${myScore}  ne null">
+<p class="title" th:text="'我的排名:'+${myScore.rownum}"></p>
 <p class="title" th:text="'最好成绩:答对'+${myScore.score}+'题,用时:'+${myScore.time}+'秒'"></p>
+</div>
+
+<div th:if="${myScore}  eq null">
+    <p class="title" th:text="您今日还未参与答题"></p>
+</div>
+
 <div id="content">
 
     <!---->
@@ -100,7 +108,7 @@
             } else {
                 //上拉加载更多需要调用的函数
                 console.log("loadMore")
-                // getData(pageNum,me);
+                getData(pageNum,me);
             }
         }
     });

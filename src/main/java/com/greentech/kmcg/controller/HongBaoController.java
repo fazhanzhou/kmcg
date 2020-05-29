@@ -60,6 +60,7 @@ public class HongBaoController {
             String updateSql = "update user_cg set openid='" + u_openid + "' where tel = " + tel;
             baseRepository.nativeSql(updateSql, null);
             modelAndView = indexController.question(tel);
+            modelAndView.addObject("openid",u_openid);
         } catch (Exception e) {
             e.printStackTrace();
             log.error(e.toString());

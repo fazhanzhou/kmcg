@@ -18,14 +18,19 @@
     <img id="b" th:onclick="rule()" th:src="@{/img/rule.png}" style="position: relative;top: calc(57vh);width: 50%">
     <img id="c" th:onclick="score()" th:src="@{/img/paiming.png}" style="position: relative;top: calc(59vh);width: 50%">
     <img id="d" th:onclick="info()" th:src="@{/img/info.png}" style="position: relative;top: calc(61vh);width: 50%">
-<!--    <img th:onclick="clear()" th:src="@{/img/paiming.png}" style="position: relative;top: 78rem;width: 50%">-->
+    <!--    <img th:onclick="clear()" th:src="@{/img/paiming.png}" style="position: relative;top: 78rem;width: 50%">-->
 </div>
+
+
+<strong th:onclick="tiku()" style="position: absolute;right: 2rem;bottom:2rem;font-size: xx-large;color: black;width: 8rem;height: 8rem;
+    border-radius: 2rem;background-color: white;text-align: center;
+    line-height: 8rem;">题库</strong>
 <script th:src="@{/js/jquery-3.1.1.js}"></script>
 <script th:src="@{/js/Utils.js}"></script>
 <script>
 
     $(document).ready(function () {
-        if(!checkLogin()){
+        if (!checkLogin()) {
             window.location.href = globle_url + "login"
         }
     });
@@ -41,42 +46,42 @@
 
     function start() {
         var tel = getCookie("tel");
-        if(!checkLogin()){
+        if (!checkLogin()) {
             window.location.href = globle_url + "login"
-        }else {
+        } else {
             window.location.href = globle_url + "question?tel=" + tel
         }
-
-
     }
 
     function score() {
         var tel = getCookie("tel");
-        if(!checkLogin()){
+        if (!checkLogin()) {
             window.location.href = globle_url + "login"
-        }else {
+        } else {
             window.location.href = globle_url + "paiming/" + tel + "/1"
         }
-
     }
 
     function rule() {
-        if(!checkLogin()){
+        if (!checkLogin()) {
             window.location.href = globle_url + "login"
-        }else {
+        } else {
             window.location.href = globle_url + "rule"
         }
-
     }
 
     function info() {
         var tel = getCookie("tel");
-        if(!checkLogin()){
+        if (!checkLogin()) {
             window.location.href = globle_url + "login"
-        }else {
+        } else {
             window.location.href = globle_url + "info/" + tel
         }
 
+    }
+
+    function tiku() {
+        window.location.href = "http://wnd.agri114.cn/公民科学素质知识400问.pdf";
     }
 
     function clear() {
