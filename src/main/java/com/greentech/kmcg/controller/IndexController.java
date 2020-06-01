@@ -44,7 +44,7 @@ public class IndexController {
      *
      * @return
      */
-    @RequestMapping(value = "/home")
+    @RequestMapping(value = "/home1")
     public String home() {
        /* log.info(Thread.currentThread().getName()+"---i="+i++);
         try {
@@ -52,7 +52,7 @@ public class IndexController {
         } catch (InterruptedException e) {
             e.printStackTrace();
         }*/
-        return "home";
+        return "home1";
     }
 
     /**
@@ -127,8 +127,8 @@ public class IndexController {
         int month = calendar.get(Calendar.MONTH);
         int day = calendar.get(Calendar.DAY_OF_MONTH);
         int hour = calendar.get(Calendar.HOUR_OF_DAY);
-        log.debug(month+"-"+day+"-"+hour);
-        if (month + 1 == 5 && day >= 1 && day <= 30 && hour >= 15 && hour <= 23) {
+        log.debug(month + "-" + day + "-" + hour);
+        if (month + 1 == 6 && day >= 1 && day <= 10 && hour >= 1 && hour <= 22) {
             return true;
         } else {
             return false;
@@ -148,7 +148,7 @@ public class IndexController {
         //判断时间是否已经开始，开始时间为 6.1-6.10，每天1:00 -- 23:00
         if (!checkTime()) {
             modelAndView.setViewName("error1.html");
-            modelAndView.addObject("msg", "活动还未开始<br/>活动开始时间为每天1:00到23:00<br/>");
+            modelAndView.addObject("msg", "活动还未开始<br/><br/>活动开始时间为<br/>6.1-6.10日每天1:00到23:00<br/>");
             return modelAndView;
         }
 
@@ -176,8 +176,6 @@ public class IndexController {
         } else {
             modelAndView.setViewName("login.html");
         }
-
-
         return modelAndView;
     }
 
@@ -220,30 +218,54 @@ public class IndexController {
         }
 //        String sql = "SELECT t.*, @rownum \\:= @rownum + 1 AS rownum FROM (SELECT @rownum \\:= 0) r, (SELECT * FROM `score_cg` GROUP BY user_id ORDER BY score desc,time asc) AS t ";
         String allPaiMingSql = "SELECT t.*, @rownum \\:= @rownum +1 AS rownum FROM (SELECT @rownum \\:= 0) r, (SELECT a.* from score_cg a LEFT JOIN score_cg b ON a.user_id=b.user_id WHERE Date(a.date)='" + date + "'  GROUP BY a.user_id   ORDER BY a.score desc,a.time asc) as t";
-
+        //我的今日排名
         String myPaiMingSql = "select b.* from \n" +
                 "(SELECT t.*, @rownum \\:= @rownum + 1 AS rownum\n" +
                 "FROM (SELECT @rownum \\:= 0) r, (SELECT * FROM `score_cg`WHERE Date(date)='" + date + "' GROUP BY user_id ORDER BY score desc,time asc) AS t) as b where b.user_id=" + user.getId();
+        //我的昨日排名
+        Calendar yesCalendar = Calendar.getInstance();
+        yesCalendar.add(Calendar.DATE, -1);
+        String yesDate = new SimpleDateFormat("yyyy-MM-dd").format(yesCalendar.getTime());
+        log.debug(yesDate);
+        String myYesPaiMingSql = "select b.* from \n" +
+                "(SELECT t.*, @rownum \\:= @rownum + 1 AS rownum\n" +
+                "FROM (SELECT @rownum \\:= 0) r, (SELECT * FROM `score_cg`WHERE Date(date)='" + yesDate + "' GROUP BY user_id ORDER BY score desc,time asc) AS t) as b where b.user_id=" + user.getId();
 
         List<Map> maps = baseRepository.getMap(myPaiMingSql);
-        //今天还没有答题
+        List<Map> yesMaps = baseRepository.getMap(myYesPaiMingSql);
+        //今天已经答题
         if (null != maps && maps.size() > 0) {
             Map myMap = maps.get(0);
             int time = (Integer) myMap.get("time");
             float floatTime = ((float) time) / 1000;
-            Object o1 = myMap.get("rownum");
+            Number o1 = (Number) myMap.get("rownum");
+            myMap.put("rownum",o1.intValue());
             //服务器返回的rownum类型为 BigInteger，本地为Double类型
-            if (o1 instanceof BigInteger) {
-                BigInteger rownum = (BigInteger) o1;
-                myMap.put("rownum", rownum.intValue());
-            } else {
-                Double rownum = (Double) o1;
-                myMap.put("rownum", rownum.intValue());
-            }
-//            log.warn("myMap=" + myMap.toString());
             myMap.put("time", floatTime);
             modelAndView.addObject("myScore", myMap);
         }
+        //昨天参加过活动
+        if (null != yesMaps && yesMaps.size() > 0) {
+            Map myYesMap = yesMaps.get(0);
+            //服务器返回的rownum类型为 BigInteger，本地为Double类型
+            Number o1 = (Number) myYesMap.get("rownum");
+            myYesMap.put("rownum", o1.intValue());
+
+            int paiming = (Integer) myYesMap.get("rownum");
+            String bao;
+            if (paiming >= 1 && paiming <= 50) {
+                bao = "获得20元红包";
+            } else if (paiming >= 51 && paiming <= 100) {
+                bao = "获得15元红包";
+            } else if (paiming >= 101 && paiming <= 200) {
+                bao = "获得10元红包";
+            } else {
+                bao = "未获得红包";
+            }
+            modelAndView.addObject("paiming", paiming + "");
+            modelAndView.addObject("bao", bao);
+        }
+
 
         MyPagination m = baseRepository.getPageMap(pageNum, 20, allPaiMingSql);
 
@@ -282,7 +304,7 @@ public class IndexController {
         JSONObject jsonObject = new JSONObject();
         int rownum = (pageNum - 1) * 20;
         String date = new SimpleDateFormat("yyyy-MM-dd").format(new Date());
-        String sql = "SELECT t.*, @rownum \\:= @rownum +1 AS rownum FROM (SELECT @rownum \\:= " + rownum + ") r, (SELECT a.* from score_cg a LEFT JOIN score_cg b ON a.user_id=b.user_id WHERE Date(a.date)='" + date + "' GROUP BY a.user_id   ORDER BY a.score desc,a.time asc) as t";
+        String sql = "SELECT t.*, @rownum \\:= @rownum +1 AS rownum FROM (SELECT @rownum \\:= " + rownum + ") r, (SELECT a.* from score_cg a LEFT JOIN score_cg b ON a.user_id=b.user_id WHERE Date(a.date)='" + date + "' GROUP BY a.user_id   ORDER BY a.score desc,a.time asc) as t where @rownum<=199";
         MyPagination m = baseRepository.getPageMap(pageNum, 20, sql);
         List<Map> mapList = (List<Map>) m.getList();
         if (null != mapList && mapList.size() > 0) {
@@ -294,11 +316,8 @@ public class IndexController {
                 int userId = (Integer) map.get("user_id");
                 Object o = map.get("rownum");
                 //服务器返回的rownum类型为 BigInteger，本地为Double类型
-                if (o instanceof BigInteger) {
-                    BigInteger rownum1 = (BigInteger) o;
-                    map.put("rownum", rownum1.intValue());
-                } else {
-                    Double rownum1 = (Double) o;
+                if (o instanceof Number) {
+                    Number rownum1 = (Number) o;
                     map.put("rownum", rownum1.intValue());
                 }
                 User u = null;
@@ -341,6 +360,11 @@ public class IndexController {
         String sessionYzm = (String) request.getSession().getAttribute(user.getTel());
         if (null != sessionYzm && sessionYzm.equals(yzm)) {
             try {
+                String tel = user.getTel();
+                User sqlUser = findUserByTel(tel);
+                if (null != sqlUser) {
+                    user.setOpenid(sqlUser.getOpenid());
+                }
                 User u = baseRepository.merge(user);
                 jsonObject.put("code", 1);
                 jsonObject.put("msg", "修改成功");
@@ -376,20 +400,16 @@ public class IndexController {
             if (null != sessionYzm && sessionYzm.equals(yzm)) {
                 try {
                     Integer userId = user.getId();
-                    //修改用户信息
+/*
                     if (null != userId) {
-                        baseRepository.save(user);
+                        //修改用户信息
+                        baseRepository.merge(user);
                         returnUser = user;
                     } else {
-                        String tel = user.getTel();
-                        User sqlUser = findUserByTel(tel);
-                        if (null == sqlUser) {
-                            baseRepository.save(user);
-                            returnUser = findUserByTel(tel);
-                        } else {
-                            returnUser = sqlUser;
-                        }
-                    }
+
+                    }*/
+
+                    returnUser = baseRepository.merge(user);
 
                     map.put("code", 1);
                     map.put("data", returnUser);

@@ -14,7 +14,6 @@
             font-size: 1.4rem;
             color: #ec971f;
         }
-
         #content {
             text-align: center;
             padding: 0;
@@ -41,15 +40,21 @@
 </div>
 
 <!---->
+
+
+
+
 <div th:if="${myScore}  ne null">
-<p class="title" th:text="'我的排名:'+${myScore.rownum}"></p>
+<p class="title" th:text="'今日排名:'+${myScore.rownum}"></p>
 <p class="title" th:text="'最好成绩:答对'+${myScore.score}+'题,用时:'+${myScore.time}+'秒'"></p>
 </div>
 
 <div th:if="${myScore}  eq null">
     <p class="title" th:text="您今日还未参与答题"></p>
 </div>
-
+<div th:if="${paiming}  ne null">
+    <p class="title" th:text="'昨日排名:'+${paiming}+','+${bao}"></p>
+</div>
 <div id="content">
 
     <!---->
@@ -75,7 +80,7 @@
     </table>
 
 </div>
-<script th:src="@{/js/Utils.js}"></script>
+<script th:src="@{/js/Utils1.js}"></script>
 
 </body>
 <script th:inline="javascript" type="text/javascript">
@@ -100,12 +105,12 @@
         loadDownFn: function (me) {
             pageNum++
             console.log("pageNum=" + pageNum)
-            if (pageNum > totalpage) {
+            if (pageNum > totalpage||pageNum>10) {
                 $(".dropload-load").css("display","none")
                 $(".dropload-down").html("<div class=\"dropload-noData\">到底了</div>")
                 me.lock();
                 me.noData();
-            } else {
+            }  else {
                 //上拉加载更多需要调用的函数
                 console.log("loadMore")
                 getData(pageNum,me);

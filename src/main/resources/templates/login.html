@@ -94,7 +94,7 @@
 <script th:src="@{/js/mui.picker.js}"></script>
 <script th:src="@{/js/mui.poppicker.js}"></script>
 <script th:src="@{/js/place1.js}"></script>
-<script th:src="@{/js/Utils.js}"></script>
+<script th:src="@{/js/Utils1.js}"></script>
 <script>
     mui.ready(function () {
         $("#address").click(function () {
@@ -215,7 +215,7 @@
 
     function checkAddress(address, jiedao) {
         var addressArray = new Array("斗南街道", "乌龙街道", "洛龙街道", "吴家营街道", "雨花街道", "马金铺街道",
-            "大渔街道", "七甸街道", "洛洋街道", "龙城", "斗南", "乌龙", "洛龙", "吴家营", "雨花", "马金铺", "大渔", "七甸", "洛洋");
+            "大渔街道", "七甸街道", "洛洋街道","龙城街道", "龙城", "斗南", "乌龙", "洛龙", "吴家营", "雨花", "马金铺", "大渔", "七甸", "洛洋");
         if (address != "云南省-昆明市-呈贡区" || !addressArray.includes(jiedao)) {
             return false;
         } else {
