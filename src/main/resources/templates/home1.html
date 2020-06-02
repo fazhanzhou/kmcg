@@ -34,11 +34,8 @@
 <script>
 
     $(document).ready(function () {
-
-
-
-
-
+        removeCookie("right")
+        removeCookie("error")
         if (!checkLogin()) {
             window.location.href = globle_url + "login"
         }

@@ -1,6 +1,6 @@
 //TODO
-var globle_url = "https://wnd.agri114.cn/cg/"
-// var globle_url = "http://192.168.71.134:8185/cg/"
+// var globle_url = "https://wnd.agri114.cn/cg/"
+var globle_url = "http://192.168.71.134:8185/cg/"
 // var globle_url = "http://192.168.71.124:8185/cg/"
 
 function setCookie(key, value, expiredays) {
@@ -32,7 +32,6 @@ function removeCookie(key) {
     var exdate = new Date()
     exdate.setDate(exdate.getDate() -1)
     var s = key + "=" + ";expires=" + exdate.toGMTString()
-    log("s="+s)
     document.cookie = s;
 }
 

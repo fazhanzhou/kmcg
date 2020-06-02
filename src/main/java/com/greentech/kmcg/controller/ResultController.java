@@ -14,6 +14,8 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.servlet.ModelAndView;
 
+import javax.persistence.criteria.CriteriaBuilder;
+import javax.servlet.http.Cookie;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpSession;
 import java.beans.Transient;
@@ -54,7 +56,20 @@ public class ResultController {
     public ModelAndView addScore(String tel, Integer score, Long useTime) {
         ModelAndView modelAndView = new ModelAndView();
         String userAgent = request.getHeader("user-agent").toLowerCase();
-        log.debug("userAgent=" + userAgent);
+
+        Cookie[] cookies = request.getCookies();
+        JSONObject jsonObject = new JSONObject();
+        for (Cookie cookie : cookies) {
+            jsonObject.put(cookie.getName(), cookie.getValue());
+        }
+        Integer right = jsonObject.getInteger("right");
+        if(null == right || right.intValue() != score.intValue()){
+            modelAndView.setViewName("error1.html");
+            log.info("异常,请重新答题=" + tel+"----right="+right);
+            modelAndView.addObject("msg", "异常,请重新答题");
+            return modelAndView;
+        }
+
         boolean isWeiXin = userAgent == null || userAgent.indexOf("micromessenger") == -1 ? false : true;
         if (!isWeiXin) {
             modelAndView.setViewName("error1.html");
@@ -77,7 +92,7 @@ public class ResultController {
         }
         if (score > 10 || useTime < 21000) {
             modelAndView.setViewName("error1.html");
-            log.info("异常,请重新答题=" + tel);
+            log.info("异常,请重新答题=" + tel+"----score="+score+"---time="+useTime);
             modelAndView.addObject("msg", "异常,请重新答题");
             return modelAndView;
         }

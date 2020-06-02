@@ -55,6 +55,8 @@
     <p id="e" th:if="${area}  ne null" style="font-size: 1rem" th:utext="${area}"></p>
 </div>
 <script>
+    removeCookie("right")
+    removeCookie("error")
     function paiming() {
         var tel = getCookie("tel")
         window.location.href = globle_url + "paiming/" + tel + "/" + 1

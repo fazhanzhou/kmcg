@@ -364,8 +364,10 @@ public class IndexController {
                 User sqlUser = findUserByTel(tel);
                 if (null != sqlUser) {
                     user.setOpenid(sqlUser.getOpenid());
+                    user.setId(sqlUser.getId());
                 }
                 User u = baseRepository.merge(user);
+                log.info("修改用户成功="+u.toString());
                 jsonObject.put("code", 1);
                 jsonObject.put("msg", "修改成功");
                 jsonObject.put("user", u);
@@ -399,18 +401,13 @@ public class IndexController {
             String sessionYzm = (String) request.getSession().getAttribute(user.getTel());
             if (null != sessionYzm && sessionYzm.equals(yzm)) {
                 try {
-                    Integer userId = user.getId();
-/*
-                    if (null != userId) {
-                        //修改用户信息
-                        baseRepository.merge(user);
-                        returnUser = user;
-                    } else {
-
-                    }*/
-
-                    returnUser = baseRepository.merge(user);
-
+                    String tel = user.getTel();
+                    User sqlUser = findUserByTel(tel);
+                    if (null != sqlUser) {
+                        returnUser = sqlUser;
+                    }else {
+                        returnUser = baseRepository.merge(user);
+                    }
                     map.put("code", 1);
                     map.put("data", returnUser);
 

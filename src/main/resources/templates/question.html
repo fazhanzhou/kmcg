@@ -29,9 +29,6 @@
 <script th:inline="javascript" type="text/javascript">
     var startTime, endTime;
     var data = [[${data}]]
-    for (var i = 0; i < data.length; i++) {
-        console.log(data[i].question)
-    }
     var nextIndex = 0;
     //答对的个数
     var right = 0;
@@ -97,10 +94,13 @@
                 var allTime = parseInt(endTime - startTime)
                 var score = right;
                 var tel = getCookie("tel");
+                setCookie("right",right);
+                setCookie("error",10-right);
                 if (tel == "") {
                     window.location.href = globle_url + "login"
                 } else {
                     window.location.href = globle_url + "result?score=" + score + "&tel=" + tel+"&useTime="+allTime
+
                 }
 
             }
@@ -124,9 +124,7 @@
             a.click(function (e) {
                 userSelectedAnswer = $(e.target).text().substring(0, 1)
                 var allA = $("#answers").children()
-                console.log("ll=" + allA)
                 for (var j = 0; j < allA.length; j++) {
-                    console.log("al   lA[j]=" + allA[j].toString())
                     $($(allA[j]).children()[0]).css("background", "white").css("color", "black")
                     $(allA[j]).css("background", "white")
                 }

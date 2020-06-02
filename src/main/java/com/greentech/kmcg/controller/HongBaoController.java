@@ -2,7 +2,6 @@ package com.greentech.kmcg.controller;
 
 import com.alibaba.fastjson.JSON;
 import com.alibaba.fastjson.JSONObject;
-import com.greentech.kmcg.bean.User;
 import com.greentech.kmcg.repository.BaseRepository;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -12,7 +11,6 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.servlet.ModelAndView;
 
-import javax.servlet.http.HttpSession;
 import java.io.*;
 import java.net.URL;
 import java.net.URLConnection;
@@ -21,9 +19,6 @@ import java.security.NoSuchAlgorithmException;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 import java.util.Random;
-import java.util.concurrent.Executors;
-import java.util.concurrent.ScheduledExecutorService;
-import java.util.concurrent.TimeUnit;
 
 /**
  * @author: 周发展
@@ -77,7 +72,7 @@ public class HongBaoController {
         JSONObject json = new JSONObject();
         String getUrl = "http://www.yaoyaola.cn/index.php/exapi/SendRedPackToOpenid?";
         String uid = "24265";
-        String type = "0";
+        String type = "1";
         String orderid = orderId();
         String title = "呈贡区科普知识竞赛";
         String sendname = "呈贡区科协";
@@ -153,8 +148,8 @@ public class HongBaoController {
     public static void main(String[] args) {
         HongBaoController hongBaoController = new HongBaoController();
 //        String openid = "orsKq0ah_BIThZkJv2adqXaiXGEc";
-        String openid = "orsKq0Yni8zlHeLhs4wooIWSD1WI";
-        JSONObject jsonObject = hongBaoController.sendHongBao(1500, openid);
+        String openid = "orsKq0ah_BIThZkJv2adqXaiXGEc";
+        JSONObject jsonObject = hongBaoController.sendHongBao(30, openid);
         log.debug(jsonObject.toJSONString());
        /* try {
 
