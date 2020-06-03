@@ -36,6 +36,8 @@
     var userSelectedAnswer = '';
 
     $(document).ready(function () {
+        removeCookie("right")
+        removeCookie("error")
         if (data != null && data != undefined) {
             startTime = new Date();
             next(nextIndex)
@@ -43,8 +45,18 @@
             mui.alert("获取题目失败")
         }
     });
+    var canClick = true;
 
     function nextQuestion() {
+        if (!canClick) {
+            return;
+        }
+        if (userSelectedAnswer == "") {
+            mui.alert("请选择答案")
+            return
+        }
+        canClick =false;
+
         //判断答案是否正确
         //正确答案
         var rightAnswer = data[nextIndex].right;
@@ -82,11 +94,13 @@
                     $($(allA[3]).children()[1]).attr("src", '/cg/img/error.png').css("display", "block")
                     break;
             }
-            console.log("答错了"+(10-right))
+            console.log("答错了" + (10 - right))
         }
         setTimeout(function () {
+            canClick = true;
             nextIndex++
             if (nextIndex < 10) {
+                userSelectedAnswer = "";
                 next(nextIndex)
             } else {
                 //判断是否登录
@@ -94,19 +108,16 @@
                 var allTime = parseInt(endTime - startTime)
                 var score = right;
                 var tel = getCookie("tel");
-                setCookie("right",right);
-                setCookie("error",10-right);
+                setCookie("right", right);
+                setCookie("error", 10 - right);
                 if (tel == "") {
                     window.location.href = globle_url + "login"
                 } else {
-                    window.location.href = globle_url + "result?score=" + score + "&tel=" + tel+"&useTime="+allTime
-
+                    window.location.href = globle_url + "result?score=" + score + "&tel=" + tel + "&useTime=" + allTime
                 }
 
             }
         }, 1000);
-
-
     }
 
     function next(index) {

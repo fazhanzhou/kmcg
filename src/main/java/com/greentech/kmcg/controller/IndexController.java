@@ -143,7 +143,7 @@ public class IndexController {
      * @return 页面
      */
     @RequestMapping(value = "/question")
-    public ModelAndView question(String tel) {
+    public ModelAndView question(String tel,String timestamp) {
         ModelAndView modelAndView = new ModelAndView();
         //判断时间是否已经开始，开始时间为 6.1-6.10，每天1:00 -- 23:00
         if (!checkTime()) {

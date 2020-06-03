@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no"/>
+    <style>
+        .content {
+            top: calc(19vh);
+            position: relative;
+            margin: 0 2rem 0 2rem;
+            font-size: 1.4rem;
+            color: #ec971f;
+            line-height: 2rem;
+        }
+
+    </style>
+    <title>友情提醒</title>
+</head>
+<body style="margin: 0;padding: 0">
+<div style="position: absolute;width: 100%;height: 100%;z-index: -1;">
+    <img th:src="@{/img/notice.jpg}" width="100%" height="100%">
+</div>
+
+<p class="content">
+    &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp如果您在本次活动中中奖后，我们将会根据您的中奖金额以微信红包的方式发放到您的微信钱包中，所以需要您开通微信支付并且实名认证，否则红包将会发放失败。
+</p>
+<p class="content">
+    &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+    如果出现红包错发的情况，我们有权收回多发的红包。如果平台显示您中奖但是没有收到红包，请联系18805174084。
+
+</p>
+</body>
+</html>

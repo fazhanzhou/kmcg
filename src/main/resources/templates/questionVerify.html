@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no"/>
+    <title>科普答题</title>
+    <link th:href="@{/css/mui.css}" rel="stylesheet"/>
+    <script th:src="@{/js/mui.js}"></script>
+    <style>
+    </style>
+</head>
+<body style="width: 100%;height:100%;background-color: rgb(28,111,175)">
+<div style="width: 100%;height:100%;">
+
+    <div style="text-align: center;padding-top: 3rem">
+        <div style="width: 90%;background-color: rgb(254,231,181);margin: 0 auto;border-radius: 2rem;padding: 2rem 1rem;">
+            <p id="time" style="font-size: 2rem;color:peru ">倒计时</p>
+            <div id="question" style="color: peru"></div>
+            <div id="answers" style="margin: 1rem">
+
+            </div>
+        </div>
+        <img onclick="nextQuestion()" style="width: 60%;margin-top: 1rem" th:src="@{/img/next.png}">
+    </div>
+</div>
+
+<script th:src="@{/js/jquery-3.1.1.js}"></script>
+<script th:src="@{/js/Utils1.js}"></script>
+<script th:inline="javascript" type="text/javascript">
+    var startTime, endTime;
+    var data = [[${data}]]
+    var nextIndex = 0;
+    var allAnswers = "";
+    //答对的个数
+    var right = 0;
+    //用户选择的答案
+    var userSelectedAnswer = '';
+
+    $(document).ready(function () {
+        if (data != null && data != undefined) {
+            startTime = new Date();
+            next(nextIndex)
+        } else {
+            mui.alert("获取题目失败")
+        }
+    });
+
+    function nextQuestion() {
+        /*switch (userSelectedAnswer) {
+            case 'A':
+                $($(allA[0]).children()[1]).attr("src", '/cg/img/error.png').css("display", "block")
+                break;
+            case 'B':
+                $($(allA[1]).children()[1]).attr("src", '/cg/img/error.png').css("display", "block")
+                break;
+            case 'C':
+                $($(allA[2]).children()[1]).attr("src", '/cg/img/error.png').css("display", "block")
+                break;
+            case 'D':
+                $($(allA[3]).children()[1]).attr("src", '/cg/img/error.png').css("display", "block")
+                break;
+        }*/
+        allAnswers =allAnswers+ userSelectedAnswer+",";
+        console.log("allAnswers===" + allAnswers)
+        setTimeout(function () {
+            nextIndex++
+            if (nextIndex < 10) {
+                next(nextIndex)
+            } else {
+                //判断是否登录
+                endTime = new Date()
+                var allTime = parseInt(endTime - startTime)
+                var tel = getCookie("tel");
+                // setCookie("right", right);
+                // setCookie("error", 10 - right);
+                if (tel == "") {
+                    window.location.href = globle_url + "login"
+                } else {
+                    window.location.href = globle_url + "resultVerify?allAnswers=" + allAnswers + "&tel=" + tel + "&useTime=" + allTime
+                }
+
+            }
+        }, 1000);
+
+
+    }
+
+    function next(index) {
+        setTime()
+        var question = data[index].question;
+        $("#question").text("")
+        $("#question").css("font-size", '1.3rem').css("line-height", '1.6rem').text(question);
+        var $_answers = $("#answers")
+        $_answers.text("")
+        var answersArr = data[index].answers
+        for (var i = 0; i < answersArr.length; i++) {
+            // var a = $("<p style='background-color: white;color: black;border-radius: 2rem;padding: 0.6rem'>" + answersArr[i].answer + "<p/>")
+            var a = $("<div style='display: flex;background-color: white;border-radius: 1rem;padding: 0.4rem;margin: 1rem 0'><p style='flex:6;color: black;margin: 0px;line-height: 2rem;font-size: 1.1rem'>" + answersArr[i].answer + "</p><img style='flex:1;height: 2rem;display: none' /></div>");
+
+            a.click(function (e) {
+                userSelectedAnswer = $(e.target).text().substring(0, 1)
+                var allA = $("#answers").children()
+                for (var j = 0; j < allA.length; j++) {
+                    $($(allA[j]).children()[0]).css("background", "white").css("color", "black")
+                    $(allA[j]).css("background", "white")
+                }
+                //将div元素变绿
+                if ($(e.target).parent().attr("id") != "answers") {
+                    $(e.target).parent().css("background", "rgb(28,111,175)")
+                    //将p元素变绿
+                    $(e.target).css("background", "rgb(28,111,175)").css("color", "white")
+                }
+
+            })
+
+            $_answers.append(a)
+
+        }
+    }
+
+    var set;
+
+    function setTime() {
+        clearInterval(set);
+        var time = 31;
+        var p = document.getElementById("time");
+        set = setInterval(function () {
+            time--;
+            p.innerText = time;
+            if (time === 0) {
+                p.innerText = "";
+                clearInterval(set);
+                nextIndex++
+                if (nextIndex < 10) {
+                    nextQuestion()
+                } else {
+                    alert("最后了")
+                }
+            }
+        }, 1000);
+    }
+</script>
+</body>
+</html>

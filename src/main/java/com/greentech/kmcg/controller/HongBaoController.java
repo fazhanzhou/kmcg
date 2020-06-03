@@ -55,7 +55,7 @@ public class HongBaoController {
         try {
             String updateSql = "update user_cg set openid='" + u_openid + "' where tel = " + tel;
             baseRepository.nativeSql(updateSql, null);
-            modelAndView = indexController.question(tel);
+            modelAndView = indexController.question(tel, "111");
             modelAndView.addObject("openid", u_openid);
         } catch (Exception e) {
             e.printStackTrace();
@@ -63,6 +63,12 @@ public class HongBaoController {
         }
         return modelAndView;
     }
+    @RequestMapping("/notice")
+    public ModelAndView notice() {
+        ModelAndView modelAndView = new ModelAndView("notice");
+        return modelAndView;
+    }
+
 
     /**
      * 发送红包
@@ -125,7 +131,7 @@ public class HongBaoController {
 
     public void saveToFile(String content) {
         try {
-            String fileName = "D:\\hongbao\\61\\hongbao.txt";
+            String fileName = "D:\\hongbao\\63\\bufa.txt";
             // 打开一个写文件器，构造函数中的第二个参数true表示以追加形式写文件
 
             FileWriter writer = new FileWriter(fileName, true);
@@ -143,23 +149,21 @@ public class HongBaoController {
 
     }
 
-    int x = 1;
 
     public static void main(String[] args) {
         HongBaoController hongBaoController = new HongBaoController();
-//        String openid = "orsKq0ah_BIThZkJv2adqXaiXGEc";
         String openid = "orsKq0ah_BIThZkJv2adqXaiXGEc";
         JSONObject jsonObject = hongBaoController.sendHongBao(30, openid);
         log.debug(jsonObject.toJSONString());
-       /* try {
+        /*try {
 
-            FileReader reader = new FileReader("D:\\hongbao\\61\\10.txt");
+            FileReader reader = new FileReader("D:\\hongbao\\63\\111.txt");
             BufferedReader bufferedReader = new BufferedReader(reader);
             String contentLine;
             while ((contentLine = bufferedReader.readLine()) != null) {
                 JSONObject jsonObject = hongBaoController.sendHongBao(1000, contentLine);
                 jsonObject.put("openid", contentLine);
-                Thread.sleep(5000);
+                Thread.sleep(2000);
                 log.debug(jsonObject.toJSONString());
 
             }

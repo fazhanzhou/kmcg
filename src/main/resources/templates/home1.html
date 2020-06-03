@@ -23,10 +23,12 @@
     <!--    <img th:onclick="clear()" th:src="@{/img/paiming.png}" style="position: relative;top: 78rem;width: 50%">-->
 </div>
 
-
-<strong th:onclick="tiku()" style="position: absolute;right: 2rem;bottom:2rem;font-size: large;color: black;width: 4rem;height: 4rem;
+<strong th:onclick="notice()" style="position: absolute;left: 1rem;bottom:1rem;font-size: large;color: red;width: 3rem;height: 3rem;
     border-radius: 1rem;background-color: white;text-align: center;
-    line-height: 4rem;">题库</strong>
+    line-height: 3rem;">提醒</strong>
+<strong th:onclick="tiku()" style="position: absolute;right: 1rem;bottom:1rem;font-size: large;color: black;width: 3rem;height: 3rem;
+    border-radius: 1rem;background-color: white;text-align: center;
+    line-height: 3rem;">题库</strong>
 <link th:href="@{/css/mui.css}" rel="stylesheet"/>
 <script th:src="@{/js/jquery-3.1.1.js}"></script>
 <script th:src="@{/js/mui.js}"></script>
@@ -55,7 +57,9 @@
         if (!checkLogin()) {
             window.location.href = globle_url + "login"
         } else {
-            window.location.href = globle_url + "question?tel=" + tel
+            var time = new Date().getMilliseconds()
+            //TODO
+            window.location.href = globle_url + "question?tel=" + tel+"&timestamp="+time
         }
     }
 
@@ -88,6 +92,9 @@
 
     function tiku() {
         window.location.href = "http://wnd.agri114.cn/公民科学素质知识400问.pdf";
+    }
+    function notice() {
+        window.location.href = globle_url+"notice";
     }
 
     function clear() {

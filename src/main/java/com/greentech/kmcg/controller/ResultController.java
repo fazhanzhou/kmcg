@@ -56,16 +56,16 @@ public class ResultController {
     public ModelAndView addScore(String tel, Integer score, Long useTime) {
         ModelAndView modelAndView = new ModelAndView();
         String userAgent = request.getHeader("user-agent").toLowerCase();
-
+        log.info("tel=" + tel + "---score=" + score + "---userTime=" + useTime);
         Cookie[] cookies = request.getCookies();
         JSONObject jsonObject = new JSONObject();
         for (Cookie cookie : cookies) {
             jsonObject.put(cookie.getName(), cookie.getValue());
         }
         Integer right = jsonObject.getInteger("right");
-        if(null == right || right.intValue() != score.intValue()){
+        if (null == right || right.intValue() != score.intValue()) {
             modelAndView.setViewName("error1.html");
-            log.info("异常,请重新答题=" + tel+"----right="+right);
+            log.info("异常,请重新答题=" + tel + "----right=" + right);
             modelAndView.addObject("msg", "异常,请重新答题");
             return modelAndView;
         }
@@ -90,9 +90,9 @@ public class ResultController {
             log.info("请您先答题=" + tel);
             return modelAndView;
         }
-        if (score > 10 || useTime < 21000) {
+        if (score > 10 || useTime < 10000) {
             modelAndView.setViewName("error1.html");
-            log.info("异常,请重新答题=" + tel+"----score="+score+"---time="+useTime);
+            log.info("异常,请重新答题=" + tel + "----score=" + score + "---time=" + useTime);
             modelAndView.addObject("msg", "异常,请重新答题");
             return modelAndView;
         }
@@ -172,12 +172,23 @@ public class ResultController {
         int month = calendar.get(Calendar.MONTH);
         int day = calendar.get(Calendar.DAY_OF_MONTH);
         int hour = calendar.get(Calendar.HOUR_OF_DAY);
-        log.debug(month + "-" + day + "-" + hour);
         if (month + 1 == 6 && day >= 1 && day <= 10 && hour >= 1 && hour <= 22) {
             return true;
         } else {
             return false;
         }
+    }
+
+    public static void main(String[] args) {
+
+
+        ResultController resultController = new ResultController();
+        if (resultController.inPlace("云南省-昆明市-呈贡区", "wer")) {
+            log.info("true");
+        } else {
+            log.info("false");
+        }
+
     }
 
     private boolean inPlace(String address, String jiedao) {
@@ -204,7 +215,14 @@ public class ResultController {
         placeList.add("七甸");
         placeList.add("洛洋");
         if ("云南省-昆明市-呈贡区".equals(address)) {
-            return placeList.contains(jiedao) ? true : false;
+            boolean is = false;
+            for (int i = 0; i < placeList.size(); i++) {
+                if (jiedao.contains(placeList.get(i))) {
+                    is = true;
+                    break;
+                }
+            }
+            return is;
         } else {
             return false;
         }
@@ -219,10 +237,6 @@ public class ResultController {
         return modelAndView;
     }
 
-    public static void main(String[] args) {
-        DecimalFormat decimalFormat = new DecimalFormat("0.000");
-        String re = decimalFormat.format((float) 23456787 / 1000);
-    }
 
     /**
      * 验证手机号
