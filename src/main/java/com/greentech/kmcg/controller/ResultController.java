@@ -14,6 +14,8 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.servlet.ModelAndView;
 
+import javax.persistence.criteria.CriteriaBuilder;
+import javax.servlet.http.Cookie;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpSession;
 import java.beans.Transient;
@@ -26,10 +28,7 @@ import java.security.MessageDigest;
 import java.security.NoSuchAlgorithmException;
 import java.text.DecimalFormat;
 import java.text.SimpleDateFormat;
-import java.util.ArrayList;
-import java.util.Date;
-import java.util.List;
-import java.util.Random;
+import java.util.*;
 
 /**
  * @author: 周发展
@@ -56,23 +55,58 @@ public class ResultController {
     @RequestMapping("/result")
     public ModelAndView addScore(String tel, Integer score, Long useTime) {
         ModelAndView modelAndView = new ModelAndView();
+        String userAgent = request.getHeader("user-agent").toLowerCase();
+        log.info("tel=" + tel + "---score=" + score + "---userTime=" + useTime);
+        Cookie[] cookies = request.getCookies();
+        JSONObject jsonObject = new JSONObject();
+        for (Cookie cookie : cookies) {
+            jsonObject.put(cookie.getName(), cookie.getValue());
+        }
+        Integer right = jsonObject.getInteger("right");
+        if (null == right || right.intValue() != score.intValue()) {
+            modelAndView.setViewName("error1.html");
+            log.info("异常,请重新答题=" + tel + "----right=" + right);
+            modelAndView.addObject("msg", "异常,请重新答题");
+            return modelAndView;
+        }
 
+        boolean isWeiXin = userAgent == null || userAgent.indexOf("micromessenger") == -1 ? false : true;
+        if (!isWeiXin) {
+            modelAndView.setViewName("error1.html");
+            log.info("请使用微信打开=" + tel);
+            modelAndView.addObject("msg", "请使用微信打开");
+            return modelAndView;
+        }
+        if (!checkTime()) {
+            modelAndView.setViewName("error1.html");
+            modelAndView.addObject("msg", "活动还未开始<br/><br/>活动开始时间为<br/>6.1-6.10日每天1:00到23:00<br/>");
+            return modelAndView;
+        }
         //检查是否经过答题页面后到这里
         String verifyTel = (String) request.getSession().getAttribute("login");
 
-        /*if (StringUtils.isBlank(verifyTel)) {
-            modelAndView.setViewName("redirect:/home");
-            System.out.println("请您先答题");
+        if (StringUtils.isBlank(verifyTel)) {
+            modelAndView.setViewName("redirect:/home1");
+            log.info("请您先答题=" + tel);
             return modelAndView;
-        }*/
+        }
+        if (score > 10 || useTime < 10000) {
+            modelAndView.setViewName("error1.html");
+            log.info("异常,请重新答题=" + tel + "----score=" + score + "---time=" + useTime);
+            modelAndView.addObject("msg", "异常,请重新答题");
+            return modelAndView;
+        }
+
         if (null == score || StringUtils.isBlank(tel)) {
             modelAndView.setViewName("error1.html");
-            modelAndView.addObject("msg", "缺少参数");
+            log.info("缺少参数=" + tel);
+            modelAndView.addObject("msg", "异常,请重新答题");
             return modelAndView;
         }
         User user = indexController.findUserByTel(tel);
         if (null == user) {
             modelAndView.setViewName("error1.html");
+            log.info("用户不存在=" + tel);
             modelAndView.addObject("msg", "用户不存在");
             return modelAndView;
         }
@@ -85,13 +119,14 @@ public class ResultController {
         modelAndView.addObject("time", decimalFormat.format(Float.valueOf(useTime) / 1000));
         modelAndView.setViewName("score");
         if (!inPlace(address, jiedao)) {
+            log.info("不是呈贡区居民=" + tel);
             modelAndView.addObject("area", "本活动仅限呈贡区居民参与排名发红包");
         } else {
             //判断是不是最好的成绩，如果是更新成绩，不是不做任何操作
 
             //获取之前的成绩
             String date = new SimpleDateFormat("yyyy-MM-dd").format(new Date());
-            String scoreSql = "select * from score_cg where user_id=" + user.getId() + " and Date(date) ='" + date+"'";
+            String scoreSql = "select * from score_cg where user_id=" + user.getId() + " and Date(date) ='" + date + "'";
             List<Score> scores = (List<Score>) baseRepository.findBeansBySql(scoreSql, null, Score.class);
             Score score1 = new Score();
             score1.setScore(score);
@@ -110,7 +145,14 @@ public class ResultController {
                 Score scoreOld = scores.get(0);
                 int oldScore = scoreOld.getScore();
                 long oldTime = scoreOld.getTime();
-                if (score >= oldScore && useTime < oldTime) {
+                if (score > oldScore) {
+                    try {
+                        score1.setId(scoreOld.getId());
+                        baseRepository.merge(score1);
+                    } catch (Exception e) {
+                        e.printStackTrace();
+                    }
+                } else if (score == oldScore && useTime < oldTime) {
                     try {
                         score1.setId(scoreOld.getId());
                         baseRepository.merge(score1);
@@ -121,8 +163,32 @@ public class ResultController {
             }
 
         }
-
+        request.getSession().removeAttribute("login");
         return modelAndView;
+    }
+
+    public boolean checkTime() {
+        Calendar calendar = Calendar.getInstance();
+        int month = calendar.get(Calendar.MONTH);
+        int day = calendar.get(Calendar.DAY_OF_MONTH);
+        int hour = calendar.get(Calendar.HOUR_OF_DAY);
+        if (month + 1 == 6 && day >= 1 && day <= 10 && hour >= 1 && hour <= 22) {
+            return true;
+        } else {
+            return false;
+        }
+    }
+
+    public static void main(String[] args) {
+
+
+        ResultController resultController = new ResultController();
+        if (resultController.inPlace("云南省-昆明市-呈贡区", "wer")) {
+            log.info("true");
+        } else {
+            log.info("false");
+        }
+
     }
 
     private boolean inPlace(String address, String jiedao) {
@@ -149,7 +215,14 @@ public class ResultController {
         placeList.add("七甸");
         placeList.add("洛洋");
         if ("云南省-昆明市-呈贡区".equals(address)) {
-            return placeList.contains(jiedao) ? true : false;
+            boolean is = false;
+            for (int i = 0; i < placeList.size(); i++) {
+                if (jiedao.contains(placeList.get(i))) {
+                    is = true;
+                    break;
+                }
+            }
+            return is;
         } else {
             return false;
         }
@@ -164,11 +237,6 @@ public class ResultController {
         return modelAndView;
     }
 
-    public static void main(String[] args) {
-        DecimalFormat decimalFormat = new DecimalFormat("0.000");
-        String re = decimalFormat.format((float) 23456787 / 1000);
-        log.debug(re);
-    }
 
     /**
      * 验证手机号

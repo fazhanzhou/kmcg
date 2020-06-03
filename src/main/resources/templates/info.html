@@ -92,7 +92,7 @@
 <script th:src="@{/js/mui.picker.js}"></script>
 <script th:src="@{/js/mui.poppicker.js}"></script>
 <script th:src="@{/js/place1.js}"></script>
-<script th:src="@{/js/Utils.js}"></script>
+<script th:src="@{/js/Utils1.js}"></script>
 <script th:inline="javascript">
 
     var userId = [[${data.id}]]
@@ -180,7 +180,7 @@
                                 } else {
                                     setCookie("id", data.user.id);
                                     setCookie("tel", data.user.tel);
-                                    window.location.href = globle_url+"home"
+                                    window.location.href = globle_url+"home1"
                                 }
                             })
                         }
@@ -193,7 +193,7 @@
                         } else {
                             setCookie("id", data.user.id);
                             setCookie("tel", data.user.tel);
-                            window.location.href = globle_url+"home"
+                            window.location.href = globle_url+"home1"
                         }
 
                         //window.location.href = globle_url + "question?tel=" + data.data.tel

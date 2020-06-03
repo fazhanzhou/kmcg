@@ -2,7 +2,6 @@ package com.greentech.kmcg.controller;
 
 import com.alibaba.fastjson.JSON;
 import com.alibaba.fastjson.JSONObject;
-import com.greentech.kmcg.bean.User;
 import com.greentech.kmcg.repository.BaseRepository;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -12,10 +11,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.servlet.ModelAndView;
 
-import javax.servlet.http.HttpSession;
-import java.io.BufferedReader;
-import java.io.InputStream;
-import java.io.InputStreamReader;
+import java.io.*;
 import java.net.URL;
 import java.net.URLConnection;
 import java.security.MessageDigest;
@@ -59,23 +55,30 @@ public class HongBaoController {
         try {
             String updateSql = "update user_cg set openid='" + u_openid + "' where tel = " + tel;
             baseRepository.nativeSql(updateSql, null);
-            modelAndView = indexController.question(tel);
+            modelAndView = indexController.question(tel, "111");
+            modelAndView.addObject("openid", u_openid);
         } catch (Exception e) {
             e.printStackTrace();
             log.error(e.toString());
         }
         return modelAndView;
     }
+    @RequestMapping("/notice")
+    public ModelAndView notice() {
+        ModelAndView modelAndView = new ModelAndView("notice");
+        return modelAndView;
+    }
+
 
     /**
      * 发送红包
      */
-    private JSONObject sendHongBao(int money,String openid) {
+    private JSONObject sendHongBao(int money, String openid) {
         System.out.println("发送红包");
         JSONObject json = new JSONObject();
         String getUrl = "http://www.yaoyaola.cn/index.php/exapi/SendRedPackToOpenid?";
         String uid = "24265";
-        String type = "0";
+        String type = "1";
         String orderid = orderId();
         String title = "呈贡区科普知识竞赛";
         String sendname = "呈贡区科协";
@@ -83,7 +86,6 @@ public class HongBaoController {
         String cburl = "https://njy.agri114.cn/hqt/json/hongBaoCallBack.action";
         Long reqtick = System.currentTimeMillis() / 1000;
         String appKey = "A82ED0D0E0155D3926E0A6B6B3EE60C4";
-//        String openid = "orsKq0Zl-6-DWue7-O25jDHJ0AJo";
         String sign = encryption(uid + type + orderid + money + reqtick + openid + appKey);
 
         String dataString = "uid=" + uid + "&type=" + type + "&orderid=" + orderid +
@@ -106,9 +108,12 @@ public class HongBaoController {
             }
             System.out.println(buffer.toString());
             JSONObject ticketJson = JSON.parseObject(buffer.toString());
+            ticketJson.put("orderid", orderid);
+            ticketJson.put("openid", openid);
             String errorMSG = (String) ticketJson.get("errmsg");
+            saveToFile(ticketJson.toJSONString());
             if (null != errorMSG) {
-            //发送失败
+                //发送失败
                 log.debug(errorMSG);
                 log.debug(ticketJson.toJSONString());
             } else {
@@ -123,11 +128,51 @@ public class HongBaoController {
         return json;
     }
 
+
+    public void saveToFile(String content) {
+        try {
+            String fileName = "D:\\hongbao\\63\\bufa.txt";
+            // 打开一个写文件器，构造函数中的第二个参数true表示以追加形式写文件
+
+            FileWriter writer = new FileWriter(fileName, true);
+
+            writer.write(content);
+            writer.write("\r\n");
+
+            writer.close();
+
+        } catch (IOException e) {
+
+            e.printStackTrace();
+
+        }
+
+    }
+
+
     public static void main(String[] args) {
         HongBaoController hongBaoController = new HongBaoController();
-        String openid = "orsKq0Zl-6-DWue7-O25jDHJ0AJo";
-        JSONObject jsonObject = hongBaoController.sendHongBao(30,openid);
+        String openid = "orsKq0ah_BIThZkJv2adqXaiXGEc";
+        JSONObject jsonObject = hongBaoController.sendHongBao(30, openid);
         log.debug(jsonObject.toJSONString());
+        /*try {
+
+            FileReader reader = new FileReader("D:\\hongbao\\63\\111.txt");
+            BufferedReader bufferedReader = new BufferedReader(reader);
+            String contentLine;
+            while ((contentLine = bufferedReader.readLine()) != null) {
+                JSONObject jsonObject = hongBaoController.sendHongBao(1000, contentLine);
+                jsonObject.put("openid", contentLine);
+                Thread.sleep(2000);
+                log.debug(jsonObject.toJSONString());
+
+            }
+
+        } catch (Exception e) {
+            e.printStackTrace();
+        }*/
+
+
     }
 
     // 生成订单号

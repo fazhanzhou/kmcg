@@ -66,7 +66,7 @@ public class Aop {
         int hours = calendar.get(Calendar.HOUR_OF_DAY);
         int day = calendar.get(Calendar.DAY_OF_MONTH);
         int month = calendar.get(Calendar.MONTH);
-        log.debug(month + "-" + day + "-" + hours);
+//        log.debug(month + "-" + day + "-" + hours);
         return hours > 15;
     }
 }

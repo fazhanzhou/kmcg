@@ -1,5 +1,7 @@
+//TODO
 var globle_url = "https://wnd.agri114.cn/cg/"
 // var globle_url = "http://192.168.71.134:8185/cg/"
+// var globle_url = "http://192.168.71.124:8185/cg/"
 
 function setCookie(key, value, expiredays) {
     var exdate = new Date()
@@ -30,7 +32,6 @@ function removeCookie(key) {
     var exdate = new Date()
     exdate.setDate(exdate.getDate() -1)
     var s = key + "=" + ";expires=" + exdate.toGMTString()
-    log("s="+s)
     document.cookie = s;
 }
 
@@ -44,5 +45,15 @@ function clearCookie() {
             date.setTime( new Date((date/1000-86400*11)*1000));
             document.cookie=keys[i]+"=; expire="+date.toUTCString();
         }
+    }
+}
+
+function isWeiXin() {
+    var ua = navigator.userAgent.toLowerCase();
+    var isWeixin = ua.indexOf('micromessenger') != -1;
+    if (isWeixin) {
+        return true;
+    }else{
+        return false;
     }
 }

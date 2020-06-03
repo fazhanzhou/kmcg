@@ -30,14 +30,13 @@
     var startTime, endTime;
     var data = [[${data}]]
     var nextIndex = 0;
+    var allAnswers = "";
     //答对的个数
     var right = 0;
     //用户选择的答案
     var userSelectedAnswer = '';
 
     $(document).ready(function () {
-        removeCookie("right")
-        removeCookie("error")
         if (data != null && data != undefined) {
             startTime = new Date();
             next(nextIndex)
@@ -45,79 +44,45 @@
             mui.alert("获取题目失败")
         }
     });
-    var canClick = true;
 
     function nextQuestion() {
-        if (!canClick) {
-            return;
-        }
-        if (userSelectedAnswer == "") {
-            mui.alert("请选择答案")
-            return
-        }
-        canClick =false;
-
-        //判断答案是否正确
-        //正确答案
-        var rightAnswer = data[nextIndex].right;
-        var allA = $("#answers").children()
-        switch (rightAnswer) {
+        /*switch (userSelectedAnswer) {
             case 'A':
-                $($(allA[0]).children()[1]).attr("src", '/cg/img/right.png').css("display", "block")
+                $($(allA[0]).children()[1]).attr("src", '/cg/img/error.png').css("display", "block")
                 break;
             case 'B':
-                $($(allA[1]).children()[1]).attr("src", '/cg/img/right.png').css("display", "block")
+                $($(allA[1]).children()[1]).attr("src", '/cg/img/error.png').css("display", "block")
                 break;
             case 'C':
-                $($(allA[2]).children()[1]).attr("src", '/cg/img/right.png').css("display", "block")
+                $($(allA[2]).children()[1]).attr("src", '/cg/img/error.png').css("display", "block")
                 break;
             case 'D':
-                $($(allA[3]).children()[1]).attr("src", '/cg/img/right.png').css("display", "block")
+                $($(allA[3]).children()[1]).attr("src", '/cg/img/error.png').css("display", "block")
                 break;
-        }
-        //用户选择的答案
-        if (userSelectedAnswer == rightAnswer) {
-            right++
-            console.log("答对总数=" + right)
-        } else {
-            switch (userSelectedAnswer) {
-                case 'A':
-                    $($(allA[0]).children()[1]).attr("src", '/cg/img/error.png').css("display", "block")
-                    break;
-                case 'B':
-                    $($(allA[1]).children()[1]).attr("src", '/cg/img/error.png').css("display", "block")
-                    break;
-                case 'C':
-                    $($(allA[2]).children()[1]).attr("src", '/cg/img/error.png').css("display", "block")
-                    break;
-                case 'D':
-                    $($(allA[3]).children()[1]).attr("src", '/cg/img/error.png').css("display", "block")
-                    break;
-            }
-            console.log("答错了" + (10 - right))
-        }
+        }*/
+        allAnswers =allAnswers+ userSelectedAnswer+",";
+        console.log("allAnswers===" + allAnswers)
         setTimeout(function () {
-            canClick = true;
             nextIndex++
             if (nextIndex < 10) {
-                userSelectedAnswer = "";
                 next(nextIndex)
             } else {
                 //判断是否登录
                 endTime = new Date()
                 var allTime = parseInt(endTime - startTime)
-                var score = right;
                 var tel = getCookie("tel");
-                setCookie("right", right);
-                setCookie("error", 10 - right);
+                // setCookie("right", right);
+                // setCookie("error", 10 - right);
                 if (tel == "") {
                     window.location.href = globle_url + "login"
                 } else {
-                    window.location.href = globle_url + "result?score=" + score + "&tel=" + tel + "&useTime=" + allTime
+                    window.location.href = globle_url + "resultVerify?allAnswers=" + allAnswers + "&tel=" + tel + "&useTime=" + allTime
                 }
 
             }
         }, 1000);
+
+
     }
 
     function next(index) {
