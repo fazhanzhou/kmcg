@@ -177,10 +177,10 @@ public class HongBaoController {
 
     public static void main(String[] args) {
         HongBaoController hongBaoController = new HongBaoController();
-        String openid = "orsKq0VXiv6LEVWsA4Otn6Gc6bPM";
+        /*String openid = "orsKq0VXiv6LEVWsA4Otn6Gc6bPM";
         JSONObject jsonObject = hongBaoController.sendHongBao(2000, openid);
-        log.debug(jsonObject.toJSONString());
-       /* try {
+        log.debug(jsonObject.toJSONString());*/
+        try {
             FileReader reader = new FileReader("D:\\hongbao\\60\\10.txt");
             BufferedReader bufferedReader = new BufferedReader(reader);
             String contentLine;
@@ -192,7 +192,7 @@ public class HongBaoController {
             }
         } catch (Exception e) {
             e.printStackTrace();
-        }*/
+        }
     }
 
     // 生成订单号
