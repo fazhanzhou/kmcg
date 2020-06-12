@@ -16,7 +16,7 @@ public class Question {
     private String question;
     @Column(name = "answer")
     private String answer;
-    @Column(name = "right")
+    @Column(name = "right_r")
     private String right;
     @Transient
     private List<Answer> answers;

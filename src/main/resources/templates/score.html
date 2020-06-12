@@ -17,25 +17,30 @@
             font-size: 2rem;
             color: rgb(234, 142, 25);
         }
-        #a{
+
+        #a {
             top: calc(40vh);
             position: relative;
         }
-        #b{
+
+        #b {
             top: calc(42vh);
             position: relative;
         }
-        #c{
+
+        #c {
             top: calc(44vh);
             position: relative;
             width: 50%;
         }
-        #d{
+
+        #d {
             top: calc(46vh);
             position: relative;
             width: 50%;
         }
-        #e{
+
+        #e {
             top: calc(46vh);
             position: relative;
         }
@@ -49,14 +54,16 @@
 </div>
 <div style="text-align: center">
     <p id="a" th:text="'得分:'+${score}+'分'"></p>
-    <p id="b" th:text="'用时:'+${time}+'秒'" ></p>
+    <p id="b" th:text="'用时:'+${time}+'秒'"></p>
     <img id="c" th:src="@{/img/again.png}" th:onclick="again()">
     <img id="d" th:if="${area}  eq null" th:src="@{/img/paiming.png}" th:onclick="paiming()">
     <p id="e" th:if="${area}  ne null" style="font-size: 1rem" th:utext="${area}"></p>
 </div>
+<script th:src="@{/js/jquery-3.1.1.js}"></script>
 <script>
     removeCookie("right")
     removeCookie("error")
+
     function paiming() {
         var tel = getCookie("tel")
         window.location.href = globle_url + "paiming/" + tel + "/" + 1
@@ -65,6 +72,9 @@
     function again() {
         window.location.href = globle_url + "home1"
     }
+
+
+
 </script>
 </body>
 </html>

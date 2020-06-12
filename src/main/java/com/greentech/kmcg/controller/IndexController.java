@@ -29,6 +29,7 @@ import javax.servlet.http.HttpServletRequest;
 import java.math.BigInteger;
 import java.text.SimpleDateFormat;
 import java.util.*;
+import java.util.function.Consumer;
 
 @Slf4j
 @Controller
@@ -114,7 +115,14 @@ public class IndexController {
         placeList.add("七甸");
         placeList.add("洛洋");
         if ("云南省-昆明市-呈贡区".equals(address)) {
-            return placeList.contains(jiedao) ? true : false;
+            boolean is = false;
+            for (int i = 0; i < placeList.size(); i++) {
+                if (jiedao.contains(placeList.get(i))) {
+                    is = true;
+                    break;
+                }
+            }
+            return is;
         } else {
             return false;
         }
@@ -143,20 +151,21 @@ public class IndexController {
      * @return 页面
      */
     @RequestMapping(value = "/question")
-    public ModelAndView question(String tel,String timestamp) {
+    public ModelAndView question(String tel, String timestamp) {
         ModelAndView modelAndView = new ModelAndView();
         //判断时间是否已经开始，开始时间为 6.1-6.10，每天1:00 -- 23:00
-        if (!checkTime()) {
+      /*  if (!checkTime()) {
             modelAndView.setViewName("error1.html");
             modelAndView.addObject("msg", "活动还未开始<br/><br/>活动开始时间为<br/>6.1-6.10日每天1:00到23:00<br/>");
             return modelAndView;
-        }
+        }*/
 
         if (StringUtils.isNotBlank(tel)) {
             User user = findUserByTel(tel);
             if (null != user) {
                 modelAndView.setViewName("question.html");
-                List<Question> list = (List<Question>) baseRepository.findBeansBySql("select * from question ORDER BY  RAND() LIMIT 10", null, Question.class);
+                //大于410是新题目
+                List<Question> list = (List<Question>) baseRepository.findBeansBySql("select * from question where id>410  ORDER BY  RAND() LIMIT 10", null, Question.class);
                 for (Question question : list) {
                     JSONObject jsonObject = JSON.parseObject(question.getAnswer());
                     List<Answer> answerList = new ArrayList<>();
@@ -186,10 +195,122 @@ public class IndexController {
      * @return
      */
     @RequestMapping(value = "/showScore/{tel}")
-    public ModelAndView showScore(@PathVariable String tel) {
-        ModelAndView modelAndView = new ModelAndView("score");
-        return modelAndView;
+    @ResponseBody
+    public JSONObject showScore(@PathVariable String tel) {
+
+        String sql = "select * from question where id>410";
+        List<Question> questions = (List<Question>) baseRepository.findBeansBySql(sql, null, Question.class);
+        log.info(questions.size() + "");
+        questions.forEach(question -> {
+            String an = question.getAnswer();
+            log.info(an);
+            JSONObject jsonObject = JSON.parseObject(an);
+            jsonObject.keySet();
+        });
+
+        return new JSONObject();
     }
+
+    @Transactional
+    @RequestMapping("/random")
+    public Question randomQuestion() {
+
+        Question question1 = new Question();
+        List<Question> list = (List<Question>) baseRepository.findBeansBySql("select * from question where id>410", null, Question.class);
+        for (Question question : list) {
+            JSONObject jsonObject = JSON.parseObject(question.getAnswer());
+            Set<String> keySet = jsonObject.keySet();
+            String originRight = question.getRight();
+            String nowRight = "";
+            String aValue = jsonObject.getString("A");
+            int size = keySet.size();
+            if (size == 2) {
+                jsonObject.put("A", jsonObject.getString("B"));
+                jsonObject.put("B", aValue);
+                switch (originRight) {
+                    case "A":
+                        nowRight = "B";
+                        break;
+                    case "B":
+                        nowRight = "A";
+                        break;
+
+                    default:
+                        break;
+                }
+            } else if (size == 3) {
+                jsonObject.put("A", jsonObject.getString("B"));
+                jsonObject.put("B", jsonObject.getString("C"));
+                jsonObject.put("C", aValue);
+                switch (originRight) {
+                    case "A":
+                        nowRight = "C";
+                        break;
+                    case "B":
+                        nowRight = "A";
+                        break;
+                    case "C":
+                        nowRight = "B";
+                        break;
+                    default:
+                        break;
+                }
+            } else if (size == 4) {
+                jsonObject.put("A", jsonObject.getString("B"));
+                jsonObject.put("B", jsonObject.getString("C"));
+                jsonObject.put("C", jsonObject.getString("D"));
+                jsonObject.put("D", aValue);
+                switch (originRight) {
+                    case "A":
+                        nowRight = "D";
+                        break;
+                    case "B":
+                        nowRight = "A";
+                        break;
+                    case "C":
+                        nowRight = "B";
+                        break;
+                    case "D":
+                        nowRight = "C";
+                        break;
+                    default:
+                        break;
+                }
+            } else if (size == 5) {
+                jsonObject.put("A", jsonObject.getString("B"));
+                jsonObject.put("B", jsonObject.getString("C"));
+                jsonObject.put("C", jsonObject.getString("D"));
+                jsonObject.put("D", jsonObject.getString("E"));
+                jsonObject.put("E", aValue);
+                switch (originRight) {
+                    case "A":
+                        nowRight = "E";
+                        break;
+                    case "B":
+                        nowRight = "A";
+                        break;
+                    case "C":
+                        nowRight = "B";
+                        break;
+                    case "D":
+                        nowRight = "C";
+                        break;
+                    case "E":
+                        nowRight = "D";
+                        break;
+                    default:
+                        break;
+                }
+            }
+            question.setRight(nowRight);
+            question.setAnswer(jsonObject.toJSONString());
+
+            log.info(question.toString());
+            baseRepository.merge(question);
+        }
+        return question1;
+    }
+
 
     /**
      * 显示排行
@@ -239,7 +360,7 @@ public class IndexController {
             int time = (Integer) myMap.get("time");
             float floatTime = ((float) time) / 1000;
             Number o1 = (Number) myMap.get("rownum");
-            myMap.put("rownum",o1.intValue());
+            myMap.put("rownum", o1.intValue());
             //服务器返回的rownum类型为 BigInteger，本地为Double类型
             myMap.put("time", floatTime);
             modelAndView.addObject("myScore", myMap);
@@ -367,7 +488,7 @@ public class IndexController {
                     user.setId(sqlUser.getId());
                 }
                 User u = baseRepository.merge(user);
-                log.info("修改用户成功="+u.toString());
+                log.info("修改用户成功=" + u.toString());
                 jsonObject.put("code", 1);
                 jsonObject.put("msg", "修改成功");
                 jsonObject.put("user", u);
@@ -405,7 +526,7 @@ public class IndexController {
                     User sqlUser = findUserByTel(tel);
                     if (null != sqlUser) {
                         returnUser = sqlUser;
-                    }else {
+                    } else {
                         returnUser = baseRepository.merge(user);
                     }
                     map.put("code", 1);

@@ -59,6 +59,12 @@ public class ResultController {
         log.info("tel=" + tel + "---score=" + score + "---userTime=" + useTime);
         Cookie[] cookies = request.getCookies();
         JSONObject jsonObject = new JSONObject();
+        if(null == cookies || cookies.length == 0){
+            modelAndView.setViewName("error1.html");
+            log.info("异常,请重新答题=cookie为空");
+            modelAndView.addObject("msg", "异常,请重新答题");
+            return modelAndView;
+        }
         for (Cookie cookie : cookies) {
             jsonObject.put(cookie.getName(), cookie.getValue());
         }

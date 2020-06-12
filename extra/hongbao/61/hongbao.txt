@@ -1,0 +1,506 @@
+﻿发送红包
+{"ticket":"e5d746ebee27a9b55c965fc8a2e3c477","retmoney":"2000","retmsg":"发放成功"}
+23:45:16.650 [main] DEBUG com.greentech.kmcg.controller.HongBaoController - {"ticket":"e5d746ebee27a9b55c965fc8a2e3c477","orderid":"202006012345159295","retmoney":"2000","retmsg":"发放成功"}
+23:45:26.653 [main] DEBUG com.greentech.kmcg.controller.HongBaoController - orsKq0XA7ZZp66sDJj9wASf6prL8
+发送红包
+{"ticket":"1c53f3c4ac08b89e43d02aae3e4527ec","retmoney":"2000","retmsg":"发放成功"}
+23:45:27.701 [main] DEBUG com.greentech.kmcg.controller.HongBaoController - {"ticket":"1c53f3c4ac08b89e43d02aae3e4527ec","orderid":"202006012345264137","retmoney":"2000","retmsg":"发放成功"}
+23:45:37.702 [main] DEBUG com.greentech.kmcg.controller.HongBaoController - orsKq0eSDLIJ6zAMgu-XF0HO7Sj4
+发送红包
+{"ticket":"5f512a9e6dc34c1899b9b285db34f988","retmoney":"2000","retmsg":"发放成功"}
+23:45:38.515 [main] DEBUG com.greentech.kmcg.controller.HongBaoController - {"ticket":"5f512a9e6dc34c1899b9b285db34f988","orderid":"202006012345372750","retmoney":"2000","retmsg":"发放成功"}
+23:45:48.515 [main] DEBUG com.greentech.kmcg.controller.HongBaoController - orsKq0bZVRc_wekcka51FJogZzzU
+发送红包
+{"ticket":"e9015bf5df2925350d648c031cf22368","retmoney":"2000","retmsg":"发放成功"}
+23:45:49.489 [main] DEBUG com.greentech.kmcg.controller.HongBaoController - {"ticket":"e9015bf5df2925350d648c031cf22368","orderid":"202006012345481351","retmoney":"2000","retmsg":"发放成功"}
+23:45:59.490 [main] DEBUG com.greentech.kmcg.controller.HongBaoController - orsKq0UhPmNZqQRkEaK5zST4YHYs
+发送红包
+{"ticket":"03e01608b793986ac49fd0c61e101148","retmoney":"2000","retmsg":"发放成功"}
+23:46:00.408 [main] DEBUG com.greentech.kmcg.controller.HongBaoController - {"ticket":"03e01608b793986ac49fd0c61e101148","orderid":"202006012345595610","retmoney":"2000","retmsg":"发放成功"}
+23:46:10.408 [main] DEBUG com.greentech.kmcg.controller.HongBaoController - orsKq0ZHSFl19rToyyRpLeyxMsgw
+发送红包
+{"ticket":"4d3be5623788861ca471b28b32676422","retmoney":"2000","retmsg":"发放成功"}
+23:46:11.502 [main] DEBUG com.greentech.kmcg.controller.HongBaoController - {"ticket":"4d3be5623788861ca471b28b32676422","orderid":"202006012346101590","retmoney":"2000","retmsg":"发放成功"}
+23:46:21.504 [main] DEBUG com.greentech.kmcg.controller.HongBaoController - orsKq0ftfsNKQANDxe1hc3WrvRgU
+发送红包
+{"ticket":"8564406e3686313bb1de9aac000b4fe1","retmoney":"2000","retmsg":"发放成功"}
+23:46:22.468 [main] DEBUG com.greentech.kmcg.controller.HongBaoController - {"ticket":"8564406e3686313bb1de9aac000b4fe1","orderid":"202006012346216828","retmoney":"2000","retmsg":"发放成功"}
+23:46:32.470 [main] DEBUG com.greentech.kmcg.controller.HongBaoController - orsKq0TR1TeXCpJj0TKjfgrulNAc
+发送红包
+{"ticket":"d22ec10d40b34dcaa18dfe408d2e3d81","retmoney":"2000","retmsg":"发放成功"}
+23:46:33.578 [main] DEBUG com.greentech.kmcg.controller.HongBaoController - {"ticket":"d22ec10d40b34dcaa18dfe408d2e3d81","orderid":"202006012346323643","retmoney":"2000","retmsg":"发放成功"}
+23:46:43.579 [main] DEBUG com.greentech.kmcg.controller.HongBaoController - orsKq0V7W6FIRo5K1fABXyGLzmmg
+发送红包
+{"ticket":"fcf31d3498609fabb985bef4747cf34d","retmoney":"2000","retmsg":"发放成功"}
+23:46:44.389 [main] DEBUG com.greentech.kmcg.controller.HongBaoController - {"ticket":"fcf31d3498609fabb985bef4747cf34d","orderid":"202006012346437717","retmoney":"2000","retmsg":"发放成功"}
+23:46:54.391 [main] DEBUG com.greentech.kmcg.controller.HongBaoController - orsKq0d6I702Dwvsi6cWEsxp_2N0
+发送红包
+{"ticket":"2a6ff6da09d5f92c34c57698a490025f","retmoney":"2000","retmsg":"发放成功"}
+23:46:55.498 [main] DEBUG com.greentech.kmcg.controller.HongBaoController - {"ticket":"2a6ff6da09d5f92c34c57698a490025f","orderid":"202006012346542444","retmoney":"2000","retmsg":"发放成功"}
+23:47:05.499 [main] DEBUG com.greentech.kmcg.controller.HongBaoController - orsKq0R22u8HHYETFsFpZW4srCsU
+发送红包
+{"ticket":"f559fa1aeca86558c9247697ec2bcea2","retmoney":"2000","retmsg":"发放成功"}
+23:47:06.320 [main] DEBUG com.greentech.kmcg.controller.HongBaoController - {"ticket":"f559fa1aeca86558c9247697ec2bcea2","orderid":"202006012347051306","retmoney":"2000","retmsg":"发放成功"}
+23:47:16.321 [main] DEBUG com.greentech.kmcg.controller.HongBaoController - orsKq0Tm32fqn5rzxVyYdO2W-Uo8
+发送红包
+{"ticket":"91009cc695b0e209d9f18775b111cd62","retmoney":"2000","retmsg":"发放成功"}
+23:47:17.272 [main] DEBUG com.greentech.kmcg.controller.HongBaoController - {"ticket":"91009cc695b0e209d9f18775b111cd62","orderid":"202006012347169385","retmoney":"2000","retmsg":"发放成功"}
+23:47:27.274 [main] DEBUG com.greentech.kmcg.controller.HongBaoController - orsKq0ZLK0sdKfB25l3Qb4voSKC8
+发送红包
+{"ticket":"3352f54b6ca82249c3fc32d5c0ffca60","retmoney":"2000","retmsg":"发放成功"}
+23:47:28.237 [main] DEBUG com.greentech.kmcg.controller.HongBaoController - {"ticket":"3352f54b6ca82249c3fc32d5c0ffca60","orderid":"202006012347271461","retmoney":"2000","retmsg":"发放成功"}
+23:47:38.238 [main] DEBUG com.greentech.kmcg.controller.HongBaoController - orsKq0RnCXLm5HXyUqR5nObgoU7Y
+发送红包
+{"ticket":"cfcb9edeeea10a97e60feae090b80d1f","retmoney":"2000","retmsg":"发放成功"}
+23:47:39.299 [main] DEBUG com.greentech.kmcg.controller.HongBaoController - {"ticket":"cfcb9edeeea10a97e60feae090b80d1f","orderid":"202006012347389814","retmoney":"2000","retmsg":"发放成功"}
+23:47:49.300 [main] DEBUG com.greentech.kmcg.controller.HongBaoController - orsKq0WFYn6TyGWqsmgnqSLgg-Y4
+发送红包
+{"ticket":"8bd0768a45db6e0469341b702cdb9b61","retmoney":"2000","retmsg":"发放成功"}
+23:47:50.188 [main] DEBUG com.greentech.kmcg.controller.HongBaoController - {"ticket":"8bd0768a45db6e0469341b702cdb9b61","orderid":"202006012347492792","retmoney":"2000","retmsg":"发放成功"}
+23:48:00.190 [main] DEBUG com.greentech.kmcg.controller.HongBaoController - orsKq0dVOFCyfh71sRDliHbKmwdc
+发送红包
+{"ticket":"fbc22970dc2b0b1290c775f014a7aa3c","retmoney":"2000","retmsg":"发放成功"}
+23:48:01.105 [main] DEBUG com.greentech.kmcg.controller.HongBaoController - {"ticket":"fbc22970dc2b0b1290c775f014a7aa3c","orderid":"202006012348008627","retmoney":"2000","retmsg":"发放成功"}
+23:48:11.106 [main] DEBUG com.greentech.kmcg.controller.HongBaoController - orsKq0TtSFBoHlnYVlToU6HywVhA
+发送红包
+{"ticket":"5ede1b49c9c08bd70a72b92192e2a17f","retmoney":"2000","retmsg":"发放成功"}
+23:48:12.079 [main] DEBUG com.greentech.kmcg.controller.HongBaoController - {"ticket":"5ede1b49c9c08bd70a72b92192e2a17f","orderid":"202006012348119598","retmoney":"2000","retmsg":"发放成功"}
+23:48:22.081 [main] DEBUG com.greentech.kmcg.controller.HongBaoController - orsKq0U2J-WlsD030_V-27rwiat0
+发送红包
+{"ticket":"a5d8881c1209f322d9055b3f4c4221e1","retmoney":"2000","retmsg":"发放成功"}
+23:48:23.007 [main] DEBUG com.greentech.kmcg.controller.HongBaoController - {"ticket":"a5d8881c1209f322d9055b3f4c4221e1","orderid":"202006012348229539","retmoney":"2000","retmsg":"发放成功"}
+23:48:33.009 [main] DEBUG com.greentech.kmcg.controller.HongBaoController - orsKq0Tbz_FUcPL1NhoDE4sIWPrw
+发送红包
+{"ticket":"b2741d44024055940f0af9eeea6942b0","retmoney":"2000","retmsg":"发放成功"}
+23:48:34.097 [main] DEBUG com.greentech.kmcg.controller.HongBaoController - {"ticket":"b2741d44024055940f0af9eeea6942b0","orderid":"202006012348334980","retmoney":"2000","retmsg":"发放成功"}
+23:48:44.097 [main] DEBUG com.greentech.kmcg.controller.HongBaoController - orsKq0RW13r1FD9G6dxYkrUvm8F4
+发送红包
+{"ticket":"fd95e7c7bd9a868e6f2fbd3bb1630f71","retmoney":"2000","retmsg":"发放成功"}
+23:48:44.904 [main] DEBUG com.greentech.kmcg.controller.HongBaoController - {"ticket":"fd95e7c7bd9a868e6f2fbd3bb1630f71","orderid":"202006012348446198","retmoney":"2000","retmsg":"发放成功"}
+23:48:54.907 [main] DEBUG com.greentech.kmcg.controller.HongBaoController - orsKq0cjsSoCu7mfgblAS1A3x9YQ
+发送红包
+{"ticket":"c40c802120db1b3cf0348edf8182351d","retmoney":"2000","retmsg":"发放成功"}
+23:48:55.894 [main] DEBUG com.greentech.kmcg.controller.HongBaoController - {"ticket":"c40c802120db1b3cf0348edf8182351d","orderid":"202006012348542928","retmoney":"2000","retmsg":"发放成功"}
+23:49:05.894 [main] DEBUG com.greentech.kmcg.controller.HongBaoController - orsKq0Vv9FhWIqMQeru_VGKfjwQw
+发送红包
+{"ticket":"4a846fc71fcfddbf98f7c752800e3019","retmoney":"2000","retmsg":"发放成功"}
+23:49:06.732 [main] DEBUG com.greentech.kmcg.controller.HongBaoController - {"ticket":"4a846fc71fcfddbf98f7c752800e3019","orderid":"202006012349051238","retmoney":"2000","retmsg":"发放成功"}
+23:49:16.734 [main] DEBUG com.greentech.kmcg.controller.HongBaoController - orsKq0bJyOla2LZ3wztAhiSjW-rM
+发送红包
+{"ticket":"f34cd03151212337d9337f3370d9f5bd","retmoney":"2000","retmsg":"发放成功"}
+23:49:17.513 [main] DEBUG com.greentech.kmcg.controller.HongBaoController - {"ticket":"f34cd03151212337d9337f3370d9f5bd","orderid":"202006012349162520","retmoney":"2000","retmsg":"发放成功"}
+23:49:27.515 [main] DEBUG com.greentech.kmcg.controller.HongBaoController - orsKq0Sl4PEPAbzqq2rRJoqkzgGo
+发送红包
+{"ticket":"1d9feb3e3e923a7c84901163b1f968fa","retmoney":"2000","retmsg":"发放成功"}
+23:49:28.446 [main] DEBUG com.greentech.kmcg.controller.HongBaoController - {"ticket":"1d9feb3e3e923a7c84901163b1f968fa","orderid":"202006012349279701","retmoney":"2000","retmsg":"发放成功"}
+23:49:38.447 [main] DEBUG com.greentech.kmcg.controller.HongBaoController - orsKq0dziJp8bjEnNYUVbyI2cwOk
+发送红包
+{"ticket":"655b54f2512e98f985eb5c4c1263da51","retmoney":"2000","retmsg":"发放成功"}
+23:49:39.290 [main] DEBUG com.greentech.kmcg.controller.HongBaoController - {"ticket":"655b54f2512e98f985eb5c4c1263da51","orderid":"202006012349385695","retmoney":"2000","retmsg":"发放成功"}
+23:49:49.291 [main] DEBUG com.greentech.kmcg.controller.HongBaoController - orsKq0Zchw3a4cJ7eR_KpX5-va34
+发送红包
+{"ticket":"4b96c27a041e736bda4101f3182924f0","retmoney":"2000","retmsg":"发放成功"}
+23:49:50.300 [main] DEBUG com.greentech.kmcg.controller.HongBaoController - {"ticket":"4b96c27a041e736bda4101f3182924f0","orderid":"202006012349494602","retmoney":"2000","retmsg":"发放成功"}
+23:50:00.302 [main] DEBUG com.greentech.kmcg.controller.HongBaoController - orsKq0WcM9el9x6gAnLaS2A_Ojw0
+发送红包
+{"ticket":"28fd44a9f0b68004d713cdb426e33e95","retmoney":"2000","retmsg":"发放成功"}
+23:50:01.174 [main] DEBUG com.greentech.kmcg.controller.HongBaoController - {"ticket":"28fd44a9f0b68004d713cdb426e33e95","orderid":"202006012350009412","retmoney":"2000","retmsg":"发放成功"}
+23:50:11.175 [main] DEBUG com.greentech.kmcg.controller.HongBaoController - orsKq0Y-v7klt5dIaTRrLFz_3nNE
+发送红包
+{"ticket":"34149e53e39b2194d5209b9786d77c47","retmoney":"2000","retmsg":"发放成功"}
+23:50:11.986 [main] DEBUG com.greentech.kmcg.controller.HongBaoController - {"ticket":"34149e53e39b2194d5209b9786d77c47","orderid":"202006012350118888","retmoney":"2000","retmsg":"发放成功"}
+23:50:21.988 [main] DEBUG com.greentech.kmcg.controller.HongBaoController - orsKq0YhhngOnsI8uDUOiEw_Y11w
+发送红包
+{"ticket":"588a4e01dc059aff524a4a850231fbe5","retmoney":"2000","retmsg":"发放成功"}
+23:50:22.879 [main] DEBUG com.greentech.kmcg.controller.HongBaoController - {"ticket":"588a4e01dc059aff524a4a850231fbe5","orderid":"202006012350213225","retmoney":"2000","retmsg":"发放成功"}
+23:50:32.879 [main] DEBUG com.greentech.kmcg.controller.HongBaoController - orsKq0b8CNGCZdtHaOJWyY-IMmE0
+发送红包
+{"ticket":"6d9f8d15a3245347a58410c3cc29a318","retmoney":"2000","retmsg":"发放成功"}
+23:50:33.818 [main] DEBUG com.greentech.kmcg.controller.HongBaoController - {"ticket":"6d9f8d15a3245347a58410c3cc29a318","orderid":"202006012350322720","retmoney":"2000","retmsg":"发放成功"}
+23:50:43.820 [main] DEBUG com.greentech.kmcg.controller.HongBaoController - orsKq0YKXQ6fnpmdMgfjqDaMDAqw
+发送红包
+{"ticket":"8cff0195f3cbec6de88d50dd27db4cd1","retmoney":"2000","retmsg":"发放成功"}
+23:50:44.683 [main] DEBUG com.greentech.kmcg.controller.HongBaoController - {"ticket":"8cff0195f3cbec6de88d50dd27db4cd1","orderid":"202006012350433280","retmoney":"2000","retmsg":"发放成功"}
+23:50:54.685 [main] DEBUG com.greentech.kmcg.controller.HongBaoController - orsKq0enSTtta6YIPOrBViC5aB_Y
+发送红包
+{"ticket":"d6eaa3a70c0fcd4c664e28e094af657b","retmoney":"2000","retmsg":"发放成功"}
+23:50:55.638 [main] DEBUG com.greentech.kmcg.controller.HongBaoController - {"ticket":"d6eaa3a70c0fcd4c664e28e094af657b","orderid":"202006012350547379","retmoney":"2000","retmsg":"发放成功"}
+23:51:05.639 [main] DEBUG com.greentech.kmcg.controller.HongBaoController - orsKq0QM-6gbkalUFs4DIAIDIsdQ
+发送红包
+{"ticket":"c66841ea0eb6c790f2264fa84e195dd2","retmoney":"2000","retmsg":"发放成功"}
+23:51:06.465 [main] DEBUG com.greentech.kmcg.controller.HongBaoController - {"ticket":"c66841ea0eb6c790f2264fa84e195dd2","orderid":"202006012351059813","retmoney":"2000","retmsg":"发放成功"}
+23:51:16.467 [main] DEBUG com.greentech.kmcg.controller.HongBaoController - orsKq0XS_Z3jah8KsvCi0sb5InZs
+发送红包
+{"ticket":"cfe36981298b522e885de7232c67dda0","retmoney":"2000","retmsg":"发放成功"}
+23:51:17.473 [main] DEBUG com.greentech.kmcg.controller.HongBaoController - {"ticket":"cfe36981298b522e885de7232c67dda0","orderid":"202006012351165879","retmoney":"2000","retmsg":"发放成功"}
+23:51:27.473 [main] DEBUG com.greentech.kmcg.controller.HongBaoController - orsKq0TSBiI6jfUgFxtcVVnimiMk
+发送红包
+{"ticket":"5b9c4e26f8fcfa14f948fbd3c2d26648","retmoney":"2000","retmsg":"发放成功"}
+23:51:28.297 [main] DEBUG com.greentech.kmcg.controller.HongBaoController - {"ticket":"5b9c4e26f8fcfa14f948fbd3c2d26648","orderid":"202006012351271441","retmoney":"2000","retmsg":"发放成功"}
+23:51:38.298 [main] DEBUG com.greentech.kmcg.controller.HongBaoController - orsKq0YyLyvmiAKUS3HkVL-Nkbxc
+发送红包
+{"ticket":"78b8f945f702927e2efbbca39d10f396","retmoney":"2000","retmsg":"发放成功"}
+23:51:39.250 [main] DEBUG com.greentech.kmcg.controller.HongBaoController - {"ticket":"78b8f945f702927e2efbbca39d10f396","orderid":"202006012351383301","retmoney":"2000","retmsg":"发放成功"}
+23:51:49.251 [main] DEBUG com.greentech.kmcg.controller.HongBaoController - orsKq0eO9nA2fKT7QXFfq4SsRoTE
+发送红包
+{"ticket":"68877d7b049fd57b3ee554bff2b7425a","retmoney":"2000","retmsg":"发放成功"}
+23:51:50.199 [main] DEBUG com.greentech.kmcg.controller.HongBaoController - {"ticket":"68877d7b049fd57b3ee554bff2b7425a","orderid":"202006012351493786","retmoney":"2000","retmsg":"发放成功"}
+23:52:00.199 [main] DEBUG com.greentech.kmcg.controller.HongBaoController - orsKq0VaATZWNJfQVH40z4eHqCgM
+发送红包
+{"ticket":"6c6d82dde5fce5e3fc62bbb5a9a030a4","retmoney":"2000","retmsg":"发放成功"}
+23:52:01.169 [main] DEBUG com.greentech.kmcg.controller.HongBaoController - {"ticket":"6c6d82dde5fce5e3fc62bbb5a9a030a4","orderid":"202006012352007206","retmoney":"2000","retmsg":"发放成功"}
+23:52:11.170 [main] DEBUG com.greentech.kmcg.controller.HongBaoController - orsKq0d25M0tV3ViZ4dFyuO0GmVg
+发送红包
+{"ticket":"d6647c872539bdf2cd2c9ba516073797","retmoney":"2000","retmsg":"发放成功"}
+23:52:12.057 [main] DEBUG com.greentech.kmcg.controller.HongBaoController - {"ticket":"d6647c872539bdf2cd2c9ba516073797","orderid":"202006012352111768","retmoney":"2000","retmsg":"发放成功"}
+23:52:22.059 [main] DEBUG com.greentech.kmcg.controller.HongBaoController - orsKq0bJqEvTvXILeah2fgsx-hmQ
+发送红包
+{"ticket":"663ea8b4ff44047db1db674237df1426","retmoney":"2000","retmsg":"发放成功"}
+23:52:22.959 [main] DEBUG com.greentech.kmcg.controller.HongBaoController - {"ticket":"663ea8b4ff44047db1db674237df1426","orderid":"202006012352227421","retmoney":"2000","retmsg":"发放成功"}
+23:52:32.960 [main] DEBUG com.greentech.kmcg.controller.HongBaoController - orsKq0QznHmkzb5lvraJ6Uei95Gs
+发送红包
+{"ticket":"ed469b51db825430a0252feb054f62ea","retmoney":"2000","retmsg":"发放成功"}
+23:52:33.791 [main] DEBUG com.greentech.kmcg.controller.HongBaoController - {"ticket":"ed469b51db825430a0252feb054f62ea","orderid":"202006012352327227","retmoney":"2000","retmsg":"发放成功"}
+23:52:43.793 [main] DEBUG com.greentech.kmcg.controller.HongBaoController - orsKq0WyoROhEiEOH443jaDG2PuY
+发送红包
+{"ticket":"16fde28889875107b30dd0717714e85e","retmoney":"2000","retmsg":"发放成功"}
+23:52:44.802 [main] DEBUG com.greentech.kmcg.controller.HongBaoController - {"ticket":"16fde28889875107b30dd0717714e85e","orderid":"202006012352437728","retmoney":"2000","retmsg":"发放成功"}
+23:52:54.802 [main] DEBUG com.greentech.kmcg.controller.HongBaoController - orsKq0byzPK4YwGnwudrLew22Zl8
+发送红包
+{"ticket":"969fc777cbca8018d10030079ee116a3","retmoney":"2000","retmsg":"发放成功"}
+23:52:55.696 [main] DEBUG com.greentech.kmcg.controller.HongBaoController - {"ticket":"969fc777cbca8018d10030079ee116a3","orderid":"202006012352542345","retmoney":"2000","retmsg":"发放成功"}
+23:53:05.697 [main] DEBUG com.greentech.kmcg.controller.HongBaoController - orsKq0fOEjFLeG79LDULPR6f4ciE
+发送红包
+{"ticket":"d8fee42a4f8557980e49c26e3641a3f9","retmoney":"2000","retmsg":"发放成功"}
+23:53:06.749 [main] DEBUG com.greentech.kmcg.controller.HongBaoController - {"ticket":"d8fee42a4f8557980e49c26e3641a3f9","orderid":"202006012353054371","retmoney":"2000","retmsg":"发放成功"}
+23:53:16.750 [main] DEBUG com.greentech.kmcg.controller.HongBaoController - orsKq0ZVvjhQaEQdMppKS6jGEEjk
+发送红包
+{"ticket":"c3206a38dbaa98fc0ec10a784461a540","retmoney":"2000","retmsg":"发放成功"}
+23:53:17.608 [main] DEBUG com.greentech.kmcg.controller.HongBaoController - {"ticket":"c3206a38dbaa98fc0ec10a784461a540","orderid":"202006012353166641","retmoney":"2000","retmsg":"发放成功"}
+23:53:27.609 [main] DEBUG com.greentech.kmcg.controller.HongBaoController - orsKq0UvYsLtW72KMR6uE-hhxSAo
+发送红包
+{"ticket":"2708710ac919af9236dc132420a029dc","retmoney":"2000","retmsg":"发放成功"}
+23:53:28.561 [main] DEBUG com.greentech.kmcg.controller.HongBaoController - {"ticket":"2708710ac919af9236dc132420a029dc","orderid":"202006012353273786","retmoney":"2000","retmsg":"发放成功"}
+23:53:38.563 [main] DEBUG com.greentech.kmcg.controller.HongBaoController - orsKq0eFzs7endL8B6nK-TZJJI7Q
+发送红包
+{"ticket":"93dfb50ff6705a16b3fdb1f8f02f44e6","retmoney":"2000","retmsg":"发放成功"}
+23:53:39.508 [main] DEBUG com.greentech.kmcg.controller.HongBaoController - {"ticket":"93dfb50ff6705a16b3fdb1f8f02f44e6","orderid":"202006012353388566","retmoney":"2000","retmsg":"发放成功"}
+23:53:49.510 [main] DEBUG com.greentech.kmcg.controller.HongBaoController - orsKq0a8PUaWHMRGTSjPDCM0DIog
+发送红包
+{"ticket":"c9c0f8ffcf20005f589d95fbf0ab5aaa","retmoney":"2000","retmsg":"发放成功"}
+23:53:50.448 [main] DEBUG com.greentech.kmcg.controller.HongBaoController - {"ticket":"c9c0f8ffcf20005f589d95fbf0ab5aaa","orderid":"202006012353496353","retmoney":"2000","retmsg":"发放成功"}
+23:54:00.449 [main] DEBUG com.greentech.kmcg.controller.HongBaoController - orsKq0bcMVVEGAiyE0svEdP6FlpA
+发送红包
+{"ticket":"590a2671f4a9499310b15a0125c19ec5","retmoney":"2000","retmsg":"发放成功"}
+23:54:01.269 [main] DEBUG com.greentech.kmcg.controller.HongBaoController - {"ticket":"590a2671f4a9499310b15a0125c19ec5","orderid":"202006012354005247","retmoney":"2000","retmsg":"发放成功"}
+23:54:11.271 [main] DEBUG com.greentech.kmcg.controller.HongBaoController - orsKq0SY9CVv7e45EfVeAQ3j_bNg
+发送红包
+{"ticket":"1a82c34db68e7def8f25da37e6afdbeb","retmoney":"2000","retmsg":"发放成功"}
+23:54:12.154 [main] DEBUG com.greentech.kmcg.controller.HongBaoController - {"ticket":"1a82c34db68e7def8f25da37e6afdbeb","orderid":"202006012354116300","retmoney":"2000","retmsg":"发放成功"}
+23:54:22.154 [main] DEBUG com.greentech.kmcg.controller.HongBaoController - orsKq0TDKmGUh3NixKxq1PpTkxic
+
+
+
+发送红包
+{"ticket":"d449ad04f82b9068b99c16d34c493e98","retmoney":"1500","retmsg":"发放成功"}
+00:01:23.345 [main] DEBUG com.greentech.kmcg.controller.HongBaoController - {"ticket":"d449ad04f82b9068b99c16d34c493e98","orderid":"202006020001226166","retmoney":"1500","retmsg":"发放成功"}
+00:01:28.347 [main] DEBUG com.greentech.kmcg.controller.HongBaoController - orsKq0V-2khxmiMyk2bEo1_Z2RMA
+发送红包
+{"ticket":"6afce93e125cec7376e7e7325bdbac39","retmoney":"1500","retmsg":"发放成功"}
+00:01:29.413 [main] DEBUG com.greentech.kmcg.controller.HongBaoController - {"ticket":"6afce93e125cec7376e7e7325bdbac39","orderid":"202006020001284169","retmoney":"1500","retmsg":"发放成功"}
+00:01:34.413 [main] DEBUG com.greentech.kmcg.controller.HongBaoController - orsKq0dTcJlXOwamd7Zd3BbKr7II
+发送红包
+{"ticket":"61a5cbdd7e6472b6460fd3f9beceb852","retmoney":"1500","retmsg":"发放成功"}
+00:01:35.413 [main] DEBUG com.greentech.kmcg.controller.HongBaoController - {"ticket":"61a5cbdd7e6472b6460fd3f9beceb852","orderid":"202006020001346992","retmoney":"1500","retmsg":"发放成功"}
+00:01:40.415 [main] DEBUG com.greentech.kmcg.controller.HongBaoController - orsKq0fQRoAStk0CEaI745h1zWDo
+发送红包
+{"ticket":"e0e64ac5cabecced6248a6844825631e","retmoney":"1500","retmsg":"发放成功"}
+00:01:41.203 [main] DEBUG com.greentech.kmcg.controller.HongBaoController - {"ticket":"e0e64ac5cabecced6248a6844825631e","orderid":"202006020001406962","retmoney":"1500","retmsg":"发放成功"}
+00:01:46.203 [main] DEBUG com.greentech.kmcg.controller.HongBaoController - orsKq0b7iBD3lxwQoXxRuLfb-zcw
+发送红包
+{"ticket":"8266ccb2932851358b08089290118117","retmoney":"1500","retmsg":"发放成功"}
+00:01:47.161 [main] DEBUG com.greentech.kmcg.controller.HongBaoController - {"ticket":"8266ccb2932851358b08089290118117","orderid":"202006020001462643","retmoney":"1500","retmsg":"发放成功"}
+00:01:52.161 [main] DEBUG com.greentech.kmcg.controller.HongBaoController - orsKq0fbumOKUHjYzzEpn9JMqckk
+发送红包
+{"ticket":"d7c5bc3d0aa2d3b39332c9a485f7abb1","retmoney":"1500","retmsg":"发放成功"}
+00:01:53.197 [main] DEBUG com.greentech.kmcg.controller.HongBaoController - {"ticket":"d7c5bc3d0aa2d3b39332c9a485f7abb1","orderid":"202006020001521535","retmoney":"1500","retmsg":"发放成功"}
+00:01:58.198 [main] DEBUG com.greentech.kmcg.controller.HongBaoController - orsKq0QBoQ_FcE15XDaDl9Cffb_k
+发送红包
+{"ticket":"161f5ab29a6f720a059d34a6432c34ce","retmoney":"1500","retmsg":"发放成功"}
+00:01:59.100 [main] DEBUG com.greentech.kmcg.controller.HongBaoController - {"ticket":"161f5ab29a6f720a059d34a6432c34ce","orderid":"202006020001584318","retmoney":"1500","retmsg":"发放成功"}
+00:02:04.101 [main] DEBUG com.greentech.kmcg.controller.HongBaoController - orsKq0WFvXIL2gPCy7sGfo1X1kwY
+发送红包
+{"ticket":"93cb11447b49f22d2e9dda4c034a4f0c","retmoney":"1500","retmsg":"发放成功"}
+00:02:05.082 [main] DEBUG com.greentech.kmcg.controller.HongBaoController - {"ticket":"93cb11447b49f22d2e9dda4c034a4f0c","orderid":"202006020002041065","retmoney":"1500","tel":"15912138087","retmsg":"发放成功"}
+00:02:10.082 [main] DEBUG com.greentech.kmcg.controller.HongBaoController - orsKq0V7W6FIRo5K1fABXyGLzmmg
+发送红包
+{"ticket":"5484ee7ef82b19a342dade880226a968","retmoney":"1500","retmsg":"发放成功"}
+00:02:11.081 [main] DEBUG com.greentech.kmcg.controller.HongBaoController - {"ticket":"5484ee7ef82b19a342dade880226a968","orderid":"202006020002104542","retmoney":"1500","retmsg":"发放成功"}
+00:02:16.083 [main] DEBUG com.greentech.kmcg.controller.HongBaoController - orsKq0eMsiT8jXj_r8JzO_2xNxzM
+发送红包
+{"ticket":"a93719a829a6625cdfe001878527330f","retmoney":"1500","retmsg":"发放成功"}
+00:02:17.040 [main] DEBUG com.greentech.kmcg.controller.HongBaoController - {"ticket":"a93719a829a6625cdfe001878527330f","orderid":"202006020002164230","retmoney":"1500","retmsg":"发放成功"}
+00:02:22.041 [main] DEBUG com.greentech.kmcg.controller.HongBaoController - orsKq0VtmXaVrllARnJOVYsYh2Wg
+发送红包
+{"ticket":"947cb19dbf54170fa7b14e200cb19908","retmoney":"1500","retmsg":"发放成功"}
+00:02:22.927 [main] DEBUG com.greentech.kmcg.controller.HongBaoController - {"ticket":"947cb19dbf54170fa7b14e200cb19908","orderid":"202006020002222240","retmoney":"1500","retmsg":"发放成功"}
+00:02:27.928 [main] DEBUG com.greentech.kmcg.controller.HongBaoController - orsKq0YpSmZmNc4sxFo01iRM6lTw
+发送红包
+{"ticket":"516ac0d8e8357744f8ce6a0768a1eb2c","retmoney":"1500","retmsg":"发放成功"}
+00:02:28.884 [main] DEBUG com.greentech.kmcg.controller.HongBaoController - {"ticket":"516ac0d8e8357744f8ce6a0768a1eb2c","orderid":"202006020002277424","retmoney":"1500","retmsg":"发放成功"}
+00:02:33.885 [main] DEBUG com.greentech.kmcg.controller.HongBaoController - orsKq0TpUynntK5OdL-TWzL_UfDQ
+发送红包
+{"ticket":"41420b0929c70a3e0b717844b98acea3","retmoney":"1500","retmsg":"发放成功"}
+00:02:34.820 [main] DEBUG com.greentech.kmcg.controller.HongBaoController - {"ticket":"41420b0929c70a3e0b717844b98acea3","orderid":"202006020002337057","retmoney":"1500","retmsg":"发放成功"}
+00:02:39.820 [main] DEBUG com.greentech.kmcg.controller.HongBaoController - orsKq0b4pXWZaZCGdJWzcI3Oidqg
+发送红包
+{"ticket":"541b102613b94f23ed4338505e053c6f","retmoney":"1500","retmsg":"发放成功"}
+00:02:40.734 [main] DEBUG com.greentech.kmcg.controller.HongBaoController - {"ticket":"541b102613b94f23ed4338505e053c6f","orderid":"202006020002392334","retmoney":"1500","retmsg":"发放成功"}
+00:02:45.734 [main] DEBUG com.greentech.kmcg.controller.HongBaoController - orsKq0SRb85Sgq0nUU7xlRXwVDaQ
+发送红包
+{"ticket":"f6de61fae5fc9df0073c9a3ff98b7ed0","retmoney":"1500","retmsg":"发放成功"}
+00:02:46.847 [main] DEBUG com.greentech.kmcg.controller.HongBaoController - {"ticket":"f6de61fae5fc9df0073c9a3ff98b7ed0","orderid":"202006020002455977","retmoney":"1500","retmsg":"发放成功"}
+00:02:51.848 [main] DEBUG com.greentech.kmcg.controller.HongBaoController - orsKq0b7I8CLFz0VPX0hbITZMrDg
+发送红包
+{"ticket":"ba2de6a64147109f3bdde21f75e0decc","retmoney":"1500","retmsg":"发放成功"}
+00:02:52.819 [main] DEBUG com.greentech.kmcg.controller.HongBaoController - {"ticket":"ba2de6a64147109f3bdde21f75e0decc","orderid":"202006020002513322","retmoney":"1500","retmsg":"发放成功"}
+00:02:57.819 [main] DEBUG com.greentech.kmcg.controller.HongBaoController - orsKq0aR-Jf1F601LVU-a1YIKW0Y
+发送红包
+{"ticket":"7491833437da183f6c76556c2032d9d5","retmoney":"1500","retmsg":"发放成功"}
+00:02:58.844 [main] DEBUG com.greentech.kmcg.controller.HongBaoController - {"ticket":"7491833437da183f6c76556c2032d9d5","orderid":"202006020002573852","retmoney":"1500","retmsg":"发放成功"}
+00:03:03.845 [main] DEBUG com.greentech.kmcg.controller.HongBaoController - orsKq0e0YyHFqhVadhwDdeL72cQI
+发送红包
+{"ticket":"4045eec71903afc70e3aa16552fa3d4d","retmoney":"1500","retmsg":"发放成功"}
+00:03:04.853 [main] DEBUG com.greentech.kmcg.controller.HongBaoController - {"ticket":"4045eec71903afc70e3aa16552fa3d4d","orderid":"202006020003036731","retmoney":"1500","retmsg":"发放成功"}
+00:03:09.855 [main] DEBUG com.greentech.kmcg.controller.HongBaoController - orsKq0dK7cBNUulAWxncRm3-zrOs
+发送红包
+{"ticket":"8b8cdfbf357bfb2d0a0daeb4b6c6b226","retmoney":"1500","retmsg":"发放成功"}
+00:03:10.897 [main] DEBUG com.greentech.kmcg.controller.HongBaoController - {"ticket":"8b8cdfbf357bfb2d0a0daeb4b6c6b226","orderid":"202006020003091081","retmoney":"1500","retmsg":"发放成功"}
+00:03:15.898 [main] DEBUG com.greentech.kmcg.controller.HongBaoController - orsKq0exHNZpUrINoD_NtBbLO_oc
+发送红包
+{"ticket":"840822f67ade70dde6b1d24da6c6136c","retmoney":"1500","retmsg":"发放成功"}
+00:03:16.778 [main] DEBUG com.greentech.kmcg.controller.HongBaoController - {"ticket":"840822f67ade70dde6b1d24da6c6136c","orderid":"202006020003155087","retmoney":"1500","retmsg":"发放成功"}
+00:03:21.778 [main] DEBUG com.greentech.kmcg.controller.HongBaoController - orsKq0dhihYNZfRcWYGaMlUiVoU8
+发送红包
+{"ticket":"2b758cc41a94154b65a8ac2c5d1b98c7","retmoney":"1500","retmsg":"发放成功"}
+00:03:22.562 [main] DEBUG com.greentech.kmcg.controller.HongBaoController - {"ticket":"2b758cc41a94154b65a8ac2c5d1b98c7","orderid":"202006020003219015","retmoney":"1500","retmsg":"发放成功"}
+00:03:27.564 [main] DEBUG com.greentech.kmcg.controller.HongBaoController - orsKq0RFS2iDAbYc84npHC_f75VI
+发送红包
+{"ticket":"de00ac4350cac9ba0f5af6a5c750afbc","retmoney":"1500","retmsg":"发放成功"}
+00:03:28.600 [main] DEBUG com.greentech.kmcg.controller.HongBaoController - {"ticket":"de00ac4350cac9ba0f5af6a5c750afbc","orderid":"202006020003279750","retmoney":"1500","retmsg":"发放成功"}
+00:03:33.601 [main] DEBUG com.greentech.kmcg.controller.HongBaoController - orsKq0dWML4hu47rQNMHzvg2elXs
+发送红包
+{"ticket":"0544201a80aad659a9b623322f956ad8","retmoney":"1500","retmsg":"发放成功"}
+00:03:34.530 [main] DEBUG com.greentech.kmcg.controller.HongBaoController - {"ticket":"0544201a80aad659a9b623322f956ad8","orderid":"202006020003337902","retmoney":"1500","retmsg":"发放成功"}
+00:03:39.531 [main] DEBUG com.greentech.kmcg.controller.HongBaoController - orsKq0TfHBqGA-T-taYTPJUKUGCc
+发送红包
+{"ticket":"80c8357852b2d047e87bd0bfc84ebee6","retmoney":"1500","retmsg":"发放成功"}
+00:03:40.499 [main] DEBUG com.greentech.kmcg.controller.HongBaoController - {"ticket":"80c8357852b2d047e87bd0bfc84ebee6","orderid":"202006020003397099","retmoney":"1500","retmsg":"发放成功"}
+00:03:45.501 [main] DEBUG com.greentech.kmcg.controller.HongBaoController - orsKq0VI_IpAJpF2ay0n75CIrDOc
+发送红包
+{"ticket":"906c757d5618551350603094daaa9e9c","retmoney":"1500","retmsg":"发放成功"}
+00:03:46.404 [main] DEBUG com.greentech.kmcg.controller.HongBaoController - {"ticket":"906c757d5618551350603094daaa9e9c","orderid":"202006020003457253","retmoney":"1500","retmsg":"发放成功"}
+00:03:51.406 [main] DEBUG com.greentech.kmcg.controller.HongBaoController - orsKq0e-aEqYFwcio9vbj7uupjjk
+发送红包
+{"ticket":"eab933aa1bfacbaffc897ec25ef40f5b","retmoney":"1500","retmsg":"发放成功"}
+00:03:52.371 [main] DEBUG com.greentech.kmcg.controller.HongBaoController - {"ticket":"eab933aa1bfacbaffc897ec25ef40f5b","orderid":"202006020003519743","retmoney":"1500","retmsg":"发放成功"}
+00:03:57.372 [main] DEBUG com.greentech.kmcg.controller.HongBaoController - orsKq0RyQxmdB-SkjDPoWOr29bzo
+发送红包
+{"ticket":"4c736299ac16d9d7f11d30439774c023","retmoney":"1500","retmsg":"发放成功"}
+00:03:58.353 [main] DEBUG com.greentech.kmcg.controller.HongBaoController - {"ticket":"4c736299ac16d9d7f11d30439774c023","orderid":"202006020003575343","retmoney":"1500","retmsg":"发放成功"}
+00:04:03.354 [main] DEBUG com.greentech.kmcg.controller.HongBaoController - orsKq0WxbzeX4bZtzYa7-NL6rKoU
+发送红包
+{"ticket":"610c6c1914be4aa1763e5ec77aee8272","retmoney":"1500","retmsg":"发放成功"}
+00:04:04.221 [main] DEBUG com.greentech.kmcg.controller.HongBaoController - {"ticket":"610c6c1914be4aa1763e5ec77aee8272","orderid":"202006020004035637","retmoney":"1500","retmsg":"发放成功"}
+00:04:09.222 [main] DEBUG com.greentech.kmcg.controller.HongBaoController - orsKq0aer3Gyah-fj8mGIk2LL2P0
+发送红包
+{"ticket":"8e9de0e6d29117ec326e270c3a265486","retmoney":"1500","retmsg":"发放成功"}
+00:04:10.097 [main] DEBUG com.greentech.kmcg.controller.HongBaoController - {"ticket":"8e9de0e6d29117ec326e270c3a265486","orderid":"202006020004094599","retmoney":"1500","retmsg":"发放成功"}
+00:04:15.098 [main] DEBUG com.greentech.kmcg.controller.HongBaoController - orsKq0ZpJv_Vnuob6wNhISkf80iE
+发送红包
+{"ticket":"78b0972e3337c15dfb82bb7f46229221","retmoney":"1500","retmsg":"发放成功"}
+00:04:15.943 [main] DEBUG com.greentech.kmcg.controller.HongBaoController - {"ticket":"78b0972e3337c15dfb82bb7f46229221","orderid":"202006020004155459","retmoney":"1500","retmsg":"发放成功"}
+00:04:20.945 [main] DEBUG com.greentech.kmcg.controller.HongBaoController - orsKq0ToJB0tKEioOgoE91b8QltY
+发送红包
+{"ticket":"168dd38548d1012fc1efd6ed1ec51390","retmoney":"1500","retmsg":"发放成功"}
+00:04:21.936 [main] DEBUG com.greentech.kmcg.controller.HongBaoController - {"ticket":"168dd38548d1012fc1efd6ed1ec51390","orderid":"202006020004207565","retmoney":"1500","retmsg":"发放成功"}
+00:04:26.937 [main] DEBUG com.greentech.kmcg.controller.HongBaoController - orsKq0SeeI-TB4th3LF4FdcHuq0o
+发送红包
+{"ticket":"fc19b59bd79d99fb65bfee8ab8e6f7cc","retmoney":"1500","retmsg":"发放成功"}
+00:04:27.709 [main] DEBUG com.greentech.kmcg.controller.HongBaoController - {"ticket":"fc19b59bd79d99fb65bfee8ab8e6f7cc","orderid":"202006020004264437","retmoney":"1500","retmsg":"发放成功"}
+00:04:32.710 [main] DEBUG com.greentech.kmcg.controller.HongBaoController - orsKq0Swl5JJEtow9FSZ7OMRl6Oo
+发送红包
+{"ticket":"e17d2af124580ba2bf56414a4da04325","retmoney":"1500","retmsg":"发放成功"}
+00:04:33.561 [main] DEBUG com.greentech.kmcg.controller.HongBaoController - {"ticket":"e17d2af124580ba2bf56414a4da04325","orderid":"202006020004325969","retmoney":"1500","retmsg":"发放成功"}
+00:04:38.563 [main] DEBUG com.greentech.kmcg.controller.HongBaoController - orsKq0Qz4FPRtTpHFuhUtfeMwfds
+发送红包
+{"ticket":"21855b7a379f6a0aa9d950053157983a","retmoney":"1500","retmsg":"发放成功"}
+00:04:39.429 [main] DEBUG com.greentech.kmcg.controller.HongBaoController - {"ticket":"21855b7a379f6a0aa9d950053157983a","orderid":"202006020004382902","retmoney":"1500","retmsg":"发放成功"}
+00:04:44.429 [main] DEBUG com.greentech.kmcg.controller.HongBaoController - orsKq0cnoJV5-jO358Zj4cu5XHJw
+发送红包
+{"ticket":"0599b0a1929f4de99a684ccd7866988e","retmoney":"1500","retmsg":"发放成功"}
+00:04:45.398 [main] DEBUG com.greentech.kmcg.controller.HongBaoController - {"ticket":"0599b0a1929f4de99a684ccd7866988e","orderid":"202006020004444358","retmoney":"1500","retmsg":"发放成功"}
+00:04:50.399 [main] DEBUG com.greentech.kmcg.controller.HongBaoController - orsKq0R8NopGYSMqyWLyCFlT8Lok
+发送红包
+{"ticket":"72197cfa1439bfa212f557b31008794d","retmoney":"1500","retmsg":"发放成功"}
+00:04:51.228 [main] DEBUG com.greentech.kmcg.controller.HongBaoController - {"ticket":"72197cfa1439bfa212f557b31008794d","orderid":"202006020004506214","retmoney":"1500","retmsg":"发放成功"}
+00:04:56.230 [main] DEBUG com.greentech.kmcg.controller.HongBaoController - orsKq0aqCDWxiM45Yopq6pzpPnog
+发送红包
+{"ticket":"e54d18faea7f9c3bc49c51b7f138dce0","retmoney":"1500","retmsg":"发放成功"}
+00:04:57.251 [main] DEBUG com.greentech.kmcg.controller.HongBaoController - {"ticket":"e54d18faea7f9c3bc49c51b7f138dce0","orderid":"202006020004564717","retmoney":"1500","retmsg":"发放成功"}
+00:05:02.252 [main] DEBUG com.greentech.kmcg.controller.HongBaoController - orsKq0RA027yS1kIGhOA2ge-eIlc
+发送红包
+{"ticket":"621b7a7c91fa9d1a5a8d389ed9effe24","retmoney":"1500","retmsg":"发放成功"}
+00:05:03.268 [main] DEBUG com.greentech.kmcg.controller.HongBaoController - {"ticket":"621b7a7c91fa9d1a5a8d389ed9effe24","orderid":"202006020005029005","retmoney":"1500","retmsg":"发放成功"}
+00:05:08.269 [main] DEBUG com.greentech.kmcg.controller.HongBaoController - orsKq0UJ0vtV0kMzJFbYsKsD3Kr0
+发送红包
+{"ticket":"e5e2ff2bdde6fd9db289dfbb8d7dc0ac","retmoney":"1500","retmsg":"发放成功"}
+00:05:09.130 [main] DEBUG com.greentech.kmcg.controller.HongBaoController - {"ticket":"e5e2ff2bdde6fd9db289dfbb8d7dc0ac","orderid":"202006020005083160","retmoney":"1500","retmsg":"发放成功"}
+00:05:14.132 [main] DEBUG com.greentech.kmcg.controller.HongBaoController - orsKq0XPeFKb9xCwWp8a14ODzVS0
+发送红包
+{"ticket":"51dd14bdf774dde06ab8bc9907a07d95","retmoney":"1500","retmsg":"发放成功"}
+00:05:15.002 [main] DEBUG com.greentech.kmcg.controller.HongBaoController - {"ticket":"51dd14bdf774dde06ab8bc9907a07d95","orderid":"202006020005145569","retmoney":"1500","retmsg":"发放成功"}
+00:05:20.003 [main] DEBUG com.greentech.kmcg.controller.HongBaoController - orsKq0eddSgeFoVbwPQyGgIiZT6M
+发送红包
+{"ticket":"62e456d092071c194cf2f88cf4f523cf","retmoney":"1500","retmsg":"发放成功"}
+00:05:20.865 [main] DEBUG com.greentech.kmcg.controller.HongBaoController - {"ticket":"62e456d092071c194cf2f88cf4f523cf","orderid":"202006020005208193","retmoney":"1500","retmsg":"发放成功"}
+00:05:25.866 [main] DEBUG com.greentech.kmcg.controller.HongBaoController - orsKq0ZX2JSbZGspqmpsKV3qrRIU
+发送红包
+{"ticket":"075dbba4ec9542d688b7c719a16ffcd1","retmoney":"1500","retmsg":"发放成功"}
+00:05:26.795 [main] DEBUG com.greentech.kmcg.controller.HongBaoController - {"ticket":"075dbba4ec9542d688b7c719a16ffcd1","orderid":"202006020005251508","retmoney":"1500","retmsg":"发放成功"}
+00:05:31.796 [main] DEBUG com.greentech.kmcg.controller.HongBaoController - orsKq0YI0DBRGUjfLEfoyvxch9yw
+发送红包
+{"ticket":"d1de02f377b307d807d3f96f44c77b3b","retmoney":"0","retmsg":"发放失败，此请求可能存在风险，已被微信拦截"}
+00:05:32.319 [main] DEBUG com.greentech.kmcg.controller.HongBaoController - {"ticket":"d1de02f377b307d807d3f96f44c77b3b","orderid":"202006020005313991","retmoney":"0","retmsg":"发放失败，此请求可能存在风险，已被微信拦截"}
+00:05:37.319 [main] DEBUG com.greentech.kmcg.controller.HongBaoController - orsKq0Yni8zlHeLhs4wooIWSD1WI
+发送红包
+{"ticket":"38e24c630d4a936749bfaa76d23486c1","retmoney":"1500","retmsg":"发放成功"}
+00:05:38.246 [main] DEBUG com.greentech.kmcg.controller.HongBaoController - {"ticket":"38e24c630d4a936749bfaa76d23486c1","orderid":"202006020005371557","retmoney":"1500","retmsg":"发放成功"}
+00:05:43.247 [main] DEBUG com.greentech.kmcg.controller.HongBaoController - orsKq0QyjcE_2nrA2lIiRHn8Utew
+发送红包
+{"ticket":"6a35b4fb36d6b2120a0af36c2b828140","retmoney":"1500","retmsg":"发放成功"}
+00:05:44.145 [main] DEBUG com.greentech.kmcg.controller.HongBaoController - {"ticket":"6a35b4fb36d6b2120a0af36c2b828140","orderid":"202006020005439957","retmoney":"1500","retmsg":"发放成功"}
+00:05:49.147 [main] DEBUG com.greentech.kmcg.controller.HongBaoController - orsKq0U6BDZH2hPtUmg44AoqK4vc
+发送红包
+{"ticket":"c27ed49242b4712164a65def38bbf94b","retmoney":"1500","retmsg":"发放成功"}
+00:05:50.103 [main] DEBUG com.greentech.kmcg.controller.HongBaoController - {"ticket":"c27ed49242b4712164a65def38bbf94b","orderid":"202006020005499063","retmoney":"1500","retmsg":"发放成功"}
+00:05:55.104 [main] DEBUG com.greentech.kmcg.controller.HongBaoController - orsKq0euiv-gs0D6Wn844nt3zypw
+发送红包
+{"ticket":"4d44afe9960a5ab351f714f4b41debaf","retmoney":"1500","retmsg":"发放成功"}
+00:05:55.858 [main] DEBUG com.greentech.kmcg.controller.HongBaoController - {"ticket":"4d44afe9960a5ab351f714f4b41debaf","orderid":"202006020005559570","retmoney":"1500","retmsg":"发放成功"}
+00:06:00.858 [main] DEBUG com.greentech.kmcg.controller.HongBaoController - orsKq0Qq-vRwMuj1GrHgH-jcYF5E
+发送红包
+{"ticket":"ae8b1c2935c4213d98c1649ce0cc4a4c","retmoney":"1500","retmsg":"发放成功"}
+00:06:01.904 [main] DEBUG com.greentech.kmcg.controller.HongBaoController - {"ticket":"ae8b1c2935c4213d98c1649ce0cc4a4c","orderid":"202006020006006537","retmoney":"1500","retmsg":"发放成功"}
+00:06:06.904 [main] DEBUG com.greentech.kmcg.controller.HongBaoController - orsKq0UrX2W1TvUKq-G1dFiFN71Y
+发送红包
+{"ticket":"bb012995dfae71d8fcca190c4304b443","retmoney":"1500","retmsg":"发放成功"}
+00:06:07.954 [main] DEBUG com.greentech.kmcg.controller.HongBaoController - {"ticket":"bb012995dfae71d8fcca190c4304b443","orderid":"202006020006061926","retmoney":"1500","retmsg":"发放成功"}
+00:06:12.955 [main] DEBUG com.greentech.kmcg.controller.HongBaoController - orsKq0WcN5kjzyZWraOqEHSIDpYo
+发送红包
+{"ticket":"0d718667f22e0066d8bddc58ef642969","retmoney":"1500","retmsg":"发放成功"}
+00:06:14.042 [main] DEBUG com.greentech.kmcg.controller.HongBaoController - {"ticket":"0d718667f22e0066d8bddc58ef642969","orderid":"202006020006128238","retmoney":"1500","retmsg":"发放成功"}
+00:06:19.042 [main] DEBUG com.greentech.kmcg.controller.HongBaoController - orsKq0Tt8gtrRf83w7STh1Hs2mH4{"ticket":"8e066bf316be529ef5568eba54f150b7","orderid":"202006020014377700","openid":"orsKq0bIbk6VAtwU_DBFLaco_c-0","retmoney":"1000","retmsg":"发放成功"}
+{"ticket":"378e76c2f2e921f317f49aa0b85b0661","orderid":"202006020014439241","openid":"orsKq0UMF-6C6siE7j8P2pJ1OjNk","retmoney":"1000","retmsg":"发放成功"}
+{"ticket":"5ce81ccbf839b45abac7ff46a0885882","orderid":"202006020014493478","openid":"orsKq0QbMfy1WQ3dwNwd8TLCEzs8","retmoney":"1000","retmsg":"发放成功"}
+{"ticket":"eeea0d3f65f46c1c205f58c053e992a2","orderid":"202006020014555043","openid":"orsKq0W3cy0cPGL2mq1avPZSMtF4","retmoney":"1000","retmsg":"发放成功"}
+{"ticket":"4f277cb82060cf25bee6deaf06742e9b","orderid":"202006020015016934","openid":"orsKq0STx2sq091iDf55lNxIXuxk","retmoney":"1000","retmsg":"发放成功"}
+{"ticket":"5bff257b17be282ce3fc13ca10884868","orderid":"202006020015067528","openid":"orsKq0RIwT35gSPrhZnBzQOETnzg","retmoney":"1000","retmsg":"发放成功"}
+{"ticket":"a2eaf8143f9c0f3e82e10a80419bcec6","orderid":"202006020015122135","openid":"orsKq0YvdrQyx-87ddgk7yyTOyWA","retmoney":"1000","retmsg":"发放成功"}
+{"ticket":"e0928fea8926a71fec6f36a60e9ec30b","orderid":"202006020015189985","openid":"orsKq0ZlnE1-nXowNUFvtP9iD7wQ","retmoney":"1000","retmsg":"发放成功"}
+{"ticket":"01b03b18c9815814a6059cb7953cb681","orderid":"202006020015258206","openid":"orsKq0RzT6ODz4bNSuHO9mswBVWY","retmoney":"1000","retmsg":"发放成功"}
+{"ticket":"309b252bacf3a012177df8ad716ce6b5","orderid":"202006020015306112","openid":"orsKq0ZWWowE-GssxBcNW0G2WENE","retmoney":"1000","retmsg":"发放成功"}
+{"ticket":"ab5bd2ac8b55b0880616a706a3452d84","orderid":"202006020015361533","openid":"orsKq0ea20NGvXHtz2im6tJo0iIc","retmoney":"1000","retmsg":"发放成功"}
+{"ticket":"34a6e61756523b725a74a63f97c076bc","orderid":"202006020015422775","openid":"orsKq0ZCq7F72HFL3m-Rv3ytddk0","retmoney":"1000","retmsg":"发放成功"}
+{"ticket":"57c9b46204885c5090dbb1fc8380130e","orderid":"202006020015489132","openid":"orsKq0Q4cChddm1RKbAcn8C5Hn58","retmoney":"1000","retmsg":"发放成功"}
+{"ticket":"6ccd466b8ea9e243b9bc2af8a4d25b0a","orderid":"202006020015549828","openid":"orsKq0YcFbJq2IcmKLuHkm4Wd_so","retmoney":"1000","retmsg":"发放成功"}
+{"ticket":"ad88a85272c4a5fd6c58afb63a8459ea","orderid":"202006020016008328","openid":"orsKq0eYpVkOLbWH06iBrf_mRwdw","retmoney":"1000","retmsg":"发放成功"}
+{"ticket":"80bed47bf2a47eb6fbd7e4a9439fd0c7","orderid":"202006020016066806","openid":"orsKq0WVrCVLFQaRzsp69YxLNTGQ","retmoney":"1000","retmsg":"发放成功"}
+{"ticket":"83ebd67cd5edb39adfebe13d6966accf","orderid":"202006020016126039","openid":"orsKq0QoogKZFMDpOaGlCraJ7how","retmoney":"1000","retmsg":"发放成功"}
+{"ticket":"37702b0db02fac729b0af9baba4484c9","orderid":"202006020016183654","openid":"orsKq0aCHZNiN-iDZk45yIroNbUA","retmoney":"1000","retmsg":"发放成功"}
+{"ticket":"af3fb4ba51e4f96234cb5565615bad41","orderid":"202006020016248424","openid":"orsKq0ZbyZQ2gjOAWXWRX8Xq-inE","retmoney":"1000","retmsg":"发放成功"}
+{"ticket":"3412f0e0f910f33df5e1cc71a6d52548","orderid":"202006020016302266","openid":"orsKq0bz7gzwjAIDy5NATns50htI","retmoney":"1000","retmsg":"发放成功"}
+{"ticket":"1c962d9deb8463270884448b87718b0f","orderid":"202006020016365038","openid":"orsKq0YWiVm9jv-KjIzeYwYtYzAs","retmoney":"1000","retmsg":"发放成功"}
+{"ticket":"243aeeb7e7f5bef52ba80ff5a48b0eec","orderid":"202006020016424187","openid":"orsKq0Yz15Ks8ElcD1Jh9F7oqpnk","retmoney":"1000","retmsg":"发放成功"}
+{"ticket":"85547cd75dd27b62ffc16f0c3ff7a518","orderid":"202006020016475611","openid":"orsKq0UQ-duj2V4xfsCRZrFYZ2Iw","retmoney":"1000","retmsg":"发放成功"}
+{"ticket":"803f2e911ba3462e5590e744e533793c","orderid":"202006020016537915","openid":"orsKq0SDXMbzKj_G2pfgJi6vdDB8","retmoney":"1000","retmsg":"发放成功"}
+{"ticket":"960903dcd2879617d57a2d97d6c1dabc","orderid":"202006020016596066","openid":"orsKq0dllKwoquhhZtI-O9CDlrYQ","retmoney":"1000","retmsg":"发放成功"}
+{"ticket":"f3ec3b73be6f772bf279d18cad91927a","orderid":"202006020017055027","openid":"orsKq0Rl1Z6dbMIcV2Xy8-53K3Ao","retmoney":"1000","retmsg":"发放成功"}
+{"ticket":"823c40f37bc514ccc6833037dd87fb3b","orderid":"202006020017112394","openid":"orsKq0apGxWVieoaKWy1kQpDPR04","retmoney":"1000","retmsg":"发放成功"}
+{"ticket":"ed842a28367790486c4aaa492dd1f0b6","orderid":"202006020017176630","openid":"orsKq0Wka_sT26ce5pa4QRMFW_nY","retmoney":"1000","retmsg":"发放成功"}
+{"ticket":"9503f6aa7b3c5b26e2b6b2ccca44b5a6","orderid":"202006020017234089","openid":"orsKq0aEVftMcujmzWagMvL5ghYA","retmoney":"1000","retmsg":"发放成功"}
+{"ticket":"2d031e35bfeb20db27bd703de374b58a","orderid":"202006020017294646","openid":"orsKq0RnQE2kjJGquzdo_WmfD6fM","retmoney":"1000","retmsg":"发放成功"}
+{"ticket":"bcbf8ecaacfa660b975cff2dbcd3a7ea","orderid":"202006020017353160","openid":"orsKq0fDXDgPFW9CmzmEhz7rwzNY","retmoney":"1000","retmsg":"发放成功"}
+{"ticket":"845e017d85e6716498c06eb677f1c0ac","orderid":"202006020017414769","openid":"orsKq0RIGTWmJgqoJeIu5ZKQnUC8","retmoney":"1000","retmsg":"发放成功"}
+{"ticket":"e8f6d605f79aa1f25b75c88cdb874e42","orderid":"202006020017479462","openid":"orsKq0fYCSg0r2P2saIgWvIYTiE8","retmoney":"1000","retmsg":"发放成功"}
+{"ticket":"eb1b072f63fef8c43c29b2562014d6d0","orderid":"202006020017536552","openid":"orsKq0dCBfYtarjp6g1ElRgt0u6A","retmoney":"1000","retmsg":"发放成功"}
+{"ticket":"fdacab866f5afcc34fbb5845eafcc406","orderid":"202006020017585540","openid":"orsKq0QzcD635GtBT9Wa3z0rWgnI","retmoney":"1000","retmsg":"发放成功"}
+{"ticket":"ebda6d073e2370edd84cd828e125796d","orderid":"202006020018048219","openid":"orsKq0fxGHyH3FLg4ToieDeVgPBI","retmoney":"1000","retmsg":"发放成功"}
+{"ticket":"a4564b88aeb122d2abe3ece9700cc07b","orderid":"202006020018103964","openid":"orsKq0dCnsZf5lPtXonlNNwMom_0","retmoney":"1000","retmsg":"发放成功"}
+{"ticket":"9f183b820736e7d845cc14ed66c462bd","orderid":"202006020018162033","openid":"orsKq0Tnw599au721SlANDG7apdw","retmoney":"1000","retmsg":"发放成功"}
+{"ticket":"f061922fb4e669813be382b3d26a5336","orderid":"202006020018229121","openid":"orsKq0TVQAZP_EDw8F24BAX9y5bo","retmoney":"1000","retmsg":"发放成功"}
+{"ticket":"f2c641e87cd2da6de548d1069d101e2a","orderid":"202006020018285916","openid":"orsKq0ZwC2x5qnAE7L4T97yAnjbk","retmoney":"1000","retmsg":"发放成功"}
+{"ticket":"251c159189e404c0f9086627ebe0416d","orderid":"202006020018343070","openid":"orsKq0aSvxC8TnPWjUHb7I_mABZU","retmoney":"1000","retmsg":"发放成功"}
+{"ticket":"d29a3c4e440b063e67918ad693106adc","orderid":"202006020018402045","openid":"orsKq0Vo-Svu2vh_rSlybBtP2F2o","retmoney":"1000","retmsg":"发放成功"}
+{"ticket":"156f7bf358737ae1eb813bad25cac557","orderid":"202006020018465644","openid":"orsKq0ZTtdxAfSbQjDUZv8j3iVnA","retmoney":"1000","retmsg":"发放成功"}
+{"ticket":"9b8b37931a80f285c49253836bbbccd3","orderid":"202006020018522156","openid":"orsKq0XHuP8R5Nsr1udchsR36kTQ","retmoney":"1000","retmsg":"发放成功"}
+{"ticket":"4b52a7676a5d6a118c7804a389a8fdd9","orderid":"202006020018588830","openid":"orsKq0VOdqh7quuAdzoWAnE1H40s","retmoney":"1000","retmsg":"发放成功"}
+{"ticket":"fc98a9cb830b796c7f361dfb149137ab","orderid":"202006020019049742","openid":"orsKq0f-md78lM8YZUcGacRaFo_Q","retmoney":"1000","retmsg":"发放成功"}
+{"ticket":"126d637d0f7bb48f3e06a913c89621dd","orderid":"202006020019098488","openid":"orsKq0WfwR12dce7J2-iKHzhjWzo","retmoney":"1000","retmsg":"发放成功"}
+{"ticket":"ff568af6812b570d5978d3dcbf54edc9","orderid":"202006020019155955","openid":"orsKq0d68zym66ujfg4XIsGvDUeM","retmoney":"1000","retmsg":"发放成功"}
+{"ticket":"0f24e080f2803a8526826431b8ee3b3c","orderid":"202006020019211436","openid":"orsKq0eUtR2weYZNgDXO2WOOa4dk","retmoney":"1000","retmsg":"发放成功"}
+{"ticket":"af5d79b518b7999cb08eef7b24831018","orderid":"202006020019277512","openid":"orsKq0Q5p76ZTjSc1MYCN6cht7c0","retmoney":"1000","retmsg":"发放成功"}
+{"ticket":"b6b79349f3583e7b40d81f14895387bc","orderid":"202006020019338724","openid":"orsKq0ZaHe6Nlt5XV_w2XTR1F6kk","retmoney":"1000","retmsg":"发放成功"}
+{"ticket":"9304c93fca5f8aa8d1fe45818fd9a22c","orderid":"202006020019396827","openid":"orsKq0WVLxqfDklxgJ193kKiQ0yo","retmoney":"1000","retmsg":"发放成功"}
+{"ticket":"2866f02c54b28856cf48845c23b1bd86","orderid":"202006020019456235","openid":"orsKq0SBpB79391a7mtjdeajTWpw","retmoney":"1000","retmsg":"发放成功"}
+{"ticket":"0206cbb309cfcb7a71ab7be075fba84a","orderid":"202006020019511860","openid":"orsKq0SLgCwDBYaFSFhfEErBy-nQ","retmoney":"1000","retmsg":"发放成功"}
+{"ticket":"810af2ee05e652014fd8b1d9c8fae973","orderid":"202006020019571752","openid":"orsKq0QY1ULHC4hAQsEn8-b2Es9I","retmoney":"1000","retmsg":"发放成功"}
+{"ticket":"1048cfc42b109810a217ffb244300cd6","orderid":"202006020020036624","openid":"orsKq0dA8SzLGtM0smIu548srAyA","retmoney":"1000","retmsg":"发放成功"}
+{"ticket":"557dfc1be221d18c2fbc1b303d0c5ec2","orderid":"202006020020092660","openid":"orsKq0cU1EOiDZ9pNGuyusZP1LuE","retmoney":"1000","retmsg":"发放成功"}
+{"ticket":"a648fa62fa2889813677afdaba5d186a","orderid":"202006020020158742","openid":"orsKq0ZRdouKCCIcKmS7vZOEyXeQ","retmoney":"1000","retmsg":"发放成功"}
+{"ticket":"b6a059c1a145d58d1cc4a4340fa782c2","orderid":"202006020020206023","openid":"orsKq0Y30lcsXdRfUWxsLhTcCH5k","retmoney":"1000","retmsg":"发放成功"}
+{"ticket":"fc9477d21fd855ef0c45bbf0ec1611c2","orderid":"202006020020269001","openid":"orsKq0S0j8U-5_ZcaSQrda0agpMM","retmoney":"1000","retmsg":"发放成功"}
+{"ticket":"28d2b879b32437b2dd7cd59118b3024f","orderid":"202006020020324016","openid":"orsKq0UbyWkHezHHI0-ShwkCjCHw","retmoney":"1000","retmsg":"发放成功"}
+{"ticket":"4ce0f6b68a17266e4f89e736153dc72a","orderid":"202006020020383999","openid":"orsKq0Z_0qR39bw3nk0VW5s2KQRg","retmoney":"1000","retmsg":"发放成功"}
+{"ticket":"64aa1dc897aecb521ff7a5971bb475b4","orderid":"202006020020447423","openid":"orsKq0XkBQjahSNcg_tKoAmnukUc","retmoney":"1000","retmsg":"发放成功"}
+{"ticket":"240738e0ad2a9ab22cb6b04040b35cda","orderid":"202006020020509418","openid":"orsKq0cUqAUUvWdr59qkt4LOgMBM","retmoney":"1000","retmsg":"发放成功"}
+{"ticket":"ef8694e2bed5aba7623a8ca733eca8b6","orderid":"202006020020562936","openid":"orsKq0ctyDx2t-_qM8YuRQxtxAWg","retmoney":"1000","retmsg":"发放成功"}
+{"ticket":"7c883ba4f09d85396c0a71ae311cc714","orderid":"202006020021023398","openid":"orsKq0Zrpc5jsKvMGPDtqPazI8jE","retmoney":"1000","retmsg":"发放成功"}
+{"ticket":"6db8f0dbbc37a196c79c27afd20ca78e","orderid":"202006020021083865","openid":"orsKq0TdMeSaMzNKXV87slF9R6Ec","retmoney":"1000","retmsg":"发放成功"}
+{"ticket":"8a8d9e8bfaac36bc7c5660344e41c3df","orderid":"202006020021148616","openid":"orsKq0V1WgaB4hDAQ1tOzQrl3zDw","retmoney":"1000","retmsg":"发放成功"}
+{"ticket":"d87d16bd09aa02ee556530603d802624","orderid":"202006020021206478","openid":"orsKq0U1VF5NLxMp4DaXsOPVCfF4","retmoney":"1000","retmsg":"发放成功"}
+{"ticket":"714d335a846964caaf9a41ca2fe04dea","orderid":"202006020021266798","openid":"orsKq0QN2iHvSix-eYDtNfaW2UEE","retmoney":"1000","retmsg":"发放成功"}
+{"ticket":"604423e1ae3455fbe09f4ef9e98488cf","orderid":"202006020021323715","openid":"orsKq0QWXCCquilNOyk4SpdLAlc8","retmoney":"1000","retmsg":"发放成功"}
+{"ticket":"fd90ff48e9d049f1dcc6e71ff2bc066c","orderid":"202006020021382186","openid":"orsKq0di13PgR8mM8_Lphvet-RfE","retmoney":"1000","retmsg":"发放成功"}
+{"ticket":"e0a53a3b5378526ca3b7de3de07d5c88","orderid":"202006020021449998","openid":"orsKq0eJr08EpFeeiIkeWZUvxLRI","retmoney":"1000","retmsg":"发放成功"}
+{"ticket":"2bb27e7b9598afc02669aabfad39728c","orderid":"202006020021501676","openid":"orsKq0aR2QL_PFiLNamwkkKNet9U","retmoney":"1000","retmsg":"发放成功"}
+{"ticket":"7a51fb3435d8a2f93cd973b46dc16940","orderid":"202006020021551231","openid":"orsKq0dk1YJXuT9bSA4iRXFIUgZY","retmoney":"1000","retmsg":"发放成功"}
+{"ticket":"85efe2526303bfdab89a414a6c18957d","orderid":"202006020022017973","openid":"orsKq0XriMhMfOkktYGyDcpoxdm4","retmoney":"1000","retmsg":"发放成功"}
+{"ticket":"1b15862fed5c27dadffe27522f1c4ab5","orderid":"202006020022078367","openid":"orsKq0buV8UW3IMQjEbQzB56BoIY","retmoney":"1000","retmsg":"发放成功"}
+{"ticket":"78871c0f837f450fe8bcd72d64822f43","orderid":"202006020022137464","openid":"orsKq0WFdV4K1EjIDbfR3pc-MQ-I","retmoney":"1000","retmsg":"发放成功"}
+{"ticket":"df3364b75ec2b2caa6a054322c5c76cd","orderid":"202006020022198101","openid":"orsKq0bG1e1cHvMSAci21Ha5u5UQ","retmoney":"1000","retmsg":"发放成功"}
+{"ticket":"0c70c195993878e1fe697132070cea80","orderid":"202006020022253543","openid":"orsKq0e5h-qR8h_JignSwh9bhz7I","retmoney":"0","retmsg":"发放失败，此请求可能存在风险，已被微信拦截"}
+{"ticket":"9cc6cfcc231f9693095a6113b16b5929","orderid":"202006020022315268","openid":"orsKq0aYPkgbB3pbXucJlW3Afzxw","retmoney":"1000","retmsg":"发放成功"}
+{"ticket":"67046bac43f897445665939e0e433bf7","orderid":"202006020022371285","openid":"orsKq0TKrNiD3kau7IeZYv8CCuGw","retmoney":"1000","retmsg":"发放成功"}
+{"ticket":"1a72f90fc4bb7f47a8fbd0150180c9be","orderid":"202006020022433913","openid":"orsKq0TpULdnR60Z_ZTp_RxsA8BY","retmoney":"1000","retmsg":"发放成功"}
+{"ticket":"fca7bd9c548378f1fc2d84e9c5462343","orderid":"202006020022489136","openid":"orsKq0VQggt-PWrQJwWcFRRaINZ0","retmoney":"1000","retmsg":"发放成功"}
+{"ticket":"3a33ecafd3cf3295b6323fc2db75cfe2","orderid":"202006020022545339","openid":"orsKq0c0ao9rNzchY2BscL3-flvE","retmoney":"1000","retmsg":"发放成功"}
+{"ticket":"3f26fca55529d11812abb603368cba5c","orderid":"202006020023005555","openid":"orsKq0eKrL6-z3kRgmW6VXE0i3T0","retmoney":"1000","retmsg":"发放成功"}
+{"ticket":"cf7e1419aea3d794b19520e506235c59","orderid":"202006020023064874","openid":"orsKq0aVDgKbWLsGEeFWLgPYG6XE","retmoney":"1000","retmsg":"发放成功"}
+{"ticket":"47383d455e728e79f05fd0628a7ff967","orderid":"202006020023125848","openid":"orsKq0Vh5fSF7TF2icD4SDvQ9R3k","retmoney":"1000","retmsg":"发放成功"}
+{"ticket":"f913d3465e73da50df9fe968041f92e3","orderid":"202006020023182492","openid":"orsKq0UtG4zqEcluoHDPzSXDPry4","retmoney":"1000","retmsg":"发放成功"}
+{"ticket":"2c7596470da2ef00976d7469de47a509","orderid":"202006020023248551","openid":"orsKq0Tt31KLCaJl3ADifZuzUOOA","retmoney":"1000","retmsg":"发放成功"}
+{"ticket":"f766a4441c09873db1b6fc2ef3e35341","orderid":"202006020023304702","openid":"orsKq0RCjdGmHFx2TwAp4MFsOWcY","retmoney":"1000","retmsg":"发放成功"}
+{"ticket":"023e50a932ab38168423eab378c26e35","orderid":"202006020023367704","openid":"orsKq0YGRlL14UKIf_TFR4sn5b2M","retmoney":"1000","retmsg":"发放成功"}
+{"ticket":"a3b445d2cb558006c44a38fb96f02bc8","orderid":"202006020023422239","openid":"orsKq0QR-tGlVCqDqLgFxp0NCrBo","retmoney":"1000","retmsg":"发放成功"}
+{"ticket":"6d994452f717fc6eb80115acbe3b75c4","orderid":"202006020023489215","openid":"orsKq0VG2n1YvljpVbP52V0rg-iE","retmoney":"1000","retmsg":"发放成功"}
+{"ticket":"55144b5937a680bc30ebf7e5c075eeaf","orderid":"202006020023549538","openid":"orsKq0d0k78k8nwk8nbC5It7Gmcs","retmoney":"1000","retmsg":"发放成功"}
+{"ticket":"716cee389beadabee5355540265284f0","orderid":"202006020024003276","openid":"orsKq0ZHfIPJz36DylfzR90PUQRY","retmoney":"1000","retmsg":"发放成功"}
+{"ticket":"8f16a47cd4084ec398828b11738bd4f9","orderid":"202006020024063051","openid":"orsKq0UHgqkkitgcbtPKsryFc1y8","retmoney":"1000","retmsg":"发放成功"}
+{"ticket":"e23e17717e8cd30924d9b31945ae44c4","orderid":"202006020024124857","openid":"orsKq0RSGfFpi7iBnFhCtb2icEZ0","retmoney":"1000","retmsg":"发放成功"}
+{"ticket":"d28b6c5d3a871d25c507b75eccbd1710","orderid":"202006020024182943","openid":"orsKq0RipeYikgqBsW-HWKEzRgfM","retmoney":"1000","retmsg":"发放成功"}
+{"ticket":"b835d058d648b9def7e108d5190a7d4f","orderid":"202006020024241213","openid":"orsKq0Vk4-k06FzUo_s85_aiwKVo","retmoney":"1000","retmsg":"发放成功"}
+{"ticket":"7d79c189119f9405f18e5d706f26d2af","orderid":"202006020029235096","openid":"orsKq0ah_BIThZkJv2adqXaiXGEc","retmoney":"30","retmsg":"发放成功"}
+{"ticket":"387955dfee4eb260e27493b2c0f75dd7","orderid":"202006020033462755","openid":"orsKq0Yni8zlHeLhs4wooIWSD1WI","retmoney":"0","retmsg":"发放失败，此请求可能存在风险，已被微信拦截"}
+{"ticket":"4e887701bc934887818f814b3195f89c","orderid":"202006020959027448","openid":"orsKq0ah_BIThZkJv2adqXaiXGEc","retmoney":"30","retmsg":"发放成功"}
+{"ticket":"07a54c9ddf278b6e76d12775841bafd8","orderid":"202006022317066722","openid":"orsKq0eddSgeFoVbwPQyGgIiZT6M","retmoney":"30","retmsg":"发放成功"}

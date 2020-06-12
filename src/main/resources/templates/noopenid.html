@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:th="http://www.thymeleaf.org">
+
+<head>
+    <meta charset="UTF-8">
+    <title>提示</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no"/>
+
+</head>
+<body style="background-color: rgb(28,111,175);width: 100%;    padding: 0px;margin: 0px;text-align: center" ;>
+<p th:utext="${msg}" style="text-align: center;margin-top: 10rem;font-size: large;color: white"></p>
+
+<img onclick="javascript:again()" th:src="@{/img/home.png}" style="width: 50%;top: calc(39vh);position: relative">
+
+<script type="text/javascript" th:src="@{/js/Utils1.js}"></script>
+<script>
+
+    removeCookie("id")
+    removeCookie("tel")
+    function again() {
+        window.location.href = globle_url + "login";
+    }
+
+</script>
+</body>
+</html>

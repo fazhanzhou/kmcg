@@ -34,8 +34,12 @@
     var right = 0;
     //用户选择的答案
     var userSelectedAnswer = '';
-
     $(document).ready(function () {
+        var canQuestion = getCookie("canQuestion")
+        if(canQuestion !="true"){
+            window.location.href = globle_url+"home1";
+        }
+        setCookie("canQuestion","false")
         removeCookie("right")
         removeCookie("error")
         if (data != null && data != undefined) {
@@ -55,7 +59,7 @@
             mui.alert("请选择答案")
             return
         }
-        canClick =false;
+        canClick = false;
 
         //判断答案是否正确
         //正确答案

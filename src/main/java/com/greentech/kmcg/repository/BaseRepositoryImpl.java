@@ -39,7 +39,6 @@ public class BaseRepositoryImpl implements BaseRepository {
     @Override
     public <T> T merge(T o) {
         T o1 = entityManager.merge(o);
-
         entityManager.flush();
         return o1;
     }
